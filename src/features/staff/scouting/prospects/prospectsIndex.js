@@ -67,6 +67,20 @@ function renderLoading(container) {
   `;
 }
 
+function renderAccessError(container, user, error) {
+  container.innerHTML = `
+    <section class="f-scouting l-page">
+      <div class="f-scouting__label">SCOUTING</div>
+      <h1>Prospect data unavailable</h1>
+      <p>Authenticated as ${escapeHtml(user.email || user.uid)}, but the existing data could not be read.</p>
+      <p role="alert">${escapeHtml(error?.message || 'A Firestore access error occurred.')}</p>
+      <p>Check the ProspectSystem project, environment and Firestore rules. This integration will not bypass its security rules.</p>
+      <button id="prospect-data-retry" type="button">Retry</button>
+      <button id="prospect-data-disconnect" type="button">Disconnect scouting data</button>
+    </section>
+  `;
+}
+
 function renderData(container, user, summary) {
   const rows = summary.prospects.slice(0, 100).map(({ id, data }) => {
     const name = data.candidateFullname || data.candidateUsername || 'Unnamed prospect';
@@ -140,7 +154,11 @@ export async function mountProspectWorkspace(container) {
       });
     } catch (error) {
       if (disposed || sequence !== loadSequence) return;
-      renderSignedOut(container, error?.message || 'Unable to load ProspectSystem data.');
+      renderAccessError(container, user, error);
+      container.querySelector('#prospect-data-retry')?.addEventListener('click', () => loadData(user));
+      container.querySelector('#prospect-data-disconnect')?.addEventListener('click', async () => {
+        await signOutOfProspectData();
+      });
     }
   }
 
