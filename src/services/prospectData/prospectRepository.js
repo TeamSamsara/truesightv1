@@ -14,6 +14,8 @@ import {
 } from 'https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js';
 
 import { prospectDb, requireProspectDataUser } from './prospectFirebase.js';
+import { normalizeProspect } from '../../features/staff/scouting/models/prospectModel.js';
+import { normalizeInterview } from '../../features/staff/scouting/models/interviewModel.js';
 
 const COLLECTIONS = Object.freeze({
   PROSPECTS: 'prospects',
@@ -36,7 +38,10 @@ function assertAuthenticated() {
 export async function fetchProspects() {
   assertAuthenticated();
   const snapshot = await getDocs(collection(prospectDb, COLLECTIONS.PROSPECTS));
-  return mapSnapshot(snapshot);
+  return mapSnapshot(snapshot).map(({ id, data }) => ({
+    id,
+    data: normalizeProspect(data),
+  }));
 }
 
 export async function fetchProspect(prospectId) {
@@ -44,7 +49,7 @@ export async function fetchProspect(prospectId) {
   assertAuthenticated();
   const snapshot = await getDoc(doc(prospectDb, COLLECTIONS.PROSPECTS, prospectId));
   return snapshot.exists()
-    ? { id: snapshot.id, data: snapshot.data() }
+    ? { id: snapshot.id, data: normalizeProspect(snapshot.data()) }
     : null;
 }
 
@@ -63,7 +68,10 @@ export async function fetchCombineLobbies() {
 export async function fetchInterviews() {
   assertAuthenticated();
   const snapshot = await getDocs(collection(prospectDb, COLLECTIONS.INTERVIEWS));
-  return mapSnapshot(snapshot);
+  return mapSnapshot(snapshot).map(({ id, data }) => ({
+    id,
+    data: normalizeInterview(data),
+  }));
 }
 
 export { COLLECTIONS as PROSPECT_DATA_COLLECTIONS };
