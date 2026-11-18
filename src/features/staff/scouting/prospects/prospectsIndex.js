@@ -81,22 +81,56 @@ function renderAccessError(container, user, error) {
   `;
 }
 
+function displayValue(value) {
+  if (value === null || value === undefined || value === '') return '—';
+  if (typeof value === 'object' && typeof value.toDate === 'function') {
+    return value.toDate().toLocaleString();
+  }
+  if (typeof value === 'object' && Number.isFinite(value.seconds)) {
+    return new Date(value.seconds * 1000).toLocaleString();
+  }
+  return String(value);
+}
+
 function renderData(container, user, summary) {
-  const rows = summary.prospects.slice(0, 100).map(({ id, data }) => {
-    const name = data.candidateFullname || data.candidateUsername || 'Unnamed prospect';
-    const role = data.role || '—';
-    const region = data.region || '—';
-    const team = data.currentTeam || '—';
-    return `
-      <tr>
-        <td>${escapeHtml(name)}</td>
-        <td>${escapeHtml(role)}</td>
-        <td>${escapeHtml(region)}</td>
-        <td>${escapeHtml(team)}</td>
-        <td><code>${escapeHtml(id)}</code></td>
-      </tr>
-    `;
-  }).join('');
+  const prospectRows = summary.prospects.slice(0, 100).map(({ id, data }) => `
+    <tr data-search="${escapeHtml([data.candidateFullname, data.candidateUsername, data.role, data.region, data.currentTeam].join(' ').toLowerCase())}">
+      <td>${escapeHtml(data.candidateFullname || data.candidateUsername || 'Unnamed prospect')}</td>
+      <td>${escapeHtml(data.role || '—')}</td>
+      <td>${escapeHtml(data.region || '—')}</td>
+      <td>${escapeHtml(data.currentTeam || '—')}</td>
+      <td><code>${escapeHtml(id)}</code></td>
+    </tr>
+  `).join('');
+
+  const combineRows = summary.combines.map(({ id, data }) => `
+    <tr>
+      <td>${escapeHtml(data.name || data.title || 'Combine')}</td>
+      <td>${escapeHtml(displayValue(data.status || '—'))}</td>
+      <td>${escapeHtml(Array.isArray(data.participantIds) ? data.participantIds.length : '—')}</td>
+      <td>${escapeHtml(displayValue(data.createdAt))}</td>
+      <td><code>${escapeHtml(id)}</code></td>
+    </tr>
+  `).join('');
+
+  const lobbyRows = summary.lobbies.map(({ id, data }) => `
+    <tr>
+      <td>${escapeHtml(data.lobbyLabel || data.lobbyNumber || id)}</td>
+      <td>${escapeHtml(data.dayLabel || data.dayKey || '—')}</td>
+      <td>${escapeHtml(data.timeLabel || '—')}</td>
+      <td>${escapeHtml(data.status || '—')}</td>
+      <td><code>${escapeHtml(data.combineId || '—')}</code></td>
+    </tr>
+  `).join('');
+
+  const interviewRows = summary.interviews.map(({ id, data }) => `
+    <tr>
+      <td><code>${escapeHtml(id)}</code></td>
+      <td>${escapeHtml(data.status || 'pending')}</td>
+      <td>${escapeHtml(data.scheduledSlot || '—')}</td>
+      <td>${escapeHtml(Array.isArray(data.availability) ? data.availability.length : 0)}</td>
+    </tr>
+  `).join('');
 
   container.innerHTML = `
     <section class="f-scouting l-page">
@@ -116,16 +150,72 @@ function renderData(container, user, summary) {
         <button id="prospect-data-refresh" type="button">Refresh records</button>
         <button id="prospect-data-disconnect" type="button">Disconnect scouting data</button>
       </div>
-      <h2>Existing prospects</h2>
-      <p>Showing up to 100 records. This integration is read-only; no source records have been changed.</p>
-      <div class="f-scouting__table-wrap">
-        <table>
-          <thead><tr><th>Name</th><th>Role</th><th>Region</th><th>Current team</th><th>Source ID</th></tr></thead>
-          <tbody>${rows || '<tr><td colspan="5">No prospect records were returned.</td></tr>'}</tbody>
-        </table>
-      </div>
+      <nav aria-label="Scouting data sections">
+        <button type="button" data-data-tab="prospects" aria-pressed="true">Prospects</button>
+        <button type="button" data-data-tab="combines" aria-pressed="false">Combines</button>
+        <button type="button" data-data-tab="lobbies" aria-pressed="false">Lobbies</button>
+        <button type="button" data-data-tab="interviews" aria-pressed="false">Interviews</button>
+      </nav>
+      <section data-data-panel="prospects">
+        <h2>Existing prospects</h2>
+        <label>Search prospects <input id="prospect-search" type="search" placeholder="Name, role, region or team"></label>
+        <p>Showing up to 100 records. Source IDs are preserved.</p>
+        <div class="f-scouting__table-wrap">
+          <table>
+            <thead><tr><th>Name</th><th>Role</th><th>Region</th><th>Current team</th><th>Source ID</th></tr></thead>
+            <tbody>${prospectRows || '<tr><td colspan="5">No prospect records were returned.</td></tr>'}</tbody>
+          </table>
+        </div>
+      </section>
+      <section data-data-panel="combines" hidden>
+        <h2>Combines</h2>
+        <div class="f-scouting__table-wrap">
+          <table>
+            <thead><tr><th>Name</th><th>Status</th><th>Participants</th><th>Created</th><th>Source ID</th></tr></thead>
+            <tbody>${combineRows || '<tr><td colspan="5">No combines were returned.</td></tr>'}</tbody>
+          </table>
+        </div>
+      </section>
+      <section data-data-panel="lobbies" hidden>
+        <h2>Combine lobbies</h2>
+        <div class="f-scouting__table-wrap">
+          <table>
+            <thead><tr><th>Lobby</th><th>Day</th><th>Time</th><th>Status</th><th>Combine ID</th></tr></thead>
+            <tbody>${lobbyRows || '<tr><td colspan="5">No combine lobbies were returned.</td></tr>'}</tbody>
+          </table>
+        </div>
+      </section>
+      <section data-data-panel="interviews" hidden>
+        <h2>Interviews</h2>
+        <div class="f-scouting__table-wrap">
+          <table>
+            <thead><tr><th>Prospect ID</th><th>Status</th><th>Scheduled slot</th><th>Availability slots</th></tr></thead>
+            <tbody>${interviewRows || '<tr><td colspan="4">No interview records were returned.</td></tr>'}</tbody>
+          </table>
+        </div>
+      </section>
+      <p>Read-only integration preview. No source records have been changed.</p>
     </section>
   `;
+
+  container.querySelectorAll('[data-data-tab]').forEach(button => {
+    button.addEventListener('click', () => {
+      const active = button.dataset.dataTab;
+      container.querySelectorAll('[data-data-tab]').forEach(tab => {
+        tab.setAttribute('aria-pressed', String(tab === button));
+      });
+      container.querySelectorAll('[data-data-panel]').forEach(panel => {
+        panel.hidden = panel.dataset.dataPanel !== active;
+      });
+    });
+  });
+
+  container.querySelector('#prospect-search')?.addEventListener('input', event => {
+    const query = event.target.value.trim().toLowerCase();
+    container.querySelectorAll('[data-search]').forEach(row => {
+      row.hidden = !row.dataset.search.includes(query);
+    });
+  });
 }
 
 export async function mountProspectWorkspace(container) {
