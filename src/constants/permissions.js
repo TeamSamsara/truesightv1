@@ -389,6 +389,11 @@ const CAPABILITY = { ...ACCESS_CAPABILITY, ...ACTION_CAPABILITY };
 const STAFF_BASE = [
   CAPABILITY_KEY.ACCESS_DASHBOARD,
   CAPABILITY_KEY.ACCESS_OPERATIONS,
+
+  // Every staff member involved in management or coaching gets the same
+  // Scouting Suite access. Scouting does not distinguish coach, scout,
+  // manager, or general-manager roles.
+  CAPABILITY_KEY.ACCESS_SCOUTING_SUITE,
 ];
 
 /**
