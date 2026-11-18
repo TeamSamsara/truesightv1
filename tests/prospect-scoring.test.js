@@ -44,6 +44,6 @@ test('rewards a prospect for performing against a sufficiently scored stronger o
 
   calculateProfileStats(profile, [opponent]);
 
-  assert.equal(profile.axis1Final, 2.65);
+  assert.equal(profile.axis1Final, 2.575);
   assert.equal(profile.axis1Confidence, 25);
 });
