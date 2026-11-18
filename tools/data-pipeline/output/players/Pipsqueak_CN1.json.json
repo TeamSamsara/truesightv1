@@ -1,0 +1,226 @@
+{
+  "RiotId": "Pipsqueak#CN1",
+  "GameName": "Pipsqueak",
+  "Tag": "CN1",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_SUMMER_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Summer",
+          "Label": "ACL Summer 2025",
+          "TeamName": "Novasphere Gaming Myth",
+          "Role": "TOP",
+          "Games": 3,
+          "Wins": 1,
+          "Losses": 2,
+          "WinRate": 33.3,
+          "PerGame": {
+            "Kills": 4.67,
+            "Deaths": 6.0,
+            "Assists": 1.67,
+            "Kda": 1.06,
+            "Cs": 224.33,
+            "Gold": 11885.33,
+            "KillParticipation": 35.53,
+            "VisionScore": 22.33,
+            "CcScore": 25.0,
+            "DmgDealt": 24078.33,
+            "DmgTaken": 28797.0,
+            "DmgMitigated": 27512.0,
+            "DmgObjectives": 5585.67,
+            "CsAt10": 74.33,
+            "CsAt15": 119.33,
+            "CsAt20": 161.33,
+            "CsAt25": 191.67,
+            "GoldAt10": 3400.0,
+            "GoldAt15": 5461.0,
+            "GoldAt20": 7503.0,
+            "GoldAt25": 9833.0
+          },
+          "PerMin": {
+            "Cs": 7.7,
+            "Gold": 403.13,
+            "DmgDealt": 822.8,
+            "DmgTaken": 1011.27,
+            "DmgMitigated": 978.51,
+            "DmgObjectives": 170.78,
+            "VisionScore": 0.77,
+            "CcScore": 0.89
+          },
+          "Vision": {
+            "AvgVisionScore": 22.33,
+            "AvgWardsPlaced": 10.0,
+            "AvgWardsKilled": 3.67,
+            "AvgControlWardsBought": 0.33
+          },
+          "Champions": [
+            {
+              "Champion": "Gwen",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Jax",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Udyr",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5346423066",
+              "GameDate": "2025-08-14",
+              "Patch": "15.16",
+              "GameDuration": 1640,
+              "TeamId": 100,
+              "Champion": "Gwen",
+              "Win": false,
+              "Kills": 3,
+              "Deaths": 5,
+              "Assists": 1,
+              "Kda": 0.8,
+              "Cs": 205,
+              "Csm": 7.5,
+              "Gold": 9099,
+              "Goldm": 332.89,
+              "DmgDealt": 17656,
+              "DmgTaken": 24256,
+              "DmgMitigated": 23573,
+              "DmgObjectives": 1610,
+              "VisionScore": 24,
+              "WardsPlaced": 10,
+              "WardsKilled": 4,
+              "ControlWards": 1,
+              "CcScore": 6.0,
+              "KillParticipation": 33.3,
+              "Timeline": {
+                "CsAt10": 88,
+                "CsAt15": 128,
+                "CsAt20": 158,
+                "CsAt25": 199,
+                "GoldAt10": 3752,
+                "GoldAt15": 5808,
+                "GoldAt20": 7057,
+                "GoldAt25": 8641
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5346476989",
+              "GameDate": "2025-08-14",
+              "Patch": "15.16",
+              "GameDuration": 2069,
+              "TeamId": 200,
+              "Champion": "Jax",
+              "Win": true,
+              "Kills": 8,
+              "Deaths": 5,
+              "Assists": 2,
+              "Kda": 2.0,
+              "Cs": 303,
+              "Csm": 8.79,
+              "Gold": 17965,
+              "Goldm": 520.98,
+              "DmgDealt": 35218,
+              "DmgTaken": 34306,
+              "DmgMitigated": 29624,
+              "DmgObjectives": 14001,
+              "VisionScore": 28,
+              "WardsPlaced": 13,
+              "WardsKilled": 5,
+              "ControlWards": 0,
+              "CcScore": 33.0,
+              "KillParticipation": 40.0,
+              "Timeline": {
+                "CsAt10": 66,
+                "CsAt15": 109,
+                "CsAt20": 172,
+                "CsAt25": 211,
+                "GoldAt10": 3061,
+                "GoldAt15": 5443,
+                "GoldAt20": 8525,
+                "GoldAt25": 12266
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5346530999",
+              "GameDate": "2025-08-14",
+              "Patch": "15.16",
+              "GameDuration": 1450,
+              "TeamId": 100,
+              "Champion": "Udyr",
+              "Win": false,
+              "Kills": 3,
+              "Deaths": 8,
+              "Assists": 2,
+              "Kda": 0.62,
+              "Cs": 165,
+              "Csm": 6.83,
+              "Gold": 8592,
+              "Goldm": 355.53,
+              "DmgDealt": 19361,
+              "DmgTaken": 27829,
+              "DmgMitigated": 29339,
+              "DmgObjectives": 1146,
+              "VisionScore": 15,
+              "WardsPlaced": 7,
+              "WardsKilled": 2,
+              "ControlWards": 0,
+              "CcScore": 36.0,
+              "KillParticipation": 33.3,
+              "Timeline": {
+                "CsAt10": 69,
+                "CsAt15": 121,
+                "CsAt20": 154,
+                "CsAt25": 165,
+                "GoldAt10": 3387,
+                "GoldAt15": 5132,
+                "GoldAt20": 6927,
+                "GoldAt25": 8592
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5346423066",
+              "Opponent": "I am Súnlight#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5346476989",
+              "Opponent": "I am Súnlight#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5346530999",
+              "Opponent": "I am Súnlight#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

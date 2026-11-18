@@ -1,0 +1,226 @@
+{
+  "RiotId": "HLE Delight#Snow",
+  "GameName": "HLE Delight",
+  "Tag": "Snow",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_SUMMER_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Summer",
+          "Label": "ACL Summer 2025",
+          "TeamName": "Weber State University",
+          "Role": "UTILITY",
+          "Games": 3,
+          "Wins": 3,
+          "Losses": 0,
+          "WinRate": 100.0,
+          "PerGame": {
+            "Kills": 0.67,
+            "Deaths": 3.0,
+            "Assists": 20.33,
+            "Kda": 7.0,
+            "Cs": 20.0,
+            "Gold": 7801.0,
+            "KillParticipation": 74.87,
+            "VisionScore": 72.0,
+            "CcScore": 26.0,
+            "DmgDealt": 7185.67,
+            "DmgTaken": 11371.67,
+            "DmgMitigated": 8518.0,
+            "DmgObjectives": 2531.33,
+            "CsAt10": 11.33,
+            "CsAt15": 16.33,
+            "CsAt20": 17.67,
+            "CsAt25": 19.33,
+            "GoldAt10": 2227.33,
+            "GoldAt15": 3629.33,
+            "GoldAt20": 5095.0,
+            "GoldAt25": 6631.67
+          },
+          "PerMin": {
+            "Cs": 0.74,
+            "Gold": 287.64,
+            "DmgDealt": 264.02,
+            "DmgTaken": 420.31,
+            "DmgMitigated": 312.88,
+            "DmgObjectives": 94.4,
+            "VisionScore": 2.66,
+            "CcScore": 0.95
+          },
+          "Vision": {
+            "AvgVisionScore": 72.0,
+            "AvgWardsPlaced": 36.33,
+            "AvgWardsKilled": 4.0,
+            "AvgControlWardsBought": 10.33
+          },
+          "Champions": [
+            {
+              "Champion": "Milio",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Leona",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Yuumi",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5334154402",
+              "GameDate": "2025-07-29",
+              "Patch": "15.14",
+              "GameDuration": 1526,
+              "TeamId": 100,
+              "Champion": "Milio",
+              "Win": true,
+              "Kills": 1,
+              "Deaths": 1,
+              "Assists": 16,
+              "Kda": 17.0,
+              "Cs": 20,
+              "Csm": 0.79,
+              "Gold": 6928,
+              "Goldm": 272.4,
+              "DmgDealt": 5523,
+              "DmgTaken": 11207,
+              "DmgMitigated": 6795,
+              "DmgObjectives": 3207,
+              "VisionScore": 66,
+              "WardsPlaced": 32,
+              "WardsKilled": 3,
+              "ControlWards": 7,
+              "CcScore": 12.0,
+              "KillParticipation": 73.9,
+              "Timeline": {
+                "CsAt10": 12,
+                "CsAt15": 18,
+                "CsAt20": 18,
+                "CsAt25": 20,
+                "GoldAt10": 2252,
+                "GoldAt15": 3831,
+                "GoldAt20": 5204,
+                "GoldAt25": 6530
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5339627063",
+              "GameDate": "2025-08-05",
+              "Patch": "15.15",
+              "GameDuration": 1677,
+              "TeamId": 200,
+              "Champion": "Leona",
+              "Win": true,
+              "Kills": 1,
+              "Deaths": 5,
+              "Assists": 15,
+              "Kda": 3.2,
+              "Cs": 21,
+              "Csm": 0.75,
+              "Gold": 8044,
+              "Goldm": 287.8,
+              "DmgDealt": 6416,
+              "DmgTaken": 17673,
+              "DmgMitigated": 16333,
+              "DmgObjectives": 3177,
+              "VisionScore": 93,
+              "WardsPlaced": 51,
+              "WardsKilled": 7,
+              "ControlWards": 15,
+              "CcScore": 47.0,
+              "KillParticipation": 69.6,
+              "Timeline": {
+                "CsAt10": 10,
+                "CsAt15": 16,
+                "CsAt20": 18,
+                "CsAt25": 19,
+                "GoldAt10": 2301,
+                "GoldAt15": 3654,
+                "GoldAt20": 5111,
+                "GoldAt25": 6590
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5339678961",
+              "GameDate": "2025-08-05",
+              "Patch": "15.15",
+              "GameDuration": 1671,
+              "TeamId": 100,
+              "Champion": "Yuumi",
+              "Win": true,
+              "Kills": 0,
+              "Deaths": 3,
+              "Assists": 30,
+              "Kda": 10.0,
+              "Cs": 19,
+              "Csm": 0.68,
+              "Gold": 8431,
+              "Goldm": 302.73,
+              "DmgDealt": 9618,
+              "DmgTaken": 5235,
+              "DmgMitigated": 2426,
+              "DmgObjectives": 1210,
+              "VisionScore": 57,
+              "WardsPlaced": 26,
+              "WardsKilled": 2,
+              "ControlWards": 9,
+              "CcScore": 19.0,
+              "KillParticipation": 81.1,
+              "Timeline": {
+                "CsAt10": 12,
+                "CsAt15": 15,
+                "CsAt20": 17,
+                "CsAt25": 19,
+                "GoldAt10": 2129,
+                "GoldAt15": 3403,
+                "GoldAt20": 4970,
+                "GoldAt25": 6775
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5334154402",
+              "Opponent": "AdmirablePotato#6318",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5339627063",
+              "Opponent": "Flow#THZ",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5339678961",
+              "Opponent": "Flow#THZ",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

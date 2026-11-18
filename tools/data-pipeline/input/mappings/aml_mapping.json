@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "league": "AML",
+    "season": "2025",
+    "split": "Fall"
+  },
+  "passthrough": ["rank", "player", "team", "role", "rating"],
+  "record": {
+    "wins": "wins",
+    "losses": "losses"
+  },
+  "avg_per_game": {
+    "kills":              "kg",
+    "deaths":             "dg",
+    "assists":            "ag",
+    "kda":                "kda",
+    "cs":                 "csg",
+    "cs_at_10":           "cs10",
+    "cs_at_15":           "cs15",
+    "cs_at_20":           "cs20",
+    "cs_at_25":           "cs25",
+    "gold":               "goldg",
+    "gold_at_10":         "gold10",
+    "gold_at_15":         "gold15",
+    "gold_at_20":         "gold20",
+    "gold_at_25":         "gold25",
+    "kill_participation": "kpg",
+    "vision_score":       "vision_score",
+    "cc_score":           "cc_score",
+    "dmg_dealt":          "dmg_dealt",
+    "dmg_taken":          "dmg_taken",
+    "dmg_mitigated":      "dmg_mitigated",
+    "dmg_objectives":     "dmg_objectives"
+  },
+  "avg_per_minute": {
+    "kills":          "km",
+    "deaths":         "dm",
+    "assists":        "am",
+    "cs":             "csm",
+    "vision_score":   "vision_m",
+    "cc_score":       "cc_m",
+    "gold":           "goldm",
+    "dmg_dealt":      "dmg_dealt_m",
+    "dmg_taken":      "dmg_taken_m",
+    "dmg_mitigated":  "dmg_mitigated_m",
+    "dmg_objectives": "dmg_obj_m"
+  },
+  "delta_vs_opponent": {
+    "cs":         "cs_delta",
+    "cs_per_min": "csm_delta",
+    "cs_at_10":   "cs10_delta",
+    "cs_at_15":   "cs15_delta",
+    "cs_at_20":   "cs20_delta",
+    "cs_at_25":   "cs25_delta",
+    "gold":       "gold_delta",
+    "gold_at_10": "gold10_delta",
+    "gold_at_15": "gold15_delta",
+    "gold_at_20": "gold20_delta",
+    "gold_at_25": "gold25_delta"
+  }
+}

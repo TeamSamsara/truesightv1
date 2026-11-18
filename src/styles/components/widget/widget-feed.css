@@ -1,0 +1,121 @@
+/* ││ widget-feed.css
+   @version 1.0.0
+
+   Feed widget content styles.
+   Styles everything inside .c-widget__body for the feed widget type.
+
+   Target path: src/shared/components/widget/widget-feed.css
+*/
+
+
+/* ││ Feed Widget */
+
+.c-feed-widget {
+  display:        flex;
+  flex-direction: column;
+  gap:            0;
+}
+
+
+/* ││ Feed List */
+
+.c-feed-widget__list {
+  display:        flex;
+  flex-direction: column;
+}
+
+
+/* ││ Feed Item */
+
+.c-feed-widget__item {
+  display:     flex;
+  align-items: flex-start;
+  gap:         var(--space-3);
+  padding:     var(--space-3) 0;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.c-feed-widget__item:last-child {
+  border-bottom: none;
+}
+
+
+/* ││ Dot */
+
+.c-feed-widget__dot {
+  width:        8px;
+  height:       8px;
+  border-radius: 50%;
+  flex-shrink:  0;
+  margin-top:   5px;
+}
+
+.c-feed-widget__dot--default { background: var(--text-muted); }
+.c-feed-widget__dot--pass    { background: var(--status-pass); }
+.c-feed-widget__dot--alert   { background: var(--status-no); }
+.c-feed-widget__dot--gold    { background: var(--gold); }
+.c-feed-widget__dot--info    { background: var(--status-flag); }
+
+
+/* ││ Content */
+
+.c-feed-widget__content {
+  flex:    1;
+  min-width: 0;
+}
+
+.c-feed-widget__label {
+  font-family: var(--font-body);
+  font-size:   13px;
+  color:       var(--text-primary);
+  line-height: 1.3;
+}
+
+.c-feed-widget__sub {
+  font-family: var(--font-body);
+  font-size:   11px;
+  color:       var(--text-muted);
+  margin-top:  2px;
+}
+
+
+/* ││ Time */
+
+.c-feed-widget__time {
+  font-family: var(--font-mono);
+  font-size:   11px;
+  color:       var(--text-muted);
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+
+/* ││ View More */
+
+.c-feed-widget__more {
+  font-family:    var(--font-body);
+  font-size:      11px;
+  font-weight:    700;
+  letter-spacing: 1px;
+  color:          var(--text-muted);
+  background:     transparent;
+  border:         none;
+  cursor:         pointer;
+  padding:        var(--space-3) 0 0;
+  text-align:     left;
+  transition:     color .12s;
+}
+
+.c-feed-widget__more:hover {
+  color: var(--text-secondary);
+}
+
+
+/* ││ Empty */
+
+.c-feed-widget__empty-text {
+  font-family: var(--font-body);
+  font-size:   13px;
+  color:       var(--text-muted);
+  padding:     var(--space-2) 0;
+}

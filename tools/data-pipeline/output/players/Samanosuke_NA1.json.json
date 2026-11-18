@@ -1,0 +1,341 @@
+{
+  "RiotId": "Samanosuke#NA1",
+  "GameName": "Samanosuke",
+  "Tag": "NA1",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_SUMMER_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Summer",
+          "Label": "ACL Summer 2025",
+          "TeamName": "GCS Challengers",
+          "Role": "TOP",
+          "Games": 2,
+          "Wins": 0,
+          "Losses": 2,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 1.0,
+            "Deaths": 4.0,
+            "Assists": 3.5,
+            "Kda": 1.12,
+            "Cs": 211.5,
+            "Gold": 9533.5,
+            "KillParticipation": 51.9,
+            "VisionScore": 20.5,
+            "CcScore": 10.0,
+            "DmgDealt": 22071.5,
+            "DmgTaken": 28655.0,
+            "DmgMitigated": 26127.5,
+            "DmgObjectives": 690.5,
+            "CsAt10": 76.0,
+            "CsAt15": 118.5,
+            "CsAt20": 171.5,
+            "CsAt25": 207.0,
+            "GoldAt10": 3247.0,
+            "GoldAt15": 4877.0,
+            "GoldAt20": 7041.5,
+            "GoldAt25": 8985.0
+          },
+          "PerMin": {
+            "Cs": 7.8,
+            "Gold": 350.79,
+            "DmgDealt": 805.72,
+            "DmgTaken": 1051.06,
+            "DmgMitigated": 966.83,
+            "DmgObjectives": 25.87,
+            "VisionScore": 0.75,
+            "CcScore": 0.37
+          },
+          "Vision": {
+            "AvgVisionScore": 20.5,
+            "AvgWardsPlaced": 10.5,
+            "AvgWardsKilled": 1.5,
+            "AvgControlWardsBought": 2.0
+          },
+          "Champions": [
+            {
+              "Champion": "Gangplank",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Ambessa",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5350876337",
+              "GameDate": "2025-08-20",
+              "Patch": "15.16",
+              "GameDuration": 1680,
+              "TeamId": 200,
+              "Champion": "Gangplank",
+              "Win": false,
+              "Kills": 2,
+              "Deaths": 6,
+              "Assists": 5,
+              "Kda": 1.17,
+              "Cs": 199,
+              "Csm": 7.11,
+              "Gold": 9650,
+              "Goldm": 344.64,
+              "DmgDealt": 28190,
+              "DmgTaken": 32027,
+              "DmgMitigated": 21453,
+              "DmgObjectives": 276,
+              "VisionScore": 22,
+              "WardsPlaced": 11,
+              "WardsKilled": 0,
+              "ControlWards": 3,
+              "CcScore": 11.0,
+              "KillParticipation": 53.8,
+              "Timeline": {
+                "CsAt10": 67,
+                "CsAt15": 118,
+                "CsAt20": 153,
+                "CsAt25": 192,
+                "GoldAt10": 3198,
+                "GoldAt15": 5116,
+                "GoldAt20": 6746,
+                "GoldAt25": 8816
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5350917975",
+              "GameDate": "2025-08-20",
+              "Patch": "15.16",
+              "GameDuration": 1583,
+              "TeamId": 200,
+              "Champion": "Ambessa",
+              "Win": false,
+              "Kills": 0,
+              "Deaths": 2,
+              "Assists": 2,
+              "Kda": 1.0,
+              "Cs": 224,
+              "Csm": 8.49,
+              "Gold": 9417,
+              "Goldm": 356.93,
+              "DmgDealt": 15953,
+              "DmgTaken": 25283,
+              "DmgMitigated": 30802,
+              "DmgObjectives": 1105,
+              "VisionScore": 19,
+              "WardsPlaced": 10,
+              "WardsKilled": 3,
+              "ControlWards": 1,
+              "CcScore": 9.0,
+              "KillParticipation": 50.0,
+              "Timeline": {
+                "CsAt10": 85,
+                "CsAt15": 119,
+                "CsAt20": 190,
+                "CsAt25": 222,
+                "GoldAt10": 3296,
+                "GoldAt15": 4638,
+                "GoldAt20": 7337,
+                "GoldAt25": 9154
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5350876337",
+              "Opponent": "TreyDog#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5350917975",
+              "Opponent": "TreyDog#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    },
+    "AVL_2025": {
+      "League": "AVL",
+      "Season": "2025",
+      "Splits": {
+        "AVL_FALL_2025": {
+          "League": "AVL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AVL Fall 2025",
+          "TeamName": "Chuds",
+          "Role": "JUNGLE",
+          "Games": 2,
+          "Wins": 0,
+          "Losses": 2,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 4.0,
+            "Deaths": 6.5,
+            "Assists": 3.0,
+            "Kda": 1.08,
+            "Cs": 224.5,
+            "Gold": 11581.0,
+            "KillParticipation": 69.45,
+            "VisionScore": 28.0,
+            "CcScore": 27.0,
+            "DmgDealt": 15433.5,
+            "DmgTaken": 31990.0,
+            "DmgMitigated": 18559.5,
+            "DmgObjectives": 10959.5,
+            "CsAt10": 71.5,
+            "CsAt15": 104.0,
+            "CsAt20": 145.0,
+            "CsAt25": 174.0,
+            "GoldAt10": 3183.5,
+            "GoldAt15": 5016.5,
+            "GoldAt20": 7067.5,
+            "GoldAt25": 8552.5
+          },
+          "PerMin": {
+            "Cs": 6.6,
+            "Gold": 344.98,
+            "DmgDealt": 454.39,
+            "DmgTaken": 988.52,
+            "DmgMitigated": 577.45,
+            "DmgObjectives": 352.68,
+            "VisionScore": 0.86,
+            "CcScore": 0.75
+          },
+          "Vision": {
+            "AvgVisionScore": 28.0,
+            "AvgWardsPlaced": 11.5,
+            "AvgWardsKilled": 3.5,
+            "AvgControlWardsBought": 6.5
+          },
+          "Champions": [
+            {
+              "Champion": "Aatrox",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Syndra",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5425970112",
+              "GameDate": "2025-12-02",
+              "Patch": "15.23",
+              "GameDuration": 1718,
+              "TeamId": 200,
+              "Champion": "Aatrox",
+              "Win": false,
+              "Kills": 4,
+              "Deaths": 5,
+              "Assists": 3,
+              "Kda": 1.4,
+              "Cs": 173,
+              "Csm": 6.04,
+              "Gold": 9921,
+              "Goldm": 346.48,
+              "DmgDealt": 12030,
+              "DmgTaken": 35326,
+              "DmgMitigated": 21373,
+              "DmgObjectives": 15225,
+              "VisionScore": 29,
+              "WardsPlaced": 13,
+              "WardsKilled": 4,
+              "ControlWards": 9,
+              "CcScore": 12.0,
+              "KillParticipation": 100.0,
+              "Timeline": {
+                "CsAt10": 68,
+                "CsAt15": 96,
+                "CsAt20": 137,
+                "CsAt25": 165,
+                "GoldAt10": 3432,
+                "GoldAt15": 5675,
+                "GoldAt20": 7599,
+                "GoldAt25": 9217
+              }
+            },
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5426020372",
+              "GameDate": "2025-12-02",
+              "Patch": "15.23",
+              "GameDuration": 2313,
+              "TeamId": 200,
+              "Champion": "Syndra",
+              "Win": false,
+              "Kills": 4,
+              "Deaths": 8,
+              "Assists": 3,
+              "Kda": 0.88,
+              "Cs": 276,
+              "Csm": 7.16,
+              "Gold": 13241,
+              "Goldm": 343.48,
+              "DmgDealt": 18837,
+              "DmgTaken": 28654,
+              "DmgMitigated": 15746,
+              "DmgObjectives": 6694,
+              "VisionScore": 27,
+              "WardsPlaced": 10,
+              "WardsKilled": 3,
+              "ControlWards": 4,
+              "CcScore": 42.0,
+              "KillParticipation": 38.9,
+              "Timeline": {
+                "CsAt10": 75,
+                "CsAt15": 112,
+                "CsAt20": 153,
+                "CsAt25": 183,
+                "GoldAt10": 2935,
+                "GoldAt15": 4358,
+                "GoldAt20": 6536,
+                "GoldAt25": 7888
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5425970112",
+              "Opponent": "Permanent pain#kev",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5426020372",
+              "Opponent": "Permanent pain#kev",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

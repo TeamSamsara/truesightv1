@@ -1,0 +1,41 @@
+/* ││ session.css
+   @version 1.0.0
+
+   Session expiry warning modal content styles.
+   Modal shell styles live in modal.css — this file
+   owns only the content rendered inside it.
+*/
+
+
+/* ││ Body */
+
+.c-session-modal__body {
+  display:        flex;
+  flex-direction: column;
+  align-items:    center;
+  gap:            var(--space-6);
+  padding:        var(--space-6) 0 var(--space-2);
+  text-align:     center;
+}
+
+
+/* ││ Message */
+
+.c-session-modal__message {
+  font-size:   clamp(13px, 1vw, 15px);
+  color:       var(--text-secondary);
+  line-height: 1.6;
+  max-width:   280px;
+}
+
+
+/* ││ Countdown */
+
+.c-session-modal__countdown {
+  font-family:    var(--font-display);
+  font-size:      clamp(3rem, 6vw, 5rem);
+  color:          var(--status-no);
+  line-height:    1;
+  letter-spacing: 0.05em;
+  transition:     color 0.3s;
+}

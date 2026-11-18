@@ -1,0 +1,122 @@
+{
+  "RiotId": "제이 별#007",
+  "GameName": "제이 별",
+  "Tag": "007",
+  "Seasons": {
+    "AML_2025": {
+      "League": "AML",
+      "Season": "2025",
+      "Splits": {
+        "AML_FALL_2025": {
+          "League": "AML",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AML Fall 2025",
+          "TeamName": "5 Migos",
+          "Role": "BOTTOM",
+          "Games": 1,
+          "Wins": 0,
+          "Losses": 1,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 4.0,
+            "Deaths": 3.0,
+            "Assists": 5.0,
+            "Kda": 3.0,
+            "Cs": 270.0,
+            "Gold": 12844.0,
+            "KillParticipation": 56.2,
+            "VisionScore": 18.0,
+            "CcScore": 41.0,
+            "DmgDealt": 16883.0,
+            "DmgTaken": 15866.0,
+            "DmgMitigated": 8073.0,
+            "DmgObjectives": 17557.0,
+            "CsAt10": 74.0,
+            "CsAt15": 115.0,
+            "CsAt20": 167.0,
+            "CsAt25": 207.0,
+            "GoldAt10": 3934.0,
+            "GoldAt15": 5494.0,
+            "GoldAt20": 8015.0,
+            "GoldAt25": 9613.0
+          },
+          "PerMin": {
+            "Cs": 8.04,
+            "Gold": 382.45,
+            "DmgDealt": 502.72,
+            "DmgTaken": 472.44,
+            "DmgMitigated": 240.39,
+            "DmgObjectives": 522.79,
+            "VisionScore": 0.54,
+            "CcScore": 1.22
+          },
+          "Vision": {
+            "AvgVisionScore": 18.0,
+            "AvgWardsPlaced": 7.0,
+            "AvgWardsKilled": 3.0,
+            "AvgControlWardsBought": 0.0
+          },
+          "Champions": [
+            {
+              "Champion": "Ashe",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5402412267",
+              "GameDate": "2025-10-29",
+              "Patch": "15.21",
+              "GameDuration": 2015,
+              "TeamId": 100,
+              "Champion": "Ashe",
+              "Win": false,
+              "Kills": 4,
+              "Deaths": 3,
+              "Assists": 5,
+              "Kda": 3.0,
+              "Cs": 270,
+              "Csm": 8.04,
+              "Gold": 12844,
+              "Goldm": 382.45,
+              "DmgDealt": 16883,
+              "DmgTaken": 15866,
+              "DmgMitigated": 8073,
+              "DmgObjectives": 17557,
+              "VisionScore": 18,
+              "WardsPlaced": 7,
+              "WardsKilled": 3,
+              "ControlWards": 0,
+              "CcScore": 41.0,
+              "KillParticipation": 56.2,
+              "Timeline": {
+                "CsAt10": 74,
+                "CsAt15": 115,
+                "CsAt20": 167,
+                "CsAt25": 207,
+                "GoldAt10": 3934,
+                "GoldAt15": 5494,
+                "GoldAt20": 8015,
+                "GoldAt25": 9613
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5402412267",
+              "Opponent": "Geiko#0001",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

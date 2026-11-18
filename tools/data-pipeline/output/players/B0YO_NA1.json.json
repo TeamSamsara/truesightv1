@@ -1,0 +1,272 @@
+{
+  "RiotId": "B0YO#NA1",
+  "GameName": "B0YO",
+  "Tag": "NA1",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_SUMMER_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Summer",
+          "Label": "ACL Summer 2025",
+          "TeamName": "Travelers",
+          "Role": "UTILITY",
+          "Games": 4,
+          "Wins": 0,
+          "Losses": 4,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 0.5,
+            "Deaths": 5.75,
+            "Assists": 5.5,
+            "Kda": 1.04,
+            "Cs": 25.5,
+            "Gold": 5630.25,
+            "KillParticipation": 68.75,
+            "VisionScore": 50.25,
+            "CcScore": 39.25,
+            "DmgDealt": 4854.25,
+            "DmgTaken": 17913.25,
+            "DmgMitigated": 23219.5,
+            "DmgObjectives": 296.5,
+            "CsAt10": 11.25,
+            "CsAt15": 18.5,
+            "CsAt20": 20.75,
+            "CsAt25": 12.75,
+            "GoldAt10": 2496.25,
+            "GoldAt15": 3688.0,
+            "GoldAt20": 4802.0,
+            "GoldAt25": 2955.75
+          },
+          "PerMin": {
+            "Cs": 1.07,
+            "Gold": 234.94,
+            "DmgDealt": 204.31,
+            "DmgTaken": 745.39,
+            "DmgMitigated": 963.14,
+            "DmgObjectives": 12.09,
+            "VisionScore": 2.1,
+            "CcScore": 1.65
+          },
+          "Vision": {
+            "AvgVisionScore": 50.25,
+            "AvgWardsPlaced": 22.0,
+            "AvgWardsKilled": 6.75,
+            "AvgControlWardsBought": 4.5
+          },
+          "Champions": [
+            {
+              "Champion": "Nautilus",
+              "Games": 2,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Rell",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Alistar",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5334153610",
+              "GameDate": "2025-07-29",
+              "Patch": "15.14",
+              "GameDuration": 1386,
+              "TeamId": 100,
+              "Champion": "Rell",
+              "Win": false,
+              "Kills": 0,
+              "Deaths": 3,
+              "Assists": 3,
+              "Kda": 1.0,
+              "Cs": 28,
+              "Csm": 1.21,
+              "Gold": 5053,
+              "Goldm": 218.74,
+              "DmgDealt": 2632,
+              "DmgTaken": 10858,
+              "DmgMitigated": 12152,
+              "DmgObjectives": 0,
+              "VisionScore": 38,
+              "WardsPlaced": 19,
+              "WardsKilled": 4,
+              "ControlWards": 2,
+              "CcScore": 14.0,
+              "KillParticipation": 50.0,
+              "Timeline": {
+                "CsAt10": 14,
+                "CsAt15": 25,
+                "CsAt20": 27,
+                "CsAt25": 0,
+                "GoldAt10": 1955,
+                "GoldAt15": 3275,
+                "GoldAt20": 4369,
+                "GoldAt25": 0
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5334195792",
+              "GameDate": "2025-07-29",
+              "Patch": "15.14",
+              "GameDuration": 1338,
+              "TeamId": 200,
+              "Champion": "Nautilus",
+              "Win": false,
+              "Kills": 1,
+              "Deaths": 7,
+              "Assists": 7,
+              "Kda": 1.14,
+              "Cs": 23,
+              "Csm": 1.03,
+              "Gold": 5565,
+              "Goldm": 249.55,
+              "DmgDealt": 7240,
+              "DmgTaken": 20081,
+              "DmgMitigated": 25251,
+              "DmgObjectives": 275,
+              "VisionScore": 59,
+              "WardsPlaced": 25,
+              "WardsKilled": 8,
+              "ControlWards": 5,
+              "CcScore": 61.0,
+              "KillParticipation": 61.5,
+              "Timeline": {
+                "CsAt10": 10,
+                "CsAt15": 17,
+                "CsAt20": 18,
+                "CsAt25": 0,
+                "GoldAt10": 2525,
+                "GoldAt15": 3755,
+                "GoldAt20": 4869,
+                "GoldAt25": 0
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5339630007",
+              "GameDate": "2025-08-05",
+              "Patch": "15.15",
+              "GameDuration": 1525,
+              "TeamId": 200,
+              "Champion": "Alistar",
+              "Win": false,
+              "Kills": 0,
+              "Deaths": 4,
+              "Assists": 6,
+              "Kda": 1.5,
+              "Cs": 28,
+              "Csm": 1.1,
+              "Gold": 5543,
+              "Goldm": 218.09,
+              "DmgDealt": 3295,
+              "DmgTaken": 22275,
+              "DmgMitigated": 32195,
+              "DmgObjectives": 574,
+              "VisionScore": 54,
+              "WardsPlaced": 22,
+              "WardsKilled": 9,
+              "ControlWards": 3,
+              "CcScore": 36.0,
+              "KillParticipation": 85.7,
+              "Timeline": {
+                "CsAt10": 7,
+                "CsAt15": 16,
+                "CsAt20": 21,
+                "CsAt25": 28,
+                "GoldAt10": 2400,
+                "GoldAt15": 3473,
+                "GoldAt20": 4577,
+                "GoldAt25": 5479
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5339675397",
+              "GameDate": "2025-08-05",
+              "Patch": "15.15",
+              "GameDuration": 1506,
+              "TeamId": 100,
+              "Champion": "Nautilus",
+              "Win": false,
+              "Kills": 1,
+              "Deaths": 9,
+              "Assists": 6,
+              "Kda": 0.78,
+              "Cs": 23,
+              "Csm": 0.92,
+              "Gold": 6360,
+              "Goldm": 253.39,
+              "DmgDealt": 6250,
+              "DmgTaken": 18439,
+              "DmgMitigated": 23280,
+              "DmgObjectives": 337,
+              "VisionScore": 50,
+              "WardsPlaced": 22,
+              "WardsKilled": 6,
+              "ControlWards": 8,
+              "CcScore": 46.0,
+              "KillParticipation": 77.8,
+              "Timeline": {
+                "CsAt10": 14,
+                "CsAt15": 16,
+                "CsAt20": 17,
+                "CsAt25": 23,
+                "GoldAt10": 3105,
+                "GoldAt15": 4249,
+                "GoldAt20": 5393,
+                "GoldAt25": 6344
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5334153610",
+              "Opponent": "Pockus#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5334195792",
+              "Opponent": "Pockus#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5339630007",
+              "Opponent": "Summer#inflm",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5339675397",
+              "Opponent": "Summer#inflm",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

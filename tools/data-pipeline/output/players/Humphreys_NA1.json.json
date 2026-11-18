@@ -1,0 +1,272 @@
+{
+  "RiotId": "Humphreys#NA1",
+  "GameName": "Humphreys",
+  "Tag": "NA1",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_SUMMER_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Summer",
+          "Label": "ACL Summer 2025",
+          "TeamName": "Travelers",
+          "Role": "BOTTOM",
+          "Games": 4,
+          "Wins": 0,
+          "Losses": 4,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 2.25,
+            "Deaths": 3.0,
+            "Assists": 3.25,
+            "Kda": 1.83,
+            "Cs": 182.5,
+            "Gold": 8639.75,
+            "KillParticipation": 63.45,
+            "VisionScore": 10.5,
+            "CcScore": 11.0,
+            "DmgDealt": 16222.25,
+            "DmgTaken": 11920.75,
+            "DmgMitigated": 7134.5,
+            "DmgObjectives": 2593.75,
+            "CsAt10": 65.0,
+            "CsAt15": 106.75,
+            "CsAt20": 150.25,
+            "CsAt25": 95.75,
+            "GoldAt10": 3344.75,
+            "GoldAt15": 4933.75,
+            "GoldAt20": 7145.0,
+            "GoldAt25": 4577.5
+          },
+          "PerMin": {
+            "Cs": 7.61,
+            "Gold": 359.91,
+            "DmgDealt": 669.48,
+            "DmgTaken": 494.87,
+            "DmgMitigated": 297.63,
+            "DmgObjectives": 107.56,
+            "VisionScore": 0.44,
+            "CcScore": 0.46
+          },
+          "Vision": {
+            "AvgVisionScore": 10.5,
+            "AvgWardsPlaced": 5.0,
+            "AvgWardsKilled": 2.5,
+            "AvgControlWardsBought": 0.0
+          },
+          "Champions": [
+            {
+              "Champion": "Varus",
+              "Games": 2,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "MissFortune",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Ezreal",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5334153610",
+              "GameDate": "2025-07-29",
+              "Patch": "15.14",
+              "GameDuration": 1386,
+              "TeamId": 100,
+              "Champion": "Varus",
+              "Win": false,
+              "Kills": 1,
+              "Deaths": 2,
+              "Assists": 1,
+              "Kda": 1.0,
+              "Cs": 184,
+              "Csm": 7.97,
+              "Gold": 8536,
+              "Goldm": 369.52,
+              "DmgDealt": 9788,
+              "DmgTaken": 8461,
+              "DmgMitigated": 4295,
+              "DmgObjectives": 3102,
+              "VisionScore": 8,
+              "WardsPlaced": 4,
+              "WardsKilled": 3,
+              "ControlWards": 0,
+              "CcScore": 17.0,
+              "KillParticipation": 33.3,
+              "Timeline": {
+                "CsAt10": 69,
+                "CsAt15": 106,
+                "CsAt20": 158,
+                "CsAt25": 0,
+                "GoldAt10": 2806,
+                "GoldAt15": 4527,
+                "GoldAt20": 7487,
+                "GoldAt25": 0
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5334195792",
+              "GameDate": "2025-07-29",
+              "Patch": "15.14",
+              "GameDuration": 1338,
+              "TeamId": 200,
+              "Champion": "MissFortune",
+              "Win": false,
+              "Kills": 2,
+              "Deaths": 4,
+              "Assists": 5,
+              "Kda": 1.75,
+              "Cs": 162,
+              "Csm": 7.26,
+              "Gold": 7559,
+              "Goldm": 338.97,
+              "DmgDealt": 13309,
+              "DmgTaken": 11147,
+              "DmgMitigated": 8358,
+              "DmgObjectives": 1496,
+              "VisionScore": 11,
+              "WardsPlaced": 5,
+              "WardsKilled": 2,
+              "ControlWards": 0,
+              "CcScore": 4.0,
+              "KillParticipation": 53.8,
+              "Timeline": {
+                "CsAt10": 55,
+                "CsAt15": 100,
+                "CsAt20": 129,
+                "CsAt25": 0,
+                "GoldAt10": 2823,
+                "GoldAt15": 4275,
+                "GoldAt20": 5821,
+                "GoldAt25": 0
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5339630007",
+              "GameDate": "2025-08-05",
+              "Patch": "15.15",
+              "GameDuration": 1525,
+              "TeamId": 200,
+              "Champion": "Varus",
+              "Win": false,
+              "Kills": 3,
+              "Deaths": 2,
+              "Assists": 4,
+              "Kda": 3.5,
+              "Cs": 191,
+              "Csm": 7.51,
+              "Gold": 9045,
+              "Goldm": 355.87,
+              "DmgDealt": 15417,
+              "DmgTaken": 10482,
+              "DmgMitigated": 6235,
+              "DmgObjectives": 2569,
+              "VisionScore": 13,
+              "WardsPlaced": 5,
+              "WardsKilled": 3,
+              "ControlWards": 0,
+              "CcScore": 21.0,
+              "KillParticipation": 100.0,
+              "Timeline": {
+                "CsAt10": 63,
+                "CsAt15": 107,
+                "CsAt20": 153,
+                "CsAt25": 190,
+                "GoldAt10": 3798,
+                "GoldAt15": 5377,
+                "GoldAt20": 7374,
+                "GoldAt25": 8903
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5339675397",
+              "GameDate": "2025-08-05",
+              "Patch": "15.15",
+              "GameDuration": 1506,
+              "TeamId": 100,
+              "Champion": "Ezreal",
+              "Win": false,
+              "Kills": 3,
+              "Deaths": 4,
+              "Assists": 3,
+              "Kda": 1.5,
+              "Cs": 193,
+              "Csm": 7.69,
+              "Gold": 9419,
+              "Goldm": 375.26,
+              "DmgDealt": 26375,
+              "DmgTaken": 17593,
+              "DmgMitigated": 9650,
+              "DmgObjectives": 3208,
+              "VisionScore": 10,
+              "WardsPlaced": 6,
+              "WardsKilled": 2,
+              "ControlWards": 0,
+              "CcScore": 2.0,
+              "KillParticipation": 66.7,
+              "Timeline": {
+                "CsAt10": 73,
+                "CsAt15": 114,
+                "CsAt20": 161,
+                "CsAt25": 193,
+                "GoldAt10": 3952,
+                "GoldAt15": 5556,
+                "GoldAt20": 7898,
+                "GoldAt25": 9407
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5334153610",
+              "Opponent": "Bazz#99999",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5334195792",
+              "Opponent": "Bazz#99999",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5339630007",
+              "Opponent": "Kongzhi#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5339675397",
+              "Opponent": "Kongzhi#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

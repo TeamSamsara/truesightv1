@@ -1,0 +1,226 @@
+{
+  "RiotId": "Ninbara#1012",
+  "GameName": "Ninbara",
+  "Tag": "1012",
+  "Seasons": {
+    "AML_2025": {
+      "League": "AML",
+      "Season": "2025",
+      "Splits": {
+        "AML_FALL_2025": {
+          "League": "AML",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AML Fall 2025",
+          "TeamName": "Team Yippie",
+          "Role": "BOTTOM",
+          "Games": 3,
+          "Wins": 1,
+          "Losses": 2,
+          "WinRate": 33.3,
+          "PerGame": {
+            "Kills": 7.0,
+            "Deaths": 3.67,
+            "Assists": 5.33,
+            "Kda": 3.36,
+            "Cs": 288.0,
+            "Gold": 16116.0,
+            "KillParticipation": 66.03,
+            "VisionScore": 22.67,
+            "CcScore": 22.33,
+            "DmgDealt": 38962.33,
+            "DmgTaken": 21808.33,
+            "DmgMitigated": 14529.0,
+            "DmgObjectives": 28264.33,
+            "CsAt10": 85.0,
+            "CsAt15": 131.33,
+            "CsAt20": 173.67,
+            "CsAt25": 212.33,
+            "GoldAt10": 3173.0,
+            "GoldAt15": 4797.33,
+            "GoldAt20": 7157.33,
+            "GoldAt25": 9155.0
+          },
+          "PerMin": {
+            "Cs": 7.5,
+            "Gold": 411.26,
+            "DmgDealt": 957.68,
+            "DmgTaken": 559.3,
+            "DmgMitigated": 355.77,
+            "DmgObjectives": 674.81,
+            "VisionScore": 0.57,
+            "CcScore": 0.6
+          },
+          "Vision": {
+            "AvgVisionScore": 22.67,
+            "AvgWardsPlaced": 9.33,
+            "AvgWardsKilled": 4.0,
+            "AvgControlWardsBought": 2.67
+          },
+          "Champions": [
+            {
+              "Champion": "Corki",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Mel",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Varus",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5406766437",
+              "GameDate": "2025-11-05",
+              "Patch": "15.21",
+              "GameDuration": 2722,
+              "TeamId": 100,
+              "Champion": "Corki",
+              "Win": true,
+              "Kills": 9,
+              "Deaths": 3,
+              "Assists": 11,
+              "Kda": 6.67,
+              "Cs": 330,
+              "Csm": 7.27,
+              "Gold": 19603,
+              "Goldm": 432.1,
+              "DmgDealt": 68883,
+              "DmgTaken": 25601,
+              "DmgMitigated": 23333,
+              "DmgObjectives": 58319,
+              "VisionScore": 41,
+              "WardsPlaced": 13,
+              "WardsKilled": 9,
+              "ControlWards": 4,
+              "CcScore": 4.0,
+              "KillParticipation": 76.9,
+              "Timeline": {
+                "CsAt10": 85,
+                "CsAt15": 130,
+                "CsAt20": 170,
+                "CsAt25": 217,
+                "GoldAt10": 3186,
+                "GoldAt15": 4695,
+                "GoldAt20": 7850,
+                "GoldAt25": 10075
+              }
+            },
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5406826443",
+              "GameDate": "2025-11-05",
+              "Patch": "15.21",
+              "GameDuration": 2393,
+              "TeamId": 200,
+              "Champion": "Mel",
+              "Win": false,
+              "Kills": 10,
+              "Deaths": 5,
+              "Assists": 3,
+              "Kda": 2.6,
+              "Cs": 310,
+              "Csm": 7.77,
+              "Gold": 18857,
+              "Goldm": 472.8,
+              "DmgDealt": 29552,
+              "DmgTaken": 25767,
+              "DmgMitigated": 14736,
+              "DmgObjectives": 17296,
+              "VisionScore": 11,
+              "WardsPlaced": 6,
+              "WardsKilled": 1,
+              "ControlWards": 1,
+              "CcScore": 48.0,
+              "KillParticipation": 81.2,
+              "Timeline": {
+                "CsAt10": 91,
+                "CsAt15": 149,
+                "CsAt20": 189,
+                "CsAt25": 231,
+                "GoldAt10": 3258,
+                "GoldAt15": 5082,
+                "GoldAt20": 6603,
+                "GoldAt25": 9156
+              }
+            },
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5406881427",
+              "GameDate": "2025-11-05",
+              "Patch": "15.21",
+              "GameDuration": 1804,
+              "TeamId": 200,
+              "Champion": "Varus",
+              "Win": false,
+              "Kills": 2,
+              "Deaths": 3,
+              "Assists": 2,
+              "Kda": 1.33,
+              "Cs": 224,
+              "Csm": 7.45,
+              "Gold": 9888,
+              "Goldm": 328.87,
+              "DmgDealt": 18452,
+              "DmgTaken": 14057,
+              "DmgMitigated": 5518,
+              "DmgObjectives": 9178,
+              "VisionScore": 16,
+              "WardsPlaced": 9,
+              "WardsKilled": 2,
+              "ControlWards": 3,
+              "CcScore": 15.0,
+              "KillParticipation": 40.0,
+              "Timeline": {
+                "CsAt10": 79,
+                "CsAt15": 115,
+                "CsAt20": 162,
+                "CsAt25": 189,
+                "GoldAt10": 3075,
+                "GoldAt15": 4615,
+                "GoldAt20": 7019,
+                "GoldAt25": 8234
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5406766437",
+              "Opponent": "Quickslice#1554",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5406826443",
+              "Opponent": "LONGSHOTLARRY#DLONG",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5406881427",
+              "Opponent": "LONGSHOTLARRY#DLONG",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

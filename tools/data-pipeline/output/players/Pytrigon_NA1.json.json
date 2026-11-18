@@ -1,0 +1,226 @@
+{
+  "RiotId": "Pytrigon#NA1",
+  "GameName": "Pytrigon",
+  "Tag": "NA1",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_FALL_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "ACL Fall 2025",
+          "TeamName": "Final Boss Chungus",
+          "Role": "BOTTOM",
+          "Games": 3,
+          "Wins": 1,
+          "Losses": 2,
+          "WinRate": 33.3,
+          "PerGame": {
+            "Kills": 4.67,
+            "Deaths": 2.33,
+            "Assists": 5.67,
+            "Kda": 4.44,
+            "Cs": 421.0,
+            "Gold": 19239.67,
+            "KillParticipation": 57.0,
+            "VisionScore": 40.67,
+            "CcScore": 20.0,
+            "DmgDealt": 30967.67,
+            "DmgTaken": 27537.67,
+            "DmgMitigated": 18542.0,
+            "DmgObjectives": 25174.0,
+            "CsAt10": 76.33,
+            "CsAt15": 128.67,
+            "CsAt20": 173.33,
+            "CsAt25": 227.67,
+            "GoldAt10": 3154.0,
+            "GoldAt15": 5687.0,
+            "GoldAt20": 7650.67,
+            "GoldAt25": 9653.33
+          },
+          "PerMin": {
+            "Cs": 10.12,
+            "Gold": 458.75,
+            "DmgDealt": 730.69,
+            "DmgTaken": 654.72,
+            "DmgMitigated": 441.16,
+            "DmgObjectives": 583.76,
+            "VisionScore": 0.98,
+            "CcScore": 0.46
+          },
+          "Vision": {
+            "AvgVisionScore": 40.67,
+            "AvgWardsPlaced": 14.67,
+            "AvgWardsKilled": 13.0,
+            "AvgControlWardsBought": 0.0
+          },
+          "Champions": [
+            {
+              "Champion": "Yunara",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Tristana",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Caitlyn",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5420956500",
+              "GameDate": "2025-11-25",
+              "Patch": "15.23",
+              "GameDuration": 2039,
+              "TeamId": 100,
+              "Champion": "Yunara",
+              "Win": false,
+              "Kills": 0,
+              "Deaths": 4,
+              "Assists": 3,
+              "Kda": 0.75,
+              "Cs": 323,
+              "Csm": 9.5,
+              "Gold": 12540,
+              "Goldm": 369.0,
+              "DmgDealt": 16535,
+              "DmgTaken": 17676,
+              "DmgMitigated": 11857,
+              "DmgObjectives": 7682,
+              "VisionScore": 33,
+              "WardsPlaced": 12,
+              "WardsKilled": 10,
+              "ControlWards": 0,
+              "CcScore": 8.0,
+              "KillParticipation": 50.0,
+              "Timeline": {
+                "CsAt10": 75,
+                "CsAt15": 122,
+                "CsAt20": 167,
+                "CsAt25": 214,
+                "GoldAt10": 3071,
+                "GoldAt15": 4839,
+                "GoldAt20": 6521,
+                "GoldAt25": 8304
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5421003630",
+              "GameDate": "2025-11-25",
+              "Patch": "15.23",
+              "GameDuration": 2620,
+              "TeamId": 200,
+              "Champion": "Tristana",
+              "Win": true,
+              "Kills": 12,
+              "Deaths": 2,
+              "Assists": 11,
+              "Kda": 11.5,
+              "Cs": 434,
+              "Csm": 9.94,
+              "Gold": 24282,
+              "Goldm": 556.08,
+              "DmgDealt": 43262,
+              "DmgTaken": 32045,
+              "DmgMitigated": 22583,
+              "DmgObjectives": 46202,
+              "VisionScore": 34,
+              "WardsPlaced": 15,
+              "WardsKilled": 10,
+              "ControlWards": 0,
+              "CcScore": 6.0,
+              "KillParticipation": 79.3,
+              "Timeline": {
+                "CsAt10": 72,
+                "CsAt15": 125,
+                "CsAt20": 159,
+                "CsAt25": 211,
+                "GoldAt10": 3040,
+                "GoldAt15": 6521,
+                "GoldAt20": 8444,
+                "GoldAt25": 10569
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5421075807",
+              "GameDate": "2025-11-25",
+              "Patch": "15.23",
+              "GameDuration": 2779,
+              "TeamId": 100,
+              "Champion": "Caitlyn",
+              "Win": false,
+              "Kills": 2,
+              "Deaths": 1,
+              "Assists": 3,
+              "Kda": 5.0,
+              "Cs": 506,
+              "Csm": 10.92,
+              "Gold": 20897,
+              "Goldm": 451.18,
+              "DmgDealt": 33106,
+              "DmgTaken": 32892,
+              "DmgMitigated": 21186,
+              "DmgObjectives": 21638,
+              "VisionScore": 55,
+              "WardsPlaced": 17,
+              "WardsKilled": 19,
+              "ControlWards": 0,
+              "CcScore": 46.0,
+              "KillParticipation": 41.7,
+              "Timeline": {
+                "CsAt10": 82,
+                "CsAt15": 139,
+                "CsAt20": 194,
+                "CsAt25": 258,
+                "GoldAt10": 3351,
+                "GoldAt15": 5701,
+                "GoldAt20": 7987,
+                "GoldAt25": 10087
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5420956500",
+              "Opponent": "InoriB#2005",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5421003630",
+              "Opponent": "InoriB#2005",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5421075807",
+              "Opponent": "InoriB#2005",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

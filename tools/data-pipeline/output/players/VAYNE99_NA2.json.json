@@ -1,0 +1,226 @@
+{
+  "RiotId": "VAYNE99#NA2",
+  "GameName": "VAYNE99",
+  "Tag": "NA2",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_FALL_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "ACL Fall 2025",
+          "TeamName": "Cupid Esports",
+          "Role": "BOTTOM",
+          "Games": 3,
+          "Wins": 2,
+          "Losses": 1,
+          "WinRate": 66.7,
+          "PerGame": {
+            "Kills": 4.33,
+            "Deaths": 5.33,
+            "Assists": 7.33,
+            "Kda": 2.19,
+            "Cs": 244.67,
+            "Gold": 12819.33,
+            "KillParticipation": 54.07,
+            "VisionScore": 25.33,
+            "CcScore": 18.0,
+            "DmgDealt": 25486.33,
+            "DmgTaken": 20513.67,
+            "DmgMitigated": 10192.67,
+            "DmgObjectives": 9754.0,
+            "CsAt10": 62.67,
+            "CsAt15": 116.67,
+            "CsAt20": 158.67,
+            "CsAt25": 190.0,
+            "GoldAt10": 3090.67,
+            "GoldAt15": 5265.67,
+            "GoldAt20": 7597.33,
+            "GoldAt25": 9304.67
+          },
+          "PerMin": {
+            "Cs": 7.79,
+            "Gold": 407.8,
+            "DmgDealt": 800.09,
+            "DmgTaken": 638.25,
+            "DmgMitigated": 314.03,
+            "DmgObjectives": 323.24,
+            "VisionScore": 0.81,
+            "CcScore": 0.62
+          },
+          "Vision": {
+            "AvgVisionScore": 25.33,
+            "AvgWardsPlaced": 12.67,
+            "AvgWardsKilled": 5.0,
+            "AvgControlWardsBought": 1.67
+          },
+          "Champions": [
+            {
+              "Champion": "Ashe",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Ezreal",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Yunara",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5406761331",
+              "GameDate": "2025-11-05",
+              "Patch": "15.21",
+              "GameDuration": 1577,
+              "TeamId": 100,
+              "Champion": "Ashe",
+              "Win": true,
+              "Kills": 4,
+              "Deaths": 3,
+              "Assists": 7,
+              "Kda": 3.67,
+              "Cs": 205,
+              "Csm": 7.8,
+              "Gold": 10521,
+              "Goldm": 400.29,
+              "DmgDealt": 15465,
+              "DmgTaken": 11721,
+              "DmgMitigated": 5661,
+              "DmgObjectives": 12378,
+              "VisionScore": 23,
+              "WardsPlaced": 10,
+              "WardsKilled": 3,
+              "ControlWards": 2,
+              "CcScore": 35.0,
+              "KillParticipation": 37.9,
+              "Timeline": {
+                "CsAt10": 70,
+                "CsAt15": 125,
+                "CsAt20": 166,
+                "CsAt25": 200,
+                "GoldAt10": 3316,
+                "GoldAt15": 5172,
+                "GoldAt20": 7585,
+                "GoldAt25": 9343
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5406804759",
+              "GameDate": "2025-11-05",
+              "Patch": "15.21",
+              "GameDuration": 1860,
+              "TeamId": 100,
+              "Champion": "Ezreal",
+              "Win": false,
+              "Kills": 5,
+              "Deaths": 7,
+              "Assists": 4,
+              "Kda": 1.29,
+              "Cs": 218,
+              "Csm": 7.03,
+              "Gold": 11531,
+              "Goldm": 371.97,
+              "DmgDealt": 28294,
+              "DmgTaken": 20766,
+              "DmgMitigated": 8726,
+              "DmgObjectives": 7247,
+              "VisionScore": 18,
+              "WardsPlaced": 13,
+              "WardsKilled": 2,
+              "ControlWards": 2,
+              "CcScore": 1.0,
+              "KillParticipation": 52.9,
+              "Timeline": {
+                "CsAt10": 57,
+                "CsAt15": 113,
+                "CsAt20": 139,
+                "CsAt25": 173,
+                "GoldAt10": 2674,
+                "GoldAt15": 4595,
+                "GoldAt20": 6579,
+                "GoldAt25": 8566
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5406855214",
+              "GameDate": "2025-11-05",
+              "Patch": "15.21",
+              "GameDuration": 2182,
+              "TeamId": 200,
+              "Champion": "Yunara",
+              "Win": true,
+              "Kills": 4,
+              "Deaths": 6,
+              "Assists": 11,
+              "Kda": 2.5,
+              "Cs": 311,
+              "Csm": 8.55,
+              "Gold": 16406,
+              "Goldm": 451.13,
+              "DmgDealt": 32700,
+              "DmgTaken": 29054,
+              "DmgMitigated": 16191,
+              "DmgObjectives": 9637,
+              "VisionScore": 35,
+              "WardsPlaced": 15,
+              "WardsKilled": 10,
+              "ControlWards": 1,
+              "CcScore": 18.0,
+              "KillParticipation": 71.4,
+              "Timeline": {
+                "CsAt10": 61,
+                "CsAt15": 112,
+                "CsAt20": 171,
+                "CsAt25": 197,
+                "GoldAt10": 3282,
+                "GoldAt15": 6030,
+                "GoldAt20": 8628,
+                "GoldAt25": 10005
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5406761331",
+              "Opponent": "Wocaoo#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5406804759",
+              "Opponent": "Wocaoo#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5406855214",
+              "Opponent": "Wocaoo#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

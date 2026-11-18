@@ -1,0 +1,122 @@
+{
+  "RiotId": "xRoyal#NA1",
+  "GameName": "xRoyal",
+  "Tag": "NA1",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_SUMMER_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Summer",
+          "Label": "ACL Summer 2025",
+          "TeamName": "Supernova",
+          "Role": "TOP",
+          "Games": 1,
+          "Wins": 1,
+          "Losses": 0,
+          "WinRate": 100.0,
+          "PerGame": {
+            "Kills": 7.0,
+            "Deaths": 3.0,
+            "Assists": 10.0,
+            "Kda": 5.67,
+            "Cs": 244.0,
+            "Gold": 15127.0,
+            "KillParticipation": 54.8,
+            "VisionScore": 40.0,
+            "CcScore": 28.0,
+            "DmgDealt": 25696.0,
+            "DmgTaken": 48399.0,
+            "DmgMitigated": 55708.0,
+            "DmgObjectives": 19131.0,
+            "CsAt10": 56.0,
+            "CsAt15": 101.0,
+            "CsAt20": 134.0,
+            "CsAt25": 174.0,
+            "GoldAt10": 2759.0,
+            "GoldAt15": 4571.0,
+            "GoldAt20": 6513.0,
+            "GoldAt25": 8576.0
+          },
+          "PerMin": {
+            "Cs": 6.35,
+            "Gold": 393.76,
+            "DmgDealt": 668.88,
+            "DmgTaken": 1259.84,
+            "DmgMitigated": 1450.1,
+            "DmgObjectives": 497.99,
+            "VisionScore": 1.04,
+            "CcScore": 0.73
+          },
+          "Vision": {
+            "AvgVisionScore": 40.0,
+            "AvgWardsPlaced": 15.0,
+            "AvgWardsKilled": 8.0,
+            "AvgControlWardsBought": 2.0
+          },
+          "Champions": [
+            {
+              "Champion": "Aatrox",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5339633134",
+              "GameDate": "2025-08-05",
+              "Patch": "15.15",
+              "GameDuration": 2305,
+              "TeamId": 100,
+              "Champion": "Aatrox",
+              "Win": true,
+              "Kills": 7,
+              "Deaths": 3,
+              "Assists": 10,
+              "Kda": 5.67,
+              "Cs": 244,
+              "Csm": 6.35,
+              "Gold": 15127,
+              "Goldm": 393.76,
+              "DmgDealt": 25696,
+              "DmgTaken": 48399,
+              "DmgMitigated": 55708,
+              "DmgObjectives": 19131,
+              "VisionScore": 40,
+              "WardsPlaced": 15,
+              "WardsKilled": 8,
+              "ControlWards": 2,
+              "CcScore": 28.0,
+              "KillParticipation": 54.8,
+              "Timeline": {
+                "CsAt10": 56,
+                "CsAt15": 101,
+                "CsAt20": 134,
+                "CsAt25": 174,
+                "GoldAt10": 2759,
+                "GoldAt15": 4571,
+                "GoldAt20": 6513,
+                "GoldAt25": 8576
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5339633134",
+              "Opponent": "DrCalculus#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

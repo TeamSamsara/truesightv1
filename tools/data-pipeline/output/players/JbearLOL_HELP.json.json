@@ -1,0 +1,174 @@
+{
+  "RiotId": "JbearLOL#HELP",
+  "GameName": "JbearLOL",
+  "Tag": "HELP",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_SUMMER_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Summer",
+          "Label": "ACL Summer 2025",
+          "TeamName": "Travelers",
+          "Role": "TOP",
+          "Games": 2,
+          "Wins": 0,
+          "Losses": 2,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 3.5,
+            "Deaths": 4.5,
+            "Assists": 1.0,
+            "Kda": 1.0,
+            "Cs": 153.5,
+            "Gold": 8785.5,
+            "KillParticipation": 57.05,
+            "VisionScore": 13.0,
+            "CcScore": 13.5,
+            "DmgDealt": 15244.0,
+            "DmgTaken": 22419.0,
+            "DmgMitigated": 19418.5,
+            "DmgObjectives": 2413.0,
+            "CsAt10": 54.0,
+            "CsAt15": 98.0,
+            "CsAt20": 137.5,
+            "CsAt25": 0.0,
+            "GoldAt10": 2943.5,
+            "GoldAt15": 5290.0,
+            "GoldAt20": 7626.0,
+            "GoldAt25": 0.0
+          },
+          "PerMin": {
+            "Cs": 6.75,
+            "Gold": 386.58,
+            "DmgDealt": 671.29,
+            "DmgTaken": 989.08,
+            "DmgMitigated": 859.23,
+            "DmgObjectives": 104.85,
+            "VisionScore": 0.57,
+            "CcScore": 0.59
+          },
+          "Vision": {
+            "AvgVisionScore": 13.0,
+            "AvgWardsPlaced": 8.5,
+            "AvgWardsKilled": 1.0,
+            "AvgControlWardsBought": 1.0
+          },
+          "Champions": [
+            {
+              "Champion": "Sett",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Mordekaiser",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5334153610",
+              "GameDate": "2025-07-29",
+              "Patch": "15.14",
+              "GameDuration": 1386,
+              "TeamId": 100,
+              "Champion": "Sett",
+              "Win": false,
+              "Kills": 4,
+              "Deaths": 5,
+              "Assists": 1,
+              "Kda": 1.0,
+              "Cs": 174,
+              "Csm": 7.53,
+              "Gold": 9521,
+              "Goldm": 412.16,
+              "DmgDealt": 15833,
+              "DmgTaken": 20930,
+              "DmgMitigated": 14883,
+              "DmgObjectives": 4319,
+              "VisionScore": 14,
+              "WardsPlaced": 8,
+              "WardsKilled": 2,
+              "ControlWards": 1,
+              "CcScore": 21.0,
+              "KillParticipation": 83.3,
+              "Timeline": {
+                "CsAt10": 54,
+                "CsAt15": 105,
+                "CsAt20": 147,
+                "CsAt25": 0,
+                "GoldAt10": 3057,
+                "GoldAt15": 5572,
+                "GoldAt20": 8101,
+                "GoldAt25": 0
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5334195792",
+              "GameDate": "2025-07-29",
+              "Patch": "15.14",
+              "GameDuration": 1338,
+              "TeamId": 200,
+              "Champion": "Mordekaiser",
+              "Win": false,
+              "Kills": 3,
+              "Deaths": 4,
+              "Assists": 1,
+              "Kda": 1.0,
+              "Cs": 133,
+              "Csm": 5.96,
+              "Gold": 8050,
+              "Goldm": 360.99,
+              "DmgDealt": 14655,
+              "DmgTaken": 23908,
+              "DmgMitigated": 23954,
+              "DmgObjectives": 507,
+              "VisionScore": 12,
+              "WardsPlaced": 9,
+              "WardsKilled": 0,
+              "ControlWards": 1,
+              "CcScore": 6.0,
+              "KillParticipation": 30.8,
+              "Timeline": {
+                "CsAt10": 54,
+                "CsAt15": 91,
+                "CsAt20": 128,
+                "CsAt25": 0,
+                "GoldAt10": 2830,
+                "GoldAt15": 5008,
+                "GoldAt20": 7151,
+                "GoldAt25": 0
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5334153610",
+              "Opponent": "Decoy#Kat",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5334195792",
+              "Opponent": "Decoy#Kat",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

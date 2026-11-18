@@ -1,0 +1,272 @@
+{
+  "RiotId": "一方通行#1031",
+  "GameName": "一方通行",
+  "Tag": "1031",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_FALL_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "ACL Fall 2025",
+          "TeamName": "Apex Mission Impossible",
+          "Role": "TOP",
+          "Games": 4,
+          "Wins": 0,
+          "Losses": 4,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 3.25,
+            "Deaths": 5.5,
+            "Assists": 4.5,
+            "Kda": 1.41,
+            "Cs": 210.0,
+            "Gold": 10911.75,
+            "KillParticipation": 46.25,
+            "VisionScore": 24.25,
+            "CcScore": 29.75,
+            "DmgDealt": 20931.5,
+            "DmgTaken": 32264.5,
+            "DmgMitigated": 53714.5,
+            "DmgObjectives": 2087.5,
+            "CsAt10": 74.0,
+            "CsAt15": 115.25,
+            "CsAt20": 155.25,
+            "CsAt25": 183.0,
+            "GoldAt10": 3231.0,
+            "GoldAt15": 4960.25,
+            "GoldAt20": 7182.75,
+            "GoldAt25": 8916.5
+          },
+          "PerMin": {
+            "Cs": 6.68,
+            "Gold": 343.57,
+            "DmgDealt": 646.6,
+            "DmgTaken": 1014.57,
+            "DmgMitigated": 1571.32,
+            "DmgObjectives": 61.2,
+            "VisionScore": 0.77,
+            "CcScore": 0.9
+          },
+          "Vision": {
+            "AvgVisionScore": 24.25,
+            "AvgWardsPlaced": 7.5,
+            "AvgWardsKilled": 4.75,
+            "AvgControlWardsBought": 1.25
+          },
+          "Champions": [
+            {
+              "Champion": "KSante",
+              "Games": 2,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Jayce",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Ambessa",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5408627002",
+              "GameDate": "2025-11-08",
+              "Patch": "15.22",
+              "GameDuration": 1658,
+              "TeamId": 100,
+              "Champion": "KSante",
+              "Win": false,
+              "Kills": 1,
+              "Deaths": 5,
+              "Assists": 1,
+              "Kda": 0.4,
+              "Cs": 221,
+              "Csm": 8.0,
+              "Gold": 9393,
+              "Goldm": 339.92,
+              "DmgDealt": 13683,
+              "DmgTaken": 27670,
+              "DmgMitigated": 35919,
+              "DmgObjectives": 2520,
+              "VisionScore": 15,
+              "WardsPlaced": 6,
+              "WardsKilled": 3,
+              "ControlWards": 2,
+              "CcScore": 30.0,
+              "KillParticipation": 22.2,
+              "Timeline": {
+                "CsAt10": 74,
+                "CsAt15": 127,
+                "CsAt20": 170,
+                "CsAt25": 203,
+                "GoldAt10": 3040,
+                "GoldAt15": 5088,
+                "GoldAt20": 6741,
+                "GoldAt25": 8425
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5408662616",
+              "GameDate": "2025-11-08",
+              "Patch": "15.22",
+              "GameDuration": 1761,
+              "TeamId": 100,
+              "Champion": "Jayce",
+              "Win": false,
+              "Kills": 7,
+              "Deaths": 10,
+              "Assists": 4,
+              "Kda": 1.1,
+              "Cs": 167,
+              "Csm": 5.69,
+              "Gold": 10996,
+              "Goldm": 374.65,
+              "DmgDealt": 23601,
+              "DmgTaken": 32363,
+              "DmgMitigated": 26608,
+              "DmgObjectives": 593,
+              "VisionScore": 23,
+              "WardsPlaced": 10,
+              "WardsKilled": 6,
+              "ControlWards": 1,
+              "CcScore": 20.0,
+              "KillParticipation": 61.1,
+              "Timeline": {
+                "CsAt10": 64,
+                "CsAt15": 91,
+                "CsAt20": 118,
+                "CsAt25": 144,
+                "GoldAt10": 3099,
+                "GoldAt15": 4490,
+                "GoldAt20": 8104,
+                "GoldAt25": 9365
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5415759852",
+              "GameDate": "2025-11-18",
+              "Patch": "15.22",
+              "GameDuration": 1835,
+              "TeamId": 100,
+              "Champion": "Ambessa",
+              "Win": false,
+              "Kills": 1,
+              "Deaths": 5,
+              "Assists": 4,
+              "Kda": 1.0,
+              "Cs": 223,
+              "Csm": 7.29,
+              "Gold": 9968,
+              "Goldm": 325.93,
+              "DmgDealt": 15923,
+              "DmgTaken": 29111,
+              "DmgMitigated": 33372,
+              "DmgObjectives": 247,
+              "VisionScore": 34,
+              "WardsPlaced": 8,
+              "WardsKilled": 4,
+              "ControlWards": 0,
+              "CcScore": 12.0,
+              "KillParticipation": 33.3,
+              "Timeline": {
+                "CsAt10": 76,
+                "CsAt15": 113,
+                "CsAt20": 150,
+                "CsAt25": 189,
+                "GoldAt10": 3093,
+                "GoldAt15": 4543,
+                "GoldAt20": 6164,
+                "GoldAt25": 8164
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5415810009",
+              "GameDate": "2025-11-18",
+              "Patch": "15.22",
+              "GameDuration": 2389,
+              "TeamId": 100,
+              "Champion": "KSante",
+              "Win": false,
+              "Kills": 4,
+              "Deaths": 2,
+              "Assists": 9,
+              "Kda": 6.5,
+              "Cs": 229,
+              "Csm": 5.75,
+              "Gold": 13290,
+              "Goldm": 333.78,
+              "DmgDealt": 30519,
+              "DmgTaken": 39914,
+              "DmgMitigated": 118959,
+              "DmgObjectives": 4990,
+              "VisionScore": 25,
+              "WardsPlaced": 6,
+              "WardsKilled": 6,
+              "ControlWards": 2,
+              "CcScore": 57.0,
+              "KillParticipation": 68.4,
+              "Timeline": {
+                "CsAt10": 82,
+                "CsAt15": 130,
+                "CsAt20": 183,
+                "CsAt25": 196,
+                "GoldAt10": 3692,
+                "GoldAt15": 5720,
+                "GoldAt20": 7722,
+                "GoldAt25": 9712
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5408627002",
+              "Opponent": "Ariana#2367",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5408662616",
+              "Opponent": "Ariana#2367",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5415759852",
+              "Opponent": "BoilTheOil#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5415810009",
+              "Opponent": "BoilTheOil#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

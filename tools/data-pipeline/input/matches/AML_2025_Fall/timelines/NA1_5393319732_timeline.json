@@ -1,0 +1,2283 @@
+{
+  "MatchId": "NA1_5393319732",
+  "Info": {
+    "FrameInterval": 60000,
+    "Frames": [
+      {
+        "Timestamp": 0,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 500,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 500,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 0
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 500,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 500,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 500,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 500,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 0
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 500,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 0
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 500,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 500,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 500,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 60005,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 500,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 500,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 0
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 500,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 515,
+            "MinionsKilled": 1,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 500,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 500,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 0
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 500,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 0
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 500,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 500,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 500,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 120021,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 562,
+            "MinionsKilled": 1,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 631,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 4
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 646,
+            "MinionsKilled": 6,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 619,
+            "MinionsKilled": 4,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 569,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 646,
+            "MinionsKilled": 6,
+            "JungleMinionsKilled": 0
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 641,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 4
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 646,
+            "MinionsKilled": 6,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 642,
+            "MinionsKilled": 6,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 574,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 180025,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 853,
+            "MinionsKilled": 10,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 1123,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 20
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 923,
+            "MinionsKilled": 14,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 952,
+            "MinionsKilled": 16,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 740,
+            "MinionsKilled": 2,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 930,
+            "MinionsKilled": 15,
+            "JungleMinionsKilled": 0
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 1133,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 20
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 902,
+            "MinionsKilled": 14,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 975,
+            "MinionsKilled": 18,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 759,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 240049,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 1192,
+            "MinionsKilled": 20,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 1416,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 28
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 1227,
+            "MinionsKilled": 25,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 1333,
+            "MinionsKilled": 28,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 947,
+            "MinionsKilled": 5,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 1276,
+            "MinionsKilled": 25,
+            "JungleMinionsKilled": 0
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 1350,
+            "MinionsKilled": 1,
+            "JungleMinionsKilled": 24
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 1248,
+            "MinionsKilled": 24,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 1342,
+            "MinionsKilled": 29,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 973,
+            "MinionsKilled": 2,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 300151,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 1411,
+            "MinionsKilled": 25,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 1667,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 32
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 1619,
+            "MinionsKilled": 38,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 1711,
+            "MinionsKilled": 40,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 1140,
+            "MinionsKilled": 7,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 1574,
+            "MinionsKilled": 35,
+            "JungleMinionsKilled": 0
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 1663,
+            "MinionsKilled": 2,
+            "JungleMinionsKilled": 32
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 1497,
+            "MinionsKilled": 31,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 1584,
+            "MinionsKilled": 35,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 1173,
+            "MinionsKilled": 3,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 360162,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 1708,
+            "MinionsKilled": 35,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 1789,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 32
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 1825,
+            "MinionsKilled": 43,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 1952,
+            "MinionsKilled": 47,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 1344,
+            "MinionsKilled": 8,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 1972,
+            "MinionsKilled": 48,
+            "JungleMinionsKilled": 0
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 2055,
+            "MinionsKilled": 2,
+            "JungleMinionsKilled": 36
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 2125,
+            "MinionsKilled": 41,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 1940,
+            "MinionsKilled": 46,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 1358,
+            "MinionsKilled": 6,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 420188,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 1969,
+            "MinionsKilled": 40,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 2217,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 48
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 2156,
+            "MinionsKilled": 52,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 2164,
+            "MinionsKilled": 49,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 1506,
+            "MinionsKilled": 8,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 2240,
+            "MinionsKilled": 53,
+            "JungleMinionsKilled": 0
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 2263,
+            "MinionsKilled": 2,
+            "JungleMinionsKilled": 40
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 2463,
+            "MinionsKilled": 50,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 2285,
+            "MinionsKilled": 56,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 1550,
+            "MinionsKilled": 8,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 480213,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 2218,
+            "MinionsKilled": 47,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 2339,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 48
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 2426,
+            "MinionsKilled": 61,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 2443,
+            "MinionsKilled": 55,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 1702,
+            "MinionsKilled": 10,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 2540,
+            "MinionsKilled": 60,
+            "JungleMinionsKilled": 0
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 2619,
+            "MinionsKilled": 3,
+            "JungleMinionsKilled": 48
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 2782,
+            "MinionsKilled": 61,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 2676,
+            "MinionsKilled": 69,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 1753,
+            "MinionsKilled": 10,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 540229,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 2555,
+            "MinionsKilled": 56,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 2644,
+            "MinionsKilled": 0,
+            "JungleMinionsKilled": 54
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 2665,
+            "MinionsKilled": 64,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 2738,
+            "MinionsKilled": 61,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 2256,
+            "MinionsKilled": 12,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 3087,
+            "MinionsKilled": 70,
+            "JungleMinionsKilled": 0
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 2742,
+            "MinionsKilled": 3,
+            "JungleMinionsKilled": 48
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 3072,
+            "MinionsKilled": 71,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 2973,
+            "MinionsKilled": 79,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 1969,
+            "MinionsKilled": 12,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 600244,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 2782,
+            "MinionsKilled": 62,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 3096,
+            "MinionsKilled": 2,
+            "JungleMinionsKilled": 64
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 2899,
+            "MinionsKilled": 71,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 2979,
+            "MinionsKilled": 68,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 2473,
+            "MinionsKilled": 15,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 3640,
+            "MinionsKilled": 77,
+            "JungleMinionsKilled": 0
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 3128,
+            "MinionsKilled": 3,
+            "JungleMinionsKilled": 56
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 3300,
+            "MinionsKilled": 77,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 3276,
+            "MinionsKilled": 86,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 2142,
+            "MinionsKilled": 13,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 660251,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 3118,
+            "MinionsKilled": 66,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 3368,
+            "MinionsKilled": 2,
+            "JungleMinionsKilled": 70
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 3288,
+            "MinionsKilled": 83,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 3335,
+            "MinionsKilled": 76,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 2734,
+            "MinionsKilled": 16,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 3951,
+            "MinionsKilled": 88,
+            "JungleMinionsKilled": 0
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 3511,
+            "MinionsKilled": 3,
+            "JungleMinionsKilled": 68
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 3612,
+            "MinionsKilled": 85,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 3668,
+            "MinionsKilled": 99,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 2451,
+            "MinionsKilled": 16,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 720280,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 3536,
+            "MinionsKilled": 80,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 4075,
+            "MinionsKilled": 3,
+            "JungleMinionsKilled": 74
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 4283,
+            "MinionsKilled": 94,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 3677,
+            "MinionsKilled": 89,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 2946,
+            "MinionsKilled": 19,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 4255,
+            "MinionsKilled": 98,
+            "JungleMinionsKilled": 0
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 3739,
+            "MinionsKilled": 3,
+            "JungleMinionsKilled": 72
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 4103,
+            "MinionsKilled": 86,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 3979,
+            "MinionsKilled": 110,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 2644,
+            "MinionsKilled": 18,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 780301,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 3949,
+            "MinionsKilled": 87,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 4736,
+            "MinionsKilled": 4,
+            "JungleMinionsKilled": 82
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 4557,
+            "MinionsKilled": 100,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 3862,
+            "MinionsKilled": 93,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 3122,
+            "MinionsKilled": 19,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 4614,
+            "MinionsKilled": 105,
+            "JungleMinionsKilled": 0
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 4254,
+            "MinionsKilled": 3,
+            "JungleMinionsKilled": 83
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 4523,
+            "MinionsKilled": 93,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 4837,
+            "MinionsKilled": 120,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 3237,
+            "MinionsKilled": 18,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 840314,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 4107,
+            "MinionsKilled": 89,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 5366,
+            "MinionsKilled": 5,
+            "JungleMinionsKilled": 86
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 5073,
+            "MinionsKilled": 110,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 4174,
+            "MinionsKilled": 101,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 3338,
+            "MinionsKilled": 20,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 4925,
+            "MinionsKilled": 112,
+            "JungleMinionsKilled": 0
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 4540,
+            "MinionsKilled": 7,
+            "JungleMinionsKilled": 87
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 4646,
+            "MinionsKilled": 93,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 5170,
+            "MinionsKilled": 128,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 3419,
+            "MinionsKilled": 19,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 900317,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 4516,
+            "MinionsKilled": 101,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 5556,
+            "MinionsKilled": 5,
+            "JungleMinionsKilled": 90
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 5385,
+            "MinionsKilled": 121,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 4473,
+            "MinionsKilled": 111,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 3525,
+            "MinionsKilled": 20,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 5254,
+            "MinionsKilled": 122,
+            "JungleMinionsKilled": 0
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 4773,
+            "MinionsKilled": 7,
+            "JungleMinionsKilled": 91
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 4936,
+            "MinionsKilled": 103,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 5444,
+            "MinionsKilled": 137,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 3621,
+            "MinionsKilled": 21,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 960344,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 4713,
+            "MinionsKilled": 105,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 6083,
+            "MinionsKilled": 11,
+            "JungleMinionsKilled": 97
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 5570,
+            "MinionsKilled": 125,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 4721,
+            "MinionsKilled": 118,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 3738,
+            "MinionsKilled": 21,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 5556,
+            "MinionsKilled": 128,
+            "JungleMinionsKilled": 0
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 4941,
+            "MinionsKilled": 8,
+            "JungleMinionsKilled": 92
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 5242,
+            "MinionsKilled": 114,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 5742,
+            "MinionsKilled": 147,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 3782,
+            "MinionsKilled": 21,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 1020371,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 4856,
+            "MinionsKilled": 105,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 6347,
+            "MinionsKilled": 12,
+            "JungleMinionsKilled": 101
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 5712,
+            "MinionsKilled": 125,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 5084,
+            "MinionsKilled": 127,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 3915,
+            "MinionsKilled": 21,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 5811,
+            "MinionsKilled": 136,
+            "JungleMinionsKilled": 0
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 5183,
+            "MinionsKilled": 8,
+            "JungleMinionsKilled": 96
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 5406,
+            "MinionsKilled": 117,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 6287,
+            "MinionsKilled": 163,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 3934,
+            "MinionsKilled": 21,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 1080398,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 5127,
+            "MinionsKilled": 112,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 6598,
+            "MinionsKilled": 12,
+            "JungleMinionsKilled": 105
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 5930,
+            "MinionsKilled": 129,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 5581,
+            "MinionsKilled": 127,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 4126,
+            "MinionsKilled": 21,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 5984,
+            "MinionsKilled": 136,
+            "JungleMinionsKilled": 0
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 5406,
+            "MinionsKilled": 12,
+            "JungleMinionsKilled": 96
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 6044,
+            "MinionsKilled": 126,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 6578,
+            "MinionsKilled": 170,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 4137,
+            "MinionsKilled": 21,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 1140418,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 5500,
+            "MinionsKilled": 122,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 7066,
+            "MinionsKilled": 12,
+            "JungleMinionsKilled": 120
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 6304,
+            "MinionsKilled": 139,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 5802,
+            "MinionsKilled": 133,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 4313,
+            "MinionsKilled": 23,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 6211,
+            "MinionsKilled": 142,
+            "JungleMinionsKilled": 0
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 5818,
+            "MinionsKilled": 13,
+            "JungleMinionsKilled": 108
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 6383,
+            "MinionsKilled": 135,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 6924,
+            "MinionsKilled": 179,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 4289,
+            "MinionsKilled": 21,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 1200440,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 5883,
+            "MinionsKilled": 127,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 7696,
+            "MinionsKilled": 12,
+            "JungleMinionsKilled": 124
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 6888,
+            "MinionsKilled": 156,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 6460,
+            "MinionsKilled": 142,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 4559,
+            "MinionsKilled": 23,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 6459,
+            "MinionsKilled": 145,
+            "JungleMinionsKilled": 0
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 6239,
+            "MinionsKilled": 14,
+            "JungleMinionsKilled": 116
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 7449,
+            "MinionsKilled": 142,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 7433,
+            "MinionsKilled": 190,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 4560,
+            "MinionsKilled": 21,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 1260451,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 6399,
+            "MinionsKilled": 131,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 8024,
+            "MinionsKilled": 14,
+            "JungleMinionsKilled": 128
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 7107,
+            "MinionsKilled": 158,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 6666,
+            "MinionsKilled": 147,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 4767,
+            "MinionsKilled": 23,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 6635,
+            "MinionsKilled": 145,
+            "JungleMinionsKilled": 0
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 6417,
+            "MinionsKilled": 14,
+            "JungleMinionsKilled": 116
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 7837,
+            "MinionsKilled": 143,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 7856,
+            "MinionsKilled": 198,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 4763,
+            "MinionsKilled": 21,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 1320463,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 6765,
+            "MinionsKilled": 139,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 8378,
+            "MinionsKilled": 14,
+            "JungleMinionsKilled": 136
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 7425,
+            "MinionsKilled": 167,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 7027,
+            "MinionsKilled": 155,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 5242,
+            "MinionsKilled": 24,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 6897,
+            "MinionsKilled": 153,
+            "JungleMinionsKilled": 0
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 6797,
+            "MinionsKilled": 16,
+            "JungleMinionsKilled": 120
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 8079,
+            "MinionsKilled": 150,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 8686,
+            "MinionsKilled": 209,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 5035,
+            "MinionsKilled": 22,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 1380484,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 7306,
+            "MinionsKilled": 146,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 8581,
+            "MinionsKilled": 15,
+            "JungleMinionsKilled": 136
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 7597,
+            "MinionsKilled": 167,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 7305,
+            "MinionsKilled": 161,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 5444,
+            "MinionsKilled": 24,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 7181,
+            "MinionsKilled": 156,
+            "JungleMinionsKilled": 0
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 7087,
+            "MinionsKilled": 16,
+            "JungleMinionsKilled": 120
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 8687,
+            "MinionsKilled": 155,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 9936,
+            "MinionsKilled": 217,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 5355,
+            "MinionsKilled": 22,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 1440496,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 7582,
+            "MinionsKilled": 155,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 8935,
+            "MinionsKilled": 16,
+            "JungleMinionsKilled": 143
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 7783,
+            "MinionsKilled": 171,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 7472,
+            "MinionsKilled": 162,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 5639,
+            "MinionsKilled": 26,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 7973,
+            "MinionsKilled": 157,
+            "JungleMinionsKilled": 0
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 7511,
+            "MinionsKilled": 17,
+            "JungleMinionsKilled": 128
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 9266,
+            "MinionsKilled": 158,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 10441,
+            "MinionsKilled": 219,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 5658,
+            "MinionsKilled": 24,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 1500527,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 7899,
+            "MinionsKilled": 159,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 9949,
+            "MinionsKilled": 17,
+            "JungleMinionsKilled": 147
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 8142,
+            "MinionsKilled": 176,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 7803,
+            "MinionsKilled": 166,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 5930,
+            "MinionsKilled": 26,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 8218,
+            "MinionsKilled": 162,
+            "JungleMinionsKilled": 0
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 7919,
+            "MinionsKilled": 18,
+            "JungleMinionsKilled": 140
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 9440,
+            "MinionsKilled": 158,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 10636,
+            "MinionsKilled": 220,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 5861,
+            "MinionsKilled": 24,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 1560537,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 8043,
+            "MinionsKilled": 160,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 10156,
+            "MinionsKilled": 17,
+            "JungleMinionsKilled": 151
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 8410,
+            "MinionsKilled": 181,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 8260,
+            "MinionsKilled": 176,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 6117,
+            "MinionsKilled": 26,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 8640,
+            "MinionsKilled": 162,
+            "JungleMinionsKilled": 0
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 8476,
+            "MinionsKilled": 18,
+            "JungleMinionsKilled": 148
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 10196,
+            "MinionsKilled": 170,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 11478,
+            "MinionsKilled": 235,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 6379,
+            "MinionsKilled": 25,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 1620547,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 8450,
+            "MinionsKilled": 169,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 10567,
+            "MinionsKilled": 17,
+            "JungleMinionsKilled": 163
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 8706,
+            "MinionsKilled": 187,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 8716,
+            "MinionsKilled": 187,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 6275,
+            "MinionsKilled": 26,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 9090,
+            "MinionsKilled": 173,
+            "JungleMinionsKilled": 0
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 8772,
+            "MinionsKilled": 19,
+            "JungleMinionsKilled": 152
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 10578,
+            "MinionsKilled": 181,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 12194,
+            "MinionsKilled": 256,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 6571,
+            "MinionsKilled": 27,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 1680572,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 8994,
+            "MinionsKilled": 181,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 11090,
+            "MinionsKilled": 17,
+            "JungleMinionsKilled": 163
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 9154,
+            "MinionsKilled": 196,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 8859,
+            "MinionsKilled": 188,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 6427,
+            "MinionsKilled": 26,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 9287,
+            "MinionsKilled": 173,
+            "JungleMinionsKilled": 0
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 9935,
+            "MinionsKilled": 24,
+            "JungleMinionsKilled": 152
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 11285,
+            "MinionsKilled": 183,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 13372,
+            "MinionsKilled": 263,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 7229,
+            "MinionsKilled": 28,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 1740579,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 9291,
+            "MinionsKilled": 188,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 11682,
+            "MinionsKilled": 24,
+            "JungleMinionsKilled": 175
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 9276,
+            "MinionsKilled": 196,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 9414,
+            "MinionsKilled": 205,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 6665,
+            "MinionsKilled": 29,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 9742,
+            "MinionsKilled": 181,
+            "JungleMinionsKilled": 6
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 10242,
+            "MinionsKilled": 24,
+            "JungleMinionsKilled": 160
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 11691,
+            "MinionsKilled": 192,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 13668,
+            "MinionsKilled": 269,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 7416,
+            "MinionsKilled": 29,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 1800599,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 9518,
+            "MinionsKilled": 195,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 11957,
+            "MinionsKilled": 28,
+            "JungleMinionsKilled": 175
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 9718,
+            "MinionsKilled": 206,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 9898,
+            "MinionsKilled": 216,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 6817,
+            "MinionsKilled": 29,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 10268,
+            "MinionsKilled": 194,
+            "JungleMinionsKilled": 6
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 10509,
+            "MinionsKilled": 24,
+            "JungleMinionsKilled": 164
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 12371,
+            "MinionsKilled": 199,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 14523,
+            "MinionsKilled": 282,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 7593,
+            "MinionsKilled": 29,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 1860613,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 9727,
+            "MinionsKilled": 198,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 13354,
+            "MinionsKilled": 29,
+            "JungleMinionsKilled": 175
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 10363,
+            "MinionsKilled": 221,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 10492,
+            "MinionsKilled": 217,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 7081,
+            "MinionsKilled": 29,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 10596,
+            "MinionsKilled": 197,
+            "JungleMinionsKilled": 6
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 11412,
+            "MinionsKilled": 28,
+            "JungleMinionsKilled": 164
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 12681,
+            "MinionsKilled": 200,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 15733,
+            "MinionsKilled": 284,
+            "JungleMinionsKilled": 0
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 8007,
+            "MinionsKilled": 29,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 1920643,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 9996,
+            "MinionsKilled": 201,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 13627,
+            "MinionsKilled": 30,
+            "JungleMinionsKilled": 178
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 10834,
+            "MinionsKilled": 233,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 10962,
+            "MinionsKilled": 229,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 7284,
+            "MinionsKilled": 31,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 11119,
+            "MinionsKilled": 197,
+            "JungleMinionsKilled": 14
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 11939,
+            "MinionsKilled": 28,
+            "JungleMinionsKilled": 168
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 13458,
+            "MinionsKilled": 212,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 16245,
+            "MinionsKilled": 284,
+            "JungleMinionsKilled": 4
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 8495,
+            "MinionsKilled": 30,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 1980648,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 10209,
+            "MinionsKilled": 206,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 13883,
+            "MinionsKilled": 30,
+            "JungleMinionsKilled": 182
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 11095,
+            "MinionsKilled": 237,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 11162,
+            "MinionsKilled": 234,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 7532,
+            "MinionsKilled": 32,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 12209,
+            "MinionsKilled": 198,
+            "JungleMinionsKilled": 14
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 12534,
+            "MinionsKilled": 35,
+            "JungleMinionsKilled": 168
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 13973,
+            "MinionsKilled": 215,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 17567,
+            "MinionsKilled": 293,
+            "JungleMinionsKilled": 4
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 8857,
+            "MinionsKilled": 30,
+            "JungleMinionsKilled": 0
+          }
+        }
+      },
+      {
+        "Timestamp": 1991069,
+        "ParticipantFrames": {
+          "1": {
+            "ParticipantId": 1,
+            "TotalGold": 10229,
+            "MinionsKilled": 206,
+            "JungleMinionsKilled": 0
+          },
+          "2": {
+            "ParticipantId": 2,
+            "TotalGold": 13904,
+            "MinionsKilled": 30,
+            "JungleMinionsKilled": 182
+          },
+          "3": {
+            "ParticipantId": 3,
+            "TotalGold": 11115,
+            "MinionsKilled": 237,
+            "JungleMinionsKilled": 0
+          },
+          "4": {
+            "ParticipantId": 4,
+            "TotalGold": 11182,
+            "MinionsKilled": 234,
+            "JungleMinionsKilled": 0
+          },
+          "5": {
+            "ParticipantId": 5,
+            "TotalGold": 7557,
+            "MinionsKilled": 32,
+            "JungleMinionsKilled": 0
+          },
+          "6": {
+            "ParticipantId": 6,
+            "TotalGold": 12330,
+            "MinionsKilled": 198,
+            "JungleMinionsKilled": 14
+          },
+          "7": {
+            "ParticipantId": 7,
+            "TotalGold": 12655,
+            "MinionsKilled": 35,
+            "JungleMinionsKilled": 168
+          },
+          "8": {
+            "ParticipantId": 8,
+            "TotalGold": 14183,
+            "MinionsKilled": 216,
+            "JungleMinionsKilled": 0
+          },
+          "9": {
+            "ParticipantId": 9,
+            "TotalGold": 17687,
+            "MinionsKilled": 293,
+            "JungleMinionsKilled": 4
+          },
+          "10": {
+            "ParticipantId": 10,
+            "TotalGold": 8982,
+            "MinionsKilled": 30,
+            "JungleMinionsKilled": 0
+          }
+        }
+      }
+    ]
+  }
+}

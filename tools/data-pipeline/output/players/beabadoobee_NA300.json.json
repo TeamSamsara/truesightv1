@@ -1,0 +1,122 @@
+{
+  "RiotId": "beabadoobee#NA300",
+  "GameName": "beabadoobee",
+  "Tag": "NA300",
+  "Seasons": {
+    "AVL_2025": {
+      "League": "AVL",
+      "Season": "2025",
+      "Splits": {
+        "AVL_FALL_2025": {
+          "League": "AVL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AVL Fall 2025",
+          "TeamName": "San Diego Tritons",
+          "Role": "UTILITY",
+          "Games": 1,
+          "Wins": 0,
+          "Losses": 1,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 0.0,
+            "Deaths": 5.0,
+            "Assists": 7.0,
+            "Kda": 1.4,
+            "Cs": 40.0,
+            "Gold": 7232.0,
+            "KillParticipation": 50.0,
+            "VisionScore": 108.0,
+            "CcScore": 11.0,
+            "DmgDealt": 4355.0,
+            "DmgTaken": 24939.0,
+            "DmgMitigated": 34095.0,
+            "DmgObjectives": 3025.0,
+            "CsAt10": 19.0,
+            "CsAt15": 25.0,
+            "CsAt20": 33.0,
+            "CsAt25": 37.0,
+            "GoldAt10": 2157.0,
+            "GoldAt15": 3132.0,
+            "GoldAt20": 4285.0,
+            "GoldAt25": 5314.0
+          },
+          "PerMin": {
+            "Cs": 1.22,
+            "Gold": 220.94,
+            "DmgDealt": 133.04,
+            "DmgTaken": 761.88,
+            "DmgMitigated": 1041.6,
+            "DmgObjectives": 92.41,
+            "VisionScore": 3.3,
+            "CcScore": 0.34
+          },
+          "Vision": {
+            "AvgVisionScore": 108.0,
+            "AvgWardsPlaced": 50.0,
+            "AvgWardsKilled": 13.0,
+            "AvgControlWardsBought": 8.0
+          },
+          "Champions": [
+            {
+              "Champion": "Rell",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5456597524",
+              "GameDate": "2026-01-06",
+              "Patch": "15.24",
+              "GameDuration": 1964,
+              "TeamId": 100,
+              "Champion": "Rell",
+              "Win": false,
+              "Kills": 0,
+              "Deaths": 5,
+              "Assists": 7,
+              "Kda": 1.4,
+              "Cs": 40,
+              "Csm": 1.22,
+              "Gold": 7232,
+              "Goldm": 220.94,
+              "DmgDealt": 4355,
+              "DmgTaken": 24939,
+              "DmgMitigated": 34095,
+              "DmgObjectives": 3025,
+              "VisionScore": 108,
+              "WardsPlaced": 50,
+              "WardsKilled": 13,
+              "ControlWards": 8,
+              "CcScore": 11.0,
+              "KillParticipation": 50.0,
+              "Timeline": {
+                "CsAt10": 19,
+                "CsAt15": 25,
+                "CsAt20": 33,
+                "CsAt25": 37,
+                "GoldAt10": 2157,
+                "GoldAt15": 3132,
+                "GoldAt20": 4285,
+                "GoldAt25": 5314
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5456597524",
+              "Opponent": "Spy#Apex",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

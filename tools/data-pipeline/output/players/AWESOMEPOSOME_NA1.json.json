@@ -1,0 +1,226 @@
+{
+  "RiotId": "AWESOMEPOSOME#NA1",
+  "GameName": "AWESOMEPOSOME",
+  "Tag": "NA1",
+  "Seasons": {
+    "AVL_2025": {
+      "League": "AVL",
+      "Season": "2025",
+      "Splits": {
+        "AVL_FALL_2025": {
+          "League": "AVL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AVL Fall 2025",
+          "TeamName": "Legacy Amber",
+          "Role": "JUNGLE",
+          "Games": 3,
+          "Wins": 1,
+          "Losses": 2,
+          "WinRate": 33.3,
+          "PerGame": {
+            "Kills": 3.33,
+            "Deaths": 4.67,
+            "Assists": 5.0,
+            "Kda": 1.78,
+            "Cs": 149.0,
+            "Gold": 9946.33,
+            "KillParticipation": 37.73,
+            "VisionScore": 19.67,
+            "CcScore": 16.33,
+            "DmgDealt": 8935.67,
+            "DmgTaken": 29878.33,
+            "DmgMitigated": 31941.0,
+            "DmgObjectives": 21200.67,
+            "CsAt10": 61.67,
+            "CsAt15": 87.33,
+            "CsAt20": 110.0,
+            "CsAt25": 132.33,
+            "GoldAt10": 3398.67,
+            "GoldAt15": 4987.67,
+            "GoldAt20": 6613.0,
+            "GoldAt25": 8362.67
+          },
+          "PerMin": {
+            "Cs": 5.1,
+            "Gold": 338.55,
+            "DmgDealt": 305.52,
+            "DmgTaken": 1020.84,
+            "DmgMitigated": 1097.2,
+            "DmgObjectives": 706.83,
+            "VisionScore": 0.67,
+            "CcScore": 0.56
+          },
+          "Vision": {
+            "AvgVisionScore": 19.67,
+            "AvgWardsPlaced": 2.67,
+            "AvgWardsKilled": 4.67,
+            "AvgControlWardsBought": 1.33
+          },
+          "Champions": [
+            {
+              "Champion": "Amumu",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Kayn",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Rammus",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5438816128",
+              "GameDate": "2025-12-16",
+              "Patch": "15.24",
+              "GameDuration": 1685,
+              "TeamId": 200,
+              "Champion": "Amumu",
+              "Win": false,
+              "Kills": 0,
+              "Deaths": 8,
+              "Assists": 3,
+              "Kda": 0.38,
+              "Cs": 131,
+              "Csm": 4.66,
+              "Gold": 7557,
+              "Goldm": 269.09,
+              "DmgDealt": 9833,
+              "DmgTaken": 30803,
+              "DmgMitigated": 23318,
+              "DmgObjectives": 0,
+              "VisionScore": 14,
+              "WardsPlaced": 2,
+              "WardsKilled": 2,
+              "ControlWards": 0,
+              "CcScore": 15.0,
+              "KillParticipation": 30.0,
+              "Timeline": {
+                "CsAt10": 64,
+                "CsAt15": 78,
+                "CsAt20": 106,
+                "CsAt25": 118,
+                "GoldAt10": 3054,
+                "GoldAt15": 4248,
+                "GoldAt20": 5629,
+                "GoldAt25": 6695
+              }
+            },
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5438863809",
+              "GameDate": "2025-12-16",
+              "Patch": "15.24",
+              "GameDuration": 1834,
+              "TeamId": 100,
+              "Champion": "Kayn",
+              "Win": true,
+              "Kills": 7,
+              "Deaths": 4,
+              "Assists": 9,
+              "Kda": 4.0,
+              "Cs": 164,
+              "Csm": 5.37,
+              "Gold": 12859,
+              "Goldm": 420.69,
+              "DmgDealt": 11029,
+              "DmgTaken": 36889,
+              "DmgMitigated": 24694,
+              "DmgObjectives": 42322,
+              "VisionScore": 25,
+              "WardsPlaced": 4,
+              "WardsKilled": 7,
+              "ControlWards": 3,
+              "CcScore": 13.0,
+              "KillParticipation": 43.2,
+              "Timeline": {
+                "CsAt10": 59,
+                "CsAt15": 91,
+                "CsAt20": 114,
+                "CsAt25": 136,
+                "GoldAt10": 3701,
+                "GoldAt15": 5455,
+                "GoldAt20": 7696,
+                "GoldAt25": 9801
+              }
+            },
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5438915354",
+              "GameDate": "2025-12-16",
+              "Patch": "15.24",
+              "GameDuration": 1735,
+              "TeamId": 200,
+              "Champion": "Rammus",
+              "Win": false,
+              "Kills": 3,
+              "Deaths": 2,
+              "Assists": 3,
+              "Kda": 3.0,
+              "Cs": 152,
+              "Csm": 5.26,
+              "Gold": 9423,
+              "Goldm": 325.87,
+              "DmgDealt": 5945,
+              "DmgTaken": 21943,
+              "DmgMitigated": 47811,
+              "DmgObjectives": 21280,
+              "VisionScore": 20,
+              "WardsPlaced": 2,
+              "WardsKilled": 5,
+              "ControlWards": 1,
+              "CcScore": 21.0,
+              "KillParticipation": 40.0,
+              "Timeline": {
+                "CsAt10": 62,
+                "CsAt15": 93,
+                "CsAt20": 110,
+                "CsAt25": 143,
+                "GoldAt10": 3441,
+                "GoldAt15": 5260,
+                "GoldAt20": 6514,
+                "GoldAt25": 8592
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5438816128",
+              "Opponent": "kibble muncher#yum",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5438863809",
+              "Opponent": "kibble muncher#yum",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5438915354",
+              "Opponent": "kibble muncher#yum",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

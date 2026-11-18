@@ -1,0 +1,226 @@
+{
+  "RiotId": "zyra#ouo",
+  "GameName": "zyra",
+  "Tag": "ouo",
+  "Seasons": {
+    "AVL_2025": {
+      "League": "AVL",
+      "Season": "2025",
+      "Splits": {
+        "AVL_FALL_2025": {
+          "League": "AVL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AVL Fall 2025",
+          "TeamName": "West Side",
+          "Role": "UTILITY",
+          "Games": 3,
+          "Wins": 2,
+          "Losses": 1,
+          "WinRate": 66.7,
+          "PerGame": {
+            "Kills": 1.0,
+            "Deaths": 4.0,
+            "Assists": 17.0,
+            "Kda": 4.5,
+            "Cs": 33.67,
+            "Gold": 8355.0,
+            "KillParticipation": 77.7,
+            "VisionScore": 96.33,
+            "CcScore": 52.0,
+            "DmgDealt": 10957.33,
+            "DmgTaken": 14905.33,
+            "DmgMitigated": 7407.33,
+            "DmgObjectives": 2259.33,
+            "CsAt10": 16.33,
+            "CsAt15": 23.67,
+            "CsAt20": 27.0,
+            "CsAt25": 31.33,
+            "GoldAt10": 2404.67,
+            "GoldAt15": 3763.0,
+            "GoldAt20": 4975.0,
+            "GoldAt25": 6174.33
+          },
+          "PerMin": {
+            "Cs": 1.05,
+            "Gold": 259.8,
+            "DmgDealt": 346.18,
+            "DmgTaken": 453.62,
+            "DmgMitigated": 225.69,
+            "DmgObjectives": 69.76,
+            "VisionScore": 2.97,
+            "CcScore": 1.6
+          },
+          "Vision": {
+            "AvgVisionScore": 96.33,
+            "AvgWardsPlaced": 48.67,
+            "AvgWardsKilled": 8.0,
+            "AvgControlWardsBought": 6.33
+          },
+          "Champions": [
+            {
+              "Champion": "Lulu",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Seraphine",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Nami",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5420961927",
+              "GameDate": "2025-11-25",
+              "Patch": "15.23",
+              "GameDuration": 2127,
+              "TeamId": 200,
+              "Champion": "Lulu",
+              "Win": false,
+              "Kills": 0,
+              "Deaths": 6,
+              "Assists": 11,
+              "Kda": 1.83,
+              "Cs": 33,
+              "Csm": 0.93,
+              "Gold": 7632,
+              "Goldm": 215.29,
+              "DmgDealt": 7594,
+              "DmgTaken": 20319,
+              "DmgMitigated": 10293,
+              "DmgObjectives": 2420,
+              "VisionScore": 109,
+              "WardsPlaced": 57,
+              "WardsKilled": 9,
+              "ControlWards": 7,
+              "CcScore": 60.0,
+              "KillParticipation": 61.1,
+              "Timeline": {
+                "CsAt10": 19,
+                "CsAt15": 26,
+                "CsAt20": 29,
+                "CsAt25": 31,
+                "GoldAt10": 2228,
+                "GoldAt15": 3512,
+                "GoldAt20": 4780,
+                "GoldAt25": 5721
+              }
+            },
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5421013521",
+              "GameDate": "2025-11-25",
+              "Patch": "15.23",
+              "GameDuration": 1808,
+              "TeamId": 200,
+              "Champion": "Seraphine",
+              "Win": true,
+              "Kills": 2,
+              "Deaths": 2,
+              "Assists": 22,
+              "Kda": 12.0,
+              "Cs": 41,
+              "Csm": 1.36,
+              "Gold": 8456,
+              "Goldm": 280.62,
+              "DmgDealt": 16215,
+              "DmgTaken": 10730,
+              "DmgMitigated": 6224,
+              "DmgObjectives": 2116,
+              "VisionScore": 101,
+              "WardsPlaced": 46,
+              "WardsKilled": 10,
+              "ControlWards": 7,
+              "CcScore": 51.0,
+              "KillParticipation": 96.0,
+              "Timeline": {
+                "CsAt10": 15,
+                "CsAt15": 25,
+                "CsAt20": 32,
+                "CsAt25": 38,
+                "GoldAt10": 2512,
+                "GoldAt15": 3948,
+                "GoldAt20": 5214,
+                "GoldAt25": 6522
+              }
+            },
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5421065183",
+              "GameDate": "2025-11-25",
+              "Patch": "15.23",
+              "GameDuration": 1900,
+              "TeamId": 100,
+              "Champion": "Nami",
+              "Win": true,
+              "Kills": 1,
+              "Deaths": 4,
+              "Assists": 18,
+              "Kda": 4.75,
+              "Cs": 27,
+              "Csm": 0.85,
+              "Gold": 8977,
+              "Goldm": 283.48,
+              "DmgDealt": 9063,
+              "DmgTaken": 13667,
+              "DmgMitigated": 5705,
+              "DmgObjectives": 2242,
+              "VisionScore": 79,
+              "WardsPlaced": 43,
+              "WardsKilled": 5,
+              "ControlWards": 5,
+              "CcScore": 45.0,
+              "KillParticipation": 76.0,
+              "Timeline": {
+                "CsAt10": 15,
+                "CsAt15": 20,
+                "CsAt20": 20,
+                "CsAt25": 25,
+                "GoldAt10": 2474,
+                "GoldAt15": 3829,
+                "GoldAt20": 4931,
+                "GoldAt25": 6280
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5420961927",
+              "Opponent": "cogi#lNNl",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5421013521",
+              "Opponent": "cogi#lNNl",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5421065183",
+              "Opponent": "cogi#lNNl",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

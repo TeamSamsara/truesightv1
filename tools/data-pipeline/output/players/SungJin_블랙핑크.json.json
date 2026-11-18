@@ -1,0 +1,272 @@
+{
+  "RiotId": "SungJin#블랙핑크",
+  "GameName": "SungJin",
+  "Tag": "블랙핑크",
+  "Seasons": {
+    "AML_2025": {
+      "League": "AML",
+      "Season": "2025",
+      "Splits": {
+        "AML_FALL_2025": {
+          "League": "AML",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AML Fall 2025",
+          "TeamName": "OTL Beef",
+          "Role": "JUNGLE",
+          "Games": 4,
+          "Wins": 2,
+          "Losses": 2,
+          "WinRate": 50.0,
+          "PerGame": {
+            "Kills": 4.25,
+            "Deaths": 4.25,
+            "Assists": 10.75,
+            "Kda": 3.53,
+            "Cs": 179.5,
+            "Gold": 11249.5,
+            "KillParticipation": 70.1,
+            "VisionScore": 21.75,
+            "CcScore": 20.5,
+            "DmgDealt": 16757.0,
+            "DmgTaken": 36912.5,
+            "DmgMitigated": 34457.75,
+            "DmgObjectives": 37414.0,
+            "CsAt10": 66.25,
+            "CsAt15": 102.5,
+            "CsAt20": 130.5,
+            "CsAt25": 161.5,
+            "GoldAt10": 3315.75,
+            "GoldAt15": 5461.25,
+            "GoldAt20": 7499.5,
+            "GoldAt25": 9784.0
+          },
+          "PerMin": {
+            "Cs": 6.25,
+            "Gold": 389.07,
+            "DmgDealt": 577.74,
+            "DmgTaken": 1252.29,
+            "DmgMitigated": 1188.23,
+            "DmgObjectives": 1305.73,
+            "VisionScore": 0.75,
+            "CcScore": 0.71
+          },
+          "Vision": {
+            "AvgVisionScore": 21.75,
+            "AvgWardsPlaced": 5.5,
+            "AvgWardsKilled": 2.0,
+            "AvgControlWardsBought": 3.75
+          },
+          "Champions": [
+            {
+              "Champion": "JarvanIV",
+              "Games": 2,
+              "Wins": 1,
+              "WinRate": 50.0
+            },
+            {
+              "Champion": "XinZhao",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Qiyana",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5401771585",
+              "GameDate": "2025-10-28",
+              "Patch": "15.21",
+              "GameDuration": 1834,
+              "TeamId": 100,
+              "Champion": "JarvanIV",
+              "Win": false,
+              "Kills": 5,
+              "Deaths": 7,
+              "Assists": 5,
+              "Kda": 1.43,
+              "Cs": 183,
+              "Csm": 5.99,
+              "Gold": 11641,
+              "Goldm": 380.84,
+              "DmgDealt": 12645,
+              "DmgTaken": 38449,
+              "DmgMitigated": 49879,
+              "DmgObjectives": 25105,
+              "VisionScore": 21,
+              "WardsPlaced": 6,
+              "WardsKilled": 1,
+              "ControlWards": 5,
+              "CcScore": 13.0,
+              "KillParticipation": 76.9,
+              "Timeline": {
+                "CsAt10": 55,
+                "CsAt15": 94,
+                "CsAt20": 128,
+                "CsAt25": 155,
+                "GoldAt10": 3211,
+                "GoldAt15": 5732,
+                "GoldAt20": 7213,
+                "GoldAt25": 10092
+              }
+            },
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5401814822",
+              "GameDate": "2025-10-28",
+              "Patch": "15.21",
+              "GameDuration": 1875,
+              "TeamId": 200,
+              "Champion": "XinZhao",
+              "Win": false,
+              "Kills": 3,
+              "Deaths": 6,
+              "Assists": 14,
+              "Kda": 2.83,
+              "Cs": 142,
+              "Csm": 4.54,
+              "Gold": 10179,
+              "Goldm": 325.73,
+              "DmgDealt": 20509,
+              "DmgTaken": 52763,
+              "DmgMitigated": 31503,
+              "DmgObjectives": 35735,
+              "VisionScore": 19,
+              "WardsPlaced": 6,
+              "WardsKilled": 1,
+              "ControlWards": 4,
+              "CcScore": 30.0,
+              "KillParticipation": 77.3,
+              "Timeline": {
+                "CsAt10": 68,
+                "CsAt15": 102,
+                "CsAt20": 114,
+                "CsAt25": 128,
+                "GoldAt10": 3160,
+                "GoldAt15": 5320,
+                "GoldAt20": 6870,
+                "GoldAt25": 8250
+              }
+            },
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5406760169",
+              "GameDate": "2025-11-05",
+              "Patch": "15.21",
+              "GameDuration": 1712,
+              "TeamId": 100,
+              "Champion": "Qiyana",
+              "Win": true,
+              "Kills": 7,
+              "Deaths": 3,
+              "Assists": 10,
+              "Kda": 5.67,
+              "Cs": 208,
+              "Csm": 7.29,
+              "Gold": 13039,
+              "Goldm": 456.97,
+              "DmgDealt": 19283,
+              "DmgTaken": 33419,
+              "DmgMitigated": 19937,
+              "DmgObjectives": 49395,
+              "VisionScore": 28,
+              "WardsPlaced": 5,
+              "WardsKilled": 5,
+              "ControlWards": 3,
+              "CcScore": 18.0,
+              "KillParticipation": 50.0,
+              "Timeline": {
+                "CsAt10": 71,
+                "CsAt15": 104,
+                "CsAt20": 136,
+                "CsAt25": 180,
+                "GoldAt10": 3405,
+                "GoldAt15": 5728,
+                "GoldAt20": 8436,
+                "GoldAt25": 11234
+              }
+            },
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5406802423",
+              "GameDate": "2025-11-05",
+              "Patch": "15.21",
+              "GameDuration": 1549,
+              "TeamId": 200,
+              "Champion": "JarvanIV",
+              "Win": true,
+              "Kills": 2,
+              "Deaths": 1,
+              "Assists": 14,
+              "Kda": 16.0,
+              "Cs": 185,
+              "Csm": 7.17,
+              "Gold": 10139,
+              "Goldm": 392.73,
+              "DmgDealt": 14591,
+              "DmgTaken": 23019,
+              "DmgMitigated": 36512,
+              "DmgObjectives": 39421,
+              "VisionScore": 19,
+              "WardsPlaced": 5,
+              "WardsKilled": 1,
+              "ControlWards": 3,
+              "CcScore": 21.0,
+              "KillParticipation": 76.2,
+              "Timeline": {
+                "CsAt10": 71,
+                "CsAt15": 110,
+                "CsAt20": 144,
+                "CsAt25": 183,
+                "GoldAt10": 3487,
+                "GoldAt15": 5065,
+                "GoldAt20": 7479,
+                "GoldAt25": 9560
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5401771585",
+              "Opponent": "Mags#Sask",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5401814822",
+              "Opponent": "Mags#Sask",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5406760169",
+              "Opponent": "Bodies#AE5",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5406802423",
+              "Opponent": "Bodies#AE5",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

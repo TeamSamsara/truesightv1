@@ -1,0 +1,226 @@
+{
+  "RiotId": "Dragoon#NA1",
+  "GameName": "Dragoon",
+  "Tag": "NA1",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_FALL_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "ACL Fall 2025",
+          "TeamName": "Weber State University",
+          "Role": "TOP",
+          "Games": 3,
+          "Wins": 2,
+          "Losses": 1,
+          "WinRate": 66.7,
+          "PerGame": {
+            "Kills": 3.33,
+            "Deaths": 3.67,
+            "Assists": 5.67,
+            "Kda": 2.45,
+            "Cs": 198.67,
+            "Gold": 12244.0,
+            "KillParticipation": 42.13,
+            "VisionScore": 12.67,
+            "CcScore": 29.33,
+            "DmgDealt": 21646.33,
+            "DmgTaken": 34358.67,
+            "DmgMitigated": 44863.33,
+            "DmgObjectives": 7508.0,
+            "CsAt10": 77.67,
+            "CsAt15": 127.67,
+            "CsAt20": 151.67,
+            "CsAt25": 121.0,
+            "GoldAt10": 3484.0,
+            "GoldAt15": 5582.67,
+            "GoldAt20": 8116.33,
+            "GoldAt25": 7026.67
+          },
+          "PerMin": {
+            "Cs": 6.9,
+            "Gold": 421.89,
+            "DmgDealt": 740.78,
+            "DmgTaken": 1177.43,
+            "DmgMitigated": 1563.37,
+            "DmgObjectives": 261.23,
+            "VisionScore": 0.42,
+            "CcScore": 0.99
+          },
+          "Vision": {
+            "AvgVisionScore": 12.67,
+            "AvgWardsPlaced": 7.67,
+            "AvgWardsKilled": 1.0,
+            "AvgControlWardsBought": 0.33
+          },
+          "Champions": [
+            {
+              "Champion": "Garen",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Sion",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Yorick",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5420963140",
+              "GameDate": "2025-11-25",
+              "Patch": "15.23",
+              "GameDuration": 2034,
+              "TeamId": 200,
+              "Champion": "Garen",
+              "Win": false,
+              "Kills": 6,
+              "Deaths": 6,
+              "Assists": 5,
+              "Kda": 1.83,
+              "Cs": 238,
+              "Csm": 7.02,
+              "Gold": 14679,
+              "Goldm": 433.01,
+              "DmgDealt": 27028,
+              "DmgTaken": 37887,
+              "DmgMitigated": 54688,
+              "DmgObjectives": 4999,
+              "VisionScore": 21,
+              "WardsPlaced": 9,
+              "WardsKilled": 2,
+              "ControlWards": 0,
+              "CcScore": 47.0,
+              "KillParticipation": 64.7,
+              "Timeline": {
+                "CsAt10": 69,
+                "CsAt15": 124,
+                "CsAt20": 153,
+                "CsAt25": 196,
+                "GoldAt10": 3216,
+                "GoldAt15": 5695,
+                "GoldAt20": 8233,
+                "GoldAt25": 10706
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5421008147",
+              "GameDate": "2025-11-25",
+              "Patch": "15.23",
+              "GameDuration": 1413,
+              "TeamId": 200,
+              "Champion": "Sion",
+              "Win": true,
+              "Kills": 1,
+              "Deaths": 2,
+              "Assists": 4,
+              "Kda": 2.5,
+              "Cs": 165,
+              "Csm": 7.01,
+              "Gold": 9016,
+              "Goldm": 382.85,
+              "DmgDealt": 14701,
+              "DmgTaken": 20790,
+              "DmgMitigated": 40210,
+              "DmgObjectives": 3967,
+              "VisionScore": 8,
+              "WardsPlaced": 6,
+              "WardsKilled": 0,
+              "ControlWards": 0,
+              "CcScore": 22.0,
+              "KillParticipation": 25.0,
+              "Timeline": {
+                "CsAt10": 75,
+                "CsAt15": 123,
+                "CsAt20": 147,
+                "CsAt25": 0,
+                "GoldAt10": 3603,
+                "GoldAt15": 5316,
+                "GoldAt20": 7876,
+                "GoldAt25": 0
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5421051160",
+              "GameDate": "2025-11-25",
+              "Patch": "15.23",
+              "GameDuration": 1739,
+              "TeamId": 100,
+              "Champion": "Yorick",
+              "Win": true,
+              "Kills": 3,
+              "Deaths": 3,
+              "Assists": 8,
+              "Kda": 3.67,
+              "Cs": 193,
+              "Csm": 6.66,
+              "Gold": 13037,
+              "Goldm": 449.81,
+              "DmgDealt": 23210,
+              "DmgTaken": 44399,
+              "DmgMitigated": 39692,
+              "DmgObjectives": 13558,
+              "VisionScore": 9,
+              "WardsPlaced": 8,
+              "WardsKilled": 1,
+              "ControlWards": 1,
+              "CcScore": 19.0,
+              "KillParticipation": 36.7,
+              "Timeline": {
+                "CsAt10": 89,
+                "CsAt15": 136,
+                "CsAt20": 155,
+                "CsAt25": 167,
+                "GoldAt10": 3633,
+                "GoldAt15": 5737,
+                "GoldAt20": 8240,
+                "GoldAt25": 10374
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5420963140",
+              "Opponent": "BoilTheOil#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5421008147",
+              "Opponent": "BoilTheOil#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5421051160",
+              "Opponent": "BoilTheOil#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

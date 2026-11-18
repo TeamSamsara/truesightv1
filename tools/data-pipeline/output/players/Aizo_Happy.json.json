@@ -1,0 +1,122 @@
+{
+  "RiotId": "Aizo#Happy",
+  "GameName": "Aizo",
+  "Tag": "Happy",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_SUMMER_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Summer",
+          "Label": "ACL Summer 2025",
+          "TeamName": "Mint Gaming",
+          "Role": "TOP",
+          "Games": 1,
+          "Wins": 1,
+          "Losses": 0,
+          "WinRate": 100.0,
+          "PerGame": {
+            "Kills": 1.0,
+            "Deaths": 6.0,
+            "Assists": 5.0,
+            "Kda": 1.0,
+            "Cs": 316.0,
+            "Gold": 14465.0,
+            "KillParticipation": 31.6,
+            "VisionScore": 28.0,
+            "CcScore": 6.0,
+            "DmgDealt": 28514.0,
+            "DmgTaken": 35473.0,
+            "DmgMitigated": 26779.0,
+            "DmgObjectives": 26644.0,
+            "CsAt10": 79.0,
+            "CsAt15": 123.0,
+            "CsAt20": 165.0,
+            "CsAt25": 222.0,
+            "GoldAt10": 3522.0,
+            "GoldAt15": 5007.0,
+            "GoldAt20": 7160.0,
+            "GoldAt25": 10202.0
+          },
+          "PerMin": {
+            "Cs": 8.9,
+            "Gold": 407.46,
+            "DmgDealt": 803.21,
+            "DmgTaken": 999.24,
+            "DmgMitigated": 754.34,
+            "DmgObjectives": 750.54,
+            "VisionScore": 0.79,
+            "CcScore": 0.17
+          },
+          "Vision": {
+            "AvgVisionScore": 28.0,
+            "AvgWardsPlaced": 13.0,
+            "AvgWardsKilled": 2.0,
+            "AvgControlWardsBought": 0.0
+          },
+          "Champions": [
+            {
+              "Champion": "Gwen",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5345724370",
+              "GameDate": "2025-08-13",
+              "Patch": "15.15",
+              "GameDuration": 2130,
+              "TeamId": 100,
+              "Champion": "Gwen",
+              "Win": true,
+              "Kills": 1,
+              "Deaths": 6,
+              "Assists": 5,
+              "Kda": 1.0,
+              "Cs": 316,
+              "Csm": 8.9,
+              "Gold": 14465,
+              "Goldm": 407.46,
+              "DmgDealt": 28514,
+              "DmgTaken": 35473,
+              "DmgMitigated": 26779,
+              "DmgObjectives": 26644,
+              "VisionScore": 28,
+              "WardsPlaced": 13,
+              "WardsKilled": 2,
+              "ControlWards": 0,
+              "CcScore": 6.0,
+              "KillParticipation": 31.6,
+              "Timeline": {
+                "CsAt10": 79,
+                "CsAt15": 123,
+                "CsAt20": 165,
+                "CsAt25": 222,
+                "GoldAt10": 3522,
+                "GoldAt15": 5007,
+                "GoldAt20": 7160,
+                "GoldAt25": 10202
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5345724370",
+              "Opponent": "Redsaward#VillV",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

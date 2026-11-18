@@ -1,0 +1,297 @@
+/* ││ form.css
+   @version 1.0.0
+
+   All form elements — inputs, selects, textareas, labels,
+   field groups, and validation states.
+   No feature-specific form layouts — those live in features/.
+*/
+
+
+/* ││ Field Group
+   Wraps a label and its input together. */
+
+.c-field {
+  display:        flex;
+  flex-direction: column;
+  gap:            var(--space-2);
+}
+
+
+/* ││ Field Label */
+
+.c-field__label {
+  font-family:    var(--font-body);
+  font-size:      clamp(9px, 0.75vw, 11px);
+  font-weight:    700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color:          var(--text-muted);
+}
+
+.c-field__label--required::after {
+  content: ' *';
+  color:   var(--status-no);
+}
+
+
+/* ││ Field Hint */
+
+.c-field__hint {
+  font-size:  clamp(10px, 0.8vw, 12px);
+  color:      var(--text-muted);
+  font-style: italic;
+  line-height: 1.4;
+}
+
+
+/* ││ Field Error */
+
+.c-field__error {
+  font-size:  clamp(10px, 0.8vw, 12px);
+  color:      var(--status-no);
+  line-height: 1.4;
+}
+
+
+/* ││ Base Input */
+
+.c-input {
+  font-family:   var(--font-body);
+  font-size:     clamp(13px, 1vw, 15px);
+  background:    var(--bg-raised);
+  border:        1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color:         var(--text-primary);
+  padding:       clamp(var(--space-2), 0.7vw, var(--space-3))
+                 clamp(var(--space-3), 0.9vw, var(--space-4));
+  width:         100%;
+  transition:    border-color 0.15s, background 0.15s;
+  line-height:   1.5;
+}
+
+.c-input::placeholder {
+  color: var(--text-muted);
+}
+
+.c-input:focus {
+  border-color: rgba(149, 236, 93, 0.4);
+  background:   var(--bg-raised);
+  outline:      none;
+}
+
+.c-input:hover:not(:focus) {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+
+/* ││ Input — Validation States */
+
+.c-input.is-error {
+  border-color: rgba(242, 92, 92, 0.5);
+}
+
+.c-input.is-error:focus {
+  border-color: rgba(242, 92, 92, 0.8);
+}
+
+.c-input.is-success {
+  border-color: rgba(74, 222, 128, 0.4);
+}
+
+
+/* ││ Textarea */
+
+.c-textarea {
+  font-family:   var(--font-body);
+  font-size:     clamp(13px, 1vw, 15px);
+  background:    var(--bg-raised);
+  border:        1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color:         var(--text-primary);
+  padding:       clamp(var(--space-2), 0.7vw, var(--space-3))
+                 clamp(var(--space-3), 0.9vw, var(--space-4));
+  width:         100%;
+  min-height:    100px;
+  resize:        vertical;
+  line-height:   1.65;
+  transition:    border-color 0.15s, background 0.15s;
+}
+
+.c-textarea::placeholder {
+  color: var(--text-muted);
+}
+
+.c-textarea:focus {
+  border-color: rgba(149, 236, 93, 0.4);
+  outline:      none;
+}
+
+.c-textarea:hover:not(:focus) {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+
+/* ││ Select */
+
+.c-select {
+  font-family:    var(--font-body);
+  font-size:      clamp(13px, 1vw, 15px);
+  background:     var(--bg-raised);
+  border:         1px solid var(--border);
+  border-radius:  var(--radius-sm);
+  color:          var(--text-primary);
+  padding:        clamp(var(--space-2), 0.7vw, var(--space-3))
+                  clamp(var(--space-8), 2vw, var(--space-10))
+                  clamp(var(--space-2), 0.7vw, var(--space-3))
+                  clamp(var(--space-3), 0.9vw, var(--space-4));
+  width:          100%;
+  cursor:         pointer;
+  transition:     border-color 0.15s;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%234d6475'/%3E%3C/svg%3E");
+  background-repeat:   no-repeat;
+  background-position: right 12px center;
+}
+
+.c-select:focus {
+  border-color: rgba(149, 236, 93, 0.4);
+  outline:      none;
+}
+
+.c-select:hover:not(:focus) {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.c-select option {
+  background: var(--bg-raised);
+  color:      var(--text-primary);
+}
+
+
+/* ││ Search Input */
+
+.c-search {
+  font-family:   var(--font-body);
+  font-size:     clamp(12px, 0.9vw, 14px);
+  background:    var(--bg-raised);
+  border:        1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color:         var(--text-primary);
+  padding:       clamp(var(--space-2), 0.6vw, var(--space-2))
+                 clamp(var(--space-3), 1vw, var(--space-4));
+  min-width:     clamp(160px, 15vw, 240px);
+  transition:    border-color 0.15s;
+}
+
+.c-search::placeholder {
+  color: var(--text-muted);
+}
+
+.c-search:focus {
+  border-color: rgba(149, 236, 93, 0.4);
+  outline:      none;
+}
+
+
+/* ││ Form Grid — two column layout */
+
+.c-form-grid {
+  display:               grid;
+  grid-template-columns: 1fr 1fr;
+  gap:                   var(--space-4);
+}
+
+.c-form-grid__full {
+  grid-column: 1 / -1;
+}
+
+
+/* ││ Form Section */
+
+.c-form-section {
+  background:    var(--bg-surface);
+  border:        1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow:      hidden;
+}
+
+.c-form-section__header {
+  padding:       clamp(var(--space-4), 1.5vw, var(--space-6))
+                 clamp(var(--space-4), 1.8vw, var(--space-8));
+  border-bottom: 1px solid var(--border);
+  background:    rgba(255, 255, 255, 0.015);
+}
+
+.c-form-section__eyebrow {
+  font-size:      clamp(9px, 0.7vw, 10px);
+  font-weight:    700;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color:          var(--accent);
+  margin-bottom:  var(--space-1);
+}
+
+.c-form-section__title {
+  font-family:    var(--font-display);
+  font-size:      clamp(1rem, 1.5vw, 1.4rem);
+  letter-spacing: 0.05em;
+  color:          var(--text-primary);
+  line-height:    1;
+}
+
+.c-form-section__body {
+  padding: clamp(var(--space-4), 1.5vw, var(--space-6))
+           clamp(var(--space-4), 1.8vw, var(--space-8));
+}
+
+
+/* ││ Form Actions */
+
+.c-form-actions {
+  display:         flex;
+  align-items:     center;
+  justify-content: flex-end;
+  gap:             var(--space-3);
+  padding-top:     var(--space-6);
+}
+
+
+/* ││ Chip Separator — vertical divider between filter groups */
+
+.c-chip-sep {
+  width:      1px;
+  height:     20px;
+  background: var(--border);
+  flex-shrink: 0;
+}
+
+
+/* ││ Responsive */
+
+@media (max-width: 768px) {
+  .c-form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .c-form-grid__full {
+    grid-column: 1;
+  }
+
+  .c-form-actions {
+    flex-direction: column;
+    align-items:    stretch;
+  }
+
+  .c-search {
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .c-form-section__header {
+    padding: var(--space-4);
+  }
+
+  .c-form-section__body {
+    padding: var(--space-4);
+  }
+}

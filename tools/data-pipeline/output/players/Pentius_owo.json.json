@@ -1,0 +1,174 @@
+{
+  "RiotId": "Pentius#owo",
+  "GameName": "Pentius",
+  "Tag": "owo",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_SUMMER_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Summer",
+          "Label": "ACL Summer 2025",
+          "TeamName": "Calamity Black",
+          "Role": "UTILITY",
+          "Games": 2,
+          "Wins": 2,
+          "Losses": 0,
+          "WinRate": 100.0,
+          "PerGame": {
+            "Kills": 1.5,
+            "Deaths": 2.0,
+            "Assists": 10.5,
+            "Kda": 6.0,
+            "Cs": 31.5,
+            "Gold": 7421.5,
+            "KillParticipation": 57.1,
+            "VisionScore": 76.5,
+            "CcScore": 18.0,
+            "DmgDealt": 4558.5,
+            "DmgTaken": 15310.0,
+            "DmgMitigated": 15619.5,
+            "DmgObjectives": 5817.0,
+            "CsAt10": 17.0,
+            "CsAt15": 26.5,
+            "CsAt20": 27.5,
+            "CsAt25": 30.5,
+            "GoldAt10": 2280.0,
+            "GoldAt15": 3660.0,
+            "GoldAt20": 4819.5,
+            "GoldAt25": 6381.5
+          },
+          "PerMin": {
+            "Cs": 1.16,
+            "Gold": 273.39,
+            "DmgDealt": 166.07,
+            "DmgTaken": 555.24,
+            "DmgMitigated": 563.35,
+            "DmgObjectives": 216.41,
+            "VisionScore": 2.8,
+            "CcScore": 0.67
+          },
+          "Vision": {
+            "AvgVisionScore": 76.5,
+            "AvgWardsPlaced": 31.5,
+            "AvgWardsKilled": 9.5,
+            "AvgControlWardsBought": 7.5
+          },
+          "Champions": [
+            {
+              "Champion": "TahmKench",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Lulu",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5350876337",
+              "GameDate": "2025-08-20",
+              "Patch": "15.16",
+              "GameDuration": 1680,
+              "TeamId": 100,
+              "Champion": "TahmKench",
+              "Win": true,
+              "Kills": 1,
+              "Deaths": 4,
+              "Assists": 10,
+              "Kda": 2.75,
+              "Cs": 33,
+              "Csm": 1.18,
+              "Gold": 7227,
+              "Goldm": 258.11,
+              "DmgDealt": 6135,
+              "DmgTaken": 22894,
+              "DmgMitigated": 26207,
+              "DmgObjectives": 3717,
+              "VisionScore": 87,
+              "WardsPlaced": 35,
+              "WardsKilled": 11,
+              "ControlWards": 8,
+              "CcScore": 14.0,
+              "KillParticipation": 45.8,
+              "Timeline": {
+                "CsAt10": 19,
+                "CsAt15": 26,
+                "CsAt20": 27,
+                "CsAt25": 31,
+                "GoldAt10": 2262,
+                "GoldAt15": 3257,
+                "GoldAt20": 4429,
+                "GoldAt25": 6001
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5350917975",
+              "GameDate": "2025-08-20",
+              "Patch": "15.16",
+              "GameDuration": 1583,
+              "TeamId": 100,
+              "Champion": "Lulu",
+              "Win": true,
+              "Kills": 2,
+              "Deaths": 0,
+              "Assists": 11,
+              "Kda": 13.0,
+              "Cs": 30,
+              "Csm": 1.14,
+              "Gold": 7616,
+              "Goldm": 288.67,
+              "DmgDealt": 2982,
+              "DmgTaken": 7726,
+              "DmgMitigated": 5032,
+              "DmgObjectives": 7917,
+              "VisionScore": 66,
+              "WardsPlaced": 28,
+              "WardsKilled": 8,
+              "ControlWards": 7,
+              "CcScore": 22.0,
+              "KillParticipation": 68.4,
+              "Timeline": {
+                "CsAt10": 15,
+                "CsAt15": 27,
+                "CsAt20": 28,
+                "CsAt25": 30,
+                "GoldAt10": 2298,
+                "GoldAt15": 4063,
+                "GoldAt20": 5210,
+                "GoldAt25": 6762
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5350876337",
+              "Opponent": "pepi#supp",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5350917975",
+              "Opponent": "pepi#supp",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

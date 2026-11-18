@@ -1,0 +1,272 @@
+{
+  "RiotId": "Maxander#NA1",
+  "GameName": "Maxander",
+  "Tag": "NA1",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_SUMMER_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Summer",
+          "Label": "ACL Summer 2025",
+          "TeamName": "Travelers",
+          "Role": "JUNGLE",
+          "Games": 4,
+          "Wins": 0,
+          "Losses": 4,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 3.25,
+            "Deaths": 5.0,
+            "Assists": 3.0,
+            "Kda": 1.25,
+            "Cs": 148.5,
+            "Gold": 9174.0,
+            "KillParticipation": 69.58,
+            "VisionScore": 22.75,
+            "CcScore": 12.0,
+            "DmgDealt": 11676.5,
+            "DmgTaken": 30399.0,
+            "DmgMitigated": 19543.25,
+            "DmgObjectives": 9596.0,
+            "CsAt10": 66.0,
+            "CsAt15": 96.5,
+            "CsAt20": 125.75,
+            "CsAt25": 76.0,
+            "GoldAt10": 3363.75,
+            "GoldAt15": 5108.75,
+            "GoldAt20": 7925.0,
+            "GoldAt25": 4444.75
+          },
+          "PerMin": {
+            "Cs": 6.2,
+            "Gold": 384.54,
+            "DmgDealt": 496.76,
+            "DmgTaken": 1267.4,
+            "DmgMitigated": 807.94,
+            "DmgObjectives": 403.18,
+            "VisionScore": 0.93,
+            "CcScore": 0.5
+          },
+          "Vision": {
+            "AvgVisionScore": 22.75,
+            "AvgWardsPlaced": 6.0,
+            "AvgWardsKilled": 3.25,
+            "AvgControlWardsBought": 1.75
+          },
+          "Champions": [
+            {
+              "Champion": "Pantheon",
+              "Games": 2,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Kindred",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "MonkeyKing",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5334153610",
+              "GameDate": "2025-07-29",
+              "Patch": "15.14",
+              "GameDuration": 1386,
+              "TeamId": 100,
+              "Champion": "Pantheon",
+              "Win": false,
+              "Kills": 1,
+              "Deaths": 3,
+              "Assists": 3,
+              "Kda": 1.33,
+              "Cs": 149,
+              "Csm": 6.45,
+              "Gold": 8650,
+              "Goldm": 374.46,
+              "DmgDealt": 5416,
+              "DmgTaken": 25749,
+              "DmgMitigated": 14692,
+              "DmgObjectives": 3377,
+              "VisionScore": 21,
+              "WardsPlaced": 5,
+              "WardsKilled": 4,
+              "ControlWards": 0,
+              "CcScore": 6.0,
+              "KillParticipation": 66.7,
+              "Timeline": {
+                "CsAt10": 80,
+                "CsAt15": 105,
+                "CsAt20": 129,
+                "CsAt25": 0,
+                "GoldAt10": 3371,
+                "GoldAt15": 4948,
+                "GoldAt20": 7862,
+                "GoldAt25": 0
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5334195792",
+              "GameDate": "2025-07-29",
+              "Patch": "15.14",
+              "GameDuration": 1338,
+              "TeamId": 200,
+              "Champion": "Kindred",
+              "Win": false,
+              "Kills": 7,
+              "Deaths": 5,
+              "Assists": 4,
+              "Kda": 2.2,
+              "Cs": 141,
+              "Csm": 6.32,
+              "Gold": 10204,
+              "Goldm": 457.58,
+              "DmgDealt": 22550,
+              "DmgTaken": 30587,
+              "DmgMitigated": 16269,
+              "DmgObjectives": 15130,
+              "VisionScore": 11,
+              "WardsPlaced": 6,
+              "WardsKilled": 0,
+              "ControlWards": 1,
+              "CcScore": 17.0,
+              "KillParticipation": 84.6,
+              "Timeline": {
+                "CsAt10": 58,
+                "CsAt15": 90,
+                "CsAt20": 120,
+                "CsAt25": 0,
+                "GoldAt10": 3548,
+                "GoldAt15": 5517,
+                "GoldAt20": 8662,
+                "GoldAt25": 0
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5339630007",
+              "GameDate": "2025-08-05",
+              "Patch": "15.15",
+              "GameDuration": 1525,
+              "TeamId": 200,
+              "Champion": "MonkeyKing",
+              "Win": false,
+              "Kills": 3,
+              "Deaths": 7,
+              "Assists": 2,
+              "Kda": 0.71,
+              "Cs": 149,
+              "Csm": 5.86,
+              "Gold": 9494,
+              "Goldm": 373.53,
+              "DmgDealt": 10579,
+              "DmgTaken": 33642,
+              "DmgMitigated": 29726,
+              "DmgObjectives": 7807,
+              "VisionScore": 30,
+              "WardsPlaced": 6,
+              "WardsKilled": 4,
+              "ControlWards": 3,
+              "CcScore": 11.0,
+              "KillParticipation": 71.4,
+              "Timeline": {
+                "CsAt10": 57,
+                "CsAt15": 96,
+                "CsAt20": 121,
+                "CsAt25": 149,
+                "GoldAt10": 2882,
+                "GoldAt15": 4570,
+                "GoldAt20": 8105,
+                "GoldAt25": 9443
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5339675397",
+              "GameDate": "2025-08-05",
+              "Patch": "15.15",
+              "GameDuration": 1506,
+              "TeamId": 100,
+              "Champion": "Pantheon",
+              "Win": false,
+              "Kills": 2,
+              "Deaths": 5,
+              "Assists": 3,
+              "Kda": 1.0,
+              "Cs": 155,
+              "Csm": 6.18,
+              "Gold": 8348,
+              "Goldm": 332.59,
+              "DmgDealt": 8161,
+              "DmgTaken": 31618,
+              "DmgMitigated": 17486,
+              "DmgObjectives": 12070,
+              "VisionScore": 29,
+              "WardsPlaced": 7,
+              "WardsKilled": 5,
+              "ControlWards": 3,
+              "CcScore": 14.0,
+              "KillParticipation": 55.6,
+              "Timeline": {
+                "CsAt10": 69,
+                "CsAt15": 95,
+                "CsAt20": 133,
+                "CsAt25": 155,
+                "GoldAt10": 3654,
+                "GoldAt15": 5400,
+                "GoldAt20": 7071,
+                "GoldAt25": 8336
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5334153610",
+              "Opponent": "Bibiswag#toz",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5334195792",
+              "Opponent": "Bibiswag#toz",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5339630007",
+              "Opponent": "Icelandic Hero#ice",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5339675397",
+              "Opponent": "Icelandic Hero#ice",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

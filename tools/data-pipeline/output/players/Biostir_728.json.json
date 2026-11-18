@@ -1,0 +1,226 @@
+{
+  "RiotId": "Biostir#728",
+  "GameName": "Biostir",
+  "Tag": "728",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_FALL_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "ACL Fall 2025",
+          "TeamName": "You Lack Conviction",
+          "Role": "BOTTOM",
+          "Games": 3,
+          "Wins": 1,
+          "Losses": 2,
+          "WinRate": 33.3,
+          "PerGame": {
+            "Kills": 6.67,
+            "Deaths": 5.67,
+            "Assists": 6.67,
+            "Kda": 2.35,
+            "Cs": 294.33,
+            "Gold": 15578.33,
+            "KillParticipation": 65.9,
+            "VisionScore": 29.67,
+            "CcScore": 4.67,
+            "DmgDealt": 31084.67,
+            "DmgTaken": 23643.33,
+            "DmgMitigated": 17886.67,
+            "DmgObjectives": 23924.0,
+            "CsAt10": 69.67,
+            "CsAt15": 117.33,
+            "CsAt20": 174.33,
+            "CsAt25": 217.67,
+            "GoldAt10": 3965.0,
+            "GoldAt15": 6250.33,
+            "GoldAt20": 9120.33,
+            "GoldAt25": 11688.33
+          },
+          "PerMin": {
+            "Cs": 8.9,
+            "Gold": 474.42,
+            "DmgDealt": 932.18,
+            "DmgTaken": 700.55,
+            "DmgMitigated": 534.38,
+            "DmgObjectives": 710.85,
+            "VisionScore": 0.94,
+            "CcScore": 0.13
+          },
+          "Vision": {
+            "AvgVisionScore": 29.67,
+            "AvgWardsPlaced": 13.0,
+            "AvgWardsKilled": 7.0,
+            "AvgControlWardsBought": 0.33
+          },
+          "Champions": [
+            {
+              "Champion": "Kaisa",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Corki",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Zeri",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5404157719",
+              "GameDate": "2025-11-01",
+              "Patch": "15.21",
+              "GameDuration": 1588,
+              "TeamId": 100,
+              "Champion": "Kaisa",
+              "Win": true,
+              "Kills": 7,
+              "Deaths": 4,
+              "Assists": 7,
+              "Kda": 3.5,
+              "Cs": 229,
+              "Csm": 8.65,
+              "Gold": 12909,
+              "Goldm": 487.75,
+              "DmgDealt": 22348,
+              "DmgTaken": 14102,
+              "DmgMitigated": 10865,
+              "DmgObjectives": 13729,
+              "VisionScore": 33,
+              "WardsPlaced": 11,
+              "WardsKilled": 7,
+              "ControlWards": 0,
+              "CcScore": 3.0,
+              "KillParticipation": 60.9,
+              "Timeline": {
+                "CsAt10": 66,
+                "CsAt15": 112,
+                "CsAt20": 177,
+                "CsAt25": 220,
+                "GoldAt10": 3429,
+                "GoldAt15": 6058,
+                "GoldAt20": 9064,
+                "GoldAt25": 11229
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5404184393",
+              "GameDate": "2025-11-01",
+              "Patch": "15.21",
+              "GameDuration": 2006,
+              "TeamId": 200,
+              "Champion": "Corki",
+              "Win": false,
+              "Kills": 6,
+              "Deaths": 4,
+              "Assists": 5,
+              "Kda": 2.75,
+              "Cs": 281,
+              "Csm": 8.4,
+              "Gold": 15050,
+              "Goldm": 450.15,
+              "DmgDealt": 29355,
+              "DmgTaken": 24575,
+              "DmgMitigated": 21266,
+              "DmgObjectives": 27922,
+              "VisionScore": 31,
+              "WardsPlaced": 13,
+              "WardsKilled": 9,
+              "ControlWards": 1,
+              "CcScore": 0.0,
+              "KillParticipation": 57.9,
+              "Timeline": {
+                "CsAt10": 76,
+                "CsAt15": 123,
+                "CsAt20": 173,
+                "CsAt25": 217,
+                "GoldAt10": 3889,
+                "GoldAt15": 5951,
+                "GoldAt20": 8391,
+                "GoldAt25": 11512
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5404220916",
+              "GameDate": "2025-11-01",
+              "Patch": "15.21",
+              "GameDuration": 2321,
+              "TeamId": 100,
+              "Champion": "Zeri",
+              "Win": false,
+              "Kills": 7,
+              "Deaths": 9,
+              "Assists": 8,
+              "Kda": 1.67,
+              "Cs": 373,
+              "Csm": 9.64,
+              "Gold": 18776,
+              "Goldm": 485.38,
+              "DmgDealt": 41551,
+              "DmgTaken": 32253,
+              "DmgMitigated": 21529,
+              "DmgObjectives": 30121,
+              "VisionScore": 25,
+              "WardsPlaced": 15,
+              "WardsKilled": 5,
+              "ControlWards": 0,
+              "CcScore": 11.0,
+              "KillParticipation": 78.9,
+              "Timeline": {
+                "CsAt10": 67,
+                "CsAt15": 117,
+                "CsAt20": 173,
+                "CsAt25": 216,
+                "GoldAt10": 4577,
+                "GoldAt15": 6742,
+                "GoldAt20": 9906,
+                "GoldAt25": 12324
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5404157719",
+              "Opponent": "Paragxn#gxn",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5404184393",
+              "Opponent": "Paragxn#gxn",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5404220916",
+              "Opponent": "Paragxn#gxn",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

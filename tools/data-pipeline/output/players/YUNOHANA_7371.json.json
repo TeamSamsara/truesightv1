@@ -1,0 +1,174 @@
+{
+  "RiotId": "YUNOHANA#7371",
+  "GameName": "YUNOHANA",
+  "Tag": "7371",
+  "Seasons": {
+    "AML_2025": {
+      "League": "AML",
+      "Season": "2025",
+      "Splits": {
+        "AML_FALL_2025": {
+          "League": "AML",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AML Fall 2025",
+          "TeamName": "US Army Esports Gold",
+          "Role": "JUNGLE",
+          "Games": 2,
+          "Wins": 0,
+          "Losses": 2,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 2.5,
+            "Deaths": 5.5,
+            "Assists": 4.0,
+            "Kda": 1.18,
+            "Cs": 151.5,
+            "Gold": 9331.0,
+            "KillParticipation": 69.45,
+            "VisionScore": 40.0,
+            "CcScore": 16.5,
+            "DmgDealt": 9956.0,
+            "DmgTaken": 34574.5,
+            "DmgMitigated": 22718.5,
+            "DmgObjectives": 11374.0,
+            "CsAt10": 62.5,
+            "CsAt15": 92.5,
+            "CsAt20": 120.0,
+            "CsAt25": 147.0,
+            "GoldAt10": 3416.0,
+            "GoldAt15": 5388.5,
+            "GoldAt20": 6889.5,
+            "GoldAt25": 8431.0
+          },
+          "PerMin": {
+            "Cs": 5.54,
+            "Gold": 341.15,
+            "DmgDealt": 363.05,
+            "DmgTaken": 1261.93,
+            "DmgMitigated": 830.72,
+            "DmgObjectives": 416.48,
+            "VisionScore": 1.46,
+            "CcScore": 0.6
+          },
+          "Vision": {
+            "AvgVisionScore": 40.0,
+            "AvgWardsPlaced": 7.5,
+            "AvgWardsKilled": 8.5,
+            "AvgControlWardsBought": 5.5
+          },
+          "Champions": [
+            {
+              "Champion": "MonkeyKing",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "XinZhao",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5403581038",
+              "GameDate": "2025-10-31",
+              "Patch": "15.21",
+              "GameDuration": 1628,
+              "TeamId": 200,
+              "Champion": "MonkeyKing",
+              "Win": false,
+              "Kills": 3,
+              "Deaths": 5,
+              "Assists": 2,
+              "Kda": 1.0,
+              "Cs": 158,
+              "Csm": 5.82,
+              "Gold": 9842,
+              "Goldm": 362.73,
+              "DmgDealt": 7465,
+              "DmgTaken": 29629,
+              "DmgMitigated": 24357,
+              "DmgObjectives": 14065,
+              "VisionScore": 34,
+              "WardsPlaced": 4,
+              "WardsKilled": 7,
+              "ControlWards": 2,
+              "CcScore": 12.0,
+              "KillParticipation": 50.0,
+              "Timeline": {
+                "CsAt10": 64,
+                "CsAt15": 88,
+                "CsAt20": 125,
+                "CsAt25": 150,
+                "GoldAt10": 3280,
+                "GoldAt15": 5144,
+                "GoldAt20": 6772,
+                "GoldAt25": 8445
+              }
+            },
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5403613847",
+              "GameDate": "2025-10-31",
+              "Patch": "15.21",
+              "GameDuration": 1656,
+              "TeamId": 100,
+              "Champion": "XinZhao",
+              "Win": false,
+              "Kills": 2,
+              "Deaths": 6,
+              "Assists": 6,
+              "Kda": 1.33,
+              "Cs": 145,
+              "Csm": 5.25,
+              "Gold": 8820,
+              "Goldm": 319.57,
+              "DmgDealt": 12447,
+              "DmgTaken": 39520,
+              "DmgMitigated": 21080,
+              "DmgObjectives": 8683,
+              "VisionScore": 46,
+              "WardsPlaced": 11,
+              "WardsKilled": 10,
+              "ControlWards": 9,
+              "CcScore": 21.0,
+              "KillParticipation": 88.9,
+              "Timeline": {
+                "CsAt10": 61,
+                "CsAt15": 97,
+                "CsAt20": 115,
+                "CsAt25": 144,
+                "GoldAt10": 3552,
+                "GoldAt15": 5633,
+                "GoldAt20": 7007,
+                "GoldAt25": 8417
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5403581038",
+              "Opponent": "Conceit#6720",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5403613847",
+              "Opponent": "Conceit#6720",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

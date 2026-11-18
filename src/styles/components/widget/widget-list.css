@@ -1,0 +1,140 @@
+/* ││ widget-list.css
+   @version 1.0.0
+
+   List widget content styles.
+   Styles everything inside .c-widget__body for the list widget type.
+
+   Target path: src/shared/components/widget/widget-list.css
+*/
+
+
+/* ││ List Widget */
+
+.c-list-widget {
+  display:        flex;
+  flex-direction: column;
+}
+
+
+/* ││ List */
+
+.c-list-widget__list {
+  display:        flex;
+  flex-direction: column;
+}
+
+
+/* ││ Item */
+
+.c-list-widget__item {
+  display:       flex;
+  align-items:   center;
+  gap:           var(--space-3);
+  padding:       var(--space-3) 0;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.c-list-widget__item:last-child {
+  border-bottom: none;
+}
+
+.c-list-widget__item.is-clickable {
+  cursor:     pointer;
+  transition: background .1s;
+}
+
+.c-list-widget__item.is-clickable:hover {
+  background:    var(--bg-raised);
+  border-radius: var(--radius-sm);
+  padding-left:  var(--space-2);
+  padding-right: var(--space-2);
+  margin:        0 calc(-1 * var(--space-2));
+}
+
+
+/* ││ Item Main */
+
+.c-list-widget__item-main {
+  flex:      1;
+  min-width: 0;
+}
+
+.c-list-widget__item-label {
+  font-family:   var(--font-body);
+  font-size:     13px;
+  color:         var(--text-primary);
+  display:       flex;
+  align-items:   center;
+  gap:           var(--space-2);
+  white-space:   nowrap;
+  overflow:      hidden;
+  text-overflow: ellipsis;
+}
+
+.c-list-widget__item-sub {
+  font-family: var(--font-body);
+  font-size:   11px;
+  color:       var(--text-muted);
+  margin-top:  2px;
+}
+
+
+/* ││ Badge */
+
+.c-list-widget__badge {
+  font-family:    var(--font-body);
+  font-size:      10px;
+  font-weight:    700;
+  letter-spacing: 1px;
+  padding:        2px 7px;
+  border-radius:  var(--radius-sm);
+  flex-shrink:    0;
+}
+
+.c-list-widget__badge--default { background: var(--bg-inset);               color: var(--text-muted); }
+.c-list-widget__badge--pass    { background: rgba(74, 222, 128, 0.1);        color: var(--status-pass); }
+.c-list-widget__badge--alert   { background: rgba(242, 92, 92, 0.1);         color: var(--status-no); }
+.c-list-widget__badge--gold    { background: rgba(245, 200, 66, 0.1);        color: var(--gold); }
+.c-list-widget__badge--info    { background: rgba(245, 200, 66, 0.1);        color: var(--status-flag); }
+
+
+/* ││ Meta */
+
+.c-list-widget__item-meta {
+  font-family: var(--font-mono);
+  font-size:   11px;
+  color:       var(--text-muted);
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+
+/* ││ View More */
+
+.c-list-widget__more {
+  font-family:    var(--font-body);
+  font-size:      11px;
+  font-weight:    700;
+  letter-spacing: 1px;
+  color:          var(--text-muted);
+  background:     transparent;
+  border:         none;
+  cursor:         pointer;
+  padding:        var(--space-3) 0 0;
+  text-align:     left;
+  transition:     color .12s;
+}
+
+.c-list-widget__more:hover {
+  color: var(--text-secondary);
+}
+
+
+/* ││ Empty */
+
+.c-list-widget__empty-text {
+  font-family: var(--font-body);
+  font-size:   13px;
+  color:       var(--text-muted);
+  padding:     var(--space-2) 0;
+}

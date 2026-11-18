@@ -1,0 +1,41 @@
+/* ││ admin-widgets.css
+   @version 1.2.0
+
+   Admin — overrides and extensions for the shared c-widget system.
+   Applies in both the admin overview and admin dashboard contexts.
+
+   Target path: src/styles/features/admin/admin-widgets.css
+*/
+
+
+/* ││ Widget Hover — lift effect */
+
+.c-widget {
+  transition: border-color .15s, transform .15s;
+}
+
+.c-widget:hover {
+  border-color: rgba(255,255,255,.12);
+  transform:    translateY(-2px);
+}
+
+
+/* ││ Action Button — variant color overrides */
+
+.c-widget--gold  .c-widget__action { color: var(--gold); }
+.c-widget--pass  .c-widget__action { color: var(--status-pass); }
+.c-widget--alert .c-widget__action { color: var(--status-no); }
+.c-widget--info  .c-widget__action { color: var(--status-info); }
+
+.c-widget--gold  .c-widget__action:hover { color: var(--gold); opacity: .75; }
+.c-widget--pass  .c-widget__action:hover { color: var(--status-pass); opacity: .75; }
+.c-widget--alert .c-widget__action:hover { color: var(--status-no); opacity: .75; }
+.c-widget--info  .c-widget__action:hover { color: var(--status-info); opacity: .75; }
+
+
+/* ││ Stat Value — variant color overrides */
+
+.c-widget--gold  .c-stat-widget__value { color: var(--gold); }
+.c-widget--pass  .c-stat-widget__value { color: var(--status-pass); }
+.c-widget--alert .c-stat-widget__value { color: var(--status-no); }
+.c-widget--info  .c-stat-widget__value { color: var(--status-info); }

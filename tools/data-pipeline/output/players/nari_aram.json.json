@@ -1,0 +1,226 @@
+{
+  "RiotId": "nari#aram",
+  "GameName": "nari",
+  "Tag": "aram",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_FALL_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "ACL Fall 2025",
+          "TeamName": "Conviction",
+          "Role": "BOTTOM",
+          "Games": 3,
+          "Wins": 1,
+          "Losses": 2,
+          "WinRate": 33.3,
+          "PerGame": {
+            "Kills": 3.33,
+            "Deaths": 2.67,
+            "Assists": 6.67,
+            "Kda": 3.75,
+            "Cs": 195.33,
+            "Gold": 9981.0,
+            "KillParticipation": 63.07,
+            "VisionScore": 5.0,
+            "CcScore": 12.33,
+            "DmgDealt": 16339.0,
+            "DmgTaken": 11018.33,
+            "DmgMitigated": 4863.33,
+            "DmgObjectives": 4873.67,
+            "CsAt10": 80.0,
+            "CsAt15": 127.0,
+            "CsAt20": 171.67,
+            "CsAt25": 66.0,
+            "GoldAt10": 3487.67,
+            "GoldAt15": 5575.33,
+            "GoldAt20": 7767.33,
+            "GoldAt25": 3898.67
+          },
+          "PerMin": {
+            "Cs": 8.26,
+            "Gold": 417.99,
+            "DmgDealt": 673.74,
+            "DmgTaken": 460.06,
+            "DmgMitigated": 202.31,
+            "DmgObjectives": 188.41,
+            "VisionScore": 0.2,
+            "CcScore": 0.54
+          },
+          "Vision": {
+            "AvgVisionScore": 5.0,
+            "AvgWardsPlaced": 3.0,
+            "AvgWardsKilled": 1.33,
+            "AvgControlWardsBought": 0.0
+          },
+          "Champions": [
+            {
+              "Champion": "Varus",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Jhin",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Yunara",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5418568708",
+              "GameDate": "2025-11-22",
+              "Patch": "15.23",
+              "GameDuration": 1416,
+              "TeamId": 100,
+              "Champion": "Varus",
+              "Win": false,
+              "Kills": 3,
+              "Deaths": 3,
+              "Assists": 1,
+              "Kda": 1.33,
+              "Cs": 204,
+              "Csm": 8.64,
+              "Gold": 9301,
+              "Goldm": 394.11,
+              "DmgDealt": 12651,
+              "DmgTaken": 9469,
+              "DmgMitigated": 4078,
+              "DmgObjectives": 821,
+              "VisionScore": 1,
+              "WardsPlaced": 2,
+              "WardsKilled": 0,
+              "ControlWards": 0,
+              "CcScore": 3.0,
+              "KillParticipation": 40.0,
+              "Timeline": {
+                "CsAt10": 89,
+                "CsAt15": 129,
+                "CsAt20": 183,
+                "CsAt25": 0,
+                "GoldAt10": 3711,
+                "GoldAt15": 5641,
+                "GoldAt20": 7532,
+                "GoldAt25": 0
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5418614936",
+              "GameDate": "2025-11-22",
+              "Patch": "15.23",
+              "GameDuration": 1283,
+              "TeamId": 100,
+              "Champion": "Jhin",
+              "Win": false,
+              "Kills": 1,
+              "Deaths": 2,
+              "Assists": 4,
+              "Kda": 2.5,
+              "Cs": 176,
+              "Csm": 8.23,
+              "Gold": 7978,
+              "Goldm": 373.09,
+              "DmgDealt": 10491,
+              "DmgTaken": 8690,
+              "DmgMitigated": 3611,
+              "DmgObjectives": 0,
+              "VisionScore": 3,
+              "WardsPlaced": 2,
+              "WardsKilled": 0,
+              "ControlWards": 0,
+              "CcScore": 21.0,
+              "KillParticipation": 71.4,
+              "Timeline": {
+                "CsAt10": 76,
+                "CsAt15": 121,
+                "CsAt20": 176,
+                "CsAt25": 0,
+                "GoldAt10": 3132,
+                "GoldAt15": 5139,
+                "GoldAt20": 7561,
+                "GoldAt25": 0
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5436144064",
+              "GameDate": "2025-12-13",
+              "Patch": "15.24",
+              "GameDuration": 1561,
+              "TeamId": 100,
+              "Champion": "Yunara",
+              "Win": true,
+              "Kills": 6,
+              "Deaths": 3,
+              "Assists": 15,
+              "Kda": 7.0,
+              "Cs": 206,
+              "Csm": 7.92,
+              "Gold": 12664,
+              "Goldm": 486.76,
+              "DmgDealt": 25875,
+              "DmgTaken": 14896,
+              "DmgMitigated": 6901,
+              "DmgObjectives": 13800,
+              "VisionScore": 11,
+              "WardsPlaced": 5,
+              "WardsKilled": 4,
+              "ControlWards": 0,
+              "CcScore": 13.0,
+              "KillParticipation": 77.8,
+              "Timeline": {
+                "CsAt10": 75,
+                "CsAt15": 131,
+                "CsAt20": 156,
+                "CsAt25": 198,
+                "GoldAt10": 3620,
+                "GoldAt15": 5946,
+                "GoldAt20": 8209,
+                "GoldAt25": 11696
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5418568708",
+              "Opponent": "Sushee#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5418614936",
+              "Opponent": "Sushee#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5436144064",
+              "Opponent": "ScaryJerry#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

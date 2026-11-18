@@ -1,0 +1,122 @@
+{
+  "RiotId": "Grell#3010",
+  "GameName": "Grell",
+  "Tag": "3010",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_FALL_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "ACL Fall 2025",
+          "TeamName": "CCG",
+          "Role": "JUNGLE",
+          "Games": 1,
+          "Wins": 0,
+          "Losses": 1,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 10.0,
+            "Deaths": 4.0,
+            "Assists": 11.0,
+            "Kda": 5.25,
+            "Cs": 264.0,
+            "Gold": 16939.0,
+            "KillParticipation": 61.8,
+            "VisionScore": 44.0,
+            "CcScore": 22.0,
+            "DmgDealt": 27628.0,
+            "DmgTaken": 46350.0,
+            "DmgMitigated": 27705.0,
+            "DmgObjectives": 35740.0,
+            "CsAt10": 62.0,
+            "CsAt15": 94.0,
+            "CsAt20": 146.0,
+            "CsAt25": 184.0,
+            "GoldAt10": 3385.0,
+            "GoldAt15": 5120.0,
+            "GoldAt20": 8110.0,
+            "GoldAt25": 11881.0
+          },
+          "PerMin": {
+            "Cs": 6.92,
+            "Gold": 444.2,
+            "DmgDealt": 724.51,
+            "DmgTaken": 1215.47,
+            "DmgMitigated": 726.53,
+            "DmgObjectives": 937.24,
+            "VisionScore": 1.15,
+            "CcScore": 0.58
+          },
+          "Vision": {
+            "AvgVisionScore": 44.0,
+            "AvgWardsPlaced": 5.0,
+            "AvgWardsKilled": 7.0,
+            "AvgControlWardsBought": 4.0
+          },
+          "Champions": [
+            {
+              "Champion": "Qiyana",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5429113662",
+              "GameDate": "2025-12-05",
+              "Patch": "15.24",
+              "GameDuration": 2288,
+              "TeamId": 200,
+              "Champion": "Qiyana",
+              "Win": false,
+              "Kills": 10,
+              "Deaths": 4,
+              "Assists": 11,
+              "Kda": 5.25,
+              "Cs": 264,
+              "Csm": 6.92,
+              "Gold": 16939,
+              "Goldm": 444.2,
+              "DmgDealt": 27628,
+              "DmgTaken": 46350,
+              "DmgMitigated": 27705,
+              "DmgObjectives": 35740,
+              "VisionScore": 44,
+              "WardsPlaced": 5,
+              "WardsKilled": 7,
+              "ControlWards": 4,
+              "CcScore": 22.0,
+              "KillParticipation": 61.8,
+              "Timeline": {
+                "CsAt10": 62,
+                "CsAt15": 94,
+                "CsAt20": 146,
+                "CsAt25": 184,
+                "GoldAt10": 3385,
+                "GoldAt15": 5120,
+                "GoldAt20": 8110,
+                "GoldAt25": 11881
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5429113662",
+              "Opponent": "IT Kituruken#TECH",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

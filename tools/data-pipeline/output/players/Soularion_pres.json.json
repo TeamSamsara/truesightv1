@@ -1,0 +1,226 @@
+{
+  "RiotId": "Soularion#pres",
+  "GameName": "Soularion",
+  "Tag": "pres",
+  "Seasons": {
+    "AML_2025": {
+      "League": "AML",
+      "Season": "2025",
+      "Splits": {
+        "AML_FALL_2025": {
+          "League": "AML",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AML Fall 2025",
+          "TeamName": "Master Mallows",
+          "Role": "MIDDLE",
+          "Games": 3,
+          "Wins": 1,
+          "Losses": 2,
+          "WinRate": 33.3,
+          "PerGame": {
+            "Kills": 5.0,
+            "Deaths": 3.33,
+            "Assists": 9.0,
+            "Kda": 4.2,
+            "Cs": 273.67,
+            "Gold": 13632.0,
+            "KillParticipation": 71.93,
+            "VisionScore": 22.67,
+            "CcScore": 24.33,
+            "DmgDealt": 31621.67,
+            "DmgTaken": 19948.67,
+            "DmgMitigated": 16745.0,
+            "DmgObjectives": 5345.33,
+            "CsAt10": 88.67,
+            "CsAt15": 134.0,
+            "CsAt20": 169.33,
+            "CsAt25": 204.67,
+            "GoldAt10": 3818.33,
+            "GoldAt15": 5605.0,
+            "GoldAt20": 7735.33,
+            "GoldAt25": 9562.33
+          },
+          "PerMin": {
+            "Cs": 7.67,
+            "Gold": 380.13,
+            "DmgDealt": 877.8,
+            "DmgTaken": 560.23,
+            "DmgMitigated": 452.86,
+            "DmgObjectives": 141.45,
+            "VisionScore": 0.64,
+            "CcScore": 0.66
+          },
+          "Vision": {
+            "AvgVisionScore": 22.67,
+            "AvgWardsPlaced": 11.0,
+            "AvgWardsKilled": 2.0,
+            "AvgControlWardsBought": 2.33
+          },
+          "Champions": [
+            {
+              "Champion": "Viktor",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Hwei",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Leblanc",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5393325387",
+              "GameDate": "2025-10-15",
+              "Patch": "15.20",
+              "GameDuration": 2389,
+              "TeamId": 100,
+              "Champion": "Viktor",
+              "Win": true,
+              "Kills": 7,
+              "Deaths": 3,
+              "Assists": 11,
+              "Kda": 6.0,
+              "Cs": 289,
+              "Csm": 7.26,
+              "Gold": 15476,
+              "Goldm": 388.68,
+              "DmgDealt": 38596,
+              "DmgTaken": 20108,
+              "DmgMitigated": 28549,
+              "DmgObjectives": 11169,
+              "VisionScore": 24,
+              "WardsPlaced": 13,
+              "WardsKilled": 1,
+              "ControlWards": 2,
+              "CcScore": 39.0,
+              "KillParticipation": 75.0,
+              "Timeline": {
+                "CsAt10": 90,
+                "CsAt15": 130,
+                "CsAt20": 164,
+                "CsAt25": 197,
+                "GoldAt10": 4011,
+                "GoldAt15": 5764,
+                "GoldAt20": 8257,
+                "GoldAt25": 10008
+              }
+            },
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5393380346",
+              "GameDate": "2025-10-15",
+              "Patch": "15.20",
+              "GameDuration": 2046,
+              "TeamId": 100,
+              "Champion": "Hwei",
+              "Win": false,
+              "Kills": 5,
+              "Deaths": 6,
+              "Assists": 12,
+              "Kda": 2.83,
+              "Cs": 261,
+              "Csm": 7.65,
+              "Gold": 13141,
+              "Goldm": 385.37,
+              "DmgDealt": 28944,
+              "DmgTaken": 19509,
+              "DmgMitigated": 10662,
+              "DmgObjectives": 2709,
+              "VisionScore": 17,
+              "WardsPlaced": 10,
+              "WardsKilled": 1,
+              "ControlWards": 1,
+              "CcScore": 26.0,
+              "KillParticipation": 70.8,
+              "Timeline": {
+                "CsAt10": 89,
+                "CsAt15": 144,
+                "CsAt20": 174,
+                "CsAt25": 201,
+                "GoldAt10": 3859,
+                "GoldAt15": 5918,
+                "GoldAt20": 8066,
+                "GoldAt25": 9793
+              }
+            },
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5393430794",
+              "GameDate": "2025-10-15",
+              "Patch": "15.20",
+              "GameDuration": 2011,
+              "TeamId": 200,
+              "Champion": "Leblanc",
+              "Win": false,
+              "Kills": 3,
+              "Deaths": 1,
+              "Assists": 4,
+              "Kda": 7.0,
+              "Cs": 271,
+              "Csm": 8.09,
+              "Gold": 12279,
+              "Goldm": 366.36,
+              "DmgDealt": 27325,
+              "DmgTaken": 20229,
+              "DmgMitigated": 11024,
+              "DmgObjectives": 2158,
+              "VisionScore": 27,
+              "WardsPlaced": 10,
+              "WardsKilled": 4,
+              "ControlWards": 4,
+              "CcScore": 8.0,
+              "KillParticipation": 70.0,
+              "Timeline": {
+                "CsAt10": 87,
+                "CsAt15": 128,
+                "CsAt20": 170,
+                "CsAt25": 216,
+                "GoldAt10": 3585,
+                "GoldAt15": 5133,
+                "GoldAt20": 6883,
+                "GoldAt25": 8886
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5393325387",
+              "Opponent": "THbQLyeLa#uRea",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5393380346",
+              "Opponent": "THbQLyeLa#uRea",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5393430794",
+              "Opponent": "THbQLyeLa#uRea",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

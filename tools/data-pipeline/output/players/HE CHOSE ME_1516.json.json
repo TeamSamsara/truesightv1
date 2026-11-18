@@ -1,0 +1,122 @@
+{
+  "RiotId": "HE CHOSE ME#1516",
+  "GameName": "HE CHOSE ME",
+  "Tag": "1516",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_FALL_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "ACL Fall 2025",
+          "TeamName": "Maryville University",
+          "Role": "MIDDLE",
+          "Games": 1,
+          "Wins": 1,
+          "Losses": 0,
+          "WinRate": 100.0,
+          "PerGame": {
+            "Kills": 5.0,
+            "Deaths": 4.0,
+            "Assists": 14.0,
+            "Kda": 4.75,
+            "Cs": 151.0,
+            "Gold": 11414.0,
+            "KillParticipation": 63.3,
+            "VisionScore": 22.0,
+            "CcScore": 46.0,
+            "DmgDealt": 18479.0,
+            "DmgTaken": 19333.0,
+            "DmgMitigated": 9299.0,
+            "DmgObjectives": 4388.0,
+            "CsAt10": 83.0,
+            "CsAt15": 117.0,
+            "CsAt20": 148.0,
+            "CsAt25": 0.0,
+            "GoldAt10": 4224.0,
+            "GoldAt15": 6551.0,
+            "GoldAt20": 9317.0,
+            "GoldAt25": 0.0
+          },
+          "PerMin": {
+            "Cs": 6.59,
+            "Gold": 498.43,
+            "DmgDealt": 806.94,
+            "DmgTaken": 844.24,
+            "DmgMitigated": 406.07,
+            "DmgObjectives": 191.62,
+            "VisionScore": 0.96,
+            "CcScore": 2.01
+          },
+          "Vision": {
+            "AvgVisionScore": 22.0,
+            "AvgWardsPlaced": 13.0,
+            "AvgWardsKilled": 0.0,
+            "AvgControlWardsBought": 6.0
+          },
+          "Champions": [
+            {
+              "Champion": "TwistedFate",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5439590385",
+              "GameDate": "2025-12-17",
+              "Patch": "15.24",
+              "GameDuration": 1374,
+              "TeamId": 100,
+              "Champion": "TwistedFate",
+              "Win": true,
+              "Kills": 5,
+              "Deaths": 4,
+              "Assists": 14,
+              "Kda": 4.75,
+              "Cs": 151,
+              "Csm": 6.59,
+              "Gold": 11414,
+              "Goldm": 498.43,
+              "DmgDealt": 18479,
+              "DmgTaken": 19333,
+              "DmgMitigated": 9299,
+              "DmgObjectives": 4388,
+              "VisionScore": 22,
+              "WardsPlaced": 13,
+              "WardsKilled": 0,
+              "ControlWards": 6,
+              "CcScore": 46.0,
+              "KillParticipation": 63.3,
+              "Timeline": {
+                "CsAt10": 83,
+                "CsAt15": 117,
+                "CsAt20": 148,
+                "CsAt25": 0,
+                "GoldAt10": 4224,
+                "GoldAt15": 6551,
+                "GoldAt20": 9317,
+                "GoldAt25": 0
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5439590385",
+              "Opponent": "Aadam#51dgz",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

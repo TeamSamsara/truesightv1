@@ -1,0 +1,93 @@
+/* ││ widget-stat.css
+   @version 1.0.0
+
+   Stat widget content styles.
+   Styles everything inside .c-widget__body for the stat widget type.
+
+   Target path: src/shared/components/widget/widget-stat.css
+*/
+
+
+/* ││ Stat Widget */
+
+.c-stat-widget {
+  display:        flex;
+  flex-direction: column;
+  gap:            var(--space-2);
+  height:         100%;
+}
+
+
+/* ││ Value */
+
+.c-stat-widget__value {
+  font-family:  var(--font-display);
+  font-size:    clamp(28px, 3vw, 44px);
+  line-height:  1;
+  color:        var(--text-primary);
+  display:      flex;
+  align-items:  baseline;
+  gap:          var(--space-2);
+  flex-wrap:    wrap;
+}
+
+
+/* ││ Trend */
+
+.c-stat-widget__trend {
+  font-family: var(--font-body);
+  font-size:   13px;
+  font-weight: 700;
+  display:     inline-flex;
+  align-items: center;
+  gap:         3px;
+}
+
+.c-stat-widget__trend--up   { color: var(--status-pass); }
+.c-stat-widget__trend--down { color: var(--status-no); }
+
+.c-stat-widget__trend-label {
+  font-size:  11px;
+  font-weight: 400;
+  opacity:    0.8;
+}
+
+
+/* ││ Sub Label */
+
+.c-stat-widget__sub {
+  font-family: var(--font-body);
+  font-size:   12px;
+  color:       var(--text-muted);
+  line-height: 1.4;
+}
+
+
+/* ││ Breakdown */
+
+.c-stat-widget__breakdown {
+  display:   flex;
+  flex-wrap: wrap;
+  gap:       var(--space-3);
+  margin-top: var(--space-1);
+}
+
+.c-stat-widget__breakdown-item {
+  font-family: var(--font-body);
+  font-size:   11px;
+  color:       var(--text-muted);
+}
+
+.c-stat-widget__breakdown-value {
+  color:       var(--text-secondary);
+  font-weight: 700;
+  margin-left: 3px;
+}
+
+
+/* ││ Empty */
+
+.c-stat-widget--empty {
+  color:     var(--text-muted);
+  font-size: 24px;
+}

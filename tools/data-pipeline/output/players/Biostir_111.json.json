@@ -1,0 +1,174 @@
+{
+  "RiotId": "Biostir#111",
+  "GameName": "Biostir",
+  "Tag": "111",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_SUMMER_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Summer",
+          "Label": "ACL Summer 2025",
+          "TeamName": "PAPA's Chonccs",
+          "Role": "BOTTOM",
+          "Games": 2,
+          "Wins": 2,
+          "Losses": 0,
+          "WinRate": 100.0,
+          "PerGame": {
+            "Kills": 8.0,
+            "Deaths": 2.0,
+            "Assists": 9.5,
+            "Kda": 8.75,
+            "Cs": 240.5,
+            "Gold": 13883.5,
+            "KillParticipation": 59.3,
+            "VisionScore": 19.0,
+            "CcScore": 18.5,
+            "DmgDealt": 31033.0,
+            "DmgTaken": 15099.5,
+            "DmgMitigated": 12406.0,
+            "DmgObjectives": 24979.0,
+            "CsAt10": 76.5,
+            "CsAt15": 127.0,
+            "CsAt20": 165.0,
+            "CsAt25": 201.5,
+            "GoldAt10": 4090.5,
+            "GoldAt15": 6474.5,
+            "GoldAt20": 8473.0,
+            "GoldAt25": 10444.5
+          },
+          "PerMin": {
+            "Cs": 8.1,
+            "Gold": 466.69,
+            "DmgDealt": 1046.44,
+            "DmgTaken": 510.65,
+            "DmgMitigated": 419.37,
+            "DmgObjectives": 832.29,
+            "VisionScore": 0.63,
+            "CcScore": 0.6
+          },
+          "Vision": {
+            "AvgVisionScore": 19.0,
+            "AvgWardsPlaced": 12.5,
+            "AvgWardsKilled": 3.5,
+            "AvgControlWardsBought": 0.5
+          },
+          "Champions": [
+            {
+              "Champion": "Jhin",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Lucian",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5339667524",
+              "GameDate": "2025-08-05",
+              "Patch": "15.15",
+              "GameDuration": 1860,
+              "TeamId": 100,
+              "Champion": "Jhin",
+              "Win": true,
+              "Kills": 8,
+              "Deaths": 2,
+              "Assists": 10,
+              "Kda": 9.0,
+              "Cs": 219,
+              "Csm": 7.06,
+              "Gold": 13311,
+              "Goldm": 429.39,
+              "DmgDealt": 27233,
+              "DmgTaken": 12109,
+              "DmgMitigated": 10091,
+              "DmgObjectives": 29607,
+              "VisionScore": 25,
+              "WardsPlaced": 13,
+              "WardsKilled": 6,
+              "ControlWards": 0,
+              "CcScore": 34.0,
+              "KillParticipation": 60.0,
+              "Timeline": {
+                "CsAt10": 75,
+                "CsAt15": 132,
+                "CsAt20": 168,
+                "CsAt25": 200,
+                "GoldAt10": 4102,
+                "GoldAt15": 6290,
+                "GoldAt20": 8211,
+                "GoldAt25": 9761
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5339739889",
+              "GameDate": "2025-08-05",
+              "Patch": "15.15",
+              "GameDuration": 1721,
+              "TeamId": 100,
+              "Champion": "Lucian",
+              "Win": true,
+              "Kills": 8,
+              "Deaths": 2,
+              "Assists": 9,
+              "Kda": 8.5,
+              "Cs": 262,
+              "Csm": 9.13,
+              "Gold": 14456,
+              "Goldm": 503.99,
+              "DmgDealt": 34833,
+              "DmgTaken": 18090,
+              "DmgMitigated": 14721,
+              "DmgObjectives": 20351,
+              "VisionScore": 13,
+              "WardsPlaced": 12,
+              "WardsKilled": 1,
+              "ControlWards": 1,
+              "CcScore": 3.0,
+              "KillParticipation": 58.6,
+              "Timeline": {
+                "CsAt10": 78,
+                "CsAt15": 122,
+                "CsAt20": 162,
+                "CsAt25": 203,
+                "GoldAt10": 4079,
+                "GoldAt15": 6659,
+                "GoldAt20": 8735,
+                "GoldAt25": 11128
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5339667524",
+              "Opponent": "ENTHRALLED#999",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5339739889",
+              "Opponent": "ENTHRALLED#999",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

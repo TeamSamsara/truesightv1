@@ -1,0 +1,278 @@
+{
+  "RiotId": "Nut#Prad",
+  "GameName": "Nut",
+  "Tag": "Prad",
+  "Seasons": {
+    "AVL_2025": {
+      "League": "AVL",
+      "Season": "2025",
+      "Splits": {
+        "AVL_FALL_2025": {
+          "League": "AVL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AVL Fall 2025",
+          "TeamName": "Chuds",
+          "Role": "MIDDLE",
+          "Games": 4,
+          "Wins": 2,
+          "Losses": 2,
+          "WinRate": 50.0,
+          "PerGame": {
+            "Kills": 6.75,
+            "Deaths": 6.25,
+            "Assists": 12.5,
+            "Kda": 3.08,
+            "Cs": 205.25,
+            "Gold": 12755.5,
+            "KillParticipation": 68.98,
+            "VisionScore": 25.75,
+            "CcScore": 58.0,
+            "DmgDealt": 29923.25,
+            "DmgTaken": 28972.25,
+            "DmgMitigated": 23316.75,
+            "DmgObjectives": 8480.0,
+            "CsAt10": 77.25,
+            "CsAt15": 120.5,
+            "CsAt20": 157.25,
+            "CsAt25": 178.5,
+            "GoldAt10": 3578.5,
+            "GoldAt15": 5460.75,
+            "GoldAt20": 7620.0,
+            "GoldAt25": 9706.25
+          },
+          "PerMin": {
+            "Cs": 6.55,
+            "Gold": 406.18,
+            "DmgDealt": 965.04,
+            "DmgTaken": 921.52,
+            "DmgMitigated": 746.82,
+            "DmgObjectives": 255.16,
+            "VisionScore": 0.8,
+            "CcScore": 1.82
+          },
+          "Vision": {
+            "AvgVisionScore": 25.75,
+            "AvgWardsPlaced": 6.5,
+            "AvgWardsKilled": 5.75,
+            "AvgControlWardsBought": 2.5
+          },
+          "Champions": [
+            {
+              "Champion": "Taliyah",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Anivia",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Galio",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Morgana",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5416391997",
+              "GameDate": "2025-11-19",
+              "Patch": "15.22",
+              "GameDuration": 1510,
+              "TeamId": 100,
+              "Champion": "Taliyah",
+              "Win": false,
+              "Kills": 6,
+              "Deaths": 9,
+              "Assists": 5,
+              "Kda": 1.22,
+              "Cs": 155,
+              "Csm": 6.16,
+              "Gold": 9242,
+              "Goldm": 367.23,
+              "DmgDealt": 27756,
+              "DmgTaken": 23417,
+              "DmgMitigated": 12419,
+              "DmgObjectives": 1959,
+              "VisionScore": 13,
+              "WardsPlaced": 4,
+              "WardsKilled": 1,
+              "ControlWards": 1,
+              "CcScore": 42.0,
+              "KillParticipation": 50.0,
+              "Timeline": {
+                "CsAt10": 72,
+                "CsAt15": 116,
+                "CsAt20": 136,
+                "CsAt25": 155,
+                "GoldAt10": 3853,
+                "GoldAt15": 6258,
+                "GoldAt20": 7989,
+                "GoldAt25": 9222
+              }
+            },
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5416426542",
+              "GameDate": "2025-11-19",
+              "Patch": "15.22",
+              "GameDuration": 2091,
+              "TeamId": 200,
+              "Champion": "Anivia",
+              "Win": false,
+              "Kills": 8,
+              "Deaths": 5,
+              "Assists": 13,
+              "Kda": 4.2,
+              "Cs": 238,
+              "Csm": 6.83,
+              "Gold": 14738,
+              "Goldm": 422.9,
+              "DmgDealt": 28356,
+              "DmgTaken": 37805,
+              "DmgMitigated": 24251,
+              "DmgObjectives": 9288,
+              "VisionScore": 30,
+              "WardsPlaced": 8,
+              "WardsKilled": 7,
+              "ControlWards": 2,
+              "CcScore": 64.0,
+              "KillParticipation": 80.8,
+              "Timeline": {
+                "CsAt10": 69,
+                "CsAt15": 111,
+                "CsAt20": 166,
+                "CsAt25": 194,
+                "GoldAt10": 2980,
+                "GoldAt15": 4900,
+                "GoldAt20": 7185,
+                "GoldAt25": 10471
+              }
+            },
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5420961656",
+              "GameDate": "2025-11-25",
+              "Patch": "15.23",
+              "GameDuration": 1791,
+              "TeamId": 200,
+              "Champion": "Galio",
+              "Win": true,
+              "Kills": 7,
+              "Deaths": 4,
+              "Assists": 14,
+              "Kda": 5.25,
+              "Cs": 207,
+              "Csm": 6.93,
+              "Gold": 13282,
+              "Goldm": 444.96,
+              "DmgDealt": 27637,
+              "DmgTaken": 23702,
+              "DmgMitigated": 37682,
+              "DmgObjectives": 6617,
+              "VisionScore": 22,
+              "WardsPlaced": 6,
+              "WardsKilled": 5,
+              "ControlWards": 3,
+              "CcScore": 41.0,
+              "KillParticipation": 72.4,
+              "Timeline": {
+                "CsAt10": 75,
+                "CsAt15": 128,
+                "CsAt20": 167,
+                "CsAt25": 180,
+                "GoldAt10": 3453,
+                "GoldAt15": 5156,
+                "GoldAt20": 7698,
+                "GoldAt25": 9353
+              }
+            },
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5421013207",
+              "GameDate": "2025-11-25",
+              "Patch": "15.23",
+              "GameDuration": 2119,
+              "TeamId": 200,
+              "Champion": "Morgana",
+              "Win": true,
+              "Kills": 6,
+              "Deaths": 7,
+              "Assists": 18,
+              "Kda": 3.43,
+              "Cs": 221,
+              "Csm": 6.26,
+              "Gold": 13760,
+              "Goldm": 389.62,
+              "DmgDealt": 35944,
+              "DmgTaken": 30965,
+              "DmgMitigated": 18915,
+              "DmgObjectives": 16056,
+              "VisionScore": 38,
+              "WardsPlaced": 8,
+              "WardsKilled": 10,
+              "ControlWards": 4,
+              "CcScore": 85.0,
+              "KillParticipation": 72.7,
+              "Timeline": {
+                "CsAt10": 93,
+                "CsAt15": 127,
+                "CsAt20": 160,
+                "CsAt25": 185,
+                "GoldAt10": 4028,
+                "GoldAt15": 5529,
+                "GoldAt20": 7608,
+                "GoldAt25": 9779
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5416391997",
+              "Opponent": "bok choy#NA2",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5416426542",
+              "Opponent": "bok choy#NA2",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5420961656",
+              "Opponent": "Kat#Decoy",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5421013207",
+              "Opponent": "Kat#Decoy",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

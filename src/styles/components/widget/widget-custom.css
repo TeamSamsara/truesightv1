@@ -1,0 +1,24 @@
+/* ││ widget-custom.css
+   @version 1.0.0
+
+   Custom widget content styles.
+   Minimal — the caller owns the content and its styles.
+   Only provides the wrapper containment.
+
+   Target path: src/shared/components/widget/widget-custom.css
+*/
+
+
+/* ││ Custom Widget */
+
+.c-custom-widget {
+  width:  100%;
+  height: 100%;
+}
+
+
+/* ││ Empty */
+
+.c-custom-widget--empty {
+  min-height: 80px;
+}

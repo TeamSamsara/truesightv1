@@ -1,0 +1,122 @@
+{
+  "RiotId": "AimDown#NA1",
+  "GameName": "AimDown",
+  "Tag": "NA1",
+  "Seasons": {
+    "AVL_2025": {
+      "League": "AVL",
+      "Season": "2025",
+      "Splits": {
+        "AVL_FALL_2025": {
+          "League": "AVL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AVL Fall 2025",
+          "TeamName": "DeathMark Esport Voltigeurs",
+          "Role": "MIDDLE",
+          "Games": 1,
+          "Wins": 1,
+          "Losses": 0,
+          "WinRate": 100.0,
+          "PerGame": {
+            "Kills": 4.0,
+            "Deaths": 2.0,
+            "Assists": 11.0,
+            "Kda": 7.5,
+            "Cs": 205.0,
+            "Gold": 11616.0,
+            "KillParticipation": 48.4,
+            "VisionScore": 18.0,
+            "CcScore": 30.0,
+            "DmgDealt": 19150.0,
+            "DmgTaken": 17656.0,
+            "DmgMitigated": 7587.0,
+            "DmgObjectives": 14563.0,
+            "CsAt10": 88.0,
+            "CsAt15": 139.0,
+            "CsAt20": 169.0,
+            "CsAt25": 198.0,
+            "GoldAt10": 3354.0,
+            "GoldAt15": 6119.0,
+            "GoldAt20": 8363.0,
+            "GoldAt25": 10459.0
+          },
+          "PerMin": {
+            "Cs": 7.48,
+            "Gold": 423.94,
+            "DmgDealt": 698.91,
+            "DmgTaken": 644.38,
+            "DmgMitigated": 276.9,
+            "DmgObjectives": 531.5,
+            "VisionScore": 0.66,
+            "CcScore": 1.09
+          },
+          "Vision": {
+            "AvgVisionScore": 18.0,
+            "AvgWardsPlaced": 13.0,
+            "AvgWardsKilled": 3.0,
+            "AvgControlWardsBought": 2.0
+          },
+          "Champions": [
+            {
+              "Champion": "Taliyah",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5425965674",
+              "GameDate": "2025-12-02",
+              "Patch": "15.23",
+              "GameDuration": 1644,
+              "TeamId": 100,
+              "Champion": "Taliyah",
+              "Win": true,
+              "Kills": 4,
+              "Deaths": 2,
+              "Assists": 11,
+              "Kda": 7.5,
+              "Cs": 205,
+              "Csm": 7.48,
+              "Gold": 11616,
+              "Goldm": 423.94,
+              "DmgDealt": 19150,
+              "DmgTaken": 17656,
+              "DmgMitigated": 7587,
+              "DmgObjectives": 14563,
+              "VisionScore": 18,
+              "WardsPlaced": 13,
+              "WardsKilled": 3,
+              "ControlWards": 2,
+              "CcScore": 30.0,
+              "KillParticipation": 48.4,
+              "Timeline": {
+                "CsAt10": 88,
+                "CsAt15": 139,
+                "CsAt20": 169,
+                "CsAt25": 198,
+                "GoldAt10": 3354,
+                "GoldAt15": 6119,
+                "GoldAt20": 8363,
+                "GoldAt25": 10459
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5425965674",
+              "Opponent": "Kat#Decoy",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

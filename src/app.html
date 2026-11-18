@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="TrueSight — Team Samsara Scouting Platform" />
+  <title>TrueSight</title>
+
+  <!-- Prevent favicon 404 -->
+  <link rel="icon" href="data:," />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Agdasima:wght@400;700&family=Share+Tech+Mono&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./styles/main.css" />
+
+</head>
+
+<body>
+
+  <div id="app">
+
+    <!-- Nav shell — renderer owns all content inside -->
+    <nav id="app-nav" class="is-hidden"></nav>
+
+    <!-- Global loading bar -->
+    <div id="app-loader" class="c-loader is-hidden">
+      <div class="c-loader__bar"></div>
+    </div>
+
+    <!-- Global error banner -->
+    <div id="app-error" class="c-error-banner is-hidden">
+      <span class="js-error-message"></span>
+      <button class="js-error-dismiss c-error-banner__dismiss">✕</button>
+    </div>
+
+    <!-- Router mounts views here -->
+    <main id="app-mount"></main>
+
+  </div>
+
+  <!-- Entry point -->
+  <script type="module" src="./main.js"></script>
+
+</body>
+</html>

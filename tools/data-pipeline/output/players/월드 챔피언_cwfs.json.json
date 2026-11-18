@@ -1,0 +1,174 @@
+{
+  "RiotId": "월드 챔피언#cwfs",
+  "GameName": "월드 챔피언",
+  "Tag": "cwfs",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_SUMMER_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Summer",
+          "Label": "ACL Summer 2025",
+          "TeamName": "Mint Gaming",
+          "Role": "MIDDLE",
+          "Games": 2,
+          "Wins": 2,
+          "Losses": 0,
+          "WinRate": 100.0,
+          "PerGame": {
+            "Kills": 3.5,
+            "Deaths": 2.0,
+            "Assists": 12.0,
+            "Kda": 7.75,
+            "Cs": 319.5,
+            "Gold": 15760.0,
+            "KillParticipation": 67.2,
+            "VisionScore": 26.5,
+            "CcScore": 25.0,
+            "DmgDealt": 24804.5,
+            "DmgTaken": 19642.0,
+            "DmgMitigated": 13944.0,
+            "DmgObjectives": 19064.0,
+            "CsAt10": 84.0,
+            "CsAt15": 126.5,
+            "CsAt20": 178.0,
+            "CsAt25": 229.5,
+            "GoldAt10": 3336.5,
+            "GoldAt15": 5171.5,
+            "GoldAt20": 7680.0,
+            "GoldAt25": 10385.5
+          },
+          "PerMin": {
+            "Cs": 8.98,
+            "Gold": 442.99,
+            "DmgDealt": 696.99,
+            "DmgTaken": 552.09,
+            "DmgMitigated": 392.18,
+            "DmgObjectives": 535.62,
+            "VisionScore": 0.74,
+            "CcScore": 0.7
+          },
+          "Vision": {
+            "AvgVisionScore": 26.5,
+            "AvgWardsPlaced": 13.0,
+            "AvgWardsKilled": 5.0,
+            "AvgControlWardsBought": 1.0
+          },
+          "Champions": [
+            {
+              "Champion": "Orianna",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Hwei",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5345724370",
+              "GameDate": "2025-08-13",
+              "Patch": "15.15",
+              "GameDuration": 2130,
+              "TeamId": 100,
+              "Champion": "Orianna",
+              "Win": true,
+              "Kills": 4,
+              "Deaths": 2,
+              "Assists": 10,
+              "Kda": 7.0,
+              "Cs": 340,
+              "Csm": 9.58,
+              "Gold": 17027,
+              "Goldm": 479.63,
+              "DmgDealt": 23366,
+              "DmgTaken": 21023,
+              "DmgMitigated": 18605,
+              "DmgObjectives": 16981,
+              "VisionScore": 24,
+              "WardsPlaced": 12,
+              "WardsKilled": 3,
+              "ControlWards": 1,
+              "CcScore": 24.0,
+              "KillParticipation": 73.7,
+              "Timeline": {
+                "CsAt10": 85,
+                "CsAt15": 130,
+                "CsAt20": 178,
+                "CsAt25": 237,
+                "GoldAt10": 3248,
+                "GoldAt15": 5424,
+                "GoldAt20": 7801,
+                "GoldAt25": 11168
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5345783594",
+              "GameDate": "2025-08-13",
+              "Patch": "15.15",
+              "GameDuration": 2140,
+              "TeamId": 200,
+              "Champion": "Hwei",
+              "Win": true,
+              "Kills": 3,
+              "Deaths": 2,
+              "Assists": 14,
+              "Kda": 8.5,
+              "Cs": 299,
+              "Csm": 8.38,
+              "Gold": 14493,
+              "Goldm": 406.35,
+              "DmgDealt": 26243,
+              "DmgTaken": 18261,
+              "DmgMitigated": 9283,
+              "DmgObjectives": 21147,
+              "VisionScore": 29,
+              "WardsPlaced": 14,
+              "WardsKilled": 7,
+              "ControlWards": 1,
+              "CcScore": 26.0,
+              "KillParticipation": 60.7,
+              "Timeline": {
+                "CsAt10": 83,
+                "CsAt15": 123,
+                "CsAt20": 178,
+                "CsAt25": 222,
+                "GoldAt10": 3425,
+                "GoldAt15": 4919,
+                "GoldAt20": 7559,
+                "GoldAt25": 9603
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5345724370",
+              "Opponent": "Sym#Sym",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5345783594",
+              "Opponent": "Sym#Sym",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

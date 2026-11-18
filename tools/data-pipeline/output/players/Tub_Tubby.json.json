@@ -1,0 +1,278 @@
+{
+  "RiotId": "Tub#Tubby",
+  "GameName": "Tub",
+  "Tag": "Tubby",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_FALL_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "ACL Fall 2025",
+          "TeamName": "Cupid Esports",
+          "Role": "UTILITY",
+          "Games": 4,
+          "Wins": 2,
+          "Losses": 2,
+          "WinRate": 50.0,
+          "PerGame": {
+            "Kills": 2.0,
+            "Deaths": 4.5,
+            "Assists": 12.5,
+            "Kda": 3.22,
+            "Cs": 22.75,
+            "Gold": 7206.0,
+            "KillParticipation": 57.72,
+            "VisionScore": 63.25,
+            "CcScore": 44.0,
+            "DmgDealt": 10592.0,
+            "DmgTaken": 19226.75,
+            "DmgMitigated": 14534.25,
+            "DmgObjectives": 1374.75,
+            "CsAt10": 9.75,
+            "CsAt15": 15.75,
+            "CsAt20": 17.75,
+            "CsAt25": 13.25,
+            "GoldAt10": 2565.0,
+            "GoldAt15": 3838.75,
+            "GoldAt20": 5625.75,
+            "GoldAt25": 3643.75
+          },
+          "PerMin": {
+            "Cs": 0.89,
+            "Gold": 280.47,
+            "DmgDealt": 423.91,
+            "DmgTaken": 745.76,
+            "DmgMitigated": 545.21,
+            "DmgObjectives": 55.14,
+            "VisionScore": 2.45,
+            "CcScore": 1.68
+          },
+          "Vision": {
+            "AvgVisionScore": 63.25,
+            "AvgWardsPlaced": 30.0,
+            "AvgWardsKilled": 6.5,
+            "AvgControlWardsBought": 4.25
+          },
+          "Champions": [
+            {
+              "Champion": "Bard",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Nautilus",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Poppy",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Neeko",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5406138019",
+              "GameDate": "2025-11-04",
+              "Patch": "15.21",
+              "GameDuration": 1363,
+              "TeamId": 100,
+              "Champion": "Bard",
+              "Win": false,
+              "Kills": 1,
+              "Deaths": 5,
+              "Assists": 3,
+              "Kda": 0.8,
+              "Cs": 12,
+              "Csm": 0.53,
+              "Gold": 5199,
+              "Goldm": 228.86,
+              "DmgDealt": 10002,
+              "DmgTaken": 18685,
+              "DmgMitigated": 7989,
+              "DmgObjectives": 0,
+              "VisionScore": 53,
+              "WardsPlaced": 33,
+              "WardsKilled": 5,
+              "ControlWards": 2,
+              "CcScore": 31.0,
+              "KillParticipation": 57.1,
+              "Timeline": {
+                "CsAt10": 3,
+                "CsAt15": 7,
+                "CsAt20": 9,
+                "CsAt25": 0,
+                "GoldAt10": 2685,
+                "GoldAt15": 3658,
+                "GoldAt20": 4720,
+                "GoldAt25": 0
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5406170848",
+              "GameDate": "2025-11-04",
+              "Patch": "15.21",
+              "GameDuration": 1840,
+              "TeamId": 100,
+              "Champion": "Nautilus",
+              "Win": false,
+              "Kills": 1,
+              "Deaths": 7,
+              "Assists": 14,
+              "Kda": 2.14,
+              "Cs": 17,
+              "Csm": 0.55,
+              "Gold": 8408,
+              "Goldm": 274.17,
+              "DmgDealt": 9046,
+              "DmgTaken": 27864,
+              "DmgMitigated": 29835,
+              "DmgObjectives": 661,
+              "VisionScore": 71,
+              "WardsPlaced": 31,
+              "WardsKilled": 7,
+              "ControlWards": 6,
+              "CcScore": 67.0,
+              "KillParticipation": 60.0,
+              "Timeline": {
+                "CsAt10": 8,
+                "CsAt15": 13,
+                "CsAt20": 15,
+                "CsAt25": 17,
+                "GoldAt10": 2397,
+                "GoldAt15": 3685,
+                "GoldAt20": 5454,
+                "GoldAt25": 6820
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5408626983",
+              "GameDate": "2025-11-08",
+              "Patch": "15.22",
+              "GameDuration": 1322,
+              "TeamId": 200,
+              "Champion": "Poppy",
+              "Win": true,
+              "Kills": 4,
+              "Deaths": 4,
+              "Assists": 12,
+              "Kda": 4.0,
+              "Cs": 24,
+              "Csm": 1.09,
+              "Gold": 6848,
+              "Goldm": 310.8,
+              "DmgDealt": 11890,
+              "DmgTaken": 15676,
+              "DmgMitigated": 12658,
+              "DmgObjectives": 2438,
+              "VisionScore": 45,
+              "WardsPlaced": 22,
+              "WardsKilled": 4,
+              "ControlWards": 5,
+              "CcScore": 35.0,
+              "KillParticipation": 53.3,
+              "Timeline": {
+                "CsAt10": 13,
+                "CsAt15": 21,
+                "CsAt20": 24,
+                "CsAt25": 0,
+                "GoldAt10": 2649,
+                "GoldAt15": 3792,
+                "GoldAt20": 6203,
+                "GoldAt25": 0
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5408654395",
+              "GameDate": "2025-11-08",
+              "Patch": "15.22",
+              "GameDuration": 1630,
+              "TeamId": 100,
+              "Champion": "Neeko",
+              "Win": true,
+              "Kills": 2,
+              "Deaths": 2,
+              "Assists": 21,
+              "Kda": 11.5,
+              "Cs": 38,
+              "Csm": 1.4,
+              "Gold": 8369,
+              "Goldm": 308.06,
+              "DmgDealt": 11430,
+              "DmgTaken": 14682,
+              "DmgMitigated": 7655,
+              "DmgObjectives": 2400,
+              "VisionScore": 84,
+              "WardsPlaced": 34,
+              "WardsKilled": 10,
+              "ControlWards": 4,
+              "CcScore": 43.0,
+              "KillParticipation": 60.5,
+              "Timeline": {
+                "CsAt10": 15,
+                "CsAt15": 22,
+                "CsAt20": 23,
+                "CsAt25": 36,
+                "GoldAt10": 2529,
+                "GoldAt15": 4220,
+                "GoldAt20": 6126,
+                "GoldAt25": 7755
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5406138019",
+              "Opponent": "Cryogen#pho",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5406170848",
+              "Opponent": "Cryogen#pho",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5408626983",
+              "Opponent": "Z Score#1500",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5408654395",
+              "Opponent": "Z Score#1500",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

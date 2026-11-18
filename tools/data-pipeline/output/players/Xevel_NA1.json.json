@@ -1,0 +1,226 @@
+{
+  "RiotId": "Xevel#NA1",
+  "GameName": "Xevel",
+  "Tag": "NA1",
+  "Seasons": {
+    "AML_2025": {
+      "League": "AML",
+      "Season": "2025",
+      "Splits": {
+        "AML_FALL_2025": {
+          "League": "AML",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AML Fall 2025",
+          "TeamName": "Master Mallows",
+          "Role": "JUNGLE",
+          "Games": 3,
+          "Wins": 0,
+          "Losses": 3,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 3.0,
+            "Deaths": 5.33,
+            "Assists": 3.33,
+            "Kda": 1.19,
+            "Cs": 158.33,
+            "Gold": 10054.33,
+            "KillParticipation": 58.23,
+            "VisionScore": 27.67,
+            "CcScore": 20.33,
+            "DmgDealt": 11988.67,
+            "DmgTaken": 39426.33,
+            "DmgMitigated": 35479.33,
+            "DmgObjectives": 25167.67,
+            "CsAt10": 58.67,
+            "CsAt15": 88.0,
+            "CsAt20": 113.67,
+            "CsAt25": 103.33,
+            "GoldAt10": 3168.67,
+            "GoldAt15": 5341.0,
+            "GoldAt20": 6839.67,
+            "GoldAt25": 5610.0
+          },
+          "PerMin": {
+            "Cs": 5.18,
+            "Gold": 337.48,
+            "DmgDealt": 406.28,
+            "DmgTaken": 1314.5,
+            "DmgMitigated": 1146.34,
+            "DmgObjectives": 785.39,
+            "VisionScore": 0.88,
+            "CcScore": 0.66
+          },
+          "Vision": {
+            "AvgVisionScore": 27.67,
+            "AvgWardsPlaced": 6.67,
+            "AvgWardsKilled": 5.67,
+            "AvgControlWardsBought": 2.0
+          },
+          "Champions": [
+            {
+              "Champion": "Trundle",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "LeeSin",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Pantheon",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5416344446",
+              "GameDate": "2025-11-19",
+              "Patch": "15.22",
+              "GameDuration": 2011,
+              "TeamId": 200,
+              "Champion": "Trundle",
+              "Win": false,
+              "Kills": 2,
+              "Deaths": 5,
+              "Assists": 6,
+              "Kda": 1.6,
+              "Cs": 188,
+              "Csm": 5.61,
+              "Gold": 10507,
+              "Goldm": 313.49,
+              "DmgDealt": 12763,
+              "DmgTaken": 47859,
+              "DmgMitigated": 43845,
+              "DmgObjectives": 27531,
+              "VisionScore": 34,
+              "WardsPlaced": 5,
+              "WardsKilled": 8,
+              "ControlWards": 2,
+              "CcScore": 34.0,
+              "KillParticipation": 66.7,
+              "Timeline": {
+                "CsAt10": 63,
+                "CsAt15": 91,
+                "CsAt20": 117,
+                "CsAt25": 147,
+                "GoldAt10": 3244,
+                "GoldAt15": 4879,
+                "GoldAt20": 6631,
+                "GoldAt25": 8149
+              }
+            },
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5416384578",
+              "GameDate": "2025-11-19",
+              "Patch": "15.22",
+              "GameDuration": 1951,
+              "TeamId": 200,
+              "Champion": "LeeSin",
+              "Win": false,
+              "Kills": 4,
+              "Deaths": 4,
+              "Assists": 3,
+              "Kda": 1.75,
+              "Cs": 190,
+              "Csm": 5.84,
+              "Gold": 11441,
+              "Goldm": 351.85,
+              "DmgDealt": 12380,
+              "DmgTaken": 39993,
+              "DmgMitigated": 44688,
+              "DmgObjectives": 42802,
+              "VisionScore": 39,
+              "WardsPlaced": 13,
+              "WardsKilled": 6,
+              "ControlWards": 4,
+              "CcScore": 15.0,
+              "KillParticipation": 63.6,
+              "Timeline": {
+                "CsAt10": 71,
+                "CsAt15": 104,
+                "CsAt20": 136,
+                "CsAt25": 163,
+                "GoldAt10": 3764,
+                "GoldAt15": 5803,
+                "GoldAt20": 7404,
+                "GoldAt25": 8681
+              }
+            },
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5416443849",
+              "GameDate": "2025-11-19",
+              "Patch": "15.22",
+              "GameDuration": 1420,
+              "TeamId": 200,
+              "Champion": "Pantheon",
+              "Win": false,
+              "Kills": 3,
+              "Deaths": 7,
+              "Assists": 1,
+              "Kda": 0.57,
+              "Cs": 97,
+              "Csm": 4.1,
+              "Gold": 8215,
+              "Goldm": 347.11,
+              "DmgDealt": 10823,
+              "DmgTaken": 30427,
+              "DmgMitigated": 17905,
+              "DmgObjectives": 5170,
+              "VisionScore": 10,
+              "WardsPlaced": 2,
+              "WardsKilled": 3,
+              "ControlWards": 0,
+              "CcScore": 12.0,
+              "KillParticipation": 44.4,
+              "Timeline": {
+                "CsAt10": 42,
+                "CsAt15": 69,
+                "CsAt20": 88,
+                "CsAt25": 0,
+                "GoldAt10": 2498,
+                "GoldAt15": 5341,
+                "GoldAt20": 6484,
+                "GoldAt25": 0
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5416344446",
+              "Opponent": "Mags#Sask",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5416384578",
+              "Opponent": "Mags#Sask",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5416443849",
+              "Opponent": "Mags#Sask",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

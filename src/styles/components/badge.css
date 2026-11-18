@@ -1,0 +1,349 @@
+/* ││ badge.css
+   @version 1.0.0
+
+   Role pills, recommendation badges, league badges,
+   status badges, and filter chips.
+   All inline label components used across the platform.
+*/
+
+
+/* ││ Base Badge */
+
+.c-badge {
+  display:        inline-flex;
+  align-items:    center;
+  font-family:    var(--font-body);
+  font-size:      clamp(9px, 0.75vw, 11px);
+  font-weight:    700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding:        clamp(3px, 0.3vw, 4px)
+                  clamp(var(--space-2), 0.7vw, var(--space-3));
+  border-radius:  3px;
+  border:         1px solid transparent;
+  white-space:    nowrap;
+  line-height:    1;
+}
+
+
+/* ││ Role Pills */
+
+.c-role {
+  display:        inline-flex;
+  align-items:    center;
+  font-family:    var(--font-body);
+  font-size:      clamp(9px, 0.75vw, 11px);
+  font-weight:    700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding:        clamp(3px, 0.3vw, 4px)
+                  clamp(var(--space-2), 0.7vw, var(--space-3));
+  border-radius:  3px;
+  border:         1px solid transparent;
+  white-space:    nowrap;
+  line-height:    1;
+}
+
+.c-role--top {
+  color:      var(--role-top);
+  background: var(--role-top-bg);
+  border-color: var(--role-top-border);
+}
+
+.c-role--jg {
+  color:        var(--role-jg);
+  background:   var(--role-jg-bg);
+  border-color: var(--role-jg-border);
+}
+
+.c-role--mid {
+  color:        var(--role-mid);
+  background:   var(--role-mid-bg);
+  border-color: var(--role-mid-border);
+}
+
+.c-role--adc {
+  color:        var(--role-adc);
+  background:   var(--role-adc-bg);
+  border-color: var(--role-adc-border);
+}
+
+.c-role--sup {
+  color:        var(--role-sup);
+  background:   var(--role-sup-bg);
+  border-color: var(--role-sup-border);
+}
+
+
+/* ││ Recommendation Badges */
+
+.c-rec {
+  display:        inline-flex;
+  align-items:    center;
+  font-family:    var(--font-body);
+  font-size:      clamp(9px, 0.75vw, 11px);
+  font-weight:    700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding:        clamp(3px, 0.3vw, 5px)
+                  clamp(var(--space-2), 0.8vw, var(--space-3));
+  border-radius:  3px;
+  border:         1px solid transparent;
+  white-space:    nowrap;
+  line-height:    1;
+}
+
+.c-rec--pass {
+  color:        var(--status-pass);
+  background:   rgba(74, 222, 128, 0.08);
+  border-color: rgba(74, 222, 128, 0.25);
+}
+
+.c-rec--flag {
+  color:        var(--status-flag);
+  background:   rgba(245, 200, 66, 0.07);
+  border-color: rgba(245, 200, 66, 0.25);
+}
+
+.c-rec--no {
+  color:        var(--status-no);
+  background:   rgba(242, 92, 92, 0.07);
+  border-color: rgba(242, 92, 92, 0.2);
+}
+
+.c-rec--pending {
+  color:        var(--text-secondary);
+  background:   transparent;
+  border-color: var(--border);
+}
+
+
+/* ││ League Badges */
+
+.c-league {
+  display:        inline-flex;
+  align-items:    center;
+  font-family:    var(--font-body);
+  font-size:      clamp(8px, 0.7vw, 10px);
+  font-weight:    700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding:        2px clamp(var(--space-2), 0.6vw, var(--space-2));
+  border-radius:  3px;
+  border:         1px solid transparent;
+  white-space:    nowrap;
+  line-height:    1;
+}
+
+.c-league--avl {
+  color:        var(--league-avl);
+  background:   var(--league-avl-bg);
+  border-color: var(--league-avl-border);
+}
+
+.c-league--aml {
+  color:        var(--league-aml);
+  background:   var(--league-aml-bg);
+  border-color: var(--league-aml-border);
+}
+
+.c-league--acl {
+  color:        var(--league-acl);
+  background:   var(--league-acl-bg);
+  border-color: var(--league-acl-border);
+}
+
+
+/* ││ Status Badges */
+
+.c-status {
+  display:        inline-flex;
+  align-items:    center;
+  font-family:    var(--font-body);
+  font-size:      clamp(9px, 0.75vw, 11px);
+  font-weight:    700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding:        clamp(3px, 0.3vw, 4px)
+                  clamp(var(--space-2), 0.7vw, var(--space-3));
+  border-radius:  3px;
+  border:         1px solid transparent;
+  white-space:    nowrap;
+  line-height:    1;
+}
+
+.c-status--applicant {
+  color:        var(--status-info);
+  background:   rgba(91, 156, 246, 0.08);
+  border-color: rgba(91, 156, 246, 0.25);
+}
+
+.c-status--prospect {
+  color:        var(--text-secondary);
+  background:   transparent;
+  border-color: var(--border);
+}
+
+.c-status--shortlisted {
+  color:        var(--status-flag);
+  background:   rgba(245, 200, 66, 0.07);
+  border-color: rgba(245, 200, 66, 0.25);
+}
+
+.c-status--in-process {
+  color:        var(--status-purple);
+  background:   rgba(167, 139, 250, 0.08);
+  border-color: rgba(167, 139, 250, 0.25);
+}
+
+.c-status--evaluated {
+  color:        var(--status-pass);
+  background:   rgba(74, 222, 128, 0.08);
+  border-color: rgba(74, 222, 128, 0.25);
+}
+
+.c-status--decided {
+  color:        var(--text-muted);
+  background:   transparent;
+  border-color: var(--border);
+}
+
+
+/* ││ Staff Role Badges */
+
+.c-staff-role {
+  display:        inline-flex;
+  align-items:    center;
+  font-family:    var(--font-body);
+  font-size:      clamp(9px, 0.7vw, 10px);
+  font-weight:    700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding:        2px clamp(var(--space-2), 0.6vw, var(--space-2));
+  border-radius:  3px;
+  border:         1px solid var(--border);
+  color:          var(--text-secondary);
+  white-space:    nowrap;
+  line-height:    1;
+}
+
+.c-staff-role--admin {
+  color:        var(--accent);
+  background:   var(--accent-dim);
+  border-color: rgba(149, 236, 93, 0.25);
+}
+
+.c-staff-role--head-coach {
+  color:        var(--gold);
+  background:   var(--gold-dim);
+  border-color: var(--gold-border);
+}
+
+.c-staff-role--coach {
+  color:        var(--status-info);
+  background:   rgba(91, 156, 246, 0.08);
+  border-color: rgba(91, 156, 246, 0.22);
+}
+
+.c-staff-role--scout {
+  color:        var(--text-secondary);
+  background:   transparent;
+  border-color: var(--border);
+}
+
+
+/* ││ Filter Chips — toolbar use only */
+
+.c-chip {
+  display:        inline-flex;
+  align-items:    center;
+  font-family:    var(--font-body);
+  font-size:      clamp(10px, 0.8vw, 12px);
+  font-weight:    700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding:        clamp(var(--space-1), 0.5vw, var(--space-2))
+                  clamp(var(--space-2), 0.9vw, var(--space-4));
+  border:         1px solid var(--border);
+  border-radius:  var(--radius-sm);
+  background:     transparent;
+  color:          var(--text-secondary);
+  cursor:         pointer;
+  white-space:    nowrap;
+  transition:     background 0.13s, color 0.13s, border-color 0.13s;
+}
+
+.c-chip:hover {
+  background: var(--bg-raised);
+  color:      var(--text-primary);
+}
+
+.c-chip.is-active {
+  border-color: rgba(149, 236, 93, 0.3);
+  color:        var(--accent);
+  background:   var(--accent-dim);
+}
+
+
+/* ││ Chip Role Variants — active state */
+
+.c-chip--top.is-active {
+  border-color: var(--role-top-border);
+  color:        var(--role-top);
+  background:   var(--role-top-bg);
+}
+
+.c-chip--jg.is-active {
+  border-color: var(--role-jg-border);
+  color:        var(--role-jg);
+  background:   var(--role-jg-bg);
+}
+
+.c-chip--mid.is-active {
+  border-color: var(--role-mid-border);
+  color:        var(--role-mid);
+  background:   var(--role-mid-bg);
+}
+
+.c-chip--adc.is-active {
+  border-color: var(--role-adc-border);
+  color:        var(--role-adc);
+  background:   var(--role-adc-bg);
+}
+
+.c-chip--sup.is-active {
+  border-color: var(--role-sup-border);
+  color:        var(--role-sup);
+  background:   var(--role-sup-bg);
+}
+
+
+/* ││ Trials Badge */
+
+.c-badge--trials {
+  font-size:    clamp(8px, 0.65vw, 9px);
+  letter-spacing: 0.1em;
+  padding:      1px var(--space-2);
+  color:        var(--status-info);
+  background:   rgba(91, 156, 246, 0.08);
+  border-color: rgba(91, 156, 246, 0.3);
+}
+
+
+/* ││ Responsive */
+
+@media (max-width: 768px) {
+  .c-chip {
+    font-size:      10px;
+    padding:        var(--space-1) var(--space-3);
+    letter-spacing: 0.08em;
+  }
+
+  .c-badge,
+  .c-role,
+  .c-rec,
+  .c-status,
+  .c-league {
+    font-size: 9px;
+  }
+}

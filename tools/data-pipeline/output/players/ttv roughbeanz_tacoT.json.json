@@ -1,0 +1,226 @@
+{
+  "RiotId": "ttv roughbeanz#tacoT",
+  "GameName": "ttv roughbeanz",
+  "Tag": "tacoT",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_FALL_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "ACL Fall 2025",
+          "TeamName": "Cupid Esports",
+          "Role": "BOTTOM",
+          "Games": 3,
+          "Wins": 2,
+          "Losses": 1,
+          "WinRate": 66.7,
+          "PerGame": {
+            "Kills": 5.33,
+            "Deaths": 2.33,
+            "Assists": 9.67,
+            "Kda": 6.44,
+            "Cs": 243.0,
+            "Gold": 14283.33,
+            "KillParticipation": 70.83,
+            "VisionScore": 31.0,
+            "CcScore": 13.0,
+            "DmgDealt": 26105.0,
+            "DmgTaken": 15560.33,
+            "DmgMitigated": 8560.67,
+            "DmgObjectives": 25447.33,
+            "CsAt10": 72.67,
+            "CsAt15": 121.0,
+            "CsAt20": 166.0,
+            "CsAt25": 200.67,
+            "GoldAt10": 3145.67,
+            "GoldAt15": 4962.0,
+            "GoldAt20": 7879.0,
+            "GoldAt25": 10214.67
+          },
+          "PerMin": {
+            "Cs": 7.86,
+            "Gold": 466.59,
+            "DmgDealt": 838.65,
+            "DmgTaken": 487.08,
+            "DmgMitigated": 267.58,
+            "DmgObjectives": 844.74,
+            "VisionScore": 0.99,
+            "CcScore": 0.46
+          },
+          "Vision": {
+            "AvgVisionScore": 31.0,
+            "AvgWardsPlaced": 12.0,
+            "AvgWardsKilled": 4.67,
+            "AvgControlWardsBought": 2.33
+          },
+          "Champions": [
+            {
+              "Champion": "Ashe",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Ezreal",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Tristana",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5407948387",
+              "GameDate": "2025-11-07",
+              "Patch": "15.22",
+              "GameDuration": 1701,
+              "TeamId": 100,
+              "Champion": "Ashe",
+              "Win": true,
+              "Kills": 5,
+              "Deaths": 1,
+              "Assists": 15,
+              "Kda": 20.0,
+              "Cs": 228,
+              "Csm": 8.04,
+              "Gold": 14848,
+              "Goldm": 523.74,
+              "DmgDealt": 22470,
+              "DmgTaken": 7973,
+              "DmgMitigated": 3945,
+              "DmgObjectives": 27266,
+              "VisionScore": 32,
+              "WardsPlaced": 10,
+              "WardsKilled": 6,
+              "ControlWards": 2,
+              "CcScore": 34.0,
+              "KillParticipation": 76.9,
+              "Timeline": {
+                "CsAt10": 72,
+                "CsAt15": 120,
+                "CsAt20": 169,
+                "CsAt25": 213,
+                "GoldAt10": 3297,
+                "GoldAt15": 5066,
+                "GoldAt20": 8630,
+                "GoldAt25": 11388
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5407985127",
+              "GameDate": "2025-11-07",
+              "Patch": "15.22",
+              "GameDuration": 2218,
+              "TeamId": 100,
+              "Champion": "Ezreal",
+              "Win": false,
+              "Kills": 5,
+              "Deaths": 5,
+              "Assists": 7,
+              "Kda": 2.4,
+              "Cs": 274,
+              "Csm": 7.41,
+              "Gold": 14452,
+              "Goldm": 390.95,
+              "DmgDealt": 31535,
+              "DmgTaken": 23515,
+              "DmgMitigated": 13100,
+              "DmgObjectives": 21084,
+              "VisionScore": 39,
+              "WardsPlaced": 16,
+              "WardsKilled": 5,
+              "ControlWards": 4,
+              "CcScore": 1.0,
+              "KillParticipation": 70.6,
+              "Timeline": {
+                "CsAt10": 80,
+                "CsAt15": 127,
+                "CsAt20": 163,
+                "CsAt25": 193,
+                "GoldAt10": 3145,
+                "GoldAt15": 4731,
+                "GoldAt20": 6491,
+                "GoldAt25": 8352
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5408035299",
+              "GameDate": "2025-11-07",
+              "Patch": "15.22",
+              "GameDuration": 1676,
+              "TeamId": 200,
+              "Champion": "Tristana",
+              "Win": true,
+              "Kills": 6,
+              "Deaths": 1,
+              "Assists": 7,
+              "Kda": 13.0,
+              "Cs": 227,
+              "Csm": 8.13,
+              "Gold": 13550,
+              "Goldm": 485.08,
+              "DmgDealt": 24310,
+              "DmgTaken": 15193,
+              "DmgMitigated": 8637,
+              "DmgObjectives": 27992,
+              "VisionScore": 22,
+              "WardsPlaced": 10,
+              "WardsKilled": 3,
+              "ControlWards": 1,
+              "CcScore": 4.0,
+              "KillParticipation": 65.0,
+              "Timeline": {
+                "CsAt10": 66,
+                "CsAt15": 116,
+                "CsAt20": 166,
+                "CsAt25": 196,
+                "GoldAt10": 2995,
+                "GoldAt15": 5089,
+                "GoldAt20": 8516,
+                "GoldAt25": 10904
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5407948387",
+              "Opponent": "SageWabe#Sage",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5407985127",
+              "Opponent": "SageWabe#Sage",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5408035299",
+              "Opponent": "SageWabe#Sage",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

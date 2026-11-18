@@ -1,0 +1,174 @@
+{
+  "RiotId": "sil#431",
+  "GameName": "sil",
+  "Tag": "431",
+  "Seasons": {
+    "AML_2025": {
+      "League": "AML",
+      "Season": "2025",
+      "Splits": {
+        "AML_FALL_2025": {
+          "League": "AML",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AML Fall 2025",
+          "TeamName": "Stasis Gaming Anomaly",
+          "Role": "JUNGLE",
+          "Games": 2,
+          "Wins": 0,
+          "Losses": 2,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 2.5,
+            "Deaths": 8.0,
+            "Assists": 4.0,
+            "Kda": 0.81,
+            "Cs": 228.5,
+            "Gold": 11505.0,
+            "KillParticipation": 62.0,
+            "VisionScore": 31.5,
+            "CcScore": 118.0,
+            "DmgDealt": 13892.0,
+            "DmgTaken": 53910.5,
+            "DmgMitigated": 40297.5,
+            "DmgObjectives": 19434.0,
+            "CsAt10": 71.5,
+            "CsAt15": 119.5,
+            "CsAt20": 169.5,
+            "CsAt25": 190.0,
+            "GoldAt10": 3270.5,
+            "GoldAt15": 5322.5,
+            "GoldAt20": 7390.0,
+            "GoldAt25": 8739.5
+          },
+          "PerMin": {
+            "Cs": 6.63,
+            "Gold": 333.67,
+            "DmgDealt": 402.84,
+            "DmgTaken": 1563.57,
+            "DmgMitigated": 1168.87,
+            "DmgObjectives": 563.64,
+            "VisionScore": 0.91,
+            "CcScore": 3.42
+          },
+          "Vision": {
+            "AvgVisionScore": 31.5,
+            "AvgWardsPlaced": 8.0,
+            "AvgWardsKilled": 5.0,
+            "AvgControlWardsBought": 4.5
+          },
+          "Champions": [
+            {
+              "Champion": "MonkeyKing",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Nocturne",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5406765214",
+              "GameDate": "2025-11-05",
+              "Patch": "15.21",
+              "GameDuration": 2065,
+              "TeamId": 100,
+              "Champion": "MonkeyKing",
+              "Win": false,
+              "Kills": 1,
+              "Deaths": 8,
+              "Assists": 4,
+              "Kda": 0.62,
+              "Cs": 219,
+              "Csm": 6.36,
+              "Gold": 10537,
+              "Goldm": 306.16,
+              "DmgDealt": 11470,
+              "DmgTaken": 49995,
+              "DmgMitigated": 39881,
+              "DmgObjectives": 17872,
+              "VisionScore": 33,
+              "WardsPlaced": 7,
+              "WardsKilled": 7,
+              "ControlWards": 4,
+              "CcScore": 16.0,
+              "KillParticipation": 62.5,
+              "Timeline": {
+                "CsAt10": 73,
+                "CsAt15": 117,
+                "CsAt20": 172,
+                "CsAt25": 184,
+                "GoldAt10": 3184,
+                "GoldAt15": 4833,
+                "GoldAt20": 7105,
+                "GoldAt25": 8095
+              }
+            },
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5406817284",
+              "GameDate": "2025-11-05",
+              "Patch": "15.21",
+              "GameDuration": 2072,
+              "TeamId": 200,
+              "Champion": "Nocturne",
+              "Win": false,
+              "Kills": 4,
+              "Deaths": 8,
+              "Assists": 4,
+              "Kda": 1.0,
+              "Cs": 238,
+              "Csm": 6.89,
+              "Gold": 12473,
+              "Goldm": 361.19,
+              "DmgDealt": 16314,
+              "DmgTaken": 57826,
+              "DmgMitigated": 40714,
+              "DmgObjectives": 20996,
+              "VisionScore": 30,
+              "WardsPlaced": 9,
+              "WardsKilled": 3,
+              "ControlWards": 5,
+              "CcScore": 220.0,
+              "KillParticipation": 61.5,
+              "Timeline": {
+                "CsAt10": 70,
+                "CsAt15": 122,
+                "CsAt20": 167,
+                "CsAt25": 196,
+                "GoldAt10": 3357,
+                "GoldAt15": 5812,
+                "GoldAt20": 7675,
+                "GoldAt25": 9384
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5406765214",
+              "Opponent": "Huncho#Art",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5406817284",
+              "Opponent": "Huncho#Art",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

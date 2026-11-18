@@ -1,0 +1,278 @@
+{
+  "RiotId": "Plastic Memories#Smile",
+  "GameName": "Plastic Memories",
+  "Tag": "Smile",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_SUMMER_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Summer",
+          "Label": "ACL Summer 2025",
+          "TeamName": "Milk Esports",
+          "Role": "MIDDLE",
+          "Games": 4,
+          "Wins": 4,
+          "Losses": 0,
+          "WinRate": 100.0,
+          "PerGame": {
+            "Kills": 5.25,
+            "Deaths": 5.5,
+            "Assists": 11.5,
+            "Kda": 3.05,
+            "Cs": 242.25,
+            "Gold": 14398.25,
+            "KillParticipation": 50.4,
+            "VisionScore": 21.0,
+            "CcScore": 33.0,
+            "DmgDealt": 33523.0,
+            "DmgTaken": 33049.25,
+            "DmgMitigated": 24203.0,
+            "DmgObjectives": 14062.25,
+            "CsAt10": 77.75,
+            "CsAt15": 127.25,
+            "CsAt20": 168.0,
+            "CsAt25": 189.0,
+            "GoldAt10": 3402.25,
+            "GoldAt15": 5608.0,
+            "GoldAt20": 7527.5,
+            "GoldAt25": 9223.0
+          },
+          "PerMin": {
+            "Cs": 6.86,
+            "Gold": 406.9,
+            "DmgDealt": 920.47,
+            "DmgTaken": 913.96,
+            "DmgMitigated": 667.41,
+            "DmgObjectives": 410.27,
+            "VisionScore": 0.56,
+            "CcScore": 0.85
+          },
+          "Vision": {
+            "AvgVisionScore": 21.0,
+            "AvgWardsPlaced": 11.25,
+            "AvgWardsKilled": 2.75,
+            "AvgControlWardsBought": 1.25
+          },
+          "Champions": [
+            {
+              "Champion": "Ryze",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Aurora",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Lissandra",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Sylas",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5334162543",
+              "GameDate": "2025-07-29",
+              "Patch": "15.14",
+              "GameDuration": 1786,
+              "TeamId": 200,
+              "Champion": "Ryze",
+              "Win": true,
+              "Kills": 8,
+              "Deaths": 2,
+              "Assists": 7,
+              "Kda": 7.5,
+              "Cs": 248,
+              "Csm": 8.33,
+              "Gold": 14461,
+              "Goldm": 485.81,
+              "DmgDealt": 27161,
+              "DmgTaken": 21783,
+              "DmgMitigated": 19143,
+              "DmgObjectives": 18015,
+              "VisionScore": 19,
+              "WardsPlaced": 10,
+              "WardsKilled": 2,
+              "ControlWards": 3,
+              "CcScore": 22.0,
+              "KillParticipation": 65.2,
+              "Timeline": {
+                "CsAt10": 88,
+                "CsAt15": 148,
+                "CsAt20": 199,
+                "CsAt25": 223,
+                "GoldAt10": 3719,
+                "GoldAt15": 6035,
+                "GoldAt20": 8900,
+                "GoldAt25": 10671
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5334204363",
+              "GameDate": "2025-07-29",
+              "Patch": "15.14",
+              "GameDuration": 1754,
+              "TeamId": 100,
+              "Champion": "Aurora",
+              "Win": true,
+              "Kills": 3,
+              "Deaths": 6,
+              "Assists": 7,
+              "Kda": 1.67,
+              "Cs": 179,
+              "Csm": 6.12,
+              "Gold": 10211,
+              "Goldm": 349.29,
+              "DmgDealt": 21870,
+              "DmgTaken": 21291,
+              "DmgMitigated": 10021,
+              "DmgObjectives": 11608,
+              "VisionScore": 11,
+              "WardsPlaced": 10,
+              "WardsKilled": 1,
+              "ControlWards": 0,
+              "CcScore": 9.0,
+              "KillParticipation": 25.6,
+              "Timeline": {
+                "CsAt10": 71,
+                "CsAt15": 110,
+                "CsAt20": 156,
+                "CsAt25": 170,
+                "GoldAt10": 3315,
+                "GoldAt15": 5084,
+                "GoldAt20": 6727,
+                "GoldAt25": 8174
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5350118652",
+              "GameDate": "2025-08-19",
+              "Patch": "15.16",
+              "GameDuration": 2858,
+              "TeamId": 200,
+              "Champion": "Lissandra",
+              "Win": true,
+              "Kills": 3,
+              "Deaths": 8,
+              "Assists": 17,
+              "Kda": 2.5,
+              "Cs": 292,
+              "Csm": 6.13,
+              "Gold": 17092,
+              "Goldm": 358.82,
+              "DmgDealt": 48278,
+              "DmgTaken": 38412,
+              "DmgMitigated": 26490,
+              "DmgObjectives": 14164,
+              "VisionScore": 38,
+              "WardsPlaced": 15,
+              "WardsKilled": 6,
+              "ControlWards": 1,
+              "CcScore": 63.0,
+              "KillParticipation": 51.3,
+              "Timeline": {
+                "CsAt10": 90,
+                "CsAt15": 142,
+                "CsAt20": 176,
+                "CsAt25": 191,
+                "GoldAt10": 3619,
+                "GoldAt15": 6037,
+                "GoldAt20": 7721,
+                "GoldAt25": 9392
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5350178543",
+              "GameDate": "2025-08-19",
+              "Patch": "15.16",
+              "GameDuration": 2190,
+              "TeamId": 100,
+              "Champion": "Sylas",
+              "Win": true,
+              "Kills": 7,
+              "Deaths": 6,
+              "Assists": 15,
+              "Kda": 3.67,
+              "Cs": 250,
+              "Csm": 6.85,
+              "Gold": 15829,
+              "Goldm": 433.67,
+              "DmgDealt": 36783,
+              "DmgTaken": 50711,
+              "DmgMitigated": 41158,
+              "DmgObjectives": 12462,
+              "VisionScore": 16,
+              "WardsPlaced": 10,
+              "WardsKilled": 2,
+              "ControlWards": 1,
+              "CcScore": 38.0,
+              "KillParticipation": 59.5,
+              "Timeline": {
+                "CsAt10": 62,
+                "CsAt15": 109,
+                "CsAt20": 141,
+                "CsAt25": 172,
+                "GoldAt10": 2956,
+                "GoldAt15": 5276,
+                "GoldAt20": 6762,
+                "GoldAt25": 8655
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5334162543",
+              "Opponent": "jaydeniceme 3#ekko",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5334204363",
+              "Opponent": "jaydeniceme 3#ekko",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5350118652",
+              "Opponent": "goku chan#2308",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5350178543",
+              "Opponent": "goku chan#2308",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

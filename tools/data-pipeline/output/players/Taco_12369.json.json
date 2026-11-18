@@ -1,0 +1,174 @@
+{
+  "RiotId": "Taco#12369",
+  "GameName": "Taco",
+  "Tag": "12369",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_FALL_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "ACL Fall 2025",
+          "TeamName": "Conviction",
+          "Role": "BOTTOM",
+          "Games": 2,
+          "Wins": 1,
+          "Losses": 1,
+          "WinRate": 50.0,
+          "PerGame": {
+            "Kills": 3.5,
+            "Deaths": 4.5,
+            "Assists": 9.0,
+            "Kda": 2.78,
+            "Cs": 246.5,
+            "Gold": 13447.5,
+            "KillParticipation": 58.2,
+            "VisionScore": 21.0,
+            "CcScore": 33.5,
+            "DmgDealt": 27689.5,
+            "DmgTaken": 21589.5,
+            "DmgMitigated": 10155.5,
+            "DmgObjectives": 12032.0,
+            "CsAt10": 66.5,
+            "CsAt15": 112.0,
+            "CsAt20": 153.0,
+            "CsAt25": 195.5,
+            "GoldAt10": 2987.5,
+            "GoldAt15": 4776.0,
+            "GoldAt20": 7027.5,
+            "GoldAt25": 9095.0
+          },
+          "PerMin": {
+            "Cs": 7.3,
+            "Gold": 396.11,
+            "DmgDealt": 851.63,
+            "DmgTaken": 589.5,
+            "DmgMitigated": 275.16,
+            "DmgObjectives": 357.28,
+            "VisionScore": 0.61,
+            "CcScore": 0.92
+          },
+          "Vision": {
+            "AvgVisionScore": 21.0,
+            "AvgWardsPlaced": 10.0,
+            "AvgWardsKilled": 3.0,
+            "AvgControlWardsBought": 1.5
+          },
+          "Champions": [
+            {
+              "Champion": "Ziggs",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Morgana",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5436025643",
+              "GameDate": "2025-12-13",
+              "Patch": "15.24",
+              "GameDuration": 1736,
+              "TeamId": 200,
+              "Champion": "Ziggs",
+              "Win": true,
+              "Kills": 6,
+              "Deaths": 2,
+              "Assists": 7,
+              "Kda": 6.5,
+              "Cs": 252,
+              "Csm": 8.71,
+              "Gold": 13314,
+              "Goldm": 460.16,
+              "DmgDealt": 34537,
+              "DmgTaken": 12191,
+              "DmgMitigated": 5313,
+              "DmgObjectives": 12480,
+              "VisionScore": 19,
+              "WardsPlaced": 10,
+              "WardsKilled": 2,
+              "ControlWards": 2,
+              "CcScore": 19.0,
+              "KillParticipation": 61.9,
+              "Timeline": {
+                "CsAt10": 75,
+                "CsAt15": 126,
+                "CsAt20": 179,
+                "CsAt25": 228,
+                "GoldAt10": 3286,
+                "GoldAt15": 5291,
+                "GoldAt20": 8513,
+                "GoldAt25": 10943
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5436076448",
+              "GameDate": "2025-12-13",
+              "Patch": "15.24",
+              "GameDuration": 2454,
+              "TeamId": 200,
+              "Champion": "Morgana",
+              "Win": false,
+              "Kills": 1,
+              "Deaths": 7,
+              "Assists": 11,
+              "Kda": 1.71,
+              "Cs": 241,
+              "Csm": 5.89,
+              "Gold": 13581,
+              "Goldm": 332.05,
+              "DmgDealt": 20842,
+              "DmgTaken": 30988,
+              "DmgMitigated": 14998,
+              "DmgObjectives": 11584,
+              "VisionScore": 23,
+              "WardsPlaced": 10,
+              "WardsKilled": 4,
+              "ControlWards": 1,
+              "CcScore": 48.0,
+              "KillParticipation": 54.5,
+              "Timeline": {
+                "CsAt10": 58,
+                "CsAt15": 98,
+                "CsAt20": 127,
+                "CsAt25": 163,
+                "GoldAt10": 2689,
+                "GoldAt15": 4261,
+                "GoldAt20": 5542,
+                "GoldAt25": 7247
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5436025643",
+              "Opponent": "ScaryJerry#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5436076448",
+              "Opponent": "ScaryJerry#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

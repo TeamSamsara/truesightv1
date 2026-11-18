@@ -1,0 +1,226 @@
+{
+  "RiotId": "TH3#NA1",
+  "GameName": "TH3",
+  "Tag": "NA1",
+  "Seasons": {
+    "AML_2025": {
+      "League": "AML",
+      "Season": "2025",
+      "Splits": {
+        "AML_FALL_2025": {
+          "League": "AML",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AML Fall 2025",
+          "TeamName": "DropDeadGaming Genesis",
+          "Role": "JUNGLE",
+          "Games": 3,
+          "Wins": 3,
+          "Losses": 0,
+          "WinRate": 100.0,
+          "PerGame": {
+            "Kills": 3.67,
+            "Deaths": 3.67,
+            "Assists": 11.67,
+            "Kda": 4.18,
+            "Cs": 180.33,
+            "Gold": 11617.67,
+            "KillParticipation": 59.3,
+            "VisionScore": 37.67,
+            "CcScore": 19.67,
+            "DmgDealt": 13058.33,
+            "DmgTaken": 39794.0,
+            "DmgMitigated": 41554.0,
+            "DmgObjectives": 43307.33,
+            "CsAt10": 64.33,
+            "CsAt15": 97.67,
+            "CsAt20": 130.67,
+            "CsAt25": 158.0,
+            "GoldAt10": 3411.0,
+            "GoldAt15": 5142.67,
+            "GoldAt20": 7300.0,
+            "GoldAt25": 9172.67
+          },
+          "PerMin": {
+            "Cs": 5.87,
+            "Gold": 377.29,
+            "DmgDealt": 423.57,
+            "DmgTaken": 1304.38,
+            "DmgMitigated": 1341.22,
+            "DmgObjectives": 1417.54,
+            "VisionScore": 1.22,
+            "CcScore": 0.63
+          },
+          "Vision": {
+            "AvgVisionScore": 37.67,
+            "AvgWardsPlaced": 7.33,
+            "AvgWardsKilled": 8.33,
+            "AvgControlWardsBought": 4.67
+          },
+          "Champions": [
+            {
+              "Champion": "MonkeyKing",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Trundle",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "JarvanIV",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5388183184",
+              "GameDate": "2025-10-08",
+              "Patch": "15.19",
+              "GameDuration": 1797,
+              "TeamId": 200,
+              "Champion": "MonkeyKing",
+              "Win": true,
+              "Kills": 4,
+              "Deaths": 5,
+              "Assists": 9,
+              "Kda": 2.6,
+              "Cs": 181,
+              "Csm": 6.04,
+              "Gold": 10854,
+              "Goldm": 362.4,
+              "DmgDealt": 11585,
+              "DmgTaken": 39966,
+              "DmgMitigated": 37292,
+              "DmgObjectives": 30308,
+              "VisionScore": 38,
+              "WardsPlaced": 8,
+              "WardsKilled": 6,
+              "ControlWards": 4,
+              "CcScore": 14.0,
+              "KillParticipation": 52.0,
+              "Timeline": {
+                "CsAt10": 54,
+                "CsAt15": 92,
+                "CsAt20": 127,
+                "CsAt25": 157,
+                "GoldAt10": 3183,
+                "GoldAt15": 4728,
+                "GoldAt20": 6540,
+                "GoldAt25": 8771
+              }
+            },
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5388228458",
+              "GameDate": "2025-10-08",
+              "Patch": "15.19",
+              "GameDuration": 1716,
+              "TeamId": 100,
+              "Champion": "Trundle",
+              "Win": true,
+              "Kills": 1,
+              "Deaths": 4,
+              "Assists": 16,
+              "Kda": 4.25,
+              "Cs": 163,
+              "Csm": 5.7,
+              "Gold": 10572,
+              "Goldm": 369.65,
+              "DmgDealt": 12021,
+              "DmgTaken": 41239,
+              "DmgMitigated": 34103,
+              "DmgObjectives": 52905,
+              "VisionScore": 30,
+              "WardsPlaced": 3,
+              "WardsKilled": 7,
+              "ControlWards": 3,
+              "CcScore": 18.0,
+              "KillParticipation": 45.9,
+              "Timeline": {
+                "CsAt10": 69,
+                "CsAt15": 93,
+                "CsAt20": 122,
+                "CsAt25": 147,
+                "GoldAt10": 3478,
+                "GoldAt15": 5150,
+                "GoldAt20": 7380,
+                "GoldAt25": 8734
+              }
+            },
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5402412267",
+              "GameDate": "2025-10-29",
+              "Patch": "15.21",
+              "GameDuration": 2015,
+              "TeamId": 200,
+              "Champion": "JarvanIV",
+              "Win": true,
+              "Kills": 6,
+              "Deaths": 2,
+              "Assists": 10,
+              "Kda": 8.0,
+              "Cs": 197,
+              "Csm": 5.87,
+              "Gold": 13427,
+              "Goldm": 399.81,
+              "DmgDealt": 15569,
+              "DmgTaken": 38177,
+              "DmgMitigated": 53267,
+              "DmgObjectives": 46709,
+              "VisionScore": 45,
+              "WardsPlaced": 11,
+              "WardsKilled": 12,
+              "ControlWards": 7,
+              "CcScore": 27.0,
+              "KillParticipation": 80.0,
+              "Timeline": {
+                "CsAt10": 70,
+                "CsAt15": 108,
+                "CsAt20": 143,
+                "CsAt25": 170,
+                "GoldAt10": 3572,
+                "GoldAt15": 5550,
+                "GoldAt20": 7980,
+                "GoldAt25": 10013
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5388183184",
+              "Opponent": "darklord70#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5388228458",
+              "Opponent": "darklord70#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5402412267",
+              "Opponent": "Mist Bringer#RUIN",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

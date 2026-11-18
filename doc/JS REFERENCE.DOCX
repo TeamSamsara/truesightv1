@@ -1,0 +1,149 @@
+| **TEAM SAMSARA** **TrueSight Platform** Code Architecture Reference *v1.0  ·  March 2026  ·  Internal — Engineering* |
+| --- |
+
+This document establishes the decision framework for how TrueSight code is organised into files and modules. It is not a style guide and it does not dictate formatting. It answers one question: when should code be split into a separate file, and when should it stay together?
+
+Every engineer working on this platform should be able to apply this framework without asking. The rules here are not preferences — they are the structural constraints that keep the codebase maintainable as the system grows.
+
+| **1  ****THE CORE PRINCIPLE** |
+| --- |
+
+|  | **A file is a unit of behavior, not a container of related code.** The question is never "does this code feel related?" It is "does this code evolve together?" Two things can share a name, a data source, and a feature area, and still belong in different files — if they change for different reasons. |
+| --- | --- |
+
+This distinction is what separates a codebase that stays navigable under growth from one that accumulates complexity until changes become risky. Files that mix independent evolution paths become fragile — a change to one concern risks breaking another because they share a namespace, a set of private helpers, and a single point of responsibility.
+
+The framework below translates this principle into specific, applicable rules.
+
+| **2  ****WHAT A DOMAIN IS** |
+| --- |
+
+Before applying the split rules, the meaning of "domain" must be precise. This is where misapplication happens most often.
+
+|  | **A domain is a unit of behavior that evolves together — not a label.** "Staff" is a label. It covers the staff list, the create modal flow, row actions, and audit logs. These do not evolve together. The list changes when filtering or display requirements change. The modal flow changes when the account creation process changes. Row actions change when permissions or account operations change. Same label, three independent evolution paths — three domains. |
+| --- | --- |
+
+The test for a shared domain is always behavioral:
+
+If a requirement changes tomorrow, does it affect both parts of this file — or only one? If only one, those parts do not share a domain.
+
+If the answer is "both, always, for the same reason" — then they share a domain and belong together regardless of size.
+
+**Applied to the codebase**
+
+| **File** | **Domain read** |
+| --- | --- |
+| **authRenderer.js** | Login view and first-login setup. *→ Same state shape, same error handling, same lifecycle. They change together — one domain.* |
+| **adminRenderer.js (original)** | Overview, staff list, staff modals, approvals, stale profiles, system. *→ Six independent pages with no shared evolution path. Six domains in one file.* |
+| **modalRenderer.js** | Modal shell only — overlay, header, close button, body slot. *→ Never renders content. Content comes from features. One domain, never splits.* |
+| **staffView.js + staffModalView.js** | Staff list and staff modal flows split into two files. *→ List changes when display requirements change. Modal changes when account creation changes. Independent.* |
+
+| **3  ****WHEN TO SPLIT** |
+| --- |
+
+A file must be split when any of the following conditions are true. These are not guidelines — they are hard triggers.
+
+**Trigger 1 — Independent evolution paths**
+
+Two parts of a file could change for completely unrelated reasons — different features, different data sources, different product requirements. If a developer making a change to one section would never need to touch the other, they do not belong in the same file.
+
+|  | adminRenderer.js covered the overview page and the staff creation modal flow. A change to the overview widget layout has no relationship to a change in the modal step sequence. These were always independent. |
+| --- | --- |
+
+**Trigger 2 — Helper isolation**
+
+A private helper function is only ever called by one section of the file, and would never be touched when working on the rest of it. This is a strong structural signal: the helper is scoped to a different domain and is already living in the wrong place.
+
+|  | _buildStaffBreakdownHTML was a private helper inside adminRenderer.js that was only ever called by the overview widget. It had no relationship to the staff list or modal builders. Its isolation revealed a boundary. |
+| --- | --- |
+
+**Trigger 3 — The file cannot be reasoned about in one read**
+
+A developer opening the file to make a focused change needs to hold too much unrelated context to work safely. The file has become a knowledge burden — understanding one part requires understanding the whole. This is a symptom of mixed domains, not a cause, but it is the practical indicator that the other triggers have already fired.
+
+|  | Line count is a signal here, not a rule. A 400-line file that tells one coherent story is fine. A 200-line file that mixes three independent concerns is already a problem. The test is cognitive load, not line count. |
+| --- | --- |
+
+| **4  ****WHEN NOT TO SPLIT** |
+| --- |
+
+Splitting too aggressively creates a different class of problem: indirection without isolation. Files that are too small add import overhead and force developers to navigate across multiple files to understand a single behavior. The following conditions are reasons to keep code together.
+
+**Same evolution path**
+
+The concerns share the same state, the same lifecycle, and the same triggers. They would always change together, for the same reason. Splitting them would not reduce coupling — it would move it across files.
+
+**Splitting reintroduces the coupling it was meant to remove**
+
+If two files would immediately need to import each other after splitting, the coupling was never actually removed. The boundary was artificial. Keep them together until a genuine independent evolution path emerges.
+
+**The result would be too small to justify its own file**
+
+A file that would be fewer than roughly 60 to 80 lines with a single export adds indirection with no payoff. If a concern is genuinely small, it belongs as a section inside a related file, not as its own module.
+
+|  | authRenderer.js handles login and first-login setup. These are technically two concerns, but they share the same state shape, the same error handling approach, and the same lifecycle. They change together. The file is one domain and should stay together — unless a third auth flow is added that does not share that state shape, at which point it would split. |
+| --- | --- |
+
+| **5  ****THE DECISION TEST** |
+| --- |
+
+Before splitting anything — or before deciding not to split — apply this test in order. Stop at the first condition that applies.
+
+| **Step** | **What to do** |
+| --- | --- |
+| **Step 1** Ask the evolution question | If a requirement changes tomorrow, does it affect the entire file — or only one section? If only one section is affected, the file contains at least two domains. Proceed to Step 2. |
+| **Step 2** Check for helper isolation | Are any private helper functions only ever called by one section? If yes, those helpers already belong to a different domain. They confirm the boundary. |
+| **Step 3** Check the split result | Would the resulting files be large enough to justify the split? Would they be free of mutual imports? If either answer is no, the split creates more indirection than isolation. Hold the boundary for now and revisit when the file grows further. |
+| **Step 4** Split with a coordinator | If all three conditions point to splitting: create view or module subfiles. The parent file becomes a thin coordinator — it owns the shell, the public API, and nothing else. Features import from the coordinator only. |
+
+| **6  ****THE COORDINATOR PATTERN** |
+| --- |
+
+When a file splits, it does not simply divide into two equal parts. One file becomes the coordinator and the others become domain views or modules. This is not optional — the pattern must be applied consistently.
+
+**What the coordinator owns**
+
+| **The shell** | The outer container that domain views mount into. Rendered once by the coordinator. |
+| --- | --- |
+| **The public API** | All exported functions that controllers and other features depend on. The coordinator re-exports from views — nothing outside the feature ever imports from a view directly. |
+| **Lifecycle** | Mount, unmount, and any cross-view coordination that cannot live in a single view. |
+
+**What the coordinator does not own**
+
+| **Domain rendering logic** | Each view renders its own page. The coordinator does not produce domain HTML. |
+| --- | --- |
+| **Private helpers** | Helpers stay in the view they serve. The coordinator has no private logic. |
+| **State** | State files are unchanged by this pattern. Views read from the same state the coordinator already used. |
+
+**Import aliasing**
+
+When the coordinator re-exports functions from views, those views must be imported with an alias to avoid naming collisions with the re-exported wrappers. Prefix all view imports with an underscore.
+
+|  | import * as _staffView from './views/staffView.js'; import * as _overviewView from './views/overviewView.js'; // Re-export using the original name — consumers see no difference export function renderStaffPage(state) { return _staffView.renderStaffPage(state); } |
+| --- | --- |
+
+| **7  ****APPLIED TO EACH FILE TYPE** |
+| --- |
+
+The same framework applies to every file type in the architecture. The triggers are identical — only the nature of the concerns differs.
+
+| **File type** | **Split condition** | **Example** |
+| --- | --- | --- |
+| **Renderer** | Renders one page or UI domain. Splits when it renders pages with independent evolution paths. | adminRenderer.js → six views. authRenderer.js → stays together (one domain). |
+| **Controller** | Wires events to services for one workflow. Splits when workflows have independent triggers. | staffController.js handles staff management only. If combine scoring grew to 400+ lines with unrelated helpers, it would split. |
+| **Service** | Handles external communication for one data domain. Splits when operations target genuinely separate collections or APIs. | adminService.js handles staff + approvals + stale profiles — all admin data. Would split if, say, the approval engine grew into its own significant workflow. |
+| **State** | One state file per feature. Splits only if two independent features share a file — which should not happen. | combineState.js owns all combine state. Multiple controllers read from it. No split needed. |
+| **Index (entry point)** | Mounts the feature, delegates to controllers and coordinator. Never splits — it is already minimal. | features/admin/index.js. Single responsibility by design. |
+| **CSS** | Covered in the CSS Architecture Reference. The same domain evolution principle applies. | admin.css owns all admin UI. tracker.css owns all tracker UI. No cross-feature references. |
+
+| **8  ****QUICK REFERENCE** |
+| --- |
+
+| **Split when** | Two sections change for independent reasons Private helpers serve only one section of the file The file cannot be reasoned about without holding too much unrelated context |
+| --- | --- |
+| **Keep together when** | The concerns share the same evolution path Splitting would immediately reintroduce mutual imports The resulting files would be too small to justify the indirection |
+| **Always apply the coordinator pattern** | Parent file owns shell, public API, and lifecycle View files own domain rendering and helpers Nothing outside the feature imports from view files directly |
+| **The test** | 1. Ask: if a requirement changes, does it affect the whole file or one section? 2. Check: are any helpers isolated to one section? 3. Verify: would the split result in files worth having? 4. If yes to 1 and 2 and 3: split with a coordinator. |
+
+| *Team Samsara  ·  TrueSight Code Architecture Reference v1.0  ·  Internal Use Only* |
+| --- |

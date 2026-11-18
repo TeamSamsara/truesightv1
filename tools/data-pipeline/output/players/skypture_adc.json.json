@@ -1,0 +1,122 @@
+{
+  "RiotId": "skypture#adc",
+  "GameName": "skypture",
+  "Tag": "adc",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_FALL_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "ACL Fall 2025",
+          "TeamName": "Kiwi Gang",
+          "Role": "BOTTOM",
+          "Games": 1,
+          "Wins": 0,
+          "Losses": 1,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 6.0,
+            "Deaths": 2.0,
+            "Assists": 9.0,
+            "Kda": 7.5,
+            "Cs": 221.0,
+            "Gold": 13185.0,
+            "KillParticipation": 48.4,
+            "VisionScore": 25.0,
+            "CcScore": 13.0,
+            "DmgDealt": 21846.0,
+            "DmgTaken": 21035.0,
+            "DmgMitigated": 11924.0,
+            "DmgObjectives": 10943.0,
+            "CsAt10": 59.0,
+            "CsAt15": 106.0,
+            "CsAt20": 151.0,
+            "CsAt25": 183.0,
+            "GoldAt10": 3493.0,
+            "GoldAt15": 5626.0,
+            "GoldAt20": 8582.0,
+            "GoldAt25": 10506.0
+          },
+          "PerMin": {
+            "Cs": 7.08,
+            "Gold": 422.37,
+            "DmgDealt": 699.82,
+            "DmgTaken": 673.84,
+            "DmgMitigated": 381.98,
+            "DmgObjectives": 350.55,
+            "VisionScore": 0.8,
+            "CcScore": 0.42
+          },
+          "Vision": {
+            "AvgVisionScore": 25.0,
+            "AvgWardsPlaced": 10.0,
+            "AvgWardsKilled": 8.0,
+            "AvgControlWardsBought": 0.0
+          },
+          "Champions": [
+            {
+              "Champion": "Yunara",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5408644996",
+              "GameDate": "2025-11-08",
+              "Patch": "15.22",
+              "GameDuration": 1873,
+              "TeamId": 200,
+              "Champion": "Yunara",
+              "Win": false,
+              "Kills": 6,
+              "Deaths": 2,
+              "Assists": 9,
+              "Kda": 7.5,
+              "Cs": 221,
+              "Csm": 7.08,
+              "Gold": 13185,
+              "Goldm": 422.37,
+              "DmgDealt": 21846,
+              "DmgTaken": 21035,
+              "DmgMitigated": 11924,
+              "DmgObjectives": 10943,
+              "VisionScore": 25,
+              "WardsPlaced": 10,
+              "WardsKilled": 8,
+              "ControlWards": 0,
+              "CcScore": 13.0,
+              "KillParticipation": 48.4,
+              "Timeline": {
+                "CsAt10": 59,
+                "CsAt15": 106,
+                "CsAt20": 151,
+                "CsAt25": 183,
+                "GoldAt10": 3493,
+                "GoldAt15": 5626,
+                "GoldAt20": 8582,
+                "GoldAt25": 10506
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5408644996",
+              "Opponent": "ScaryJerry#Rank1",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

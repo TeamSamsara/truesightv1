@@ -1,0 +1,164 @@
+/* ││ reset.css
+   @version 1.0.1
+
+   Normalizes browser defaults.
+   No design decisions here — only leveling the playing field.
+   All visual styling belongs in components or features.
+*/
+
+
+/* ││ Box Model */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin:     0;
+  padding:    0;
+}
+
+
+/* ││ Document */
+
+html {
+  font-size:                clamp(15px, 1.1vw, 18px);
+  scroll-behavior:          smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family:              var(--font-body);
+  background-color:         var(--bg);
+  color:                    var(--text-primary);
+  min-height:               100vh;
+  line-height:              1.5;
+  -webkit-font-smoothing:   antialiased;
+  -moz-osx-font-smoothing:  grayscale;
+}
+
+
+/* ││ Grid Background Overlay */
+
+body::before {
+  content:    '';
+  position:   fixed;
+  inset:      0;
+  background-image:
+    linear-gradient(var(--border-subtle) 1px, transparent 1px),
+    linear-gradient(90deg, var(--border-subtle) 1px, transparent 1px);
+  background-size: 44px 44px;
+  pointer-events:  none;
+  z-index:         0;
+}
+
+
+/* ││ Accent Top Bar */
+
+body::after {
+  content:    '';
+  position:   fixed;
+  top:        0;
+  left:       0;
+  right:      0;
+  height:     3px;
+  background: var(--accent);
+  opacity:    0.85;
+  z-index:    9999;
+}
+
+
+/* ││ Typography Reset */
+
+h1, h2, h3, h4, h5, h6 {
+  font-size:   inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+p {
+  line-height: 1.6;
+}
+
+a {
+  color:           inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+/* ││ List Reset */
+
+ul,
+ol {
+  list-style: none;
+}
+
+
+/* ││ Media Reset */
+
+img,
+video,
+svg {
+  display:   block;
+  max-width: 100%;
+}
+
+
+/* ││ Form Reset */
+
+button,
+input,
+select,
+textarea {
+  font-family: var(--font-body);
+  font-size:   inherit;
+  color:       inherit;
+  background:  none;
+  border:      none;
+  outline:     none;
+  appearance:  none;
+}
+
+button {
+  cursor: pointer;
+}
+
+textarea {
+  resize: vertical;
+}
+
+
+/* ││ Table Reset */
+
+table {
+  border-collapse: collapse;
+  border-spacing:  0;
+  width:           100%;
+}
+
+
+/* ││ Scrollbar */
+
+::-webkit-scrollbar {
+  width:  6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background:    var(--bg-inset);
+  border-radius: var(--radius-sm);
+}
+
+
+/* ││ State — hidden utility used by JS */
+
+.is-hidden {
+  display: none !important;
+}

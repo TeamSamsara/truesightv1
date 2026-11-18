@@ -1,0 +1,278 @@
+{
+  "RiotId": "Mobility#NA2",
+  "GameName": "Mobility",
+  "Tag": "NA2",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_SUMMER_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Summer",
+          "Label": "ACL Summer 2025",
+          "TeamName": "",
+          "Role": "BOTTOM",
+          "Games": 4,
+          "Wins": 1,
+          "Losses": 3,
+          "WinRate": 25.0,
+          "PerGame": {
+            "Kills": 6.75,
+            "Deaths": 3.5,
+            "Assists": 7.5,
+            "Kda": 4.07,
+            "Cs": 357.5,
+            "Gold": 17513.5,
+            "KillParticipation": 64.12,
+            "VisionScore": 40.5,
+            "CcScore": 16.0,
+            "DmgDealt": 34811.25,
+            "DmgTaken": 26804.5,
+            "DmgMitigated": 13921.25,
+            "DmgObjectives": 22616.5,
+            "CsAt10": 80.25,
+            "CsAt15": 131.75,
+            "CsAt20": 180.25,
+            "CsAt25": 228.25,
+            "GoldAt10": 3687.5,
+            "GoldAt15": 5877.0,
+            "GoldAt20": 7850.75,
+            "GoldAt25": 9880.0
+          },
+          "PerMin": {
+            "Cs": 9.45,
+            "Gold": 462.29,
+            "DmgDealt": 911.56,
+            "DmgTaken": 713.29,
+            "DmgMitigated": 369.46,
+            "DmgObjectives": 578.85,
+            "VisionScore": 1.07,
+            "CcScore": 0.44
+          },
+          "Vision": {
+            "AvgVisionScore": 40.5,
+            "AvgWardsPlaced": 14.25,
+            "AvgWardsKilled": 8.5,
+            "AvgControlWardsBought": 2.25
+          },
+          "Champions": [
+            {
+              "Champion": "Lucian",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Ezreal",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Ashe",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Xayah",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5377354349",
+              "GameDate": "2025-09-26",
+              "Patch": "15.19",
+              "GameDuration": 2248,
+              "TeamId": 200,
+              "Champion": "Lucian",
+              "Win": true,
+              "Kills": 10,
+              "Deaths": 2,
+              "Assists": 8,
+              "Kda": 9.0,
+              "Cs": 356,
+              "Csm": 9.5,
+              "Gold": 18493,
+              "Goldm": 493.59,
+              "DmgDealt": 39915,
+              "DmgTaken": 32518,
+              "DmgMitigated": 17977,
+              "DmgObjectives": 27470,
+              "VisionScore": 44,
+              "WardsPlaced": 16,
+              "WardsKilled": 14,
+              "ControlWards": 4,
+              "CcScore": 3.0,
+              "KillParticipation": 69.2,
+              "Timeline": {
+                "CsAt10": 82,
+                "CsAt15": 136,
+                "CsAt20": 183,
+                "CsAt25": 218,
+                "GoldAt10": 3512,
+                "GoldAt15": 5899,
+                "GoldAt20": 7978,
+                "GoldAt25": 9648
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5377418446",
+              "GameDate": "2025-09-26",
+              "Patch": "15.19",
+              "GameDuration": 2319,
+              "TeamId": 100,
+              "Champion": "Ezreal",
+              "Win": false,
+              "Kills": 9,
+              "Deaths": 3,
+              "Assists": 7,
+              "Kda": 5.33,
+              "Cs": 328,
+              "Csm": 8.49,
+              "Gold": 18920,
+              "Goldm": 489.52,
+              "DmgDealt": 48766,
+              "DmgTaken": 25884,
+              "DmgMitigated": 16015,
+              "DmgObjectives": 16207,
+              "VisionScore": 29,
+              "WardsPlaced": 15,
+              "WardsKilled": 3,
+              "ControlWards": 3,
+              "CcScore": 2.0,
+              "KillParticipation": 64.0,
+              "Timeline": {
+                "CsAt10": 77,
+                "CsAt15": 128,
+                "CsAt20": 168,
+                "CsAt25": 211,
+                "GoldAt10": 4245,
+                "GoldAt15": 6719,
+                "GoldAt20": 8855,
+                "GoldAt25": 10819
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5377492141",
+              "GameDate": "2025-09-26",
+              "Patch": "15.19",
+              "GameDuration": 2044,
+              "TeamId": 200,
+              "Champion": "Ashe",
+              "Win": false,
+              "Kills": 2,
+              "Deaths": 5,
+              "Assists": 9,
+              "Kda": 2.2,
+              "Cs": 299,
+              "Csm": 8.78,
+              "Gold": 13014,
+              "Goldm": 382.02,
+              "DmgDealt": 15384,
+              "DmgTaken": 23796,
+              "DmgMitigated": 10378,
+              "DmgObjectives": 1925,
+              "VisionScore": 38,
+              "WardsPlaced": 10,
+              "WardsKilled": 6,
+              "ControlWards": 1,
+              "CcScore": 39.0,
+              "KillParticipation": 68.8,
+              "Timeline": {
+                "CsAt10": 77,
+                "CsAt15": 128,
+                "CsAt20": 170,
+                "CsAt25": 222,
+                "GoldAt10": 3350,
+                "GoldAt15": 5640,
+                "GoldAt20": 7271,
+                "GoldAt25": 9215
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5377556837",
+              "GameDate": "2025-09-27",
+              "Patch": "15.19",
+              "GameDuration": 2433,
+              "TeamId": 200,
+              "Champion": "Xayah",
+              "Win": false,
+              "Kills": 6,
+              "Deaths": 4,
+              "Assists": 6,
+              "Kda": 3.0,
+              "Cs": 447,
+              "Csm": 11.02,
+              "Gold": 19627,
+              "Goldm": 484.02,
+              "DmgDealt": 35180,
+              "DmgTaken": 25020,
+              "DmgMitigated": 11315,
+              "DmgObjectives": 44864,
+              "VisionScore": 51,
+              "WardsPlaced": 16,
+              "WardsKilled": 11,
+              "ControlWards": 1,
+              "CcScore": 20.0,
+              "KillParticipation": 54.5,
+              "Timeline": {
+                "CsAt10": 85,
+                "CsAt15": 135,
+                "CsAt20": 200,
+                "CsAt25": 262,
+                "GoldAt10": 3643,
+                "GoldAt15": 5250,
+                "GoldAt20": 7299,
+                "GoldAt25": 9838
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5377354349",
+              "Opponent": "Shogo#Shog",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5377418446",
+              "Opponent": "Shogo#Shog",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5377492141",
+              "Opponent": "Shogo#Shog",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5377556837",
+              "Opponent": "Shogo#Shog",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

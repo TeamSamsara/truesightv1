@@ -1,0 +1,226 @@
+{
+  "RiotId": "never die#007",
+  "GameName": "never die",
+  "Tag": "007",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_SUMMER_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Summer",
+          "Label": "ACL Summer 2025",
+          "TeamName": "PAPA's Chonccs",
+          "Role": "BOTTOM",
+          "Games": 3,
+          "Wins": 1,
+          "Losses": 2,
+          "WinRate": 33.3,
+          "PerGame": {
+            "Kills": 7.0,
+            "Deaths": 5.0,
+            "Assists": 4.67,
+            "Kda": 2.33,
+            "Cs": 253.0,
+            "Gold": 14616.0,
+            "KillParticipation": 58.43,
+            "VisionScore": 33.33,
+            "CcScore": 9.33,
+            "DmgDealt": 29665.0,
+            "DmgTaken": 23550.33,
+            "DmgMitigated": 14573.0,
+            "DmgObjectives": 18973.33,
+            "CsAt10": 65.0,
+            "CsAt15": 108.33,
+            "CsAt20": 156.67,
+            "CsAt25": 199.67,
+            "GoldAt10": 3036.0,
+            "GoldAt15": 5437.67,
+            "GoldAt20": 8138.67,
+            "GoldAt25": 10766.33
+          },
+          "PerMin": {
+            "Cs": 7.92,
+            "Gold": 455.3,
+            "DmgDealt": 920.85,
+            "DmgTaken": 725.2,
+            "DmgMitigated": 450.98,
+            "DmgObjectives": 594.18,
+            "VisionScore": 1.05,
+            "CcScore": 0.28
+          },
+          "Vision": {
+            "AvgVisionScore": 33.33,
+            "AvgWardsPlaced": 12.0,
+            "AvgWardsKilled": 10.67,
+            "AvgControlWardsBought": 0.67
+          },
+          "Champions": [
+            {
+              "Champion": "Kaisa",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Lucian",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Aphelios",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5355244835",
+              "GameDate": "2025-08-26",
+              "Patch": "15.16",
+              "GameDuration": 1864,
+              "TeamId": 100,
+              "Champion": "Kaisa",
+              "Win": false,
+              "Kills": 5,
+              "Deaths": 2,
+              "Assists": 3,
+              "Kda": 4.0,
+              "Cs": 246,
+              "Csm": 7.92,
+              "Gold": 13347,
+              "Goldm": 429.62,
+              "DmgDealt": 29680,
+              "DmgTaken": 20533,
+              "DmgMitigated": 12302,
+              "DmgObjectives": 4755,
+              "VisionScore": 24,
+              "WardsPlaced": 12,
+              "WardsKilled": 4,
+              "ControlWards": 1,
+              "CcScore": 7.0,
+              "KillParticipation": 57.1,
+              "Timeline": {
+                "CsAt10": 60,
+                "CsAt15": 103,
+                "CsAt20": 166,
+                "CsAt25": 198,
+                "GoldAt10": 2971,
+                "GoldAt15": 5448,
+                "GoldAt20": 8459,
+                "GoldAt25": 10646
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5355293370",
+              "GameDate": "2025-08-26",
+              "Patch": "15.16",
+              "GameDuration": 1734,
+              "TeamId": 100,
+              "Champion": "Lucian",
+              "Win": true,
+              "Kills": 7,
+              "Deaths": 4,
+              "Assists": 9,
+              "Kda": 4.0,
+              "Cs": 246,
+              "Csm": 8.51,
+              "Gold": 13937,
+              "Goldm": 482.25,
+              "DmgDealt": 25217,
+              "DmgTaken": 19595,
+              "DmgMitigated": 13324,
+              "DmgObjectives": 27760,
+              "VisionScore": 40,
+              "WardsPlaced": 11,
+              "WardsKilled": 14,
+              "ControlWards": 1,
+              "CcScore": 4.0,
+              "KillParticipation": 57.1,
+              "Timeline": {
+                "CsAt10": 66,
+                "CsAt15": 124,
+                "CsAt20": 169,
+                "CsAt25": 219,
+                "GoldAt10": 3159,
+                "GoldAt15": 5502,
+                "GoldAt20": 8453,
+                "GoldAt25": 11549
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5355345329",
+              "GameDate": "2025-08-26",
+              "Patch": "15.16",
+              "GameDuration": 2189,
+              "TeamId": 200,
+              "Champion": "Aphelios",
+              "Win": false,
+              "Kills": 9,
+              "Deaths": 9,
+              "Assists": 2,
+              "Kda": 1.22,
+              "Cs": 267,
+              "Csm": 7.32,
+              "Gold": 16564,
+              "Goldm": 454.02,
+              "DmgDealt": 34098,
+              "DmgTaken": 30523,
+              "DmgMitigated": 18093,
+              "DmgObjectives": 24405,
+              "VisionScore": 36,
+              "WardsPlaced": 13,
+              "WardsKilled": 14,
+              "ControlWards": 0,
+              "CcScore": 17.0,
+              "KillParticipation": 61.1,
+              "Timeline": {
+                "CsAt10": 69,
+                "CsAt15": 98,
+                "CsAt20": 135,
+                "CsAt25": 182,
+                "GoldAt10": 2978,
+                "GoldAt15": 5363,
+                "GoldAt20": 7504,
+                "GoldAt25": 10104
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5355244835",
+              "Opponent": "Levitate#1v9",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5355293370",
+              "Opponent": "Levitate#1v9",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5355345329",
+              "Opponent": "Levitate#1v9",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,167 @@
+/* ││ widget.css
+   @version 1.0.0
+
+   Base widget shell — chrome, header, loading overlay, error state, body slot.
+   Owns nothing inside .c-widget__body — that belongs to widget type files.
+
+   @import widget-stat.css
+   @import widget-feed.css
+   @import widget-list.css
+   @import widget-calendar.css
+   @import widget-custom.css
+
+   Target path: src/shared/components/widget/widget.css
+*/
+
+@import 'widget-stat.css';
+@import 'widget-feed.css';
+@import 'widget-list.css';
+@import 'widget-calendar.css';
+@import 'widget-custom.css';
+
+
+/* ││ Widget Shell */
+
+.c-widget {
+  background:    var(--bg-surface);
+  border:        1px solid var(--border);
+  border-radius: var(--radius-lg);
+  display:       flex;
+  flex-direction: column;
+  position:      relative;
+  overflow:      hidden;
+  height:        100%;
+}
+
+
+/* ││ Variant Accents */
+
+.c-widget--default { border-top: 2px solid var(--border); }
+.c-widget--gold    { border-top: 2px solid var(--gold); }
+.c-widget--pass    { border-top: 2px solid var(--status-pass); }
+.c-widget--alert   { border-top: 2px solid var(--status-no); }
+.c-widget--info    { border-top: 2px solid var(--status-flag); }
+
+
+/* ││ Header */
+
+.c-widget__header {
+  display:         flex;
+  align-items:     flex-start;
+  justify-content: space-between;
+  gap:             var(--space-3);
+  padding:         var(--space-4) var(--space-4) 0;
+  flex-shrink:     0;
+}
+
+.c-widget__header-text {
+  display:        flex;
+  flex-direction: column;
+  gap:            var(--space-1);
+  min-width:      0;
+}
+
+.c-widget__eyebrow {
+  font-size:      9px;
+  font-weight:    700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color:          var(--text-muted);
+  font-family:    var(--font-body);
+}
+
+.c-widget__title {
+  font-family:    var(--font-body);
+  font-size:      13px;
+  font-weight:    700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color:          var(--text-secondary);
+  white-space:    nowrap;
+  overflow:       hidden;
+  text-overflow:  ellipsis;
+}
+
+
+/* ││ Header Action */
+
+.c-widget__action {
+  font-family:    var(--font-body);
+  font-size:      11px;
+  font-weight:    700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color:          var(--text-muted);
+  background:     transparent;
+  border:         none;
+  cursor:         pointer;
+  padding:        0;
+  flex-shrink:    0;
+  transition:     color .12s;
+  white-space:    nowrap;
+}
+
+.c-widget__action:hover {
+  color: var(--text-secondary);
+}
+
+
+/* ││ Body */
+
+.c-widget__body {
+  flex:       1;
+  padding:    var(--space-4);
+  min-height: 0;
+  overflow:   auto;
+}
+
+
+/* ││ Error State */
+
+.c-widget__error {
+  padding:     var(--space-3) var(--space-4);
+  font-family: var(--font-body);
+  font-size:   12px;
+  color:       var(--status-no);
+  flex-shrink: 0;
+}
+
+
+/* ││ Loading Overlay */
+
+.c-widget__loading-overlay {
+  position:        absolute;
+  inset:           0;
+  background:      rgba(17, 24, 32, 0.7);
+  display:         flex;
+  align-items:     center;
+  justify-content: center;
+  opacity:         0;
+  pointer-events:  none;
+  transition:      opacity .15s;
+}
+
+.c-widget.is-loading .c-widget__loading-overlay {
+  opacity:        1;
+  pointer-events: auto;
+}
+
+.c-widget__spinner {
+  width:        24px;
+  height:       24px;
+  border:       2px solid var(--border);
+  border-top:   2px solid var(--accent);
+  border-radius: 50%;
+  animation:    widget-spin .7s linear infinite;
+}
+
+@keyframes widget-spin {
+  to { transform: rotate(360deg); }
+}
+
+
+/* ││ Error modifier on slot */
+
+.c-widget.is-error {
+  border-color: rgba(242, 92, 92, 0.2);
+}

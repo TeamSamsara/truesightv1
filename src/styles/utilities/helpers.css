@@ -1,0 +1,177 @@
+/* ││ helpers.css
+   @version 1.0.0
+
+   Single-purpose utility classes.
+   Each class does exactly one thing.
+   If it grows beyond a screen, audit it —
+   most things that end up here belong in components/.
+*/
+
+
+/* ││ Visibility */
+
+.u-hidden {
+  display: none !important;
+}
+
+.u-visible {
+  display: block !important;
+}
+
+.u-invisible {
+  visibility: hidden;
+}
+
+.u-sr-only {
+  position:  absolute;
+  width:     1px;
+  height:    1px;
+  overflow:  hidden;
+  clip:      rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+
+/* ││ Text Overflow */
+
+.u-truncate {
+  overflow:      hidden;
+  text-overflow: ellipsis;
+  white-space:   nowrap;
+}
+
+.u-break-word {
+  word-break:      break-word;
+  overflow-wrap:   break-word;
+}
+
+
+/* ││ Text Alignment */
+
+.u-text-left   { text-align: left; }
+.u-text-center { text-align: center; }
+.u-text-right  { text-align: right; }
+
+
+/* ││ Text Color */
+
+.u-text-primary   { color: var(--text-primary); }
+.u-text-secondary { color: var(--text-secondary); }
+.u-text-muted     { color: var(--text-muted); }
+.u-text-accent    { color: var(--accent); }
+.u-text-gold      { color: var(--gold); }
+.u-text-pass      { color: var(--status-pass); }
+.u-text-flag      { color: var(--status-flag); }
+.u-text-no        { color: var(--status-no); }
+
+
+/* ││ Font */
+
+.u-font-display { font-family: var(--font-display); }
+.u-font-body    { font-family: var(--font-body); }
+.u-font-mono    { font-family: var(--font-mono); }
+
+.u-font-bold    { font-weight: 700; }
+.u-font-normal  { font-weight: 400; }
+
+.u-uppercase    {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+
+/* ││ Spacing — margin top */
+
+.u-mt-1 { margin-top: var(--space-1); }
+.u-mt-2 { margin-top: var(--space-2); }
+.u-mt-3 { margin-top: var(--space-3); }
+.u-mt-4 { margin-top: var(--space-4); }
+.u-mt-6 { margin-top: var(--space-6); }
+.u-mt-8 { margin-top: var(--space-8); }
+
+
+/* ││ Spacing — margin bottom */
+
+.u-mb-1 { margin-bottom: var(--space-1); }
+.u-mb-2 { margin-bottom: var(--space-2); }
+.u-mb-3 { margin-bottom: var(--space-3); }
+.u-mb-4 { margin-bottom: var(--space-4); }
+.u-mb-6 { margin-bottom: var(--space-6); }
+.u-mb-8 { margin-bottom: var(--space-8); }
+
+
+/* ││ Display */
+
+.u-flex         { display: flex; }
+.u-flex-col     { display: flex; flex-direction: column; }
+.u-flex-center  { display: flex; align-items: center; justify-content: center; }
+.u-flex-between { display: flex; align-items: center; justify-content: space-between; }
+.u-flex-wrap    { flex-wrap: wrap; }
+.u-flex-1       { flex: 1; }
+.u-flex-shrink-0 { flex-shrink: 0; }
+
+
+/* ││ Gap */
+
+.u-gap-1 { gap: var(--space-1); }
+.u-gap-2 { gap: var(--space-2); }
+.u-gap-3 { gap: var(--space-3); }
+.u-gap-4 { gap: var(--space-4); }
+.u-gap-6 { gap: var(--space-6); }
+
+
+/* ││ Width */
+
+.u-w-full  { width: 100%; }
+.u-w-auto  { width: auto; }
+.u-min-w-0 { min-width: 0; }
+
+
+/* ││ Position */
+
+.u-relative { position: relative; }
+.u-absolute { position: absolute; }
+
+
+/* ││ Overflow */
+
+.u-overflow-hidden { overflow: hidden; }
+.u-overflow-auto   { overflow: auto; }
+.u-overflow-x-auto { overflow-x: auto; }
+
+
+/* ││ Border */
+
+.u-border-top    { border-top:    1px solid var(--border); }
+.u-border-bottom { border-bottom: 1px solid var(--border); }
+
+
+/* ││ Cursor */
+
+.u-pointer  { cursor: pointer; }
+.u-default  { cursor: default; }
+.u-disabled { cursor: not-allowed; opacity: 0.4; pointer-events: none; }
+
+
+/* ││ NA Placeholder — empty data cells */
+
+.u-na {
+  font-size:  clamp(12px, 0.9vw, 13px);
+  color:      var(--text-muted);
+  font-style: italic;
+}
+
+
+/* ││ Divider */
+
+.u-divider {
+  height:     1px;
+  background: var(--border);
+  border:     none;
+  margin:     0;
+}
+
+.u-divider--subtle {
+  background: var(--border-subtle);
+}

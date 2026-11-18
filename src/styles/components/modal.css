@@ -1,0 +1,401 @@
+/* ││ modal.css
+   @version 1.0.2
+
+   Shared modal shell styles only.
+   No feature-specific content styles here.
+   Feature modal content styles live in their
+   own feature CSS file.
+*/
+
+
+/* ││ Modal Root */
+
+#modal-root {
+  display: none;
+}
+
+#modal-root.is-active {
+  display: block;
+}
+
+
+/* ││ Overlay */
+
+.c-modal-overlay {
+  position:        fixed;
+  inset:           0;
+  background:      rgba(0, 0, 0, .65);
+  backdrop-filter: blur(4px);
+  z-index:         200;
+  display:         flex;
+  align-items:     center;
+  justify-content: center;
+  padding:         var(--space-4);
+  animation:       modal-overlay-in .15s ease;
+}
+
+.c-modal-overlay.is-loading {
+  cursor: wait;
+}
+
+@keyframes modal-overlay-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+
+/* ││ Modal Container */
+
+.c-modal {
+  background:     var(--bg-surface);
+  border:         1px solid var(--border);
+  border-radius:  var(--radius-lg);
+  overflow:       hidden;
+  width:          100%;
+  max-height:     calc(100vh - var(--space-8));
+  display:        flex;
+  flex-direction: column;
+  animation:      modal-in .18s ease;
+  position:       relative;
+}
+
+@keyframes modal-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+
+/* ││ Modal Sizes */
+
+.c-modal--sm { max-width: 380px; }
+.c-modal--md { max-width: 480px; }
+.c-modal--lg { max-width: 640px; }
+.c-modal--xl { max-width: 860px; }
+
+
+/* ││ Modal Variants */
+
+.c-modal--gold    { border-top: 2px solid var(--gold); }
+.c-modal--danger  { border-top: 2px solid var(--status-no); }
+.c-modal--default { border-top: 2px solid var(--border); }
+
+
+/* ││ Modal Header */
+
+.c-modal__header {
+  display:         flex;
+  align-items:     flex-start;
+  justify-content: space-between;
+  padding:         var(--space-5) var(--space-6) var(--space-4);
+  border-bottom:   1px solid var(--border);
+  flex-shrink:     0;
+  gap:             var(--space-4);
+  background:      rgba(255,255,255,.015);
+}
+
+.c-modal__header-text {
+  display:        flex;
+  flex-direction: column;
+  gap:            var(--space-1);
+  min-width:      0;
+}
+
+.c-modal__eyebrow {
+  font-size:      9px;
+  font-weight:    700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color:          var(--gold);
+  line-height:    1;
+}
+
+.c-modal--danger .c-modal__eyebrow {
+  color: var(--status-no);
+}
+
+.c-modal__title {
+  font-family:    var(--font-display);
+  font-size:      clamp(16px, 1.5vw, 20px);
+  letter-spacing: 2px;
+  color:          var(--text-primary);
+  line-height:    1;
+}
+
+.c-modal__subtitle {
+  font-size:   12px;
+  color:       var(--text-muted);
+  line-height: 1.4;
+  margin-top:  var(--space-1);
+}
+
+
+/* ││ Modal Close Button */
+
+.c-modal__close {
+  width:           30px;
+  height:          30px;
+  display:         flex;
+  align-items:     center;
+  justify-content: center;
+  border:          1px solid var(--border);
+  border-radius:   var(--radius-sm);
+  background:      transparent;
+  color:           var(--text-muted);
+  cursor:          pointer;
+  font-size:       14px;
+  flex-shrink:     0;
+  transition:      all .13s;
+  line-height:     1;
+}
+
+.c-modal__close:hover:not(:disabled) {
+  background:   var(--bg-raised);
+  color:        var(--text-primary);
+  border-color: rgba(255,255,255,.12);
+}
+
+.c-modal__close:disabled {
+  opacity: .35;
+  cursor:  not-allowed;
+}
+
+
+/* ││ Modal Body */
+
+.c-modal__body {
+  padding:        0;
+  overflow-y:     auto;
+  flex:           1;
+  display:        flex;
+  flex-direction: column;
+}
+
+
+/* ││ Modal Steps
+   Rendered as first child of body by the injected content pattern.
+   Sits flush against the header — no body padding above it.
+*/
+
+.c-modal__steps {
+  display:       flex;
+  align-items:   center;
+  padding:       var(--space-4) var(--space-6);
+  border-bottom: 1px solid var(--border);
+  flex-shrink:   0;
+  background:    rgba(255,255,255,.01);
+}
+
+.c-modal__step-item {
+  display:     flex;
+  align-items: center;
+  gap:         var(--space-2);
+}
+
+.c-modal__step-line {
+  flex:       1;
+  height:     1px;
+  background: var(--border);
+  margin:     0 var(--space-2);
+  min-width:  24px;
+  transition: background .2s;
+}
+
+.c-modal__step-line.is-done { background: var(--gold-border); }
+
+.c-modal__step-num {
+  width:           22px;
+  height:          22px;
+  border-radius:   50%;
+  display:         flex;
+  align-items:     center;
+  justify-content: center;
+  font-size:       10px;
+  font-weight:     700;
+  border:          1px solid var(--border);
+  color:           var(--text-muted);
+  flex-shrink:     0;
+  transition:      all .2s;
+}
+
+.c-modal__step-num.is-done   { background: var(--gold); border-color: var(--gold); color: var(--bg); }
+.c-modal__step-num.is-active { border-color: rgba(245,200,66,.4); color: var(--gold); }
+
+.c-modal__step-name {
+  font-size:      10px;
+  font-weight:    700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color:          var(--text-muted);
+  transition:     color .2s;
+  white-space:    nowrap;
+}
+
+.c-modal__step-name.is-active { color: var(--gold); }
+.c-modal__step-name.is-done   { color: var(--text-secondary); }
+
+
+/* ││ Modal Content Area
+   The actual content between steps and footer
+   gets its padding here via a wrapper div or
+   direct children that are not steps/footer.
+   We use padding on body directly but exempt
+   steps and footer via their own padding rules.
+*/
+
+.c-modal__body > *:not(.c-modal__steps):not(.c-modal__footer) {
+  padding-left:  var(--space-6);
+  padding-right: var(--space-6);
+}
+
+.c-modal__body > *:not(.c-modal__steps):not(.c-modal__footer):first-child {
+  padding-top: var(--space-5);
+}
+
+.c-modal__body > *:not(.c-modal__steps):not(.c-modal__footer):last-child {
+  padding-bottom: var(--space-5);
+}
+
+/* Gap between content children */
+.c-modal__body > * + *:not(.c-modal__footer) {
+  margin-top: var(--space-4);
+}
+
+.c-modal__body > .c-modal__steps + * {
+  margin-top: 0;
+  padding-top: var(--space-5);
+}
+
+
+/* ││ Modal Footer */
+
+.c-modal__footer {
+  display:         flex;
+  align-items:     center;
+  justify-content: flex-end;
+  gap:             var(--space-2);
+  padding:         var(--space-4) var(--space-6);
+  border-top:      1px solid var(--border);
+  flex-shrink:     0;
+  background:      rgba(255,255,255,.01);
+  margin-top:      auto;
+}
+
+
+/* ││ Modal Body Utilities */
+
+.c-modal__body-hint {
+  font-size:   13px;
+  color:       var(--text-muted);
+  line-height: 1.55;
+}
+
+.c-modal__body-hint strong { color: var(--text-secondary); }
+
+.c-modal__credential-block {
+  background:    var(--bg-deep);
+  border:        1px solid var(--border);
+  border-radius: var(--radius-sm);
+  overflow:      hidden;
+}
+
+.c-modal__credential-row {
+  display:         flex;
+  align-items:     center;
+  justify-content: space-between;
+  padding:         var(--space-3) var(--space-4);
+  border-bottom:   1px solid var(--border-subtle);
+  gap:             var(--space-3);
+}
+
+.c-modal__credential-row:last-child { border-bottom: none; }
+
+.c-modal__credential-label {
+  font-size:      9px;
+  font-weight:    700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color:          var(--text-muted);
+  flex-shrink:    0;
+  width:          72px;
+}
+
+.c-modal__credential-value {
+  font-family: var(--font-mono);
+  font-size:   13px;
+  color:       var(--gold);
+  flex:        1;
+  word-break:  break-all;
+}
+
+.c-modal__credential-value--link {
+  font-size: 11px;
+  color:     var(--status-info);
+}
+
+.c-modal__credential-copy {
+  font-family:    var(--font-body);
+  font-size:      10px;
+  font-weight:    700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color:          var(--text-muted);
+  background:     var(--bg-raised);
+  border:         1px solid var(--border);
+  border-radius:  var(--radius-sm);
+  padding:        3px 8px;
+  cursor:         pointer;
+  flex-shrink:    0;
+  transition:     all .13s;
+}
+
+.c-modal__credential-copy:hover {
+  color:      var(--text-primary);
+  background: var(--bg-inset);
+}
+
+.c-modal__credential-warning {
+  font-size:   11px;
+  color:       var(--text-muted);
+  font-style:  italic;
+  line-height: 1.5;
+  text-align:  center;
+}
+
+.c-form-error {
+  background:    rgba(242,92,92,.07);
+  border:        1px solid rgba(242,92,92,.25);
+  border-left:   3px solid var(--status-no);
+  border-radius: var(--radius-sm);
+  padding:       var(--space-3) var(--space-4);
+  font-size:     13px;
+  color:         var(--text-primary);
+  line-height:   1.5;
+}
+
+
+/* ││ Responsive */
+
+@media (max-width: 768px) {
+  .c-modal-overlay {
+    align-items: flex-end;
+    padding:     0;
+  }
+
+  .c-modal {
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+    max-height:    85vh;
+    animation:     modal-slide-up .2s ease;
+  }
+
+  @keyframes modal-slide-up {
+    from { transform: translateY(100%); }
+    to   { transform: translateY(0); }
+  }
+
+  .c-modal--sm,
+  .c-modal--md,
+  .c-modal--lg,
+  .c-modal--xl {
+    max-width: 100%;
+  }
+}

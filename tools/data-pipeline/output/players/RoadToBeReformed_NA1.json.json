@@ -1,0 +1,226 @@
+{
+  "RiotId": "RoadToBeReformed#NA1",
+  "GameName": "RoadToBeReformed",
+  "Tag": "NA1",
+  "Seasons": {
+    "AML_2025": {
+      "League": "AML",
+      "Season": "2025",
+      "Splits": {
+        "AML_FALL_2025": {
+          "League": "AML",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AML Fall 2025",
+          "TeamName": "Michigan State B Team",
+          "Role": "MIDDLE",
+          "Games": 3,
+          "Wins": 1,
+          "Losses": 2,
+          "WinRate": 33.3,
+          "PerGame": {
+            "Kills": 1.33,
+            "Deaths": 6.0,
+            "Assists": 6.0,
+            "Kda": 1.22,
+            "Cs": 220.67,
+            "Gold": 10940.0,
+            "KillParticipation": 44.43,
+            "VisionScore": 20.0,
+            "CcScore": 24.33,
+            "DmgDealt": 16340.33,
+            "DmgTaken": 20800.67,
+            "DmgMitigated": 18803.67,
+            "DmgObjectives": 7559.0,
+            "CsAt10": 79.33,
+            "CsAt15": 118.0,
+            "CsAt20": 155.67,
+            "CsAt25": 192.0,
+            "GoldAt10": 3165.0,
+            "GoldAt15": 4955.33,
+            "GoldAt20": 6728.33,
+            "GoldAt25": 8755.67
+          },
+          "PerMin": {
+            "Cs": 7.32,
+            "Gold": 363.07,
+            "DmgDealt": 539.72,
+            "DmgTaken": 692.04,
+            "DmgMitigated": 636.53,
+            "DmgObjectives": 251.4,
+            "VisionScore": 0.66,
+            "CcScore": 0.81
+          },
+          "Vision": {
+            "AvgVisionScore": 20.0,
+            "AvgWardsPlaced": 11.33,
+            "AvgWardsKilled": 3.33,
+            "AvgControlWardsBought": 1.33
+          },
+          "Champions": [
+            {
+              "Champion": "Syndra",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Viktor",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Galio",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5388181424",
+              "GameDate": "2025-10-08",
+              "Patch": "15.19",
+              "GameDuration": 1799,
+              "TeamId": 200,
+              "Champion": "Syndra",
+              "Win": false,
+              "Kills": 2,
+              "Deaths": 9,
+              "Assists": 3,
+              "Kda": 0.56,
+              "Cs": 226,
+              "Csm": 7.54,
+              "Gold": 11416,
+              "Goldm": 380.74,
+              "DmgDealt": 13349,
+              "DmgTaken": 21293,
+              "DmgMitigated": 10133,
+              "DmgObjectives": 2659,
+              "VisionScore": 17,
+              "WardsPlaced": 12,
+              "WardsKilled": 3,
+              "ControlWards": 1,
+              "CcScore": 25.0,
+              "KillParticipation": 33.3,
+              "Timeline": {
+                "CsAt10": 84,
+                "CsAt15": 122,
+                "CsAt20": 157,
+                "CsAt25": 187,
+                "GoldAt10": 3330,
+                "GoldAt15": 5315,
+                "GoldAt20": 6708,
+                "GoldAt25": 9230
+              }
+            },
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5393273547",
+              "GameDate": "2025-10-15",
+              "Patch": "15.20",
+              "GameDuration": 1918,
+              "TeamId": 200,
+              "Champion": "Viktor",
+              "Win": false,
+              "Kills": 1,
+              "Deaths": 8,
+              "Assists": 7,
+              "Kda": 1.0,
+              "Cs": 228,
+              "Csm": 7.13,
+              "Gold": 10898,
+              "Goldm": 340.92,
+              "DmgDealt": 20000,
+              "DmgTaken": 19515,
+              "DmgMitigated": 12803,
+              "DmgObjectives": 9403,
+              "VisionScore": 22,
+              "WardsPlaced": 11,
+              "WardsKilled": 4,
+              "ControlWards": 1,
+              "CcScore": 19.0,
+              "KillParticipation": 47.1,
+              "Timeline": {
+                "CsAt10": 77,
+                "CsAt15": 114,
+                "CsAt20": 152,
+                "CsAt25": 198,
+                "GoldAt10": 3092,
+                "GoldAt15": 4953,
+                "GoldAt20": 6823,
+                "GoldAt25": 8571
+              }
+            },
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5393319305",
+              "GameDate": "2025-10-15",
+              "Patch": "15.20",
+              "GameDuration": 1715,
+              "TeamId": 100,
+              "Champion": "Galio",
+              "Win": true,
+              "Kills": 1,
+              "Deaths": 1,
+              "Assists": 8,
+              "Kda": 9.0,
+              "Cs": 208,
+              "Csm": 7.28,
+              "Gold": 10506,
+              "Goldm": 367.56,
+              "DmgDealt": 15672,
+              "DmgTaken": 21594,
+              "DmgMitigated": 33475,
+              "DmgObjectives": 10615,
+              "VisionScore": 21,
+              "WardsPlaced": 11,
+              "WardsKilled": 3,
+              "ControlWards": 2,
+              "CcScore": 29.0,
+              "KillParticipation": 52.9,
+              "Timeline": {
+                "CsAt10": 77,
+                "CsAt15": 118,
+                "CsAt20": 158,
+                "CsAt25": 191,
+                "GoldAt10": 3073,
+                "GoldAt15": 4598,
+                "GoldAt20": 6654,
+                "GoldAt25": 8466
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5388181424",
+              "Opponent": "Ratchet#000",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5393273547",
+              "Opponent": "SoloZero#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5393319305",
+              "Opponent": "SoloZero#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "RiotId": "Mataz#NA1",
+  "GameName": "Mataz",
+  "Tag": "NA1",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_FALL_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "ACL Fall 2025",
+          "TeamName": "CCG",
+          "Role": "UTILITY",
+          "Games": 1,
+          "Wins": 1,
+          "Losses": 0,
+          "WinRate": 100.0,
+          "PerGame": {
+            "Kills": 0.0,
+            "Deaths": 2.0,
+            "Assists": 20.0,
+            "Kda": 10.0,
+            "Cs": 22.0,
+            "Gold": 6976.0,
+            "KillParticipation": 66.7,
+            "VisionScore": 78.0,
+            "CcScore": 43.0,
+            "DmgDealt": 5225.0,
+            "DmgTaken": 16351.0,
+            "DmgMitigated": 15764.0,
+            "DmgObjectives": 6168.0,
+            "CsAt10": 17.0,
+            "CsAt15": 18.0,
+            "CsAt20": 21.0,
+            "CsAt25": 22.0,
+            "GoldAt10": 2658.0,
+            "GoldAt15": 4292.0,
+            "GoldAt20": 5685.0,
+            "GoldAt25": 6976.0
+          },
+          "PerMin": {
+            "Cs": 0.9,
+            "Gold": 286.1,
+            "DmgDealt": 214.29,
+            "DmgTaken": 670.58,
+            "DmgMitigated": 646.51,
+            "DmgObjectives": 252.96,
+            "VisionScore": 3.2,
+            "CcScore": 1.76
+          },
+          "Vision": {
+            "AvgVisionScore": 78.0,
+            "AvgWardsPlaced": 37.0,
+            "AvgWardsKilled": 8.0,
+            "AvgControlWardsBought": 10.0
+          },
+          "Champions": [
+            {
+              "Champion": "Nautilus",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5420918368",
+              "GameDate": "2025-11-25",
+              "Patch": "15.23",
+              "GameDuration": 1463,
+              "TeamId": 200,
+              "Champion": "Nautilus",
+              "Win": true,
+              "Kills": 0,
+              "Deaths": 2,
+              "Assists": 20,
+              "Kda": 10.0,
+              "Cs": 22,
+              "Csm": 0.9,
+              "Gold": 6976,
+              "Goldm": 286.1,
+              "DmgDealt": 5225,
+              "DmgTaken": 16351,
+              "DmgMitigated": 15764,
+              "DmgObjectives": 6168,
+              "VisionScore": 78,
+              "WardsPlaced": 37,
+              "WardsKilled": 8,
+              "ControlWards": 10,
+              "CcScore": 43.0,
+              "KillParticipation": 66.7,
+              "Timeline": {
+                "CsAt10": 17,
+                "CsAt15": 18,
+                "CsAt20": 21,
+                "CsAt25": 22,
+                "GoldAt10": 2658,
+                "GoldAt15": 4292,
+                "GoldAt20": 5685,
+                "GoldAt25": 6976
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5420918368",
+              "Opponent": "PVS#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

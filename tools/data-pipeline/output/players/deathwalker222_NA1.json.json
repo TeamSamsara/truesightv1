@@ -1,0 +1,272 @@
+{
+  "RiotId": "deathwalker222#NA1",
+  "GameName": "deathwalker222",
+  "Tag": "NA1",
+  "Seasons": {
+    "AVL_2025": {
+      "League": "AVL",
+      "Season": "2025",
+      "Splits": {
+        "AVL_FALL_2025": {
+          "League": "AVL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AVL Fall 2025",
+          "TeamName": "West Side",
+          "Role": "BOTTOM",
+          "Games": 4,
+          "Wins": 2,
+          "Losses": 2,
+          "WinRate": 50.0,
+          "PerGame": {
+            "Kills": 7.25,
+            "Deaths": 2.75,
+            "Assists": 5.0,
+            "Kda": 4.45,
+            "Cs": 244.5,
+            "Gold": 13762.5,
+            "KillParticipation": 44.6,
+            "VisionScore": 12.5,
+            "CcScore": 11.0,
+            "DmgDealt": 20862.0,
+            "DmgTaken": 16477.25,
+            "DmgMitigated": 9379.25,
+            "DmgObjectives": 14220.25,
+            "CsAt10": 85.5,
+            "CsAt15": 135.25,
+            "CsAt20": 185.0,
+            "CsAt25": 221.25,
+            "GoldAt10": 3383.5,
+            "GoldAt15": 5852.0,
+            "GoldAt20": 8423.25,
+            "GoldAt25": 11485.5
+          },
+          "PerMin": {
+            "Cs": 8.86,
+            "Gold": 492.71,
+            "DmgDealt": 736.78,
+            "DmgTaken": 597.1,
+            "DmgMitigated": 341.65,
+            "DmgObjectives": 495.11,
+            "VisionScore": 0.45,
+            "CcScore": 0.42
+          },
+          "Vision": {
+            "AvgVisionScore": 12.5,
+            "AvgWardsPlaced": 5.0,
+            "AvgWardsKilled": 4.25,
+            "AvgControlWardsBought": 0.0
+          },
+          "Champions": [
+            {
+              "Champion": "Varus",
+              "Games": 2,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Kaisa",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Corki",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5438843182",
+              "GameDate": "2025-12-16",
+              "Patch": "15.24",
+              "GameDuration": 1651,
+              "TeamId": 100,
+              "Champion": "Kaisa",
+              "Win": true,
+              "Kills": 9,
+              "Deaths": 1,
+              "Assists": 11,
+              "Kda": 20.0,
+              "Cs": 238,
+              "Csm": 8.65,
+              "Gold": 14245,
+              "Goldm": 517.69,
+              "DmgDealt": 23321,
+              "DmgTaken": 14132,
+              "DmgMitigated": 8801,
+              "DmgObjectives": 25795,
+              "VisionScore": 9,
+              "WardsPlaced": 4,
+              "WardsKilled": 2,
+              "ControlWards": 0,
+              "CcScore": 0.0,
+              "KillParticipation": 62.5,
+              "Timeline": {
+                "CsAt10": 87,
+                "CsAt15": 140,
+                "CsAt20": 189,
+                "CsAt25": 219,
+                "GoldAt10": 3346,
+                "GoldAt15": 6580,
+                "GoldAt20": 9294,
+                "GoldAt25": 12292
+              }
+            },
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5438887157",
+              "GameDate": "2025-12-16",
+              "Patch": "15.24",
+              "GameDuration": 1507,
+              "TeamId": 200,
+              "Champion": "Varus",
+              "Win": false,
+              "Kills": 0,
+              "Deaths": 2,
+              "Assists": 0,
+              "Kda": 0.0,
+              "Cs": 228,
+              "Csm": 9.08,
+              "Gold": 9622,
+              "Goldm": 383.09,
+              "DmgDealt": 7627,
+              "DmgTaken": 8732,
+              "DmgMitigated": 6422,
+              "DmgObjectives": 1485,
+              "VisionScore": 11,
+              "WardsPlaced": 5,
+              "WardsKilled": 3,
+              "ControlWards": 0,
+              "CcScore": 19.0,
+              "KillParticipation": 0.0,
+              "Timeline": {
+                "CsAt10": 101,
+                "CsAt15": 149,
+                "CsAt20": 193,
+                "CsAt25": 228,
+                "GoldAt10": 3600,
+                "GoldAt15": 5531,
+                "GoldAt20": 7472,
+                "GoldAt25": 9609
+              }
+            },
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5438929285",
+              "GameDate": "2025-12-16",
+              "Patch": "15.24",
+              "GameDuration": 1818,
+              "TeamId": 200,
+              "Champion": "Corki",
+              "Win": true,
+              "Kills": 17,
+              "Deaths": 0,
+              "Assists": 6,
+              "Kda": 23.0,
+              "Cs": 285,
+              "Csm": 9.41,
+              "Gold": 19896,
+              "Goldm": 656.63,
+              "DmgDealt": 35055,
+              "DmgTaken": 13673,
+              "DmgMitigated": 7051,
+              "DmgObjectives": 27687,
+              "VisionScore": 17,
+              "WardsPlaced": 5,
+              "WardsKilled": 8,
+              "ControlWards": 0,
+              "CcScore": 2.0,
+              "KillParticipation": 69.7,
+              "Timeline": {
+                "CsAt10": 87,
+                "CsAt15": 139,
+                "CsAt20": 190,
+                "CsAt25": 240,
+                "GoldAt10": 3536,
+                "GoldAt15": 6397,
+                "GoldAt20": 9939,
+                "GoldAt25": 14803
+              }
+            },
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5475862290",
+              "GameDate": "2026-01-27",
+              "Patch": "16.2",
+              "GameDuration": 1638,
+              "TeamId": 200,
+              "Champion": "Varus",
+              "Win": false,
+              "Kills": 3,
+              "Deaths": 8,
+              "Assists": 3,
+              "Kda": 0.75,
+              "Cs": 227,
+              "Csm": 8.32,
+              "Gold": 11287,
+              "Goldm": 413.44,
+              "DmgDealt": 17445,
+              "DmgTaken": 29372,
+              "DmgMitigated": 15243,
+              "DmgObjectives": 1914,
+              "VisionScore": 13,
+              "WardsPlaced": 6,
+              "WardsKilled": 4,
+              "ControlWards": 0,
+              "CcScore": 23.0,
+              "KillParticipation": 46.2,
+              "Timeline": {
+                "CsAt10": 67,
+                "CsAt15": 113,
+                "CsAt20": 168,
+                "CsAt25": 198,
+                "GoldAt10": 3052,
+                "GoldAt15": 4900,
+                "GoldAt20": 6988,
+                "GoldAt25": 9238
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5438843182",
+              "Opponent": "Bolt#ADC",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5438887157",
+              "Opponent": "Bolt#ADC",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5438929285",
+              "Opponent": "Bolt#ADC",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5475862290",
+              "Opponent": "Raynarz#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

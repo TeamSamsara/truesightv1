@@ -1,0 +1,174 @@
+{
+  "RiotId": "god#ﾒˇﾒ",
+  "GameName": "god",
+  "Tag": "ﾒˇﾒ",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_FALL_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "ACL Fall 2025",
+          "TeamName": "Kiwi Gang",
+          "Role": "BOTTOM",
+          "Games": 2,
+          "Wins": 2,
+          "Losses": 0,
+          "WinRate": 100.0,
+          "PerGame": {
+            "Kills": 4.5,
+            "Deaths": 3.0,
+            "Assists": 8.0,
+            "Kda": 4.17,
+            "Cs": 207.0,
+            "Gold": 11548.0,
+            "KillParticipation": 32.15,
+            "VisionScore": 15.5,
+            "CcScore": 27.5,
+            "DmgDealt": 16169.5,
+            "DmgTaken": 24641.0,
+            "DmgMitigated": 34198.5,
+            "DmgObjectives": 7789.5,
+            "CsAt10": 79.0,
+            "CsAt15": 127.0,
+            "CsAt20": 168.0,
+            "CsAt25": 191.0,
+            "GoldAt10": 3969.0,
+            "GoldAt15": 6173.0,
+            "GoldAt20": 8087.0,
+            "GoldAt25": 10020.5
+          },
+          "PerMin": {
+            "Cs": 7.43,
+            "Gold": 411.59,
+            "DmgDealt": 569.81,
+            "DmgTaken": 846.71,
+            "DmgMitigated": 1152.64,
+            "DmgObjectives": 276.17,
+            "VisionScore": 0.56,
+            "CcScore": 0.93
+          },
+          "Vision": {
+            "AvgVisionScore": 15.5,
+            "AvgWardsPlaced": 9.5,
+            "AvgWardsKilled": 0.5,
+            "AvgControlWardsBought": 0.5
+          },
+          "Champions": [
+            {
+              "Champion": "KSante",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Riven",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5410823371",
+              "GameDate": "2025-11-11",
+              "Patch": "15.22",
+              "GameDuration": 1930,
+              "TeamId": 100,
+              "Champion": "KSante",
+              "Win": true,
+              "Kills": 4,
+              "Deaths": 4,
+              "Assists": 11,
+              "Kda": 3.75,
+              "Cs": 196,
+              "Csm": 6.09,
+              "Gold": 11606,
+              "Goldm": 360.81,
+              "DmgDealt": 17671,
+              "DmgTaken": 31656,
+              "DmgMitigated": 48846,
+              "DmgObjectives": 8149,
+              "VisionScore": 15,
+              "WardsPlaced": 11,
+              "WardsKilled": 0,
+              "ControlWards": 1,
+              "CcScore": 39.0,
+              "KillParticipation": 40.5,
+              "Timeline": {
+                "CsAt10": 63,
+                "CsAt15": 106,
+                "CsAt20": 144,
+                "CsAt25": 164,
+                "GoldAt10": 2912,
+                "GoldAt15": 5024,
+                "GoldAt20": 6881,
+                "GoldAt25": 8551
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5410873955",
+              "GameDate": "2025-11-11",
+              "Patch": "15.22",
+              "GameDuration": 1491,
+              "TeamId": 100,
+              "Champion": "Riven",
+              "Win": true,
+              "Kills": 5,
+              "Deaths": 2,
+              "Assists": 5,
+              "Kda": 5.0,
+              "Cs": 218,
+              "Csm": 8.77,
+              "Gold": 11490,
+              "Goldm": 462.37,
+              "DmgDealt": 14668,
+              "DmgTaken": 17626,
+              "DmgMitigated": 19551,
+              "DmgObjectives": 7430,
+              "VisionScore": 16,
+              "WardsPlaced": 8,
+              "WardsKilled": 1,
+              "ControlWards": 0,
+              "CcScore": 16.0,
+              "KillParticipation": 23.8,
+              "Timeline": {
+                "CsAt10": 95,
+                "CsAt15": 148,
+                "CsAt20": 192,
+                "CsAt25": 218,
+                "GoldAt10": 5026,
+                "GoldAt15": 7322,
+                "GoldAt20": 9293,
+                "GoldAt25": 11490
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5410823371",
+              "Opponent": "The Arbiter#1v9",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5410873955",
+              "Opponent": "The Arbiter#1v9",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

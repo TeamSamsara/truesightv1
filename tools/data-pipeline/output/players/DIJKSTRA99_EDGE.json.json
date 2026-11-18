@@ -1,0 +1,278 @@
+{
+  "RiotId": "DIJKSTRA99#EDGE",
+  "GameName": "DIJKSTRA99",
+  "Tag": "EDGE",
+  "Seasons": {
+    "AVL_2025": {
+      "League": "AVL",
+      "Season": "2025",
+      "Splits": {
+        "AVL_FALL_2025": {
+          "League": "AVL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AVL Fall 2025",
+          "TeamName": "",
+          "Role": "BOTTOM",
+          "Games": 4,
+          "Wins": 2,
+          "Losses": 2,
+          "WinRate": 50.0,
+          "PerGame": {
+            "Kills": 6.0,
+            "Deaths": 4.25,
+            "Assists": 4.0,
+            "Kda": 2.35,
+            "Cs": 292.5,
+            "Gold": 16091.0,
+            "KillParticipation": 57.2,
+            "VisionScore": 26.0,
+            "CcScore": 7.5,
+            "DmgDealt": 22353.75,
+            "DmgTaken": 16493.5,
+            "DmgMitigated": 9741.5,
+            "DmgObjectives": 21727.25,
+            "CsAt10": 78.5,
+            "CsAt15": 131.25,
+            "CsAt20": 181.5,
+            "CsAt25": 233.75,
+            "GoldAt10": 3340.5,
+            "GoldAt15": 5923.5,
+            "GoldAt20": 8341.25,
+            "GoldAt25": 10901.5
+          },
+          "PerMin": {
+            "Cs": 9.46,
+            "Gold": 513.98,
+            "DmgDealt": 698.65,
+            "DmgTaken": 529.0,
+            "DmgMitigated": 303.33,
+            "DmgObjectives": 689.81,
+            "VisionScore": 0.83,
+            "CcScore": 0.24
+          },
+          "Vision": {
+            "AvgVisionScore": 26.0,
+            "AvgWardsPlaced": 11.0,
+            "AvgWardsKilled": 6.5,
+            "AvgControlWardsBought": 0.0
+          },
+          "Champions": [
+            {
+              "Champion": "Kaisa",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Aphelios",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Jinx",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Twitch",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5475933478",
+              "GameDate": "2026-01-27",
+              "Patch": "16.2",
+              "GameDuration": 1808,
+              "TeamId": 200,
+              "Champion": "Kaisa",
+              "Win": true,
+              "Kills": 8,
+              "Deaths": 3,
+              "Assists": 6,
+              "Kda": 4.67,
+              "Cs": 287,
+              "Csm": 9.52,
+              "Gold": 16854,
+              "Goldm": 559.31,
+              "DmgDealt": 22799,
+              "DmgTaken": 18191,
+              "DmgMitigated": 9287,
+              "DmgObjectives": 26761,
+              "VisionScore": 26,
+              "WardsPlaced": 10,
+              "WardsKilled": 6,
+              "ControlWards": 0,
+              "CcScore": 5.0,
+              "KillParticipation": 46.7,
+              "Timeline": {
+                "CsAt10": 85,
+                "CsAt15": 132,
+                "CsAt20": 182,
+                "CsAt25": 241,
+                "GoldAt10": 3287,
+                "GoldAt15": 6118,
+                "GoldAt20": 9090,
+                "GoldAt25": 12666
+              }
+            },
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5475992165",
+              "GameDate": "2026-01-27",
+              "Patch": "16.2",
+              "GameDuration": 2217,
+              "TeamId": 100,
+              "Champion": "Aphelios",
+              "Win": false,
+              "Kills": 9,
+              "Deaths": 4,
+              "Assists": 4,
+              "Kda": 3.25,
+              "Cs": 379,
+              "Csm": 10.26,
+              "Gold": 22138,
+              "Goldm": 599.13,
+              "DmgDealt": 38260,
+              "DmgTaken": 23555,
+              "DmgMitigated": 19187,
+              "DmgObjectives": 23922,
+              "VisionScore": 35,
+              "WardsPlaced": 14,
+              "WardsKilled": 11,
+              "ControlWards": 0,
+              "CcScore": 10.0,
+              "KillParticipation": 76.5,
+              "Timeline": {
+                "CsAt10": 90,
+                "CsAt15": 147,
+                "CsAt20": 211,
+                "CsAt25": 268,
+                "GoldAt10": 3667,
+                "GoldAt15": 6304,
+                "GoldAt20": 8351,
+                "GoldAt25": 10554
+              }
+            },
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5476072868",
+              "GameDate": "2026-01-27",
+              "Patch": "16.2",
+              "GameDuration": 1847,
+              "TeamId": 200,
+              "Champion": "Jinx",
+              "Win": true,
+              "Kills": 6,
+              "Deaths": 6,
+              "Assists": 4,
+              "Kda": 1.67,
+              "Cs": 288,
+              "Csm": 9.36,
+              "Gold": 16059,
+              "Goldm": 521.68,
+              "DmgDealt": 18005,
+              "DmgTaken": 13064,
+              "DmgMitigated": 4769,
+              "DmgObjectives": 30256,
+              "VisionScore": 27,
+              "WardsPlaced": 11,
+              "WardsKilled": 7,
+              "ControlWards": 0,
+              "CcScore": 10.0,
+              "KillParticipation": 55.6,
+              "Timeline": {
+                "CsAt10": 54,
+                "CsAt15": 104,
+                "CsAt20": 150,
+                "CsAt25": 210,
+                "GoldAt10": 2707,
+                "GoldAt15": 5033,
+                "GoldAt20": 8079,
+                "GoldAt25": 11073
+              }
+            },
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5476139502",
+              "GameDate": "2026-01-27",
+              "Patch": "16.2",
+              "GameDuration": 1487,
+              "TeamId": 100,
+              "Champion": "Twitch",
+              "Win": false,
+              "Kills": 1,
+              "Deaths": 4,
+              "Assists": 2,
+              "Kda": 0.75,
+              "Cs": 216,
+              "Csm": 8.72,
+              "Gold": 9313,
+              "Goldm": 375.78,
+              "DmgDealt": 10351,
+              "DmgTaken": 11164,
+              "DmgMitigated": 5723,
+              "DmgObjectives": 5970,
+              "VisionScore": 16,
+              "WardsPlaced": 9,
+              "WardsKilled": 2,
+              "ControlWards": 0,
+              "CcScore": 5.0,
+              "KillParticipation": 50.0,
+              "Timeline": {
+                "CsAt10": 85,
+                "CsAt15": 142,
+                "CsAt20": 183,
+                "CsAt25": 216,
+                "GoldAt10": 3701,
+                "GoldAt15": 6239,
+                "GoldAt20": 7845,
+                "GoldAt25": 9313
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5475933478",
+              "Opponent": "Raynarz#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5475992165",
+              "Opponent": "Raynarz#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5476072868",
+              "Opponent": "Raynarz#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5476139502",
+              "Opponent": "Raynarz#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

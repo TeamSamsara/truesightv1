@@ -1,0 +1,174 @@
+{
+  "RiotId": "inting chungus#hard",
+  "GameName": "inting chungus",
+  "Tag": "hard",
+  "Seasons": {
+    "AML_2025": {
+      "League": "AML",
+      "Season": "2025",
+      "Splits": {
+        "AML_FALL_2025": {
+          "League": "AML",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AML Fall 2025",
+          "TeamName": "Team Yippie",
+          "Role": "TOP",
+          "Games": 2,
+          "Wins": 0,
+          "Losses": 2,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 1.5,
+            "Deaths": 6.0,
+            "Assists": 2.0,
+            "Kda": 0.58,
+            "Cs": 178.0,
+            "Gold": 8745.5,
+            "KillParticipation": 21.4,
+            "VisionScore": 17.0,
+            "CcScore": 25.0,
+            "DmgDealt": 16525.0,
+            "DmgTaken": 33843.5,
+            "DmgMitigated": 39167.5,
+            "DmgObjectives": 2638.5,
+            "CsAt10": 51.0,
+            "CsAt15": 89.0,
+            "CsAt20": 131.0,
+            "CsAt25": 150.0,
+            "GoldAt10": 2715.0,
+            "GoldAt15": 4081.5,
+            "GoldAt20": 6039.0,
+            "GoldAt25": 7215.0
+          },
+          "PerMin": {
+            "Cs": 6.06,
+            "Gold": 297.73,
+            "DmgDealt": 562.0,
+            "DmgTaken": 1153.94,
+            "DmgMitigated": 1327.88,
+            "DmgObjectives": 88.34,
+            "VisionScore": 0.58,
+            "CcScore": 0.84
+          },
+          "Vision": {
+            "AvgVisionScore": 17.0,
+            "AvgWardsPlaced": 10.5,
+            "AvgWardsKilled": 0.5,
+            "AvgControlWardsBought": 0.0
+          },
+          "Champions": [
+            {
+              "Champion": "Sion",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Ambessa",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5388183184",
+              "GameDate": "2025-10-08",
+              "Patch": "15.19",
+              "GameDuration": 1797,
+              "TeamId": 100,
+              "Champion": "Sion",
+              "Win": false,
+              "Kills": 2,
+              "Deaths": 5,
+              "Assists": 3,
+              "Kda": 1.0,
+              "Cs": 213,
+              "Csm": 7.11,
+              "Gold": 10221,
+              "Goldm": 341.27,
+              "DmgDealt": 20047,
+              "DmgTaken": 37313,
+              "DmgMitigated": 52802,
+              "DmgObjectives": 4965,
+              "VisionScore": 18,
+              "WardsPlaced": 12,
+              "WardsKilled": 0,
+              "ControlWards": 0,
+              "CcScore": 37.0,
+              "KillParticipation": 33.3,
+              "Timeline": {
+                "CsAt10": 53,
+                "CsAt15": 99,
+                "CsAt20": 155,
+                "CsAt25": 177,
+                "GoldAt10": 2565,
+                "GoldAt15": 4085,
+                "GoldAt20": 6663,
+                "GoldAt25": 8149
+              }
+            },
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5388228458",
+              "GameDate": "2025-10-08",
+              "Patch": "15.19",
+              "GameDuration": 1716,
+              "TeamId": 200,
+              "Champion": "Ambessa",
+              "Win": false,
+              "Kills": 1,
+              "Deaths": 7,
+              "Assists": 1,
+              "Kda": 0.29,
+              "Cs": 143,
+              "Csm": 5.0,
+              "Gold": 7270,
+              "Goldm": 254.2,
+              "DmgDealt": 13003,
+              "DmgTaken": 30374,
+              "DmgMitigated": 25533,
+              "DmgObjectives": 312,
+              "VisionScore": 16,
+              "WardsPlaced": 9,
+              "WardsKilled": 1,
+              "ControlWards": 0,
+              "CcScore": 13.0,
+              "KillParticipation": 9.5,
+              "Timeline": {
+                "CsAt10": 49,
+                "CsAt15": 79,
+                "CsAt20": 107,
+                "CsAt25": 123,
+                "GoldAt10": 2865,
+                "GoldAt15": 4078,
+                "GoldAt20": 5415,
+                "GoldAt25": 6281
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5388183184",
+              "Opponent": "SteelCityWarrior#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5388228458",
+              "Opponent": "SteelCityWarrior#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

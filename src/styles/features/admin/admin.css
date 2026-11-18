@@ -1,0 +1,237 @@
+/* ││ admin.css
+   @version 1.2.0
+
+   Admin domain — shell + aggregator.
+   Owns the scaffolding every admin subpage mounts into:
+   sub-nav, page shell, shared section, empty state, loading state.
+   All other admin styles live in feature files imported below.
+
+   No feature-specific rules below the shell block.
+*/
+
+
+/* ││ Feature imports — in dependency order */
+
+@import './admin-dashboard.css';
+@import './admin-widgets.css';
+@import './admin-users.css';
+@import './admin-approvals.css';
+@import './admin-stale.css';
+@import './admin-system.css';
+@import './admin-modals.css';
+
+
+/* ││ Admin Sub-Nav */
+
+.f-admin__nav {
+  background:    var(--bg-surface);
+  border-bottom: 2px solid var(--gold);
+  position:      sticky;
+  top:           var(--nav-height, 58px);
+  z-index:       90;
+  margin-top:    -1px;
+}
+
+.f-admin__nav-inner {
+  display:         flex;
+  align-items:     center;
+  justify-content: space-between;
+  max-width:       var(--page-max-width);
+  margin:          0 auto;
+  padding:         0 var(--page-padding);
+  height:          48px;
+  gap:             var(--space-4);
+}
+
+.f-admin__nav-left {
+  display:     flex;
+  align-items: center;
+  gap:         var(--space-1);
+}
+
+.f-admin__nav-right {
+  display:     flex;
+  align-items: center;
+  gap:         var(--space-2);
+}
+
+.f-admin__nav-eyebrow {
+  font-size:      9px;
+  font-weight:    700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color:          var(--gold);
+  padding-right:  var(--page-padding);
+  border-right:   1px solid var(--border);
+  margin-right:   var(--space-2);
+  white-space:    nowrap;
+}
+
+.f-admin__tab {
+  font-family:    var(--font-body);
+  font-size:      11px;
+  font-weight:    700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color:          var(--text-muted);
+  padding:        6px 14px;
+  border-radius:  var(--radius-sm);
+  border:         1px solid transparent;
+  background:     transparent;
+  cursor:         pointer;
+  transition:     all .15s;
+  white-space:    nowrap;
+  display:        inline-flex;
+  align-items:    center;
+  gap:            var(--space-1);
+}
+
+.f-admin__tab:hover {
+  color:      var(--text-secondary);
+  background: var(--bg-raised);
+}
+
+.f-admin__tab.is-active {
+  color:        var(--gold);
+  border-color: var(--gold-border);
+  background:   var(--gold-dim);
+}
+
+.f-admin__tab-badge {
+  display:         inline-flex;
+  align-items:     center;
+  justify-content: center;
+  font-size:       9px;
+  font-weight:     700;
+  background:      var(--bg-inset);
+  color:           var(--text-muted);
+  border-radius:   10px;
+  padding:         1px 6px;
+  min-width:       18px;
+  transition:      all .15s;
+}
+
+.f-admin__tab.is-active .f-admin__tab-badge {
+  background: var(--gold);
+  color:      var(--bg);
+}
+
+.f-admin__tab-badge--alert {
+  background: rgba(242, 92, 92, .15);
+  color:      var(--status-no);
+}
+
+
+/* ││ Page Shell */
+
+.f-admin__content {
+  position: relative;
+  z-index:  1;
+}
+
+.f-admin__page {
+  max-width: var(--page-max-width);
+  margin:    0 auto;
+  padding:   var(--space-8) var(--page-padding) 80px;
+}
+
+.f-admin__page-header {
+  display:         flex;
+  align-items:     flex-start;
+  justify-content: space-between;
+  margin-bottom:   var(--space-8);
+  gap:             var(--space-4);
+}
+
+.f-admin__page-header-left {
+  display:        flex;
+  flex-direction: column;
+  gap:            var(--space-1);
+}
+
+.f-admin__page-eyebrow {
+  font-size:      9px;
+  font-weight:    700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color:          var(--gold);
+}
+
+.f-admin__page-title {
+  font-family:    var(--font-display);
+  font-size:      clamp(22px, 2.5vw, 32px);
+  letter-spacing: 2px;
+  color:          var(--text-primary);
+  line-height:    1;
+}
+
+.f-admin__page-sub {
+  font-size:   13px;
+  color:       var(--text-muted);
+  margin-top:  var(--space-1);
+  line-height: 1.5;
+}
+
+
+/* ││ Shared Section */
+
+.f-admin__section {
+  background:    var(--bg-surface);
+  border:        1px solid var(--border);
+  border-radius: var(--radius-lg);
+  /* overflow: hidden removed — was clipping the row menu dropdown */
+  margin-bottom: var(--space-5);
+}
+
+.f-admin__section-header {
+  display:         flex;
+  align-items:     center;
+  justify-content: space-between;
+  padding:         var(--space-4) var(--space-6);
+  border-bottom:   1px solid var(--border);
+  background:      rgba(255,255,255,.015);
+  border-radius:   var(--radius-lg) var(--radius-lg) 0 0;
+}
+
+.f-admin__section-title {
+  font-family:    var(--font-display);
+  font-size:      13px;
+  letter-spacing: 2px;
+  color:          var(--text-primary);
+}
+
+.f-admin__section-count {
+  font-family: var(--font-mono);
+  font-size:   11px;
+  color:       var(--text-muted);
+}
+
+.f-admin__section-action {
+  font-size:      11px;
+  font-weight:    700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color:          var(--gold);
+  background:     none;
+  border:         none;
+  cursor:         pointer;
+  padding:        0;
+  transition:     opacity .13s;
+}
+
+.f-admin__section-action:hover { opacity: .75; }
+
+.f-admin__loading {
+  padding:        48px;
+  text-align:     center;
+  color:          var(--text-muted);
+  font-size:      13px;
+  letter-spacing: 1px;
+}
+
+
+/* ││ Responsive */
+
+@media (max-width: 768px) {
+  .f-admin__nav-eyebrow { display: none; }
+}

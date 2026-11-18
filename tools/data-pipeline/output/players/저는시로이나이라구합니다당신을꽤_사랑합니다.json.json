@@ -1,0 +1,174 @@
+{
+  "RiotId": "저는시로이나이라구합니다당신을꽤#사랑합니다",
+  "GameName": "저는시로이나이라구합니다당신을꽤",
+  "Tag": "사랑합니다",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_FALL_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "ACL Fall 2025",
+          "TeamName": "Kiwi Gang",
+          "Role": "MIDDLE",
+          "Games": 2,
+          "Wins": 2,
+          "Losses": 0,
+          "WinRate": 100.0,
+          "PerGame": {
+            "Kills": 10.0,
+            "Deaths": 2.5,
+            "Assists": 12.0,
+            "Kda": 8.8,
+            "Cs": 237.0,
+            "Gold": 14247.0,
+            "KillParticipation": 56.1,
+            "VisionScore": 23.0,
+            "CcScore": 21.0,
+            "DmgDealt": 31700.5,
+            "DmgTaken": 16334.0,
+            "DmgMitigated": 10986.5,
+            "DmgObjectives": 17034.5,
+            "CsAt10": 88.0,
+            "CsAt15": 125.0,
+            "CsAt20": 177.5,
+            "CsAt25": 211.5,
+            "GoldAt10": 4149.0,
+            "GoldAt15": 5769.0,
+            "GoldAt20": 9206.0,
+            "GoldAt25": 11681.5
+          },
+          "PerMin": {
+            "Cs": 8.21,
+            "Gold": 500.13,
+            "DmgDealt": 1104.51,
+            "DmgTaken": 579.73,
+            "DmgMitigated": 389.06,
+            "DmgObjectives": 564.18,
+            "VisionScore": 0.79,
+            "CcScore": 0.77
+          },
+          "Vision": {
+            "AvgVisionScore": 23.0,
+            "AvgWardsPlaced": 8.0,
+            "AvgWardsKilled": 6.0,
+            "AvgControlWardsBought": 1.0
+          },
+          "Champions": [
+            {
+              "Champion": "Azir",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Orianna",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5410823371",
+              "GameDate": "2025-11-11",
+              "Patch": "15.22",
+              "GameDuration": 1930,
+              "TeamId": 100,
+              "Champion": "Azir",
+              "Win": true,
+              "Kills": 10,
+              "Deaths": 2,
+              "Assists": 13,
+              "Kda": 11.5,
+              "Cs": 291,
+              "Csm": 9.05,
+              "Gold": 15993,
+              "Goldm": 497.19,
+              "DmgDealt": 37399,
+              "DmgTaken": 16950,
+              "DmgMitigated": 11593,
+              "DmgObjectives": 26506,
+              "VisionScore": 29,
+              "WardsPlaced": 7,
+              "WardsKilled": 11,
+              "ControlWards": 1,
+              "CcScore": 17.0,
+              "KillParticipation": 62.2,
+              "Timeline": {
+                "CsAt10": 92,
+                "CsAt15": 138,
+                "CsAt20": 195,
+                "CsAt25": 240,
+                "GoldAt10": 3989,
+                "GoldAt15": 5934,
+                "GoldAt20": 8937,
+                "GoldAt25": 10862
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5410873955",
+              "GameDate": "2025-11-11",
+              "Patch": "15.22",
+              "GameDuration": 1491,
+              "TeamId": 100,
+              "Champion": "Orianna",
+              "Win": true,
+              "Kills": 10,
+              "Deaths": 3,
+              "Assists": 11,
+              "Kda": 7.0,
+              "Cs": 183,
+              "Csm": 7.36,
+              "Gold": 12501,
+              "Goldm": 503.06,
+              "DmgDealt": 26002,
+              "DmgTaken": 15718,
+              "DmgMitigated": 10380,
+              "DmgObjectives": 7563,
+              "VisionScore": 17,
+              "WardsPlaced": 9,
+              "WardsKilled": 1,
+              "ControlWards": 1,
+              "CcScore": 25.0,
+              "KillParticipation": 50.0,
+              "Timeline": {
+                "CsAt10": 84,
+                "CsAt15": 112,
+                "CsAt20": 160,
+                "CsAt25": 183,
+                "GoldAt10": 4309,
+                "GoldAt15": 5604,
+                "GoldAt20": 9475,
+                "GoldAt25": 12501
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5410823371",
+              "Opponent": "LightNReset#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5410873955",
+              "Opponent": "LightNReset#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

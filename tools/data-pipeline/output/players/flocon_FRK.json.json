@@ -1,0 +1,174 @@
+{
+  "RiotId": "flocon#FRK",
+  "GameName": "flocon",
+  "Tag": "FRK",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_FALL_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "ACL Fall 2025",
+          "TeamName": "St. Clair Saints",
+          "Role": "MIDDLE",
+          "Games": 2,
+          "Wins": 1,
+          "Losses": 1,
+          "WinRate": 50.0,
+          "PerGame": {
+            "Kills": 12.5,
+            "Deaths": 4.5,
+            "Assists": 7.0,
+            "Kda": 4.33,
+            "Cs": 253.0,
+            "Gold": 15534.5,
+            "KillParticipation": 65.65,
+            "VisionScore": 18.0,
+            "CcScore": 47.0,
+            "DmgDealt": 39347.5,
+            "DmgTaken": 21876.0,
+            "DmgMitigated": 11684.5,
+            "DmgObjectives": 8268.5,
+            "CsAt10": 97.0,
+            "CsAt15": 137.0,
+            "CsAt20": 170.0,
+            "CsAt25": 213.0,
+            "GoldAt10": 3607.5,
+            "GoldAt15": 5899.0,
+            "GoldAt20": 9135.5,
+            "GoldAt25": 12265.5
+          },
+          "PerMin": {
+            "Cs": 8.14,
+            "Gold": 504.24,
+            "DmgDealt": 1293.74,
+            "DmgTaken": 699.53,
+            "DmgMitigated": 371.21,
+            "DmgObjectives": 275.81,
+            "VisionScore": 0.55,
+            "CcScore": 1.51
+          },
+          "Vision": {
+            "AvgVisionScore": 18.0,
+            "AvgWardsPlaced": 9.0,
+            "AvgWardsKilled": 3.0,
+            "AvgControlWardsBought": 0.5
+          },
+          "Champions": [
+            {
+              "Champion": "Syndra",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Mel",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5418564142",
+              "GameDate": "2025-11-22",
+              "Patch": "15.23",
+              "GameDuration": 2123,
+              "TeamId": 200,
+              "Champion": "Syndra",
+              "Win": false,
+              "Kills": 6,
+              "Deaths": 7,
+              "Assists": 7,
+              "Kda": 1.86,
+              "Cs": 287,
+              "Csm": 8.11,
+              "Gold": 16698,
+              "Goldm": 471.92,
+              "DmgDealt": 38649,
+              "DmgTaken": 25841,
+              "DmgMitigated": 14336,
+              "DmgObjectives": 7252,
+              "VisionScore": 26,
+              "WardsPlaced": 12,
+              "WardsKilled": 4,
+              "ControlWards": 1,
+              "CcScore": 54.0,
+              "KillParticipation": 72.2,
+              "Timeline": {
+                "CsAt10": 106,
+                "CsAt15": 142,
+                "CsAt20": 184,
+                "CsAt25": 223,
+                "GoldAt10": 3948,
+                "GoldAt15": 5770,
+                "GoldAt20": 9489,
+                "GoldAt25": 11904
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5418608934",
+              "GameDate": "2025-11-22",
+              "Patch": "15.23",
+              "GameDuration": 1607,
+              "TeamId": 200,
+              "Champion": "Mel",
+              "Win": true,
+              "Kills": 19,
+              "Deaths": 2,
+              "Assists": 7,
+              "Kda": 13.0,
+              "Cs": 219,
+              "Csm": 8.18,
+              "Gold": 14371,
+              "Goldm": 536.57,
+              "DmgDealt": 40046,
+              "DmgTaken": 17911,
+              "DmgMitigated": 9033,
+              "DmgObjectives": 9285,
+              "VisionScore": 10,
+              "WardsPlaced": 6,
+              "WardsKilled": 2,
+              "ControlWards": 0,
+              "CcScore": 40.0,
+              "KillParticipation": 59.1,
+              "Timeline": {
+                "CsAt10": 88,
+                "CsAt15": 132,
+                "CsAt20": 156,
+                "CsAt25": 203,
+                "GoldAt10": 3267,
+                "GoldAt15": 6028,
+                "GoldAt20": 8782,
+                "GoldAt25": 12627
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5418564142",
+              "Opponent": "goku chan#2308",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5418608934",
+              "Opponent": "goku chan#2308",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

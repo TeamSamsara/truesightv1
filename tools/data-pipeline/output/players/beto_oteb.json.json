@@ -1,0 +1,226 @@
+{
+  "RiotId": "beto#oteb",
+  "GameName": "beto",
+  "Tag": "oteb",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_SUMMER_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Summer",
+          "Label": "ACL Summer 2025",
+          "TeamName": "Weber State University",
+          "Role": "TOP",
+          "Games": 3,
+          "Wins": 2,
+          "Losses": 1,
+          "WinRate": 66.7,
+          "PerGame": {
+            "Kills": 2.33,
+            "Deaths": 4.33,
+            "Assists": 5.0,
+            "Kda": 1.69,
+            "Cs": 244.67,
+            "Gold": 11972.67,
+            "KillParticipation": 38.5,
+            "VisionScore": 21.0,
+            "CcScore": 18.0,
+            "DmgDealt": 23831.0,
+            "DmgTaken": 40040.0,
+            "DmgMitigated": 29998.0,
+            "DmgObjectives": 8572.67,
+            "CsAt10": 77.0,
+            "CsAt15": 127.33,
+            "CsAt20": 160.67,
+            "CsAt25": 209.67,
+            "GoldAt10": 3442.67,
+            "GoldAt15": 5674.67,
+            "GoldAt20": 7405.33,
+            "GoldAt25": 9799.33
+          },
+          "PerMin": {
+            "Cs": 8.54,
+            "Gold": 418.02,
+            "DmgDealt": 830.96,
+            "DmgTaken": 1402.61,
+            "DmgMitigated": 1048.44,
+            "DmgObjectives": 304.4,
+            "VisionScore": 0.73,
+            "CcScore": 0.63
+          },
+          "Vision": {
+            "AvgVisionScore": 21.0,
+            "AvgWardsPlaced": 11.0,
+            "AvgWardsKilled": 2.67,
+            "AvgControlWardsBought": 1.0
+          },
+          "Champions": [
+            {
+              "Champion": "DrMundo",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Gwen",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Warwick",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5345717503",
+              "GameDate": "2025-08-13",
+              "Patch": "15.15",
+              "GameDuration": 1654,
+              "TeamId": 100,
+              "Champion": "DrMundo",
+              "Win": true,
+              "Kills": 1,
+              "Deaths": 3,
+              "Assists": 6,
+              "Kda": 2.33,
+              "Cs": 247,
+              "Csm": 8.96,
+              "Gold": 12332,
+              "Goldm": 447.35,
+              "DmgDealt": 23332,
+              "DmgTaken": 47709,
+              "DmgMitigated": 32299,
+              "DmgObjectives": 16223,
+              "VisionScore": 17,
+              "WardsPlaced": 11,
+              "WardsKilled": 1,
+              "ControlWards": 2,
+              "CcScore": 17.0,
+              "KillParticipation": 30.4,
+              "Timeline": {
+                "CsAt10": 70,
+                "CsAt15": 121,
+                "CsAt20": 169,
+                "CsAt25": 216,
+                "GoldAt10": 3451,
+                "GoldAt15": 5989,
+                "GoldAt20": 7970,
+                "GoldAt25": 10496
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5345764210",
+              "GameDate": "2025-08-13",
+              "Patch": "15.15",
+              "GameDuration": 1758,
+              "TeamId": 200,
+              "Champion": "Gwen",
+              "Win": false,
+              "Kills": 1,
+              "Deaths": 5,
+              "Assists": 1,
+              "Kda": 0.4,
+              "Cs": 257,
+              "Csm": 8.77,
+              "Gold": 11051,
+              "Goldm": 377.17,
+              "DmgDealt": 27783,
+              "DmgTaken": 29903,
+              "DmgMitigated": 24503,
+              "DmgObjectives": 4825,
+              "VisionScore": 23,
+              "WardsPlaced": 10,
+              "WardsKilled": 4,
+              "ControlWards": 0,
+              "CcScore": 12.0,
+              "KillParticipation": 28.6,
+              "Timeline": {
+                "CsAt10": 86,
+                "CsAt15": 146,
+                "CsAt20": 179,
+                "CsAt25": 228,
+                "GoldAt10": 3474,
+                "GoldAt15": 6057,
+                "GoldAt20": 7902,
+                "GoldAt25": 9737
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5345817832",
+              "GameDate": "2025-08-13",
+              "Patch": "15.15",
+              "GameDuration": 1751,
+              "TeamId": 100,
+              "Champion": "Warwick",
+              "Win": true,
+              "Kills": 5,
+              "Deaths": 5,
+              "Assists": 8,
+              "Kda": 2.6,
+              "Cs": 230,
+              "Csm": 7.88,
+              "Gold": 12535,
+              "Goldm": 429.53,
+              "DmgDealt": 20378,
+              "DmgTaken": 42508,
+              "DmgMitigated": 33192,
+              "DmgObjectives": 4670,
+              "VisionScore": 23,
+              "WardsPlaced": 12,
+              "WardsKilled": 3,
+              "ControlWards": 1,
+              "CcScore": 25.0,
+              "KillParticipation": 56.5,
+              "Timeline": {
+                "CsAt10": 75,
+                "CsAt15": 115,
+                "CsAt20": 134,
+                "CsAt25": 185,
+                "GoldAt10": 3403,
+                "GoldAt15": 4978,
+                "GoldAt20": 6344,
+                "GoldAt25": 9165
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5345717503",
+              "Opponent": "Allorim#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5345764210",
+              "Opponent": "Allorim#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5345817832",
+              "Opponent": "Allorim#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

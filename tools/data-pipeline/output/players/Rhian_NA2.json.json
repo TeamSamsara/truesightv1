@@ -1,0 +1,174 @@
+{
+  "RiotId": "Rhian#NA2",
+  "GameName": "Rhian",
+  "Tag": "NA2",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_SUMMER_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Summer",
+          "Label": "ACL Summer 2025",
+          "TeamName": "Gravity",
+          "Role": "UTILITY",
+          "Games": 2,
+          "Wins": 0,
+          "Losses": 2,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 2.0,
+            "Deaths": 3.5,
+            "Assists": 10.0,
+            "Kda": 3.43,
+            "Cs": 39.0,
+            "Gold": 9175.5,
+            "KillParticipation": 64.0,
+            "VisionScore": 113.5,
+            "CcScore": 45.5,
+            "DmgDealt": 12475.5,
+            "DmgTaken": 24619.0,
+            "DmgMitigated": 19808.5,
+            "DmgObjectives": 2508.0,
+            "CsAt10": 9.0,
+            "CsAt15": 16.5,
+            "CsAt20": 21.0,
+            "CsAt25": 26.5,
+            "GoldAt10": 2273.5,
+            "GoldAt15": 3598.0,
+            "GoldAt20": 4780.5,
+            "GoldAt25": 6100.0
+          },
+          "PerMin": {
+            "Cs": 1.19,
+            "Gold": 254.24,
+            "DmgDealt": 312.5,
+            "DmgTaken": 654.2,
+            "DmgMitigated": 511.03,
+            "DmgObjectives": 59.71,
+            "VisionScore": 3.1,
+            "CcScore": 1.15
+          },
+          "Vision": {
+            "AvgVisionScore": 113.5,
+            "AvgWardsPlaced": 57.5,
+            "AvgWardsKilled": 15.5,
+            "AvgControlWardsBought": 7.5
+          },
+          "Champions": [
+            {
+              "Champion": "Karma",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Bard",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5350823678",
+              "GameDate": "2025-08-20",
+              "Patch": "15.16",
+              "GameDuration": 1660,
+              "TeamId": 100,
+              "Champion": "Karma",
+              "Win": false,
+              "Kills": 0,
+              "Deaths": 2,
+              "Assists": 2,
+              "Kda": 1.0,
+              "Cs": 43,
+              "Csm": 1.55,
+              "Gold": 6194,
+              "Goldm": 223.88,
+              "DmgDealt": 3212,
+              "DmgTaken": 12230,
+              "DmgMitigated": 7430,
+              "DmgObjectives": 156,
+              "VisionScore": 69,
+              "WardsPlaced": 36,
+              "WardsKilled": 9,
+              "ControlWards": 3,
+              "CcScore": 13.0,
+              "KillParticipation": 40.0,
+              "Timeline": {
+                "CsAt10": 14,
+                "CsAt15": 24,
+                "CsAt20": 29,
+                "CsAt25": 37,
+                "GoldAt10": 2138,
+                "GoldAt15": 3194,
+                "GoldAt20": 4234,
+                "GoldAt25": 5414
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5350875957",
+              "GameDate": "2025-08-20",
+              "Patch": "15.16",
+              "GameDuration": 2563,
+              "TeamId": 100,
+              "Champion": "Bard",
+              "Win": false,
+              "Kills": 4,
+              "Deaths": 5,
+              "Assists": 18,
+              "Kda": 4.4,
+              "Cs": 35,
+              "Csm": 0.82,
+              "Gold": 12157,
+              "Goldm": 284.6,
+              "DmgDealt": 21739,
+              "DmgTaken": 37008,
+              "DmgMitigated": 32187,
+              "DmgObjectives": 4860,
+              "VisionScore": 158,
+              "WardsPlaced": 79,
+              "WardsKilled": 22,
+              "ControlWards": 12,
+              "CcScore": 78.0,
+              "KillParticipation": 88.0,
+              "Timeline": {
+                "CsAt10": 4,
+                "CsAt15": 9,
+                "CsAt20": 13,
+                "CsAt25": 16,
+                "GoldAt10": 2409,
+                "GoldAt15": 4002,
+                "GoldAt20": 5327,
+                "GoldAt25": 6786
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5350823678",
+              "Opponent": "Protos#Colin",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5350875957",
+              "Opponent": "Protos#Colin",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,282 @@
+/* ││ shell.css
+   @version 1.0.1
+
+   Page shell structure — header, nav, main content area.
+   Handles the core layout skeleton that wraps every view.
+   No visual styling of components — structure and position only.
+
+   IMPORTANT: main#app-mount is a full-width flex container.
+   Each feature owns its own max-width and padding via its
+   own page container (e.g. f-admin__page, f-dashboard, f-scouting).
+   This allows sub-navs to render full-width before the page content.
+*/
+
+
+/* ││ App Root */
+
+#app {
+  position:        relative;
+  min-height:      100vh;
+  display:         flex;
+  flex-direction:  column;
+  z-index:         1;
+}
+
+
+/* ││ Navigation */
+
+#app-nav {
+  position:        sticky;
+  top:             0;
+  z-index:         100;
+  background:      rgba(17, 24, 32, 0.97);
+  backdrop-filter: blur(12px);
+  border-bottom:   1px solid var(--border);
+  width:           100%;
+}
+
+.l-nav__inner {
+  display:         flex;
+  align-items:     center;
+  justify-content: space-between;
+  gap:             var(--space-4);
+  max-width:       var(--page-max-width);
+  margin:          0 auto;
+  padding:         0 var(--page-padding);
+  height:          clamp(54px, 5vw, 68px);
+}
+
+.l-nav__brand {
+  display:         flex;
+  align-items:     center;
+  gap:             var(--space-3);
+  flex-shrink:     0;
+}
+
+.l-nav__links {
+  display:         flex;
+  align-items:     center;
+  gap:             var(--space-1);
+  flex:            1;
+  padding:         0 var(--space-4);
+}
+
+.l-nav__user {
+  display:         flex;
+  align-items:     center;
+  gap:             var(--space-3);
+  flex-shrink:     0;
+}
+
+
+/* ││ Brand Mark */
+
+.c-brand-mark {
+  width:           clamp(32px, 3vw, 42px);
+  height:          clamp(32px, 3vw, 42px);
+  background:      var(--accent);
+  display:         flex;
+  align-items:     center;
+  justify-content: center;
+  font-family:     var(--font-display);
+  font-size:       clamp(11px, 1.1vw, 15px);
+  color:           var(--bg);
+  clip-path:       var(--clip-cta);
+  flex-shrink:     0;
+}
+
+.c-brand__name {
+  font-family:     var(--font-display);
+  font-size:       clamp(14px, 1.4vw, 20px);
+  color:           var(--accent);
+  letter-spacing:  0.15em;
+  line-height:     1;
+}
+
+.c-brand__sub {
+  font-size:       clamp(8px, 0.7vw, 10px);
+  letter-spacing:  0.3em;
+  text-transform:  uppercase;
+  color:           var(--text-muted);
+  line-height:     1;
+}
+
+
+/* ││ Nav Links */
+
+.c-nav__link {
+  font-family:     var(--font-body);
+  font-size:       clamp(10px, 0.85vw, 13px);
+  font-weight:     700;
+  letter-spacing:  0.1em;
+  text-transform:  uppercase;
+  color:           var(--text-secondary);
+  padding:         var(--space-2) clamp(var(--space-2), 1.2vw, var(--space-4));
+  border:          1px solid transparent;
+  border-radius:   var(--radius-sm);
+  transition:      background 0.15s, color 0.15s, border-color 0.15s;
+  white-space:     nowrap;
+}
+
+.c-nav__link:hover {
+  background: var(--bg-raised);
+  color:      var(--text-primary);
+}
+
+
+/* ││ Nav User */
+
+.c-nav__user-id {
+  font-family:  var(--font-mono);
+  font-size:    clamp(10px, 0.85vw, 13px);
+  color:        var(--text-secondary);
+  white-space:  nowrap;
+}
+
+
+/* ││ Main Content
+   Full-width, no padding — each feature owns its own layout.
+   Features with sub-navs render them first, then their page container.
+   Features without sub-navs use l-page for consistent spacing. */
+
+main#app-mount {
+  position: relative;
+  z-index:  1;
+  flex:     1;
+  width:    100%;
+  display:  flex;
+  flex-direction: column;
+}
+
+
+/* ││ Page Container
+   Standard page wrapper for features without a sub-nav.
+   Features with sub-navs (admin, tracker etc) use their own
+   feature-level page container instead. */
+
+.l-page {
+  width:     100%;
+  max-width: var(--page-max-width);
+  margin:    0 auto;
+  padding:   clamp(var(--space-6), 2.5vw, var(--space-10))
+             clamp(var(--space-4), 2.5vw, var(--page-padding));
+  flex:      1;
+}
+
+
+/* ││ Global Loader */
+
+.c-loader {
+  position:   fixed;
+  top:        3px;
+  left:       0;
+  right:      0;
+  z-index:    9998;
+  height:     2px;
+  background: transparent;
+}
+
+.c-loader__bar {
+  height:     100%;
+  width:      0%;
+  background: var(--accent);
+  transition: width 0.3s ease;
+  animation:  loader-pulse 1.2s ease-in-out infinite;
+}
+
+@keyframes loader-pulse {
+  0%   { width: 0%;   opacity: 1; }
+  50%  { width: 70%;  opacity: 0.8; }
+  100% { width: 100%; opacity: 0; }
+}
+
+
+/* ││ Global Error Banner */
+
+.c-error-banner {
+  position:        fixed;
+  bottom:          var(--space-6);
+  left:            50%;
+  transform:       translateX(-50%);
+  z-index:         9997;
+  display:         flex;
+  align-items:     center;
+  gap:             var(--space-4);
+  background:      var(--bg-surface);
+  border:          1px solid rgba(242, 92, 92, 0.3);
+  border-left:     3px solid var(--status-no);
+  border-radius:   var(--radius-md);
+  padding:         var(--space-3) var(--space-6);
+  font-size:       clamp(12px, 0.9vw, 14px);
+  color:           var(--text-primary);
+  white-space:     nowrap;
+  max-width:       90vw;
+}
+
+.c-error-banner__dismiss {
+  font-size:   14px;
+  color:       var(--text-muted);
+  transition:  color 0.15s;
+  flex-shrink: 0;
+}
+
+.c-error-banner__dismiss:hover {
+  color: var(--text-primary);
+}
+
+
+/* ││ Responsive — Tablet */
+
+@media (max-width: 1024px) {
+  .l-nav__links {
+    gap:     var(--space-1);
+    padding: 0 var(--space-2);
+  }
+
+  .c-nav__link {
+    padding: var(--space-2) var(--space-2);
+  }
+}
+
+
+/* ││ Responsive — Mobile */
+
+@media (max-width: 768px) {
+  .l-nav__inner {
+    padding: 0 var(--space-4);
+    height:  54px;
+  }
+
+  .l-nav__links {
+    display: none;
+  }
+
+  .c-brand__sub {
+    display: none;
+  }
+
+  .l-page {
+    padding: var(--space-4);
+  }
+
+  .c-error-banner {
+    bottom:    var(--space-4);
+    left:      var(--space-4);
+    right:     var(--space-4);
+    transform: none;
+    max-width: 100%;
+  }
+}
+
+
+/* ││ Responsive — Small Mobile */
+
+@media (max-width: 480px) {
+  .l-nav__user .c-nav__user-id {
+    display: none;
+  }
+
+  .c-brand__name {
+    font-size: 14px;
+  }
+}

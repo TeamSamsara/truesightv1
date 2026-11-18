@@ -1,0 +1,174 @@
+{
+  "RiotId": "DrewLevinL9#CN1",
+  "GameName": "DrewLevinL9",
+  "Tag": "CN1",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_FALL_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "ACL Fall 2025",
+          "TeamName": "Conviction",
+          "Role": "MIDDLE",
+          "Games": 2,
+          "Wins": 2,
+          "Losses": 0,
+          "WinRate": 100.0,
+          "PerGame": {
+            "Kills": 11.0,
+            "Deaths": 3.0,
+            "Assists": 11.0,
+            "Kda": 7.33,
+            "Cs": 229.0,
+            "Gold": 13691.5,
+            "KillParticipation": 66.25,
+            "VisionScore": 22.0,
+            "CcScore": 14.5,
+            "DmgDealt": 29616.0,
+            "DmgTaken": 23616.5,
+            "DmgMitigated": 19083.5,
+            "DmgObjectives": 14786.5,
+            "CsAt10": 80.5,
+            "CsAt15": 122.5,
+            "CsAt20": 164.0,
+            "CsAt25": 129.0,
+            "GoldAt10": 4452.0,
+            "GoldAt15": 7576.5,
+            "GoldAt20": 10027.5,
+            "GoldAt25": 5433.5
+          },
+          "PerMin": {
+            "Cs": 8.38,
+            "Gold": 520.27,
+            "DmgDealt": 1135.8,
+            "DmgTaken": 851.39,
+            "DmgMitigated": 677.77,
+            "DmgObjectives": 543.6,
+            "VisionScore": 0.83,
+            "CcScore": 0.54
+          },
+          "Vision": {
+            "AvgVisionScore": 22.0,
+            "AvgWardsPlaced": 7.0,
+            "AvgWardsKilled": 6.5,
+            "AvgControlWardsBought": 1.5
+          },
+          "Champions": [
+            {
+              "Champion": "Yone",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Twitch",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5410830168",
+              "GameDate": "2025-11-11",
+              "Patch": "15.22",
+              "GameDuration": 1786,
+              "TeamId": 200,
+              "Champion": "Yone",
+              "Win": true,
+              "Kills": 5,
+              "Deaths": 4,
+              "Assists": 10,
+              "Kda": 3.75,
+              "Cs": 304,
+              "Csm": 10.21,
+              "Gold": 13919,
+              "Goldm": 467.6,
+              "DmgDealt": 27784,
+              "DmgTaken": 34283,
+              "DmgMitigated": 29980,
+              "DmgObjectives": 19112,
+              "VisionScore": 24,
+              "WardsPlaced": 6,
+              "WardsKilled": 6,
+              "ControlWards": 3,
+              "CcScore": 17.0,
+              "KillParticipation": 60.0,
+              "Timeline": {
+                "CsAt10": 94,
+                "CsAt15": 146,
+                "CsAt20": 197,
+                "CsAt25": 258,
+                "GoldAt10": 3352,
+                "GoldAt15": 6196,
+                "GoldAt20": 8663,
+                "GoldAt25": 10867
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5410878358",
+              "GameDate": "2025-11-11",
+              "Patch": "15.22",
+              "GameDuration": 1410,
+              "TeamId": 100,
+              "Champion": "Twitch",
+              "Win": true,
+              "Kills": 17,
+              "Deaths": 2,
+              "Assists": 12,
+              "Kda": 14.5,
+              "Cs": 154,
+              "Csm": 6.55,
+              "Gold": 13464,
+              "Goldm": 572.94,
+              "DmgDealt": 31448,
+              "DmgTaken": 12950,
+              "DmgMitigated": 8187,
+              "DmgObjectives": 10461,
+              "VisionScore": 20,
+              "WardsPlaced": 8,
+              "WardsKilled": 7,
+              "ControlWards": 0,
+              "CcScore": 12.0,
+              "KillParticipation": 72.5,
+              "Timeline": {
+                "CsAt10": 67,
+                "CsAt15": 99,
+                "CsAt20": 131,
+                "CsAt25": 0,
+                "GoldAt10": 5552,
+                "GoldAt15": 8957,
+                "GoldAt20": 11392,
+                "GoldAt25": 0
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5410830168",
+              "Opponent": "shochi#001",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5410878358",
+              "Opponent": "shochi#001",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

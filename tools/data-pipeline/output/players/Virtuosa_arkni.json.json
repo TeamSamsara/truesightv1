@@ -1,0 +1,272 @@
+{
+  "RiotId": "Virtuosa#arkni",
+  "GameName": "Virtuosa",
+  "Tag": "arkni",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_FALL_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "ACL Fall 2025",
+          "TeamName": "Kiwi Gang",
+          "Role": "UTILITY",
+          "Games": 4,
+          "Wins": 4,
+          "Losses": 0,
+          "WinRate": 100.0,
+          "PerGame": {
+            "Kills": 2.0,
+            "Deaths": 3.5,
+            "Assists": 15.5,
+            "Kda": 5.0,
+            "Cs": 21.5,
+            "Gold": 7616.25,
+            "KillParticipation": 59.2,
+            "VisionScore": 59.0,
+            "CcScore": 35.25,
+            "DmgDealt": 7154.25,
+            "DmgTaken": 14291.25,
+            "DmgMitigated": 15906.75,
+            "DmgObjectives": 2405.5,
+            "CsAt10": 14.0,
+            "CsAt15": 18.75,
+            "CsAt20": 20.5,
+            "CsAt25": 9.75,
+            "GoldAt10": 2763.75,
+            "GoldAt15": 4327.5,
+            "GoldAt20": 5751.75,
+            "GoldAt25": 3629.5
+          },
+          "PerMin": {
+            "Cs": 0.84,
+            "Gold": 296.75,
+            "DmgDealt": 271.67,
+            "DmgTaken": 559.03,
+            "DmgMitigated": 610.52,
+            "DmgObjectives": 97.57,
+            "VisionScore": 2.26,
+            "CcScore": 1.37
+          },
+          "Vision": {
+            "AvgVisionScore": 59.0,
+            "AvgWardsPlaced": 30.5,
+            "AvgWardsKilled": 4.5,
+            "AvgControlWardsBought": 2.75
+          },
+          "Champions": [
+            {
+              "Champion": "Leona",
+              "Games": 2,
+              "Wins": 2,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Nautilus",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Karma",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5410823371",
+              "GameDate": "2025-11-11",
+              "Patch": "15.22",
+              "GameDuration": 1930,
+              "TeamId": 100,
+              "Champion": "Leona",
+              "Win": true,
+              "Kills": 5,
+              "Deaths": 3,
+              "Assists": 17,
+              "Kda": 7.33,
+              "Cs": 30,
+              "Csm": 0.93,
+              "Gold": 9561,
+              "Goldm": 297.23,
+              "DmgDealt": 10567,
+              "DmgTaken": 16128,
+              "DmgMitigated": 21204,
+              "DmgObjectives": 2337,
+              "VisionScore": 89,
+              "WardsPlaced": 46,
+              "WardsKilled": 8,
+              "ControlWards": 4,
+              "CcScore": 38.0,
+              "KillParticipation": 59.5,
+              "Timeline": {
+                "CsAt10": 21,
+                "CsAt15": 25,
+                "CsAt20": 27,
+                "CsAt25": 28,
+                "GoldAt10": 2892,
+                "GoldAt15": 4606,
+                "GoldAt20": 5890,
+                "GoldAt25": 6862
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5410873955",
+              "GameDate": "2025-11-11",
+              "Patch": "15.22",
+              "GameDuration": 1491,
+              "TeamId": 100,
+              "Champion": "Nautilus",
+              "Win": true,
+              "Kills": 1,
+              "Deaths": 6,
+              "Assists": 23,
+              "Kda": 4.0,
+              "Cs": 11,
+              "Csm": 0.44,
+              "Gold": 7656,
+              "Goldm": 308.09,
+              "DmgDealt": 9197,
+              "DmgTaken": 18412,
+              "DmgMitigated": 22153,
+              "DmgObjectives": 455,
+              "VisionScore": 48,
+              "WardsPlaced": 25,
+              "WardsKilled": 1,
+              "ControlWards": 2,
+              "CcScore": 64.0,
+              "KillParticipation": 57.1,
+              "Timeline": {
+                "CsAt10": 10,
+                "CsAt15": 10,
+                "CsAt20": 11,
+                "CsAt25": 11,
+                "GoldAt10": 3141,
+                "GoldAt15": 4670,
+                "GoldAt20": 5742,
+                "GoldAt25": 7656
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5420966703",
+              "GameDate": "2025-11-25",
+              "Patch": "15.23",
+              "GameDuration": 1376,
+              "TeamId": 100,
+              "Champion": "Karma",
+              "Win": true,
+              "Kills": 1,
+              "Deaths": 2,
+              "Assists": 10,
+              "Kda": 5.5,
+              "Cs": 22,
+              "Csm": 0.96,
+              "Gold": 6716,
+              "Goldm": 292.85,
+              "DmgDealt": 5535,
+              "DmgTaken": 10762,
+              "DmgMitigated": 7879,
+              "DmgObjectives": 4363,
+              "VisionScore": 53,
+              "WardsPlaced": 26,
+              "WardsKilled": 6,
+              "ControlWards": 1,
+              "CcScore": 18.0,
+              "KillParticipation": 61.1,
+              "Timeline": {
+                "CsAt10": 11,
+                "CsAt15": 18,
+                "CsAt20": 22,
+                "CsAt25": 0,
+                "GoldAt10": 2339,
+                "GoldAt15": 3803,
+                "GoldAt20": 5637,
+                "GoldAt25": 0
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5421006300",
+              "GameDate": "2025-11-25",
+              "Patch": "15.23",
+              "GameDuration": 1357,
+              "TeamId": 100,
+              "Champion": "Leona",
+              "Win": true,
+              "Kills": 1,
+              "Deaths": 3,
+              "Assists": 12,
+              "Kda": 4.33,
+              "Cs": 23,
+              "Csm": 1.02,
+              "Gold": 6532,
+              "Goldm": 288.81,
+              "DmgDealt": 3318,
+              "DmgTaken": 11863,
+              "DmgMitigated": 12391,
+              "DmgObjectives": 2467,
+              "VisionScore": 46,
+              "WardsPlaced": 25,
+              "WardsKilled": 3,
+              "ControlWards": 4,
+              "CcScore": 21.0,
+              "KillParticipation": 59.1,
+              "Timeline": {
+                "CsAt10": 14,
+                "CsAt15": 22,
+                "CsAt20": 22,
+                "CsAt25": 0,
+                "GoldAt10": 2683,
+                "GoldAt15": 4231,
+                "GoldAt20": 5738,
+                "GoldAt25": 0
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5410823371",
+              "Opponent": "Z Score#1500",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5410873955",
+              "Opponent": "Z Score#1500",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5420966703",
+              "Opponent": "Alcalamity#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5421006300",
+              "Opponent": "Alcalamity#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "RiotId": "Phantom Star#Stars",
+  "GameName": "Phantom Star",
+  "Tag": "Stars",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_FALL_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "ACL Fall 2025",
+          "TeamName": "Gravity",
+          "Role": "UTILITY",
+          "Games": 4,
+          "Wins": 2,
+          "Losses": 2,
+          "WinRate": 50.0,
+          "PerGame": {
+            "Kills": 0.75,
+            "Deaths": 3.5,
+            "Assists": 11.5,
+            "Kda": 3.5,
+            "Cs": 28.25,
+            "Gold": 7645.25,
+            "KillParticipation": 64.22,
+            "VisionScore": 91.75,
+            "CcScore": 41.5,
+            "DmgDealt": 7524.75,
+            "DmgTaken": 16389.75,
+            "DmgMitigated": 15576.5,
+            "DmgObjectives": 1842.75,
+            "CsAt10": 14.5,
+            "CsAt15": 20.5,
+            "CsAt20": 25.25,
+            "CsAt25": 26.75,
+            "GoldAt10": 2324.5,
+            "GoldAt15": 3643.5,
+            "GoldAt20": 4795.5,
+            "GoldAt25": 6128.75
+          },
+          "PerMin": {
+            "Cs": 0.91,
+            "Gold": 243.59,
+            "DmgDealt": 241.0,
+            "DmgTaken": 524.3,
+            "DmgMitigated": 498.78,
+            "DmgObjectives": 56.23,
+            "VisionScore": 2.94,
+            "CcScore": 1.32
+          },
+          "Vision": {
+            "AvgVisionScore": 91.75,
+            "AvgWardsPlaced": 47.75,
+            "AvgWardsKilled": 8.5,
+            "AvgControlWardsBought": 15.5
+          },
+          "Champions": [
+            {
+              "Champion": "Seraphine",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Braum",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Neeko",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Nautilus",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5415818104",
+              "GameDate": "2025-11-18",
+              "Patch": "15.22",
+              "GameDuration": 2130,
+              "TeamId": 200,
+              "Champion": "Seraphine",
+              "Win": false,
+              "Kills": 3,
+              "Deaths": 4,
+              "Assists": 9,
+              "Kda": 3.0,
+              "Cs": 30,
+              "Csm": 0.85,
+              "Gold": 9046,
+              "Goldm": 254.82,
+              "DmgDealt": 8654,
+              "DmgTaken": 17517,
+              "DmgMitigated": 10173,
+              "DmgObjectives": 4108,
+              "VisionScore": 92,
+              "WardsPlaced": 51,
+              "WardsKilled": 9,
+              "ControlWards": 16,
+              "CcScore": 47.0,
+              "KillParticipation": 70.6,
+              "Timeline": {
+                "CsAt10": 15,
+                "CsAt15": 21,
+                "CsAt20": 23,
+                "CsAt25": 26,
+                "GoldAt10": 2461,
+                "GoldAt15": 4499,
+                "GoldAt20": 5507,
+                "GoldAt25": 7217
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5433356327",
+              "GameDate": "2025-12-10",
+              "Patch": "15.24",
+              "GameDuration": 1792,
+              "TeamId": 200,
+              "Champion": "Braum",
+              "Win": true,
+              "Kills": 0,
+              "Deaths": 2,
+              "Assists": 12,
+              "Kda": 6.0,
+              "Cs": 33,
+              "Csm": 1.1,
+              "Gold": 7827,
+              "Goldm": 262.06,
+              "DmgDealt": 6154,
+              "DmgTaken": 18584,
+              "DmgMitigated": 15863,
+              "DmgObjectives": 1420,
+              "VisionScore": 104,
+              "WardsPlaced": 43,
+              "WardsKilled": 12,
+              "ControlWards": 11,
+              "CcScore": 26.0,
+              "KillParticipation": 66.7,
+              "Timeline": {
+                "CsAt10": 17,
+                "CsAt15": 24,
+                "CsAt20": 31,
+                "CsAt25": 32,
+                "GoldAt10": 2243,
+                "GoldAt15": 3395,
+                "GoldAt20": 4611,
+                "GoldAt25": 5841
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5433420996",
+              "GameDate": "2025-12-10",
+              "Patch": "15.24",
+              "GameDuration": 1712,
+              "TeamId": 100,
+              "Champion": "Neeko",
+              "Win": false,
+              "Kills": 0,
+              "Deaths": 4,
+              "Assists": 5,
+              "Kda": 1.25,
+              "Cs": 27,
+              "Csm": 0.95,
+              "Gold": 6216,
+              "Goldm": 217.85,
+              "DmgDealt": 8203,
+              "DmgTaken": 12857,
+              "DmgMitigated": 5687,
+              "DmgObjectives": 879,
+              "VisionScore": 77,
+              "WardsPlaced": 46,
+              "WardsKilled": 7,
+              "ControlWards": 18,
+              "CcScore": 39.0,
+              "KillParticipation": 45.5,
+              "Timeline": {
+                "CsAt10": 16,
+                "CsAt15": 22,
+                "CsAt20": 26,
+                "CsAt25": 27,
+                "GoldAt10": 2392,
+                "GoldAt15": 3445,
+                "GoldAt20": 4420,
+                "GoldAt25": 5628
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5433484512",
+              "GameDate": "2025-12-10",
+              "Patch": "15.24",
+              "GameDuration": 1876,
+              "TeamId": 200,
+              "Champion": "Nautilus",
+              "Win": true,
+              "Kills": 0,
+              "Deaths": 4,
+              "Assists": 20,
+              "Kda": 5.0,
+              "Cs": 23,
+              "Csm": 0.74,
+              "Gold": 7492,
+              "Goldm": 239.62,
+              "DmgDealt": 7088,
+              "DmgTaken": 16601,
+              "DmgMitigated": 30583,
+              "DmgObjectives": 964,
+              "VisionScore": 94,
+              "WardsPlaced": 51,
+              "WardsKilled": 6,
+              "ControlWards": 17,
+              "CcScore": 54.0,
+              "KillParticipation": 74.1,
+              "Timeline": {
+                "CsAt10": 10,
+                "CsAt15": 15,
+                "CsAt20": 21,
+                "CsAt25": 22,
+                "GoldAt10": 2202,
+                "GoldAt15": 3235,
+                "GoldAt20": 4644,
+                "GoldAt25": 5829
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5415818104",
+              "Opponent": "Miracle#MIKE",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5433356327",
+              "Opponent": "Pockus#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5433420996",
+              "Opponent": "Pockus#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5433484512",
+              "Opponent": "Protos#Colin",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

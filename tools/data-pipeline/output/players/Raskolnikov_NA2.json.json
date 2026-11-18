@@ -1,0 +1,174 @@
+{
+  "RiotId": "Raskolnikov#NA2",
+  "GameName": "Raskolnikov",
+  "Tag": "NA2",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_SUMMER_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Summer",
+          "Label": "ACL Summer 2025",
+          "TeamName": "Gravity",
+          "Role": "UTILITY",
+          "Games": 2,
+          "Wins": 1,
+          "Losses": 1,
+          "WinRate": 50.0,
+          "PerGame": {
+            "Kills": 0.5,
+            "Deaths": 8.0,
+            "Assists": 13.5,
+            "Kda": 1.75,
+            "Cs": 26.0,
+            "Gold": 6461.0,
+            "KillParticipation": 65.05,
+            "VisionScore": 63.0,
+            "CcScore": 46.5,
+            "DmgDealt": 6919.0,
+            "DmgTaken": 23937.0,
+            "DmgMitigated": 32059.0,
+            "DmgObjectives": 1338.0,
+            "CsAt10": 15.5,
+            "CsAt15": 21.0,
+            "CsAt20": 24.5,
+            "CsAt25": 10.5,
+            "GoldAt10": 2371.5,
+            "GoldAt15": 3637.5,
+            "GoldAt20": 4857.5,
+            "GoldAt25": 3075.5
+          },
+          "PerMin": {
+            "Cs": 1.06,
+            "Gold": 250.2,
+            "DmgDealt": 272.64,
+            "DmgTaken": 945.5,
+            "DmgMitigated": 1256.46,
+            "DmgObjectives": 47.13,
+            "VisionScore": 2.37,
+            "CcScore": 1.83
+          },
+          "Vision": {
+            "AvgVisionScore": 63.0,
+            "AvgWardsPlaced": 35.5,
+            "AvgWardsKilled": 4.5,
+            "AvgControlWardsBought": 6.0
+          },
+          "Champions": [
+            {
+              "Champion": "Alistar",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Nautilus",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5339678014",
+              "GameDate": "2025-08-05",
+              "Patch": "15.15",
+              "GameDuration": 1748,
+              "TeamId": 200,
+              "Champion": "Alistar",
+              "Win": true,
+              "Kills": 1,
+              "Deaths": 6,
+              "Assists": 22,
+              "Kda": 3.83,
+              "Cs": 22,
+              "Csm": 0.76,
+              "Gold": 7953,
+              "Goldm": 272.99,
+              "DmgDealt": 7694,
+              "DmgTaken": 26223,
+              "DmgMitigated": 36842,
+              "DmgObjectives": 2466,
+              "VisionScore": 89,
+              "WardsPlaced": 51,
+              "WardsKilled": 5,
+              "ControlWards": 10,
+              "CcScore": 52.0,
+              "KillParticipation": 67.6,
+              "Timeline": {
+                "CsAt10": 13,
+                "CsAt15": 16,
+                "CsAt20": 19,
+                "CsAt25": 21,
+                "GoldAt10": 2329,
+                "GoldAt15": 3643,
+                "GoldAt20": 5091,
+                "GoldAt25": 6151
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5339736814",
+              "GameDate": "2025-08-05",
+              "Patch": "15.15",
+              "GameDuration": 1311,
+              "TeamId": 100,
+              "Champion": "Nautilus",
+              "Win": false,
+              "Kills": 0,
+              "Deaths": 10,
+              "Assists": 5,
+              "Kda": 0.5,
+              "Cs": 30,
+              "Csm": 1.37,
+              "Gold": 4969,
+              "Goldm": 227.41,
+              "DmgDealt": 6144,
+              "DmgTaken": 21651,
+              "DmgMitigated": 27276,
+              "DmgObjectives": 210,
+              "VisionScore": 37,
+              "WardsPlaced": 20,
+              "WardsKilled": 4,
+              "ControlWards": 2,
+              "CcScore": 41.0,
+              "KillParticipation": 62.5,
+              "Timeline": {
+                "CsAt10": 18,
+                "CsAt15": 26,
+                "CsAt20": 30,
+                "CsAt25": 0,
+                "GoldAt10": 2414,
+                "GoldAt15": 3632,
+                "GoldAt20": 4624,
+                "GoldAt25": 0
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5339678014",
+              "Opponent": "Fatihcan#1515",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5339736814",
+              "Opponent": "Fatihcan#1515",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

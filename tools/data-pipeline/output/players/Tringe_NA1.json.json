@@ -1,0 +1,226 @@
+{
+  "RiotId": "Tringe#NA1",
+  "GameName": "Tringe",
+  "Tag": "NA1",
+  "Seasons": {
+    "AVL_2025": {
+      "League": "AVL",
+      "Season": "2025",
+      "Splits": {
+        "AVL_FALL_2025": {
+          "League": "AVL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AVL Fall 2025",
+          "TeamName": "Cal Golden Bears",
+          "Role": "MIDDLE",
+          "Games": 3,
+          "Wins": 2,
+          "Losses": 1,
+          "WinRate": 66.7,
+          "PerGame": {
+            "Kills": 5.33,
+            "Deaths": 2.0,
+            "Assists": 7.67,
+            "Kda": 6.5,
+            "Cs": 280.33,
+            "Gold": 14543.33,
+            "KillParticipation": 60.23,
+            "VisionScore": 31.33,
+            "CcScore": 18.33,
+            "DmgDealt": 25557.33,
+            "DmgTaken": 21445.33,
+            "DmgMitigated": 14080.33,
+            "DmgObjectives": 12223.67,
+            "CsAt10": 82.0,
+            "CsAt15": 134.33,
+            "CsAt20": 182.0,
+            "CsAt25": 212.0,
+            "GoldAt10": 3396.67,
+            "GoldAt15": 5335.33,
+            "GoldAt20": 7160.0,
+            "GoldAt25": 9632.33
+          },
+          "PerMin": {
+            "Cs": 8.18,
+            "Gold": 431.11,
+            "DmgDealt": 740.05,
+            "DmgTaken": 645.79,
+            "DmgMitigated": 428.47,
+            "DmgObjectives": 382.66,
+            "VisionScore": 0.89,
+            "CcScore": 0.47
+          },
+          "Vision": {
+            "AvgVisionScore": 31.33,
+            "AvgWardsPlaced": 11.0,
+            "AvgWardsKilled": 8.0,
+            "AvgControlWardsBought": 0.0
+          },
+          "Champions": [
+            {
+              "Champion": "Syndra",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Vladimir",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Azir",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5438884211",
+              "GameDate": "2025-12-16",
+              "Patch": "15.24",
+              "GameDuration": 2538,
+              "TeamId": 200,
+              "Champion": "Syndra",
+              "Win": false,
+              "Kills": 1,
+              "Deaths": 4,
+              "Assists": 7,
+              "Kda": 2.0,
+              "Cs": 315,
+              "Csm": 7.45,
+              "Gold": 14269,
+              "Goldm": 337.33,
+              "DmgDealt": 31722,
+              "DmgTaken": 17577,
+              "DmgMitigated": 8994,
+              "DmgObjectives": 5641,
+              "VisionScore": 44,
+              "WardsPlaced": 18,
+              "WardsKilled": 9,
+              "ControlWards": 0,
+              "CcScore": 42.0,
+              "KillParticipation": 57.1,
+              "Timeline": {
+                "CsAt10": 84,
+                "CsAt15": 127,
+                "CsAt20": 171,
+                "CsAt25": 207,
+                "GoldAt10": 3306,
+                "GoldAt15": 5059,
+                "GoldAt20": 6927,
+                "GoldAt25": 8564
+              }
+            },
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5438957528",
+              "GameDate": "2025-12-16",
+              "Patch": "15.24",
+              "GameDuration": 1743,
+              "TeamId": 100,
+              "Champion": "Vladimir",
+              "Win": true,
+              "Kills": 11,
+              "Deaths": 0,
+              "Assists": 8,
+              "Kda": 19.0,
+              "Cs": 258,
+              "Csm": 8.88,
+              "Gold": 14948,
+              "Goldm": 514.56,
+              "DmgDealt": 24636,
+              "DmgTaken": 23634,
+              "DmgMitigated": 14362,
+              "DmgObjectives": 16929,
+              "VisionScore": 25,
+              "WardsPlaced": 9,
+              "WardsKilled": 7,
+              "ControlWards": 0,
+              "CcScore": 3.0,
+              "KillParticipation": 79.2,
+              "Timeline": {
+                "CsAt10": 87,
+                "CsAt15": 147,
+                "CsAt20": 203,
+                "CsAt25": 229,
+                "GoldAt10": 3767,
+                "GoldAt15": 6006,
+                "GoldAt20": 8021,
+                "GoldAt25": 11624
+              }
+            },
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5439012605",
+              "GameDate": "2025-12-16",
+              "Patch": "15.24",
+              "GameDuration": 1959,
+              "TeamId": 100,
+              "Champion": "Azir",
+              "Win": true,
+              "Kills": 4,
+              "Deaths": 2,
+              "Assists": 8,
+              "Kda": 6.0,
+              "Cs": 268,
+              "Csm": 8.21,
+              "Gold": 14413,
+              "Goldm": 441.44,
+              "DmgDealt": 20314,
+              "DmgTaken": 23125,
+              "DmgMitigated": 18885,
+              "DmgObjectives": 14101,
+              "VisionScore": 25,
+              "WardsPlaced": 6,
+              "WardsKilled": 8,
+              "ControlWards": 0,
+              "CcScore": 10.0,
+              "KillParticipation": 44.4,
+              "Timeline": {
+                "CsAt10": 75,
+                "CsAt15": 129,
+                "CsAt20": 172,
+                "CsAt25": 200,
+                "GoldAt10": 3117,
+                "GoldAt15": 4941,
+                "GoldAt20": 6532,
+                "GoldAt25": 8709
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5438884211",
+              "Opponent": "Taku#143",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5438957528",
+              "Opponent": "Taku#143",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5439012605",
+              "Opponent": "Taku#143",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

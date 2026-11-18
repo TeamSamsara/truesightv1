@@ -1,0 +1,205 @@
+/* ││ typography.css
+   @version 1.0.0
+
+   Base font sizes, line heights, weights, and letter spacing.
+   Defines the full type scale used across the platform.
+   No component-specific styles — those live in components/.
+*/
+
+
+/* ││ Base Body Type */
+
+body {
+  font-family:    var(--font-body);
+  font-size:      1rem;
+  font-weight:    400;
+  line-height:    1.6;
+  color:          var(--text-primary);
+  letter-spacing: 0.01em;
+}
+
+
+/* ││ Display — Anton
+   Used for scores, ranks, large numbers, and primary headers.
+   Never used for body copy or labels. */
+
+.t-display {
+  font-family:    var(--font-display);
+  font-size:      clamp(2rem, 3.5vw, 3.5rem);
+  font-weight:    400;
+  line-height:    1;
+  letter-spacing: 0.02em;
+  color:          var(--text-primary);
+}
+
+.t-display--lg {
+  font-size:      clamp(2.5rem, 5vw, 5rem);
+  letter-spacing: 0.03em;
+}
+
+.t-display--sm {
+  font-size:      clamp(1.25rem, 2vw, 2rem);
+  letter-spacing: 0.02em;
+}
+
+
+/* ││ Score Numbers — Anton
+   Large numeric values like TrueSight scores and ranks. */
+
+.t-score {
+  font-family:    var(--font-display);
+  font-size:      clamp(1.75rem, 2.5vw, 2.75rem);
+  font-weight:    400;
+  line-height:    1;
+  letter-spacing: 0.01em;
+}
+
+.t-score--xl {
+  font-size:      clamp(2.5rem, 4vw, 4rem);
+}
+
+.t-score--sm {
+  font-size:      clamp(1rem, 1.5vw, 1.5rem);
+}
+
+
+/* ││ Section Headers — Anton */
+
+.t-section-header {
+  font-family:    var(--font-display);
+  font-size:      clamp(1.1rem, 1.8vw, 1.75rem);
+  font-weight:    400;
+  line-height:    1.1;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color:          var(--text-primary);
+}
+
+
+/* ││ Eyebrow Labels
+   Small uppercase labels above headers. */
+
+.t-eyebrow {
+  font-family:    var(--font-body);
+  font-size:      clamp(0.625rem, 0.8vw, 0.75rem);
+  font-weight:    700;
+  line-height:    1;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color:          var(--accent);
+}
+
+
+/* ││ Player Names */
+
+.t-player-name {
+  font-family:    var(--font-body);
+  font-size:      clamp(0.9rem, 1.1vw, 1.1rem);
+  font-weight:    700;
+  line-height:    1.2;
+  color:          var(--text-primary);
+}
+
+.t-player-tag {
+  font-family:    var(--font-body);
+  font-size:      clamp(0.75rem, 0.9vw, 0.9rem);
+  font-weight:    400;
+  color:          var(--text-muted);
+}
+
+
+/* ││ Body Text */
+
+.t-body {
+  font-family:    var(--font-body);
+  font-size:      clamp(0.875rem, 1vw, 1rem);
+  font-weight:    400;
+  line-height:    1.65;
+  color:          var(--text-secondary);
+}
+
+.t-body--strong {
+  font-weight:    700;
+  color:          var(--text-primary);
+}
+
+
+/* ││ Column Headers — table and grid labels */
+
+.t-col-header {
+  font-family:    var(--font-body);
+  font-size:      clamp(0.625rem, 0.75vw, 0.7rem);
+  font-weight:    700;
+  line-height:    1;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color:          var(--text-muted);
+}
+
+
+/* ││ Mono — data values, IDs, lobby codes */
+
+.t-mono {
+  font-family:    var(--font-mono);
+  font-size:      clamp(0.8rem, 0.95vw, 0.95rem);
+  font-weight:    400;
+  line-height:    1.4;
+  color:          var(--text-secondary);
+}
+
+.t-mono--lg {
+  font-size:      clamp(0.9rem, 1.1vw, 1.1rem);
+}
+
+.t-mono--sm {
+  font-size:      clamp(0.7rem, 0.8vw, 0.8rem);
+}
+
+
+/* ││ Notes and Captions */
+
+.t-note {
+  font-family:    var(--font-body);
+  font-size:      clamp(0.7rem, 0.85vw, 0.8rem);
+  font-weight:    400;
+  line-height:    1.5;
+  font-style:     italic;
+  color:          var(--text-muted);
+}
+
+
+/* ││ Responsive Adjustments */
+
+@media (max-width: 1024px) {
+  body {
+    letter-spacing: 0;
+  }
+
+  .t-display {
+    letter-spacing: 0.01em;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    line-height: 1.5;
+  }
+
+  .t-eyebrow {
+    letter-spacing: 0.2em;
+  }
+
+  .t-col-header {
+    letter-spacing: 0.1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .t-display--lg {
+    font-size: 2rem;
+  }
+
+  .t-score--xl {
+    font-size: 2rem;
+  }
+}

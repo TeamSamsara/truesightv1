@@ -1,0 +1,278 @@
+{
+  "RiotId": "Halls 1#NA2",
+  "GameName": "Halls 1",
+  "Tag": "NA2",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_SUMMER_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Summer",
+          "Label": "ACL Summer 2025",
+          "TeamName": "Calamity Esports",
+          "Role": "JUNGLE",
+          "Games": 4,
+          "Wins": 2,
+          "Losses": 2,
+          "WinRate": 50.0,
+          "PerGame": {
+            "Kills": 6.75,
+            "Deaths": 4.75,
+            "Assists": 10.5,
+            "Kda": 3.63,
+            "Cs": 167.0,
+            "Gold": 12041.25,
+            "KillParticipation": 71.78,
+            "VisionScore": 30.5,
+            "CcScore": 23.25,
+            "DmgDealt": 19042.25,
+            "DmgTaken": 40665.5,
+            "DmgMitigated": 35457.75,
+            "DmgObjectives": 32737.0,
+            "CsAt10": 57.0,
+            "CsAt15": 86.5,
+            "CsAt20": 117.0,
+            "CsAt25": 121.75,
+            "GoldAt10": 3476.0,
+            "GoldAt15": 5362.25,
+            "GoldAt20": 7937.5,
+            "GoldAt25": 7887.0
+          },
+          "PerMin": {
+            "Cs": 5.72,
+            "Gold": 414.33,
+            "DmgDealt": 652.47,
+            "DmgTaken": 1377.65,
+            "DmgMitigated": 1184.35,
+            "DmgObjectives": 1113.95,
+            "VisionScore": 1.0,
+            "CcScore": 0.81
+          },
+          "Vision": {
+            "AvgVisionScore": 30.5,
+            "AvgWardsPlaced": 4.5,
+            "AvgWardsKilled": 7.25,
+            "AvgControlWardsBought": 4.0
+          },
+          "Champions": [
+            {
+              "Champion": "Trundle",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "MonkeyKing",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "XinZhao",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Pantheon",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5334166118",
+              "GameDate": "2025-07-29",
+              "Patch": "15.14",
+              "GameDuration": 1758,
+              "TeamId": 100,
+              "Champion": "Trundle",
+              "Win": true,
+              "Kills": 6,
+              "Deaths": 2,
+              "Assists": 20,
+              "Kda": 13.0,
+              "Cs": 180,
+              "Csm": 6.14,
+              "Gold": 13265,
+              "Goldm": 452.73,
+              "DmgDealt": 17762,
+              "DmgTaken": 42454,
+              "DmgMitigated": 37415,
+              "DmgObjectives": 56100,
+              "VisionScore": 37,
+              "WardsPlaced": 5,
+              "WardsKilled": 10,
+              "ControlWards": 5,
+              "CcScore": 36.0,
+              "KillParticipation": 89.7,
+              "Timeline": {
+                "CsAt10": 51,
+                "CsAt15": 89,
+                "CsAt20": 128,
+                "CsAt25": 165,
+                "GoldAt10": 3366,
+                "GoldAt15": 5462,
+                "GoldAt20": 8667,
+                "GoldAt25": 10730
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5334199215",
+              "GameDate": "2025-07-29",
+              "Patch": "15.14",
+              "GameDuration": 1723,
+              "TeamId": 200,
+              "Champion": "MonkeyKing",
+              "Win": true,
+              "Kills": 10,
+              "Deaths": 0,
+              "Assists": 10,
+              "Kda": 20.0,
+              "Cs": 181,
+              "Csm": 6.3,
+              "Gold": 12863,
+              "Goldm": 447.93,
+              "DmgDealt": 20688,
+              "DmgTaken": 24468,
+              "DmgMitigated": 34871,
+              "DmgObjectives": 49349,
+              "VisionScore": 26,
+              "WardsPlaced": 3,
+              "WardsKilled": 6,
+              "ControlWards": 3,
+              "CcScore": 17.0,
+              "KillParticipation": 69.0,
+              "Timeline": {
+                "CsAt10": 62,
+                "CsAt15": 91,
+                "CsAt20": 124,
+                "CsAt25": 164,
+                "GoldAt10": 3793,
+                "GoldAt15": 5382,
+                "GoldAt20": 7889,
+                "GoldAt25": 10035
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5334737431",
+              "GameDate": "2025-07-30",
+              "Patch": "15.14",
+              "GameDuration": 2139,
+              "TeamId": 200,
+              "Champion": "XinZhao",
+              "Win": false,
+              "Kills": 9,
+              "Deaths": 9,
+              "Assists": 8,
+              "Kda": 1.89,
+              "Cs": 212,
+              "Csm": 5.95,
+              "Gold": 14764,
+              "Goldm": 414.14,
+              "DmgDealt": 25894,
+              "DmgTaken": 68224,
+              "DmgMitigated": 54037,
+              "DmgObjectives": 19860,
+              "VisionScore": 50,
+              "WardsPlaced": 8,
+              "WardsKilled": 11,
+              "ControlWards": 7,
+              "CcScore": 24.0,
+              "KillParticipation": 73.9,
+              "Timeline": {
+                "CsAt10": 71,
+                "CsAt15": 94,
+                "CsAt20": 123,
+                "CsAt25": 158,
+                "GoldAt10": 3527,
+                "GoldAt15": 6009,
+                "GoldAt20": 8112,
+                "GoldAt25": 10783
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5334786504",
+              "GameDate": "2025-07-30",
+              "Patch": "15.14",
+              "GameDuration": 1274,
+              "TeamId": 100,
+              "Champion": "Pantheon",
+              "Win": false,
+              "Kills": 2,
+              "Deaths": 8,
+              "Assists": 4,
+              "Kda": 0.75,
+              "Cs": 95,
+              "Csm": 4.47,
+              "Gold": 7273,
+              "Goldm": 342.53,
+              "DmgDealt": 11825,
+              "DmgTaken": 27516,
+              "DmgMitigated": 15508,
+              "DmgObjectives": 5639,
+              "VisionScore": 9,
+              "WardsPlaced": 2,
+              "WardsKilled": 2,
+              "ControlWards": 1,
+              "CcScore": 16.0,
+              "KillParticipation": 54.5,
+              "Timeline": {
+                "CsAt10": 44,
+                "CsAt15": 72,
+                "CsAt20": 93,
+                "CsAt25": 0,
+                "GoldAt10": 3218,
+                "GoldAt15": 4596,
+                "GoldAt20": 7082,
+                "GoldAt25": 0
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5334166118",
+              "Opponent": "institutional#jgl",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5334199215",
+              "Opponent": "institutional#jgl",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5334737431",
+              "Opponent": "Music#NA2",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5334786504",
+              "Opponent": "Music#NA2",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

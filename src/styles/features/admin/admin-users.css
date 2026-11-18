@@ -1,0 +1,366 @@
+/* ││ admin-users.css
+   @version 1.0.0
+
+   Users page — toolbar, list, row menu dropdown,
+   empty state, type badges, and role badges.
+
+   Target path: src/styles/features/admin/admin-users.css
+*/
+
+
+/* ││ Users — Toolbar */
+
+.f-admin__users-toolbar {
+  display:         flex;
+  align-items:     center;
+  justify-content: space-between;
+  padding:         var(--space-3) var(--space-5);
+  border-bottom:   1px solid var(--border);
+  gap:             var(--space-3);
+  flex-wrap:       nowrap;
+}
+
+.f-admin__users-toolbar-left {
+  display:     flex;
+  align-items: center;
+  gap:         var(--space-2);
+  flex-wrap:   wrap;
+  flex:        1;
+  min-width:   0;
+}
+
+.f-admin__users-toolbar-right {
+  display:      flex;
+  align-items:  center;
+  gap:          var(--space-2);
+  flex-shrink:  0;
+  padding-left: var(--space-4);
+  border-left:  1px solid var(--border);
+}
+
+.f-admin__users-search { width: 220px; }
+
+.f-admin__users-count {
+  font-family: var(--font-mono);
+  font-size:   11px;
+  color:       var(--text-muted);
+  white-space: nowrap;
+}
+
+.f-admin__inactive-toggle {
+  display:     flex;
+  align-items: center;
+  gap:         var(--space-2);
+  font-size:   11px;
+  color:       var(--text-muted);
+  cursor:      pointer;
+  user-select: none;
+  margin-left: var(--space-2);
+  white-space: nowrap;
+}
+
+.f-admin__inactive-toggle input {
+  cursor:       pointer;
+  accent-color: var(--gold);
+}
+
+.f-admin__users-toolbar-divider {
+  width:      1px;
+  height:     20px;
+  background: var(--border);
+  flex-shrink: 0;
+  margin:     0 var(--space-1);
+}
+
+
+/* ││ Users — List */
+
+.f-admin__users-list { padding: 0; }
+
+.f-admin__users-list-header {
+  display:               grid;
+  grid-template-columns: 1fr 160px 160px 120px 120px 48px;
+  gap:                   var(--space-4);
+  padding:               var(--space-2) var(--space-6);
+  background:            var(--bg-raised);
+  border-bottom:         1px solid var(--border);
+}
+
+.f-admin__users-header-cell {
+  font-size:      9px;
+  font-weight:    700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color:          var(--text-muted);
+}
+
+.f-admin__users-row {
+  display:               grid;
+  grid-template-columns: 1fr 160px 160px 120px 120px 48px;
+  align-items:           center;
+  gap:                   var(--space-4);
+  padding:               var(--space-4) var(--space-6);
+  border-bottom:         1px solid var(--border-subtle);
+  transition:            background .1s;
+}
+
+.f-admin__users-row:last-child { border-bottom: none; }
+.f-admin__users-row:hover      { background: var(--bg-raised); }
+
+.f-admin__users-row--inactive { opacity: .55; }
+
+
+/* ││ Users — Row Cells */
+
+.f-admin__users-row-name {
+  display:        flex;
+  flex-direction: column;
+  gap:            var(--space-1);
+  min-width:      0;
+}
+
+.f-admin__users-row-display-name-wrap {
+  display:     flex;
+  align-items: center;
+  gap:         var(--space-2);
+  flex-wrap:   wrap;
+}
+
+.f-admin__users-row-display-name {
+  font-size:     14px;
+  font-weight:   700;
+  color:         var(--text-primary);
+  white-space:   nowrap;
+  overflow:      hidden;
+  text-overflow: ellipsis;
+}
+
+.f-admin__users-row-real-name {
+  font-size: 11px;
+  color:     var(--text-muted);
+}
+
+.f-admin__users-row-type {
+  display:     flex;
+  align-items: center;
+  gap:         var(--space-2);
+  flex-wrap:   wrap;
+}
+
+.f-admin__users-row-truesight-id {
+  font-family: var(--font-mono);
+  font-size:   12px;
+  color:       var(--text-secondary);
+}
+
+.f-admin__users-temp-id {
+  font-family: var(--font-mono);
+  font-size:   12px;
+  color:       var(--text-muted);
+  font-style:  italic;
+}
+
+.f-admin__users-row-last-login {
+  font-family: var(--font-mono);
+  font-size:   11px;
+  color:       var(--text-muted);
+}
+
+.f-admin__users-row-status {
+  display:     flex;
+  align-items: center;
+}
+
+.f-admin__users-status {
+  display:        inline-flex;
+  align-items:    center;
+  gap:            var(--space-1);
+  font-size:      10px;
+  font-weight:    700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.f-admin__users-status-dot {
+  width:         6px;
+  height:        6px;
+  border-radius: 50%;
+  flex-shrink:   0;
+}
+
+.f-admin__users-status--active   .f-admin__users-status-dot { background: var(--status-pass); }
+.f-admin__users-status--active                              { color: var(--status-pass); }
+.f-admin__users-status--inactive .f-admin__users-status-dot { background: var(--text-muted); }
+.f-admin__users-status--inactive                            { color: var(--text-muted); }
+.f-admin__users-status--pending  .f-admin__users-status-dot { background: var(--gold); }
+.f-admin__users-status--pending                             { color: var(--gold); }
+
+.f-admin__users-row-actions {
+  display:         flex;
+  justify-content: flex-end;
+}
+
+.f-admin__users-row-menu-wrap { position: relative; }
+
+.f-admin__users-row-menu-btn {
+  width:           32px;
+  height:          32px;
+  display:         flex;
+  align-items:     center;
+  justify-content: center;
+  border:          1px solid transparent;
+  border-radius:   var(--radius-sm);
+  background:      transparent;
+  color:           var(--text-muted);
+  cursor:          pointer;
+  font-size:       16px;
+  letter-spacing:  2px;
+  transition:      all .13s;
+}
+
+.f-admin__users-row-menu-btn:hover,
+.f-admin__users-row-menu-btn.is-active {
+  border-color: var(--border);
+  color:        var(--text-primary);
+  background:   var(--bg-inset);
+}
+
+
+/* ││ Users — Row Menu Dropdown */
+
+.f-admin__users-row-menu {
+  position:      absolute;
+  top:           calc(100% + 4px);
+  right:         0;
+  z-index:       200;
+  background:    var(--bg-surface);
+  border:        1px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow:      hidden;
+  min-width:     180px;
+  box-shadow:    0 8px 24px rgba(0,0,0,.4);
+}
+
+.f-admin__row-menu-item {
+  display:     block;
+  width:       100%;
+  padding:     var(--space-2) var(--space-4);
+  background:  transparent;
+  border:      none;
+  color:       var(--text-secondary);
+  font-family: var(--font-body);
+  font-size:   13px;
+  text-align:  left;
+  cursor:      pointer;
+  transition:  background .1s, color .1s;
+}
+
+.f-admin__row-menu-item:hover {
+  background: var(--bg-raised);
+  color:      var(--text-primary);
+}
+
+.f-admin__row-menu-item--danger       { color: var(--status-no); }
+.f-admin__row-menu-item--danger:hover { background: rgba(242,92,92,.08); color: var(--status-no); }
+
+.f-admin__row-menu-divider {
+  height:     1px;
+  background: var(--border);
+  margin:     var(--space-1) 0;
+}
+
+
+/* ││ Users — Type Badges */
+
+.f-admin__users-type-badge {
+  display:        inline-flex;
+  align-items:    center;
+  font-size:      9px;
+  font-weight:    700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding:        2px 7px;
+  border-radius:  3px;
+  border:         1px solid transparent;
+}
+
+.f-admin__users-type-badge--admin  { color: var(--accent); background: var(--accent-dim); border-color: rgba(149,236,93,.2); }
+.f-admin__users-type-badge--staff  { color: var(--gold); background: var(--gold-dim); border-color: var(--gold-border); }
+.f-admin__users-type-badge--player { color: var(--status-info); background: rgba(91,156,246,.08); border-color: rgba(91,156,246,.2); }
+.f-admin__users-type-badge--dev    { color: var(--text-muted); background: transparent; border-color: var(--border); }
+
+
+/* ││ Users — Role Badge */
+
+.f-admin__users-role-badge {
+  display:        inline-flex;
+  align-items:    center;
+  font-size:      9px;
+  font-weight:    700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding:        2px 6px;
+  border-radius:  3px;
+  color:          var(--text-muted);
+  background:     transparent;
+  border:         1px solid var(--border);
+}
+
+
+/* ││ Users — Empty State */
+
+.f-admin__empty-state {
+  padding:        64px var(--space-6);
+  text-align:     center;
+  display:        flex;
+  flex-direction: column;
+  align-items:    center;
+  gap:            var(--space-3);
+}
+
+.f-admin__empty-state-icon {
+  font-size: 28px;
+  opacity:   .3;
+  color:     var(--text-muted);
+}
+
+.f-admin__empty-state-title {
+  font-family:    var(--font-display);
+  font-size:      16px;
+  letter-spacing: 2px;
+  color:          var(--text-muted);
+}
+
+.f-admin__empty-state-sub {
+  font-size:   13px;
+  color:       var(--text-muted);
+  max-width:   300px;
+  line-height: 1.5;
+}
+
+
+/* ││ Responsive */
+
+@media (max-width: 1100px) {
+  .f-admin__users-list-header,
+  .f-admin__users-row {
+    grid-template-columns: 1fr 160px 120px 120px 48px;
+  }
+
+  .f-admin__users-header-cell:nth-child(3),
+  .f-admin__users-row > *:nth-child(3) {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .f-admin__users-list-header,
+  .f-admin__users-row {
+    grid-template-columns: 1fr 160px 120px 48px;
+  }
+
+  .f-admin__users-header-cell:nth-child(4),
+  .f-admin__users-row > *:nth-child(4) {
+    display: none;
+  }
+}

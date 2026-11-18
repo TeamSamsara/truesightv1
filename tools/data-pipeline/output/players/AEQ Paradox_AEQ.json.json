@@ -1,0 +1,174 @@
+{
+  "RiotId": "AEQ Paradox#AEQ",
+  "GameName": "AEQ Paradox",
+  "Tag": "AEQ",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_FALL_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "ACL Fall 2025",
+          "TeamName": "Apex Mission Impossible",
+          "Role": "MIDDLE",
+          "Games": 2,
+          "Wins": 0,
+          "Losses": 2,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 2.5,
+            "Deaths": 4.0,
+            "Assists": 6.5,
+            "Kda": 2.25,
+            "Cs": 229.0,
+            "Gold": 11903.5,
+            "KillParticipation": 50.85,
+            "VisionScore": 15.5,
+            "CcScore": 46.0,
+            "DmgDealt": 41011.5,
+            "DmgTaken": 21230.5,
+            "DmgMitigated": 13978.5,
+            "DmgObjectives": 3104.5,
+            "CsAt10": 82.0,
+            "CsAt15": 135.5,
+            "CsAt20": 174.0,
+            "CsAt25": 203.5,
+            "GoldAt10": 3199.5,
+            "GoldAt15": 4916.5,
+            "GoldAt20": 6806.5,
+            "GoldAt25": 8847.0
+          },
+          "PerMin": {
+            "Cs": 6.63,
+            "Gold": 335.66,
+            "DmgDealt": 1086.65,
+            "DmgTaken": 621.28,
+            "DmgMitigated": 404.98,
+            "DmgObjectives": 80.3,
+            "VisionScore": 0.45,
+            "CcScore": 1.28
+          },
+          "Vision": {
+            "AvgVisionScore": 15.5,
+            "AvgWardsPlaced": 10.0,
+            "AvgWardsKilled": 2.0,
+            "AvgControlWardsBought": 0.5
+          },
+          "Champions": [
+            {
+              "Champion": "Taliyah",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Hwei",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5415759852",
+              "GameDate": "2025-11-18",
+              "Patch": "15.22",
+              "GameDuration": 1835,
+              "TeamId": 100,
+              "Champion": "Taliyah",
+              "Win": false,
+              "Kills": 0,
+              "Deaths": 5,
+              "Assists": 5,
+              "Kda": 1.0,
+              "Cs": 232,
+              "Csm": 7.59,
+              "Gold": 9680,
+              "Goldm": 316.51,
+              "DmgDealt": 14939,
+              "DmgTaken": 23231,
+              "DmgMitigated": 14219,
+              "DmgObjectives": 615,
+              "VisionScore": 15,
+              "WardsPlaced": 9,
+              "WardsKilled": 3,
+              "ControlWards": 1,
+              "CcScore": 34.0,
+              "KillParticipation": 33.3,
+              "Timeline": {
+                "CsAt10": 79,
+                "CsAt15": 143,
+                "CsAt20": 178,
+                "CsAt25": 208,
+                "GoldAt10": 3126,
+                "GoldAt15": 5163,
+                "GoldAt20": 6688,
+                "GoldAt25": 8161
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5415810009",
+              "GameDate": "2025-11-18",
+              "Patch": "15.22",
+              "GameDuration": 2389,
+              "TeamId": 100,
+              "Champion": "Hwei",
+              "Win": false,
+              "Kills": 5,
+              "Deaths": 3,
+              "Assists": 8,
+              "Kda": 4.33,
+              "Cs": 226,
+              "Csm": 5.68,
+              "Gold": 14127,
+              "Goldm": 354.8,
+              "DmgDealt": 67084,
+              "DmgTaken": 19230,
+              "DmgMitigated": 13738,
+              "DmgObjectives": 5594,
+              "VisionScore": 16,
+              "WardsPlaced": 11,
+              "WardsKilled": 1,
+              "ControlWards": 0,
+              "CcScore": 58.0,
+              "KillParticipation": 68.4,
+              "Timeline": {
+                "CsAt10": 85,
+                "CsAt15": 128,
+                "CsAt20": 170,
+                "CsAt25": 199,
+                "GoldAt10": 3273,
+                "GoldAt15": 4670,
+                "GoldAt20": 6925,
+                "GoldAt25": 9533
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5415759852",
+              "Opponent": "  A Frozen Titan#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5415810009",
+              "Opponent": "  A Frozen Titan#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

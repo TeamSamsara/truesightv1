@@ -1,0 +1,202 @@
+/* ││ admin-stale.css
+   @version 1.0.0
+
+   Stale profiles page — info banner, toolbar, list,
+   row actions, and keep/flag buttons.
+*/
+
+
+/* ││ Info Banner */
+
+.f-admin__info-banner {
+  display:       flex;
+  align-items:   flex-start;
+  gap:           var(--space-3);
+  background:    rgba(91,156,246,.06);
+  border:        1px solid rgba(91,156,246,.18);
+  border-radius: var(--radius-md);
+  padding:       var(--space-4) var(--space-5);
+  margin-bottom: var(--space-5);
+}
+
+.f-admin__info-banner-icon {
+  color:       var(--status-info);
+  font-size:   16px;
+  flex-shrink: 0;
+  margin-top:  1px;
+}
+
+.f-admin__info-banner-text {
+  font-size:   13px;
+  color:       var(--text-secondary);
+  line-height: 1.55;
+}
+
+.f-admin__info-banner-text strong { color: var(--text-primary); }
+
+
+/* ││ Stale — Toolbar */
+
+.f-admin__stale-toolbar {
+  display:         flex;
+  align-items:     center;
+  justify-content: space-between;
+  padding:         var(--space-3) var(--space-5);
+  border-bottom:   1px solid var(--border);
+  gap:             var(--space-3);
+  flex-wrap:       nowrap;
+}
+
+.f-admin__stale-toolbar-left {
+  display:     flex;
+  align-items: center;
+  gap:         var(--space-2);
+  flex-wrap:   wrap;
+  flex:        1;
+  min-width:   0;
+}
+
+.f-admin__stale-toolbar-right {
+  display:      flex;
+  align-items:  center;
+  flex-shrink:  0;
+  padding-left: var(--space-4);
+  border-left:  1px solid var(--border);
+}
+
+.f-admin__stale-count {
+  font-family: var(--font-mono);
+  font-size:   11px;
+  color:       var(--text-muted);
+  white-space: nowrap;
+}
+
+
+/* ││ Stale — List */
+
+.f-admin__stale-header {
+  display:       grid;
+  grid-template-columns: 2fr 100px 120px 140px 140px 160px;
+  gap:           var(--space-4);
+  padding:       var(--space-2) var(--space-6);
+  background:    var(--bg-raised);
+  border-bottom: 1px solid var(--border);
+}
+
+.f-admin__stale-header-cell {
+  font-size:      9px;
+  font-weight:    700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color:          var(--text-muted);
+}
+
+.f-admin__stale-header-cell--right { text-align: right; }
+
+.f-admin__stale-list { padding: 0; }
+
+.f-admin__stale-row {
+  display:       grid;
+  grid-template-columns: 2fr 100px 120px 140px 140px 160px;
+  align-items:   center;
+  gap:           var(--space-4);
+  padding:       var(--space-4) var(--space-6);
+  border-bottom: 1px solid var(--border-subtle);
+  transition:    background .1s;
+}
+
+.f-admin__stale-row:last-child { border-bottom: none; }
+.f-admin__stale-row:hover      { background: var(--bg-raised); }
+
+.f-admin__stale-row-player {
+  display:        flex;
+  flex-direction: column;
+  gap:            var(--space-1);
+  min-width:      0;
+}
+
+.f-admin__stale-row-name {
+  font-size:     14px;
+  font-weight:   700;
+  color:         var(--text-primary);
+  white-space:   nowrap;
+  overflow:      hidden;
+  text-overflow: ellipsis;
+}
+
+.f-admin__stale-row-id {
+  font-family: var(--font-mono);
+  font-size:   11px;
+  color:       var(--text-muted);
+}
+
+.f-admin__stale-row-last-modified {
+  font-family: var(--font-mono);
+  font-size:   11px;
+  color:       var(--text-muted);
+}
+
+.f-admin__stale-row-inactive {
+  font-family: var(--font-mono);
+  font-size:   12px;
+  font-weight: 700;
+}
+
+.f-admin__stale-row-inactive--warn  { color: var(--status-flag); }
+.f-admin__stale-row-inactive--alert { color: var(--status-no); }
+
+.f-admin__stale-row-actions {
+  display:         flex;
+  gap:             var(--space-2);
+  justify-content: flex-end;
+}
+
+.f-admin__btn-keep {
+  font-family:    var(--font-body);
+  font-size:      10px;
+  font-weight:    700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background:     transparent;
+  color:          var(--text-muted);
+  border:         1px solid var(--border);
+  border-radius:  var(--radius-sm);
+  padding:        5px 10px;
+  cursor:         pointer;
+  transition:     all .13s;
+}
+
+.f-admin__btn-keep:hover {
+  background: var(--bg-inset);
+  color:      var(--text-secondary);
+}
+
+.f-admin__btn-flag {
+  font-family:    var(--font-body);
+  font-size:      10px;
+  font-weight:    700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background:     transparent;
+  color:          var(--status-flag);
+  border:         1px solid rgba(245,200,66,.2);
+  border-radius:  var(--radius-sm);
+  padding:        5px 10px;
+  cursor:         pointer;
+  transition:     all .13s;
+}
+
+.f-admin__btn-flag:hover {
+  background:   rgba(245,200,66,.07);
+  border-color: rgba(245,200,66,.35);
+}
+
+
+/* ││ Responsive */
+
+@media (max-width: 768px) {
+  .f-admin__stale-header,
+  .f-admin__stale-row {
+    grid-template-columns: 1fr 80px 120px 120px;
+  }
+}

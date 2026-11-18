@@ -1,0 +1,174 @@
+{
+  "RiotId": "King Koney#ALBO",
+  "GameName": "King Koney",
+  "Tag": "ALBO",
+  "Seasons": {
+    "AML_2025": {
+      "League": "AML",
+      "Season": "2025",
+      "Splits": {
+        "AML_FALL_2025": {
+          "League": "AML",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AML Fall 2025",
+          "TeamName": "Stasis Gaming Resurgence",
+          "Role": "TOP",
+          "Games": 2,
+          "Wins": 2,
+          "Losses": 0,
+          "WinRate": 100.0,
+          "PerGame": {
+            "Kills": 8.5,
+            "Deaths": 2.0,
+            "Assists": 5.5,
+            "Kda": 7.0,
+            "Cs": 266.0,
+            "Gold": 16396.5,
+            "KillParticipation": 55.75,
+            "VisionScore": 16.0,
+            "CcScore": 25.5,
+            "DmgDealt": 23704.0,
+            "DmgTaken": 36115.5,
+            "DmgMitigated": 31259.5,
+            "DmgObjectives": 24063.5,
+            "CsAt10": 84.0,
+            "CsAt15": 126.0,
+            "CsAt20": 179.5,
+            "CsAt25": 210.5,
+            "GoldAt10": 3400.5,
+            "GoldAt15": 5615.5,
+            "GoldAt20": 8121.0,
+            "GoldAt25": 11107.0
+          },
+          "PerMin": {
+            "Cs": 8.02,
+            "Gold": 496.38,
+            "DmgDealt": 726.09,
+            "DmgTaken": 1081.82,
+            "DmgMitigated": 937.58,
+            "DmgObjectives": 730.6,
+            "VisionScore": 0.49,
+            "CcScore": 0.77
+          },
+          "Vision": {
+            "AvgVisionScore": 16.0,
+            "AvgWardsPlaced": 7.5,
+            "AvgWardsKilled": 3.0,
+            "AvgControlWardsBought": 0.5
+          },
+          "Champions": [
+            {
+              "Champion": "Renekton",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Jax",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5388175574",
+              "GameDate": "2025-10-08",
+              "Patch": "15.19",
+              "GameDuration": 2099,
+              "TeamId": 200,
+              "Champion": "Renekton",
+              "Win": true,
+              "Kills": 5,
+              "Deaths": 3,
+              "Assists": 7,
+              "Kda": 4.0,
+              "Cs": 276,
+              "Csm": 7.89,
+              "Gold": 15820,
+              "Goldm": 452.22,
+              "DmgDealt": 17664,
+              "DmgTaken": 41910,
+              "DmgMitigated": 35529,
+              "DmgObjectives": 21920,
+              "VisionScore": 15,
+              "WardsPlaced": 5,
+              "WardsKilled": 4,
+              "ControlWards": 0,
+              "CcScore": 26.0,
+              "KillParticipation": 52.2,
+              "Timeline": {
+                "CsAt10": 88,
+                "CsAt15": 124,
+                "CsAt20": 173,
+                "CsAt25": 208,
+                "GoldAt10": 3636,
+                "GoldAt15": 5608,
+                "GoldAt20": 7568,
+                "GoldAt25": 9979
+              }
+            },
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5388224619",
+              "GameDate": "2025-10-08",
+              "Patch": "15.19",
+              "GameDuration": 1884,
+              "TeamId": 200,
+              "Champion": "Jax",
+              "Win": true,
+              "Kills": 12,
+              "Deaths": 1,
+              "Assists": 4,
+              "Kda": 16.0,
+              "Cs": 256,
+              "Csm": 8.15,
+              "Gold": 16973,
+              "Goldm": 540.54,
+              "DmgDealt": 29744,
+              "DmgTaken": 30321,
+              "DmgMitigated": 26990,
+              "DmgObjectives": 26207,
+              "VisionScore": 17,
+              "WardsPlaced": 10,
+              "WardsKilled": 2,
+              "ControlWards": 1,
+              "CcScore": 25.0,
+              "KillParticipation": 59.3,
+              "Timeline": {
+                "CsAt10": 80,
+                "CsAt15": 128,
+                "CsAt20": 186,
+                "CsAt25": 213,
+                "GoldAt10": 3165,
+                "GoldAt15": 5623,
+                "GoldAt20": 8674,
+                "GoldAt25": 12235
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5388175574",
+              "Opponent": "doyouneedahouse#minne",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5388224619",
+              "Opponent": "doyouneedahouse#minne",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "RiotId": "13anana Pudding#yum",
+  "GameName": "13anana Pudding",
+  "Tag": "yum",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_FALL_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "ACL Fall 2025",
+          "TeamName": "Cupid Esports",
+          "Role": "UTILITY",
+          "Games": 3,
+          "Wins": 2,
+          "Losses": 1,
+          "WinRate": 66.7,
+          "PerGame": {
+            "Kills": 1.33,
+            "Deaths": 3.67,
+            "Assists": 13.33,
+            "Kda": 3.99,
+            "Cs": 32.33,
+            "Gold": 8564.67,
+            "KillParticipation": 66.87,
+            "VisionScore": 93.0,
+            "CcScore": 29.67,
+            "DmgDealt": 10515.0,
+            "DmgTaken": 19540.0,
+            "DmgMitigated": 9239.67,
+            "DmgObjectives": 2809.67,
+            "CsAt10": 12.67,
+            "CsAt15": 18.67,
+            "CsAt20": 21.67,
+            "CsAt25": 28.33,
+            "GoldAt10": 2465.0,
+            "GoldAt15": 4073.67,
+            "GoldAt20": 5350.67,
+            "GoldAt25": 6585.0
+          },
+          "PerMin": {
+            "Cs": 1.03,
+            "Gold": 272.82,
+            "DmgDealt": 331.36,
+            "DmgTaken": 625.76,
+            "DmgMitigated": 297.77,
+            "DmgObjectives": 89.82,
+            "VisionScore": 2.96,
+            "CcScore": 1.03
+          },
+          "Vision": {
+            "AvgVisionScore": 93.0,
+            "AvgWardsPlaced": 41.0,
+            "AvgWardsKilled": 10.67,
+            "AvgControlWardsBought": 8.33
+          },
+          "Champions": [
+            {
+              "Champion": "Bard",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Neeko",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Nidalee",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5406761331",
+              "GameDate": "2025-11-05",
+              "Patch": "15.21",
+              "GameDuration": 1577,
+              "TeamId": 100,
+              "Champion": "Bard",
+              "Win": true,
+              "Kills": 0,
+              "Deaths": 3,
+              "Assists": 17,
+              "Kda": 5.67,
+              "Cs": 23,
+              "Csm": 0.88,
+              "Gold": 7172,
+              "Goldm": 272.87,
+              "DmgDealt": 7369,
+              "DmgTaken": 15555,
+              "DmgMitigated": 7684,
+              "DmgObjectives": 2033,
+              "VisionScore": 77,
+              "WardsPlaced": 32,
+              "WardsKilled": 10,
+              "ControlWards": 8,
+              "CcScore": 39.0,
+              "KillParticipation": 58.6,
+              "Timeline": {
+                "CsAt10": 12,
+                "CsAt15": 18,
+                "CsAt20": 19,
+                "CsAt25": 23,
+                "GoldAt10": 2432,
+                "GoldAt15": 3864,
+                "GoldAt20": 5146,
+                "GoldAt25": 6358
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5406804759",
+              "GameDate": "2025-11-05",
+              "Patch": "15.21",
+              "GameDuration": 1860,
+              "TeamId": 100,
+              "Champion": "Neeko",
+              "Win": false,
+              "Kills": 1,
+              "Deaths": 4,
+              "Assists": 11,
+              "Kda": 3.0,
+              "Cs": 39,
+              "Csm": 1.26,
+              "Gold": 7623,
+              "Goldm": 245.9,
+              "DmgDealt": 10277,
+              "DmgTaken": 21271,
+              "DmgMitigated": 10509,
+              "DmgObjectives": 3409,
+              "VisionScore": 86,
+              "WardsPlaced": 39,
+              "WardsKilled": 7,
+              "ControlWards": 12,
+              "CcScore": 49.0,
+              "KillParticipation": 70.6,
+              "Timeline": {
+                "CsAt10": 15,
+                "CsAt15": 22,
+                "CsAt20": 27,
+                "CsAt25": 35,
+                "GoldAt10": 2225,
+                "GoldAt15": 3580,
+                "GoldAt20": 5059,
+                "GoldAt25": 6314
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5406855214",
+              "GameDate": "2025-11-05",
+              "Patch": "15.21",
+              "GameDuration": 2182,
+              "TeamId": 200,
+              "Champion": "Nidalee",
+              "Win": true,
+              "Kills": 3,
+              "Deaths": 4,
+              "Assists": 12,
+              "Kda": 3.75,
+              "Cs": 35,
+              "Csm": 0.96,
+              "Gold": 10899,
+              "Goldm": 299.7,
+              "DmgDealt": 13899,
+              "DmgTaken": 21794,
+              "DmgMitigated": 9526,
+              "DmgObjectives": 2987,
+              "VisionScore": 116,
+              "WardsPlaced": 52,
+              "WardsKilled": 15,
+              "ControlWards": 5,
+              "CcScore": 1.0,
+              "KillParticipation": 71.4,
+              "Timeline": {
+                "CsAt10": 11,
+                "CsAt15": 16,
+                "CsAt20": 19,
+                "CsAt25": 27,
+                "GoldAt10": 2738,
+                "GoldAt15": 4777,
+                "GoldAt20": 5847,
+                "GoldAt25": 7083
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5406761331",
+              "Opponent": "Kral Only35#3535",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5406804759",
+              "Opponent": "Kral Only35#3535",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5406855214",
+              "Opponent": "Kral Only35#3535",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

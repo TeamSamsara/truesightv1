@@ -1,0 +1,174 @@
+{
+  "RiotId": "mingrui#zhou",
+  "GameName": "mingrui",
+  "Tag": "zhou",
+  "Seasons": {
+    "AML_2025": {
+      "League": "AML",
+      "Season": "2025",
+      "Splits": {
+        "AML_FALL_2025": {
+          "League": "AML",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AML Fall 2025",
+          "TeamName": "Final Boss Apes",
+          "Role": "MIDDLE",
+          "Games": 2,
+          "Wins": 0,
+          "Losses": 2,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 2.0,
+            "Deaths": 3.0,
+            "Assists": 7.0,
+            "Kda": 3.0,
+            "Cs": 244.5,
+            "Gold": 11249.0,
+            "KillParticipation": 71.25,
+            "VisionScore": 26.5,
+            "CcScore": 38.5,
+            "DmgDealt": 28057.5,
+            "DmgTaken": 26988.5,
+            "DmgMitigated": 30528.0,
+            "DmgObjectives": 2801.0,
+            "CsAt10": 91.0,
+            "CsAt15": 134.5,
+            "CsAt20": 178.5,
+            "CsAt25": 219.5,
+            "GoldAt10": 3383.0,
+            "GoldAt15": 4970.0,
+            "GoldAt20": 6841.5,
+            "GoldAt25": 8638.0
+          },
+          "PerMin": {
+            "Cs": 7.57,
+            "Gold": 347.78,
+            "DmgDealt": 860.07,
+            "DmgTaken": 849.48,
+            "DmgMitigated": 973.39,
+            "DmgObjectives": 85.6,
+            "VisionScore": 0.83,
+            "CcScore": 1.22
+          },
+          "Vision": {
+            "AvgVisionScore": 26.5,
+            "AvgWardsPlaced": 13.0,
+            "AvgWardsKilled": 4.5,
+            "AvgControlWardsBought": 3.0
+          },
+          "Champions": [
+            {
+              "Champion": "Orianna",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Galio",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5397916330",
+              "GameDate": "2025-10-22",
+              "Patch": "15.20",
+              "GameDuration": 2033,
+              "TeamId": 100,
+              "Champion": "Orianna",
+              "Win": false,
+              "Kills": 3,
+              "Deaths": 2,
+              "Assists": 4,
+              "Kda": 3.5,
+              "Cs": 273,
+              "Csm": 8.06,
+              "Gold": 12745,
+              "Goldm": 376.14,
+              "DmgDealt": 36345,
+              "DmgTaken": 21259,
+              "DmgMitigated": 16330,
+              "DmgObjectives": 3789,
+              "VisionScore": 25,
+              "WardsPlaced": 14,
+              "WardsKilled": 4,
+              "ControlWards": 3,
+              "CcScore": 26.0,
+              "KillParticipation": 77.8,
+              "Timeline": {
+                "CsAt10": 88,
+                "CsAt15": 136,
+                "CsAt20": 188,
+                "CsAt25": 234,
+                "GoldAt10": 3315,
+                "GoldAt15": 5065,
+                "GoldAt20": 7131,
+                "GoldAt25": 8687
+              }
+            },
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5397953691",
+              "GameDate": "2025-10-22",
+              "Patch": "15.20",
+              "GameDuration": 1832,
+              "TeamId": 200,
+              "Champion": "Galio",
+              "Win": false,
+              "Kills": 1,
+              "Deaths": 4,
+              "Assists": 10,
+              "Kda": 2.75,
+              "Cs": 216,
+              "Csm": 7.07,
+              "Gold": 9753,
+              "Goldm": 319.42,
+              "DmgDealt": 19770,
+              "DmgTaken": 32718,
+              "DmgMitigated": 44726,
+              "DmgObjectives": 1813,
+              "VisionScore": 28,
+              "WardsPlaced": 12,
+              "WardsKilled": 5,
+              "ControlWards": 3,
+              "CcScore": 51.0,
+              "KillParticipation": 64.7,
+              "Timeline": {
+                "CsAt10": 94,
+                "CsAt15": 133,
+                "CsAt20": 169,
+                "CsAt25": 205,
+                "GoldAt10": 3451,
+                "GoldAt15": 4875,
+                "GoldAt20": 6552,
+                "GoldAt25": 8589
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5397916330",
+              "Opponent": "Exodia#1364",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5397953691",
+              "Opponent": "Exodia#1364",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

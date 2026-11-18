@@ -1,0 +1,152 @@
+/* ││ widget-calendar.css
+   @version 1.0.0
+
+   Calendar widget content styles.
+   Compact upcoming events list — not the full calendar component.
+   Styles everything inside .c-widget__body for the calendar widget type.
+
+   Target path: src/shared/components/widget/widget-calendar.css
+*/
+
+
+/* ││ Calendar Widget */
+
+.c-calendar-widget {
+  display:        flex;
+  flex-direction: column;
+}
+
+
+/* ││ Event List */
+
+.c-calendar-widget__list {
+  display:        flex;
+  flex-direction: column;
+}
+
+
+/* ││ Event Row */
+
+.c-calendar-widget__event {
+  display:       flex;
+  align-items:   center;
+  gap:           var(--space-3);
+  padding:       var(--space-3) 0;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.c-calendar-widget__event:last-child {
+  border-bottom: none;
+}
+
+.c-calendar-widget__event.is-clickable {
+  cursor:     pointer;
+  transition: background .1s;
+}
+
+.c-calendar-widget__event.is-clickable:hover {
+  background:    var(--bg-raised);
+  border-radius: var(--radius-sm);
+  padding-left:  var(--space-2);
+  padding-right: var(--space-2);
+  margin:        0 calc(-1 * var(--space-2));
+}
+
+
+/* ││ Event Indicator */
+
+.c-calendar-widget__event-indicator {
+  width:         3px;
+  align-self:    stretch;
+  border-radius: 2px;
+  flex-shrink:   0;
+}
+
+.c-calendar-widget__event--scrim    .c-calendar-widget__event-indicator { background: #a78bfa; }
+.c-calendar-widget__event--official .c-calendar-widget__event-indicator { background: var(--gold); }
+.c-calendar-widget__event--vod      .c-calendar-widget__event-indicator { background: #5b9cf6; }
+.c-calendar-widget__event--practice .c-calendar-widget__event-indicator { background: var(--accent); }
+.c-calendar-widget__event--other    .c-calendar-widget__event-indicator { background: var(--text-muted); }
+
+
+/* ││ Event Body */
+
+.c-calendar-widget__event-body {
+  flex:      1;
+  min-width: 0;
+}
+
+.c-calendar-widget__event-title {
+  font-family:   var(--font-body);
+  font-size:     13px;
+  font-weight:   700;
+  color:         var(--text-primary);
+  white-space:   nowrap;
+  overflow:      hidden;
+  text-overflow: ellipsis;
+}
+
+.c-calendar-widget__event-sub {
+  font-family: var(--font-body);
+  font-size:   11px;
+  color:       var(--text-muted);
+  margin-top:  2px;
+}
+
+
+/* ││ Event Right */
+
+.c-calendar-widget__event-right {
+  display:        flex;
+  flex-direction: column;
+  align-items:    flex-end;
+  gap:            2px;
+  flex-shrink:    0;
+}
+
+.c-calendar-widget__event-type {
+  font-family:    var(--font-body);
+  font-size:      10px;
+  font-weight:    700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color:          var(--text-muted);
+}
+
+.c-calendar-widget__event-time {
+  font-family: var(--font-mono);
+  font-size:   11px;
+  color:       var(--text-muted);
+  white-space: nowrap;
+}
+
+
+/* ││ View More */
+
+.c-calendar-widget__more {
+  font-family:    var(--font-body);
+  font-size:      11px;
+  font-weight:    700;
+  letter-spacing: 1px;
+  color:          var(--text-muted);
+  background:     transparent;
+  border:         none;
+  cursor:         pointer;
+  padding:        var(--space-3) 0 0;
+  text-align:     left;
+  transition:     color .12s;
+}
+
+.c-calendar-widget__more:hover {
+  color: var(--text-secondary);
+}
+
+
+/* ││ Empty */
+
+.c-calendar-widget__empty-text {
+  font-family: var(--font-body);
+  font-size:   13px;
+  color:       var(--text-muted);
+  padding:     var(--space-2) 0;
+}

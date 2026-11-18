@@ -1,0 +1,278 @@
+{
+  "RiotId": "aidony#062",
+  "GameName": "aidony",
+  "Tag": "062",
+  "Seasons": {
+    "AVL_2025": {
+      "League": "AVL",
+      "Season": "2025",
+      "Splits": {
+        "AVL_FALL_2025": {
+          "League": "AVL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AVL Fall 2025",
+          "TeamName": "Novasphere Gaming",
+          "Role": "BOTTOM",
+          "Games": 4,
+          "Wins": 2,
+          "Losses": 2,
+          "WinRate": 50.0,
+          "PerGame": {
+            "Kills": 5.25,
+            "Deaths": 6.25,
+            "Assists": 3.75,
+            "Kda": 1.44,
+            "Cs": 204.5,
+            "Gold": 12312.5,
+            "KillParticipation": 45.42,
+            "VisionScore": 19.25,
+            "CcScore": 8.5,
+            "DmgDealt": 20788.0,
+            "DmgTaken": 19940.25,
+            "DmgMitigated": 10838.25,
+            "DmgObjectives": 21847.75,
+            "CsAt10": 68.25,
+            "CsAt15": 110.75,
+            "CsAt20": 143.75,
+            "CsAt25": 93.75,
+            "GoldAt10": 3181.75,
+            "GoldAt15": 5309.25,
+            "GoldAt20": 7479.25,
+            "GoldAt25": 5261.25
+          },
+          "PerMin": {
+            "Cs": 6.98,
+            "Gold": 409.37,
+            "DmgDealt": 676.62,
+            "DmgTaken": 674.85,
+            "DmgMitigated": 358.1,
+            "DmgObjectives": 608.97,
+            "VisionScore": 0.63,
+            "CcScore": 0.34
+          },
+          "Vision": {
+            "AvgVisionScore": 19.25,
+            "AvgWardsPlaced": 8.25,
+            "AvgWardsKilled": 4.5,
+            "AvgControlWardsBought": 0.25
+          },
+          "Champions": [
+            {
+              "Champion": "Lucian",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Tristana",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Jinx",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Xayah",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5432429745",
+              "GameDate": "2025-12-09",
+              "Patch": "15.24",
+              "GameDuration": 1994,
+              "TeamId": 100,
+              "Champion": "Lucian",
+              "Win": true,
+              "Kills": 12,
+              "Deaths": 6,
+              "Assists": 6,
+              "Kda": 3.0,
+              "Cs": 271,
+              "Csm": 8.15,
+              "Gold": 17667,
+              "Goldm": 531.6,
+              "DmgDealt": 38234,
+              "DmgTaken": 25015,
+              "DmgMitigated": 14818,
+              "DmgObjectives": 40923,
+              "VisionScore": 30,
+              "WardsPlaced": 10,
+              "WardsKilled": 7,
+              "ControlWards": 1,
+              "CcScore": 2.0,
+              "KillParticipation": 69.2,
+              "Timeline": {
+                "CsAt10": 89,
+                "CsAt15": 131,
+                "CsAt20": 176,
+                "CsAt25": 211,
+                "GoldAt10": 3615,
+                "GoldAt15": 5602,
+                "GoldAt20": 8428,
+                "GoldAt25": 11569
+              }
+            },
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5432488847",
+              "GameDate": "2025-12-09",
+              "Patch": "15.24",
+              "GameDuration": 2487,
+              "TeamId": 200,
+              "Champion": "Tristana",
+              "Win": true,
+              "Kills": 5,
+              "Deaths": 8,
+              "Assists": 7,
+              "Kda": 1.5,
+              "Cs": 256,
+              "Csm": 6.18,
+              "Gold": 16547,
+              "Goldm": 399.2,
+              "DmgDealt": 22935,
+              "DmgTaken": 28040,
+              "DmgMitigated": 15566,
+              "DmgObjectives": 42799,
+              "VisionScore": 26,
+              "WardsPlaced": 11,
+              "WardsKilled": 8,
+              "ControlWards": 0,
+              "CcScore": 7.0,
+              "KillParticipation": 37.5,
+              "Timeline": {
+                "CsAt10": 72,
+                "CsAt15": 109,
+                "CsAt20": 124,
+                "CsAt25": 164,
+                "GoldAt10": 3673,
+                "GoldAt15": 5755,
+                "GoldAt20": 7315,
+                "GoldAt25": 9476
+              }
+            },
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5438816289",
+              "GameDate": "2025-12-16",
+              "Patch": "15.24",
+              "GameDuration": 1391,
+              "TeamId": 200,
+              "Champion": "Jinx",
+              "Win": false,
+              "Kills": 3,
+              "Deaths": 5,
+              "Assists": 1,
+              "Kda": 0.8,
+              "Cs": 162,
+              "Csm": 6.99,
+              "Gold": 7906,
+              "Goldm": 341.02,
+              "DmgDealt": 15297,
+              "DmgTaken": 12191,
+              "DmgMitigated": 6640,
+              "DmgObjectives": 1989,
+              "VisionScore": 9,
+              "WardsPlaced": 6,
+              "WardsKilled": 0,
+              "ControlWards": 0,
+              "CcScore": 19.0,
+              "KillParticipation": 50.0,
+              "Timeline": {
+                "CsAt10": 69,
+                "CsAt15": 104,
+                "CsAt20": 146,
+                "CsAt25": 0,
+                "GoldAt10": 2890,
+                "GoldAt15": 5117,
+                "GoldAt20": 7044,
+                "GoldAt25": 0
+              }
+            },
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5438857322",
+              "GameDate": "2025-12-16",
+              "Patch": "15.24",
+              "GameDuration": 1170,
+              "TeamId": 100,
+              "Champion": "Xayah",
+              "Win": false,
+              "Kills": 1,
+              "Deaths": 6,
+              "Assists": 1,
+              "Kda": 0.33,
+              "Cs": 129,
+              "Csm": 6.62,
+              "Gold": 7130,
+              "Goldm": 365.64,
+              "DmgDealt": 6686,
+              "DmgTaken": 14515,
+              "DmgMitigated": 6329,
+              "DmgObjectives": 1680,
+              "VisionScore": 12,
+              "WardsPlaced": 6,
+              "WardsKilled": 3,
+              "ControlWards": 0,
+              "CcScore": 6.0,
+              "KillParticipation": 25.0,
+              "Timeline": {
+                "CsAt10": 43,
+                "CsAt15": 99,
+                "CsAt20": 129,
+                "CsAt25": 0,
+                "GoldAt10": 2549,
+                "GoldAt15": 4763,
+                "GoldAt20": 7130,
+                "GoldAt25": 0
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5432429745",
+              "Opponent": "kites#rocks",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5432488847",
+              "Opponent": "kites#rocks",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5438816289",
+              "Opponent": "Raynarz#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5438857322",
+              "Opponent": "Raynarz#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

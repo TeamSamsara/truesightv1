@@ -1,0 +1,184 @@
+/* ││ button.css
+   @version 1.0.0
+
+   All button variants used across the platform.
+   Follows BEM + prefix conventions.
+   Never style js- classes here.
+*/
+
+
+/* ││ Base Button */
+
+.c-button {
+  display:         inline-flex;
+  align-items:     center;
+  justify-content: center;
+  gap:             var(--space-2);
+  font-family:     var(--font-body);
+  font-size:       clamp(10px, 0.85vw, 13px);
+  font-weight:     700;
+  letter-spacing:  0.12em;
+  text-transform:  uppercase;
+  white-space:     nowrap;
+  cursor:          pointer;
+  border:          none;
+  border-radius:   var(--radius-sm);
+  padding:         clamp(var(--space-2), 0.7vw, var(--space-3))
+                   clamp(var(--space-3), 1.2vw, var(--space-6));
+  transition:      background 0.15s, color 0.15s,
+                   border-color 0.15s, opacity 0.15s;
+}
+
+.c-button:disabled {
+  opacity:        0.4;
+  cursor:         not-allowed;
+  pointer-events: none;
+}
+
+
+/* ││ Primary CTA — accent green with clip-path corner cut */
+
+.c-button--primary {
+  background:   var(--accent);
+  color:        var(--bg);
+  clip-path:    var(--clip-cta);
+  border-radius: 0;
+  padding:      clamp(var(--space-2), 0.75vw, var(--space-3))
+                clamp(var(--space-4), 1.5vw, var(--space-8));
+}
+
+.c-button--primary:hover {
+  background: #aaef78;
+}
+
+.c-button--primary:active {
+  background: #82d44e;
+}
+
+
+/* ││ Gold CTA — structural emphasis actions */
+
+.c-button--gold {
+  background:    var(--gold);
+  color:         var(--bg);
+  clip-path:     var(--clip-cta);
+  border-radius: 0;
+  padding:       clamp(var(--space-2), 0.75vw, var(--space-3))
+                 clamp(var(--space-4), 1.5vw, var(--space-8));
+}
+
+.c-button--gold:hover {
+  opacity: 0.88;
+}
+
+.c-button--gold:active {
+  opacity: 0.75;
+}
+
+
+/* ││ Ghost — secondary actions */
+
+.c-button--ghost {
+  background:   transparent;
+  color:        var(--text-secondary);
+  border:       1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+
+.c-button--ghost:hover {
+  background:   var(--bg-raised);
+  color:        var(--text-primary);
+  border-color: rgba(255, 255, 255, 0.14);
+}
+
+.c-button--ghost:active {
+  background: var(--bg-inset);
+}
+
+
+/* ││ Danger — destructive actions */
+
+.c-button--danger {
+  background:   transparent;
+  color:        var(--status-no);
+  border:       1px solid rgba(242, 92, 92, 0.2);
+  border-radius: var(--radius-sm);
+}
+
+.c-button--danger:hover {
+  background:   rgba(242, 92, 92, 0.08);
+  border-color: rgba(242, 92, 92, 0.4);
+}
+
+.c-button--danger:active {
+  background: rgba(242, 92, 92, 0.15);
+}
+
+
+/* ││ Icon Button — square, no text */
+
+.c-button--icon {
+  padding:       var(--space-2);
+  width:         clamp(28px, 2.2vw, 34px);
+  height:        clamp(28px, 2.2vw, 34px);
+  border:        1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color:         var(--text-muted);
+  font-size:     clamp(11px, 0.9vw, 14px);
+}
+
+.c-button--icon:hover {
+  border-color: var(--text-secondary);
+  color:        var(--text-primary);
+}
+
+.c-button--icon.is-active {
+  border-color: var(--accent);
+  color:        var(--accent);
+}
+
+
+/* ││ Size Modifiers */
+
+.c-button--sm {
+  font-size:  clamp(9px, 0.75vw, 11px);
+  padding:    var(--space-1) var(--space-3);
+  gap:        var(--space-1);
+}
+
+.c-button--lg {
+  font-size:  clamp(12px, 1vw, 15px);
+  padding:    clamp(var(--space-3), 1vw, var(--space-4))
+              clamp(var(--space-6), 2vw, var(--space-10));
+}
+
+
+/* ││ Full Width */
+
+.c-button--full {
+  width: 100%;
+}
+
+
+/* ││ Responsive */
+
+@media (max-width: 768px) {
+  .c-button {
+    font-size:     11px;
+    padding:       var(--space-2) var(--space-4);
+    letter-spacing: 0.08em;
+  }
+
+  .c-button--primary,
+  .c-button--gold {
+    padding: var(--space-2) var(--space-6);
+  }
+}
+
+@media (max-width: 480px) {
+  .c-button--primary,
+  .c-button--gold {
+    width:    100%;
+    padding:  var(--space-3) var(--space-4);
+  }
+}

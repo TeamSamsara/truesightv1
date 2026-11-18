@@ -1,0 +1,122 @@
+{
+  "RiotId": "Zeus#NA19",
+  "GameName": "Zeus",
+  "Tag": "NA19",
+  "Seasons": {
+    "AVL_2025": {
+      "League": "AVL",
+      "Season": "2025",
+      "Splits": {
+        "AVL_FALL_2025": {
+          "League": "AVL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AVL Fall 2025",
+          "TeamName": "Legacy Amber",
+          "Role": "TOP",
+          "Games": 1,
+          "Wins": 0,
+          "Losses": 1,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 7.0,
+            "Deaths": 11.0,
+            "Assists": 9.0,
+            "Kda": 1.45,
+            "Cs": 198.0,
+            "Gold": 12873.0,
+            "KillParticipation": 43.2,
+            "VisionScore": 24.0,
+            "CcScore": 52.0,
+            "DmgDealt": 29952.0,
+            "DmgTaken": 49629.0,
+            "DmgMitigated": 74547.0,
+            "DmgObjectives": 6317.0,
+            "CsAt10": 69.0,
+            "CsAt15": 100.0,
+            "CsAt20": 125.0,
+            "CsAt25": 157.0,
+            "GoldAt10": 3747.0,
+            "GoldAt15": 5508.0,
+            "GoldAt20": 7399.0,
+            "GoldAt25": 8852.0
+          },
+          "PerMin": {
+            "Cs": 5.4,
+            "Gold": 351.08,
+            "DmgDealt": 816.87,
+            "DmgTaken": 1353.52,
+            "DmgMitigated": 2033.1,
+            "DmgObjectives": 172.28,
+            "VisionScore": 0.65,
+            "CcScore": 1.42
+          },
+          "Vision": {
+            "AvgVisionScore": 24.0,
+            "AvgWardsPlaced": 8.0,
+            "AvgWardsKilled": 5.0,
+            "AvgControlWardsBought": 2.0
+          },
+          "Champions": [
+            {
+              "Champion": "KSante",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5432439374",
+              "GameDate": "2025-12-09",
+              "Patch": "15.24",
+              "GameDuration": 2200,
+              "TeamId": 200,
+              "Champion": "KSante",
+              "Win": false,
+              "Kills": 7,
+              "Deaths": 11,
+              "Assists": 9,
+              "Kda": 1.45,
+              "Cs": 198,
+              "Csm": 5.4,
+              "Gold": 12873,
+              "Goldm": 351.08,
+              "DmgDealt": 29952,
+              "DmgTaken": 49629,
+              "DmgMitigated": 74547,
+              "DmgObjectives": 6317,
+              "VisionScore": 24,
+              "WardsPlaced": 8,
+              "WardsKilled": 5,
+              "ControlWards": 2,
+              "CcScore": 52.0,
+              "KillParticipation": 43.2,
+              "Timeline": {
+                "CsAt10": 69,
+                "CsAt15": 100,
+                "CsAt20": 125,
+                "CsAt25": 157,
+                "GoldAt10": 3747,
+                "GoldAt15": 5508,
+                "GoldAt20": 7399,
+                "GoldAt25": 8852
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5432439374",
+              "Opponent": "Tommy#KCD",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

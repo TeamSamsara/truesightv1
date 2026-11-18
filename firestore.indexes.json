@@ -1,0 +1,123 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "prospects",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "status",      "order": "ASCENDING"  },
+        { "fieldPath": "createdAt",   "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "prospects",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "status",      "order": "ASCENDING" },
+        { "fieldPath": "role",        "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "prospects",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "staleFlagged", "order": "ASCENDING" },
+        { "fieldPath": "updatedAt",    "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "interviews",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "status",      "order": "ASCENDING" },
+        { "fieldPath": "startTime",   "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "interviews",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "staffId",     "order": "ASCENDING" },
+        { "fieldPath": "startTime",   "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "approvals",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "status",      "order": "ASCENDING"  },
+        { "fieldPath": "requestedAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "trackerFlags",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "splitId",      "order": "ASCENDING" },
+        { "fieldPath": "reviewed",     "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "trackerFlags",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "promotedToDb", "order": "ASCENDING" },
+        { "fieldPath": "splitId",      "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "combines",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "status",      "order": "ASCENDING" },
+        { "fieldPath": "year",        "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "staff",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "active",      "order": "ASCENDING"  },
+        { "fieldPath": "createdAt",   "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "inviteTokens",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "used",        "order": "ASCENDING" },
+        { "fieldPath": "staffId",     "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "inviteTokens",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "token",       "order": "ASCENDING" },
+        { "fieldPath": "used",        "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "staffAudit",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "targetStaffId", "order": "ASCENDING"  },
+        { "fieldPath": "timestamp",     "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "staffAudit",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "timestamp",     "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "staff",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "createdAt",   "order": "DESCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

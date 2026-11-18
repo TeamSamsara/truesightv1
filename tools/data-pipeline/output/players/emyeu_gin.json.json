@@ -1,0 +1,122 @@
+{
+  "RiotId": "emyeu#gin",
+  "GameName": "emyeu",
+  "Tag": "gin",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_SUMMER_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Summer",
+          "Label": "ACL Summer 2025",
+          "TeamName": "Mint Gaming",
+          "Role": "MIDDLE",
+          "Games": 1,
+          "Wins": 0,
+          "Losses": 1,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 0.0,
+            "Deaths": 5.0,
+            "Assists": 1.0,
+            "Kda": 0.2,
+            "Cs": 103.0,
+            "Gold": 4397.0,
+            "KillParticipation": 33.3,
+            "VisionScore": 7.0,
+            "CcScore": 13.0,
+            "DmgDealt": 5611.0,
+            "DmgTaken": 10282.0,
+            "DmgMitigated": 3489.0,
+            "DmgObjectives": 548.0,
+            "CsAt10": 64.0,
+            "CsAt15": 103.0,
+            "CsAt20": 0.0,
+            "CsAt25": 0.0,
+            "GoldAt10": 2869.0,
+            "GoldAt15": 4304.0,
+            "GoldAt20": 0.0,
+            "GoldAt25": 0.0
+          },
+          "PerMin": {
+            "Cs": 6.53,
+            "Gold": 278.88,
+            "DmgDealt": 355.88,
+            "DmgTaken": 652.14,
+            "DmgMitigated": 221.29,
+            "DmgObjectives": 34.76,
+            "VisionScore": 0.44,
+            "CcScore": 0.82
+          },
+          "Vision": {
+            "AvgVisionScore": 7.0,
+            "AvgWardsPlaced": 5.0,
+            "AvgWardsKilled": 1.0,
+            "AvgControlWardsBought": 0.0
+          },
+          "Champions": [
+            {
+              "Champion": "Taliyah",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5355870157",
+              "GameDate": "2025-08-27",
+              "Patch": "15.16",
+              "GameDuration": 946,
+              "TeamId": 100,
+              "Champion": "Taliyah",
+              "Win": false,
+              "Kills": 0,
+              "Deaths": 5,
+              "Assists": 1,
+              "Kda": 0.2,
+              "Cs": 103,
+              "Csm": 6.53,
+              "Gold": 4397,
+              "Goldm": 278.88,
+              "DmgDealt": 5611,
+              "DmgTaken": 10282,
+              "DmgMitigated": 3489,
+              "DmgObjectives": 548,
+              "VisionScore": 7,
+              "WardsPlaced": 5,
+              "WardsKilled": 1,
+              "ControlWards": 0,
+              "CcScore": 13.0,
+              "KillParticipation": 33.3,
+              "Timeline": {
+                "CsAt10": 64,
+                "CsAt15": 103,
+                "CsAt20": 0,
+                "CsAt25": 0,
+                "GoldAt10": 2869,
+                "GoldAt15": 4304,
+                "GoldAt20": 0,
+                "GoldAt25": 0
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5355870157",
+              "Opponent": "Season of Leaves#Fall",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

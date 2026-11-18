@@ -1,0 +1,174 @@
+{
+  "RiotId": "Galaxxus#NA1",
+  "GameName": "Galaxxus",
+  "Tag": "NA1",
+  "Seasons": {
+    "AML_2025": {
+      "League": "AML",
+      "Season": "2025",
+      "Splits": {
+        "AML_FALL_2025": {
+          "League": "AML",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AML Fall 2025",
+          "TeamName": "Stasis Gaming Anomaly",
+          "Role": "UTILITY",
+          "Games": 2,
+          "Wins": 0,
+          "Losses": 2,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 1.5,
+            "Deaths": 4.0,
+            "Assists": 6.0,
+            "Kda": 1.88,
+            "Cs": 32.5,
+            "Gold": 8457.5,
+            "KillParticipation": 74.5,
+            "VisionScore": 98.0,
+            "CcScore": 50.5,
+            "DmgDealt": 14844.0,
+            "DmgTaken": 18965.5,
+            "DmgMitigated": 10122.5,
+            "DmgObjectives": 2290.0,
+            "CsAt10": 12.5,
+            "CsAt15": 23.5,
+            "CsAt20": 27.0,
+            "CsAt25": 28.5,
+            "GoldAt10": 2105.5,
+            "GoldAt15": 3281.5,
+            "GoldAt20": 4402.5,
+            "GoldAt25": 5479.5
+          },
+          "PerMin": {
+            "Cs": 0.94,
+            "Gold": 245.27,
+            "DmgDealt": 430.35,
+            "DmgTaken": 550.12,
+            "DmgMitigated": 293.71,
+            "DmgObjectives": 66.39,
+            "VisionScore": 2.84,
+            "CcScore": 1.46
+          },
+          "Vision": {
+            "AvgVisionScore": 98.0,
+            "AvgWardsPlaced": 44.0,
+            "AvgWardsKilled": 9.5,
+            "AvgControlWardsBought": 7.5
+          },
+          "Champions": [
+            {
+              "Champion": "Bard",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Neeko",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5406765214",
+              "GameDate": "2025-11-05",
+              "Patch": "15.21",
+              "GameDuration": 2065,
+              "TeamId": 100,
+              "Champion": "Bard",
+              "Win": false,
+              "Kills": 0,
+              "Deaths": 3,
+              "Assists": 7,
+              "Kda": 2.33,
+              "Cs": 26,
+              "Csm": 0.76,
+              "Gold": 7356,
+              "Goldm": 213.73,
+              "DmgDealt": 10303,
+              "DmgTaken": 18815,
+              "DmgMitigated": 11975,
+              "DmgObjectives": 1497,
+              "VisionScore": 111,
+              "WardsPlaced": 50,
+              "WardsKilled": 11,
+              "ControlWards": 8,
+              "CcScore": 41.0,
+              "KillParticipation": 87.5,
+              "Timeline": {
+                "CsAt10": 7,
+                "CsAt15": 14,
+                "CsAt20": 18,
+                "CsAt25": 20,
+                "GoldAt10": 2054,
+                "GoldAt15": 3160,
+                "GoldAt20": 4342,
+                "GoldAt25": 5375
+              }
+            },
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5406817284",
+              "GameDate": "2025-11-05",
+              "Patch": "15.21",
+              "GameDuration": 2072,
+              "TeamId": 200,
+              "Champion": "Neeko",
+              "Win": false,
+              "Kills": 3,
+              "Deaths": 5,
+              "Assists": 5,
+              "Kda": 1.6,
+              "Cs": 39,
+              "Csm": 1.13,
+              "Gold": 9559,
+              "Goldm": 276.81,
+              "DmgDealt": 19385,
+              "DmgTaken": 19116,
+              "DmgMitigated": 8270,
+              "DmgObjectives": 3083,
+              "VisionScore": 85,
+              "WardsPlaced": 38,
+              "WardsKilled": 8,
+              "ControlWards": 7,
+              "CcScore": 60.0,
+              "KillParticipation": 61.5,
+              "Timeline": {
+                "CsAt10": 18,
+                "CsAt15": 33,
+                "CsAt20": 36,
+                "CsAt25": 37,
+                "GoldAt10": 2157,
+                "GoldAt15": 3403,
+                "GoldAt20": 4463,
+                "GoldAt25": 5584
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5406765214",
+              "Opponent": "Hagalaz#HGNDZ",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5406817284",
+              "Opponent": "Hagalaz#HGNDZ",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

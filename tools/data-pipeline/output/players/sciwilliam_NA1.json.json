@@ -1,0 +1,174 @@
+{
+  "RiotId": "sciwilliam#NA1",
+  "GameName": "sciwilliam",
+  "Tag": "NA1",
+  "Seasons": {
+    "AML_2025": {
+      "League": "AML",
+      "Season": "2025",
+      "Splits": {
+        "AML_FALL_2025": {
+          "League": "AML",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AML Fall 2025",
+          "TeamName": "MINT Cryptic",
+          "Role": "UTILITY",
+          "Games": 2,
+          "Wins": 0,
+          "Losses": 2,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 0.5,
+            "Deaths": 6.5,
+            "Assists": 7.5,
+            "Kda": 1.23,
+            "Cs": 30.5,
+            "Gold": 7789.0,
+            "KillParticipation": 71.05,
+            "VisionScore": 78.0,
+            "CcScore": 33.5,
+            "DmgDealt": 5506.0,
+            "DmgTaken": 21451.5,
+            "DmgMitigated": 27766.5,
+            "DmgObjectives": 2193.0,
+            "CsAt10": 9.5,
+            "CsAt15": 16.5,
+            "CsAt20": 18.5,
+            "CsAt25": 25.0,
+            "GoldAt10": 2036.0,
+            "GoldAt15": 2936.0,
+            "GoldAt20": 4334.0,
+            "GoldAt25": 5514.5
+          },
+          "PerMin": {
+            "Cs": 0.9,
+            "Gold": 230.06,
+            "DmgDealt": 162.42,
+            "DmgTaken": 633.51,
+            "DmgMitigated": 819.93,
+            "DmgObjectives": 64.12,
+            "VisionScore": 2.3,
+            "CcScore": 0.99
+          },
+          "Vision": {
+            "AvgVisionScore": 78.0,
+            "AvgWardsPlaced": 29.5,
+            "AvgWardsKilled": 12.0,
+            "AvgControlWardsBought": 5.5
+          },
+          "Champions": [
+            {
+              "Champion": "Leona",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Nautilus",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5402383469",
+              "GameDate": "2025-10-29",
+              "Patch": "15.21",
+              "GameDuration": 1990,
+              "TeamId": 200,
+              "Champion": "Leona",
+              "Win": false,
+              "Kills": 0,
+              "Deaths": 5,
+              "Assists": 7,
+              "Kda": 1.4,
+              "Cs": 37,
+              "Csm": 1.12,
+              "Gold": 7920,
+              "Goldm": 238.79,
+              "DmgDealt": 5260,
+              "DmgTaken": 21652,
+              "DmgMitigated": 27903,
+              "DmgObjectives": 1178,
+              "VisionScore": 78,
+              "WardsPlaced": 30,
+              "WardsKilled": 12,
+              "ControlWards": 5,
+              "CcScore": 36.0,
+              "KillParticipation": 77.8,
+              "Timeline": {
+                "CsAt10": 13,
+                "CsAt15": 22,
+                "CsAt20": 24,
+                "CsAt25": 34,
+                "GoldAt10": 2012,
+                "GoldAt15": 2978,
+                "GoldAt20": 4015,
+                "GoldAt25": 5295
+              }
+            },
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5402427058",
+              "GameDate": "2025-10-29",
+              "Patch": "15.21",
+              "GameDuration": 2076,
+              "TeamId": 200,
+              "Champion": "Nautilus",
+              "Win": false,
+              "Kills": 1,
+              "Deaths": 8,
+              "Assists": 8,
+              "Kda": 1.12,
+              "Cs": 24,
+              "Csm": 0.69,
+              "Gold": 7658,
+              "Goldm": 221.33,
+              "DmgDealt": 5752,
+              "DmgTaken": 21251,
+              "DmgMitigated": 27630,
+              "DmgObjectives": 3208,
+              "VisionScore": 78,
+              "WardsPlaced": 29,
+              "WardsKilled": 12,
+              "ControlWards": 6,
+              "CcScore": 31.0,
+              "KillParticipation": 64.3,
+              "Timeline": {
+                "CsAt10": 6,
+                "CsAt15": 11,
+                "CsAt20": 13,
+                "CsAt25": 16,
+                "GoldAt10": 2060,
+                "GoldAt15": 2894,
+                "GoldAt20": 4653,
+                "GoldAt25": 5734
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5402383469",
+              "Opponent": "Zombro#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5402427058",
+              "Opponent": "Zombro#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

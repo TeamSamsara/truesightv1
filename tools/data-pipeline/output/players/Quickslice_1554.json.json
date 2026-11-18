@@ -1,0 +1,226 @@
+{
+  "RiotId": "Quickslice#1554",
+  "GameName": "Quickslice",
+  "Tag": "1554",
+  "Seasons": {
+    "AML_2025": {
+      "League": "AML",
+      "Season": "2025",
+      "Splits": {
+        "AML_FALL_2025": {
+          "League": "AML",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AML Fall 2025",
+          "TeamName": "MINT Cryptic",
+          "Role": "TOP",
+          "Games": 3,
+          "Wins": 0,
+          "Losses": 3,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 4.33,
+            "Deaths": 5.67,
+            "Assists": 4.0,
+            "Kda": 1.47,
+            "Cs": 192.0,
+            "Gold": 11568.0,
+            "KillParticipation": 54.43,
+            "VisionScore": 24.33,
+            "CcScore": 35.0,
+            "DmgDealt": 19921.67,
+            "DmgTaken": 36552.0,
+            "DmgMitigated": 53694.33,
+            "DmgObjectives": 4447.67,
+            "CsAt10": 62.33,
+            "CsAt15": 102.0,
+            "CsAt20": 134.0,
+            "CsAt25": 120.33,
+            "GoldAt10": 3204.33,
+            "GoldAt15": 5053.67,
+            "GoldAt20": 6702.0,
+            "GoldAt25": 6550.33
+          },
+          "PerMin": {
+            "Cs": 5.89,
+            "Gold": 354.75,
+            "DmgDealt": 616.43,
+            "DmgTaken": 1050.19,
+            "DmgMitigated": 1418.23,
+            "DmgObjectives": 132.57,
+            "VisionScore": 0.69,
+            "CcScore": 1.2
+          },
+          "Vision": {
+            "AvgVisionScore": 24.33,
+            "AvgWardsPlaced": 10.33,
+            "AvgWardsKilled": 3.0,
+            "AvgControlWardsBought": 3.67
+          },
+          "Champions": [
+            {
+              "Champion": "Ornn",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Gwen",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "KSante",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5393274399",
+              "GameDate": "2025-10-15",
+              "Patch": "15.20",
+              "GameDuration": 1413,
+              "TeamId": 100,
+              "Champion": "Ornn",
+              "Win": false,
+              "Kills": 2,
+              "Deaths": 5,
+              "Assists": 2,
+              "Kda": 0.8,
+              "Cs": 132,
+              "Csm": 5.61,
+              "Gold": 7050,
+              "Goldm": 299.36,
+              "DmgDealt": 9299,
+              "DmgTaken": 18602,
+              "DmgMitigated": 21425,
+              "DmgObjectives": 142,
+              "VisionScore": 12,
+              "WardsPlaced": 8,
+              "WardsKilled": 0,
+              "ControlWards": 0,
+              "CcScore": 58.0,
+              "KillParticipation": 57.1,
+              "Timeline": {
+                "CsAt10": 54,
+                "CsAt15": 86,
+                "CsAt20": 114,
+                "CsAt25": 0,
+                "GoldAt10": 3434,
+                "GoldAt15": 4791,
+                "GoldAt20": 6175,
+                "GoldAt25": 0
+              }
+            },
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5393307284",
+              "GameDate": "2025-10-15",
+              "Patch": "15.20",
+              "GameDuration": 1796,
+              "TeamId": 200,
+              "Champion": "Gwen",
+              "Win": false,
+              "Kills": 7,
+              "Deaths": 8,
+              "Assists": 2,
+              "Kda": 1.12,
+              "Cs": 201,
+              "Csm": 6.71,
+              "Gold": 13666,
+              "Goldm": 456.55,
+              "DmgDealt": 30094,
+              "DmgTaken": 31115,
+              "DmgMitigated": 23450,
+              "DmgObjectives": 8861,
+              "VisionScore": 19,
+              "WardsPlaced": 8,
+              "WardsKilled": 3,
+              "ControlWards": 3,
+              "CcScore": 8.0,
+              "KillParticipation": 56.2,
+              "Timeline": {
+                "CsAt10": 69,
+                "CsAt15": 113,
+                "CsAt20": 158,
+                "CsAt25": 184,
+                "GoldAt10": 3320,
+                "GoldAt15": 5928,
+                "GoldAt20": 8228,
+                "GoldAt25": 11763
+              }
+            },
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5406766437",
+              "GameDate": "2025-11-05",
+              "Patch": "15.21",
+              "GameDuration": 2722,
+              "TeamId": 200,
+              "Champion": "KSante",
+              "Win": false,
+              "Kills": 4,
+              "Deaths": 4,
+              "Assists": 8,
+              "Kda": 3.0,
+              "Cs": 243,
+              "Csm": 5.36,
+              "Gold": 13988,
+              "Goldm": 308.33,
+              "DmgDealt": 20372,
+              "DmgTaken": 59939,
+              "DmgMitigated": 116208,
+              "DmgObjectives": 4340,
+              "VisionScore": 42,
+              "WardsPlaced": 15,
+              "WardsKilled": 6,
+              "ControlWards": 8,
+              "CcScore": 39.0,
+              "KillParticipation": 50.0,
+              "Timeline": {
+                "CsAt10": 64,
+                "CsAt15": 107,
+                "CsAt20": 130,
+                "CsAt25": 177,
+                "GoldAt10": 2859,
+                "GoldAt15": 4442,
+                "GoldAt20": 5703,
+                "GoldAt25": 7888
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5393274399",
+              "Opponent": "OpTic WaFFleS#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5393307284",
+              "Opponent": "SteelCityWarrior#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5406766437",
+              "Opponent": "insertbestname#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

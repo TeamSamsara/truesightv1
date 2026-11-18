@@ -1,0 +1,174 @@
+{
+  "RiotId": "Legalia#0000",
+  "GameName": "Legalia",
+  "Tag": "0000",
+  "Seasons": {
+    "AML_2025": {
+      "League": "AML",
+      "Season": "2025",
+      "Splits": {
+        "AML_FALL_2025": {
+          "League": "AML",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AML Fall 2025",
+          "TeamName": "OTL Beef",
+          "Role": "UTILITY",
+          "Games": 2,
+          "Wins": 0,
+          "Losses": 2,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 1.5,
+            "Deaths": 7.0,
+            "Assists": 12.0,
+            "Kda": 1.93,
+            "Cs": 32.5,
+            "Gold": 7841.5,
+            "KillParticipation": 75.5,
+            "VisionScore": 88.5,
+            "CcScore": 48.0,
+            "DmgDealt": 10051.5,
+            "DmgTaken": 25602.0,
+            "DmgMitigated": 28941.0,
+            "DmgObjectives": 387.0,
+            "CsAt10": 13.0,
+            "CsAt15": 21.0,
+            "CsAt20": 24.0,
+            "CsAt25": 26.0,
+            "GoldAt10": 2384.5,
+            "GoldAt15": 3611.0,
+            "GoldAt20": 5101.0,
+            "GoldAt25": 6128.0
+          },
+          "PerMin": {
+            "Cs": 1.05,
+            "Gold": 253.49,
+            "DmgDealt": 325.44,
+            "DmgTaken": 827.64,
+            "DmgMitigated": 935.46,
+            "DmgObjectives": 12.61,
+            "VisionScore": 2.87,
+            "CcScore": 1.55
+          },
+          "Vision": {
+            "AvgVisionScore": 88.5,
+            "AvgWardsPlaced": 38.5,
+            "AvgWardsKilled": 12.0,
+            "AvgControlWardsBought": 8.5
+          },
+          "Champions": [
+            {
+              "Champion": "Rell",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Alistar",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5401771585",
+              "GameDate": "2025-10-28",
+              "Patch": "15.21",
+              "GameDuration": 1834,
+              "TeamId": 100,
+              "Champion": "Rell",
+              "Win": false,
+              "Kills": 0,
+              "Deaths": 8,
+              "Assists": 9,
+              "Kda": 1.12,
+              "Cs": 34,
+              "Csm": 1.11,
+              "Gold": 7174,
+              "Goldm": 234.7,
+              "DmgDealt": 10610,
+              "DmgTaken": 23410,
+              "DmgMitigated": 26131,
+              "DmgObjectives": 639,
+              "VisionScore": 93,
+              "WardsPlaced": 36,
+              "WardsKilled": 14,
+              "ControlWards": 9,
+              "CcScore": 34.0,
+              "KillParticipation": 69.2,
+              "Timeline": {
+                "CsAt10": 8,
+                "CsAt15": 18,
+                "CsAt20": 23,
+                "CsAt25": 26,
+                "GoldAt10": 2596,
+                "GoldAt15": 3902,
+                "GoldAt20": 4874,
+                "GoldAt25": 5983
+              }
+            },
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5401814822",
+              "GameDate": "2025-10-28",
+              "Patch": "15.21",
+              "GameDuration": 1875,
+              "TeamId": 200,
+              "Champion": "Alistar",
+              "Win": false,
+              "Kills": 3,
+              "Deaths": 6,
+              "Assists": 15,
+              "Kda": 3.0,
+              "Cs": 31,
+              "Csm": 0.99,
+              "Gold": 8509,
+              "Goldm": 272.29,
+              "DmgDealt": 9493,
+              "DmgTaken": 27794,
+              "DmgMitigated": 31751,
+              "DmgObjectives": 135,
+              "VisionScore": 84,
+              "WardsPlaced": 41,
+              "WardsKilled": 10,
+              "ControlWards": 8,
+              "CcScore": 62.0,
+              "KillParticipation": 81.8,
+              "Timeline": {
+                "CsAt10": 18,
+                "CsAt15": 24,
+                "CsAt20": 25,
+                "CsAt25": 26,
+                "GoldAt10": 2173,
+                "GoldAt15": 3320,
+                "GoldAt20": 5328,
+                "GoldAt25": 6273
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5401771585",
+              "Opponent": "Bobbyy#smile",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5401814822",
+              "Opponent": "Marcotte#2020",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

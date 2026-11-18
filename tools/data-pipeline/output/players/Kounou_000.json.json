@@ -1,0 +1,174 @@
+{
+  "RiotId": "Kounou#000",
+  "GameName": "Kounou",
+  "Tag": "000",
+  "Seasons": {
+    "AVL_2025": {
+      "League": "AVL",
+      "Season": "2025",
+      "Splits": {
+        "AVL_FALL_2025": {
+          "League": "AVL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AVL Fall 2025",
+          "TeamName": "Kitzuo's Goonz",
+          "Role": "BOTTOM",
+          "Games": 2,
+          "Wins": 0,
+          "Losses": 2,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 2.5,
+            "Deaths": 4.0,
+            "Assists": 5.0,
+            "Kda": 1.88,
+            "Cs": 211.0,
+            "Gold": 9589.0,
+            "KillParticipation": 58.45,
+            "VisionScore": 13.0,
+            "CcScore": 3.0,
+            "DmgDealt": 19743.5,
+            "DmgTaken": 18410.5,
+            "DmgMitigated": 10855.0,
+            "DmgObjectives": 3222.5,
+            "CsAt10": 84.5,
+            "CsAt15": 123.0,
+            "CsAt20": 163.5,
+            "CsAt25": 201.5,
+            "GoldAt10": 3511.0,
+            "GoldAt15": 5070.0,
+            "GoldAt20": 6751.0,
+            "GoldAt25": 9047.5
+          },
+          "PerMin": {
+            "Cs": 7.69,
+            "Gold": 349.09,
+            "DmgDealt": 696.43,
+            "DmgTaken": 665.21,
+            "DmgMitigated": 393.77,
+            "DmgObjectives": 112.76,
+            "VisionScore": 0.48,
+            "CcScore": 0.1
+          },
+          "Vision": {
+            "AvgVisionScore": 13.0,
+            "AvgWardsPlaced": 7.0,
+            "AvgWardsKilled": 1.5,
+            "AvgControlWardsBought": 0.0
+          },
+          "Champions": [
+            {
+              "Champion": "Kaisa",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Ezreal",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5415762923",
+              "GameDate": "2025-11-18",
+              "Patch": "15.22",
+              "GameDuration": 1528,
+              "TeamId": 200,
+              "Champion": "Kaisa",
+              "Win": false,
+              "Kills": 2,
+              "Deaths": 5,
+              "Assists": 3,
+              "Kda": 1.0,
+              "Cs": 199,
+              "Csm": 7.81,
+              "Gold": 8880,
+              "Goldm": 348.69,
+              "DmgDealt": 9908,
+              "DmgTaken": 15164,
+              "DmgMitigated": 9527,
+              "DmgObjectives": 1275,
+              "VisionScore": 15,
+              "WardsPlaced": 8,
+              "WardsKilled": 1,
+              "ControlWards": 0,
+              "CcScore": 0.0,
+              "KillParticipation": 71.4,
+              "Timeline": {
+                "CsAt10": 84,
+                "CsAt15": 123,
+                "CsAt20": 161,
+                "CsAt25": 199,
+                "GoldAt10": 3229,
+                "GoldAt15": 4886,
+                "GoldAt20": 6531,
+                "GoldAt25": 8823
+              }
+            },
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5415798237",
+              "GameDate": "2025-11-18",
+              "Patch": "15.22",
+              "GameDuration": 1768,
+              "TeamId": 200,
+              "Champion": "Ezreal",
+              "Win": false,
+              "Kills": 3,
+              "Deaths": 3,
+              "Assists": 7,
+              "Kda": 3.33,
+              "Cs": 223,
+              "Csm": 7.57,
+              "Gold": 10298,
+              "Goldm": 349.48,
+              "DmgDealt": 29579,
+              "DmgTaken": 21657,
+              "DmgMitigated": 12183,
+              "DmgObjectives": 5170,
+              "VisionScore": 11,
+              "WardsPlaced": 6,
+              "WardsKilled": 2,
+              "ControlWards": 0,
+              "CcScore": 6.0,
+              "KillParticipation": 45.5,
+              "Timeline": {
+                "CsAt10": 85,
+                "CsAt15": 123,
+                "CsAt20": 166,
+                "CsAt25": 204,
+                "GoldAt10": 3793,
+                "GoldAt15": 5254,
+                "GoldAt20": 6971,
+                "GoldAt25": 9272
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5415762923",
+              "Opponent": "Bolt#ADC",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5415798237",
+              "Opponent": "Bolt#ADC",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

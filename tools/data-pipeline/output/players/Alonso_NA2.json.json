@@ -1,0 +1,174 @@
+{
+  "RiotId": "Alonso#NA2",
+  "GameName": "Alonso",
+  "Tag": "NA2",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_SUMMER_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Summer",
+          "Label": "ACL Summer 2025",
+          "TeamName": "Deathmark Napoleon",
+          "Role": "UTILITY",
+          "Games": 2,
+          "Wins": 2,
+          "Losses": 0,
+          "WinRate": 100.0,
+          "PerGame": {
+            "Kills": 0.5,
+            "Deaths": 3.0,
+            "Assists": 21.0,
+            "Kda": 7.17,
+            "Cs": 34.0,
+            "Gold": 8815.5,
+            "KillParticipation": 76.05,
+            "VisionScore": 93.5,
+            "CcScore": 18.5,
+            "DmgDealt": 5099.0,
+            "DmgTaken": 17639.5,
+            "DmgMitigated": 12312.5,
+            "DmgObjectives": 1477.0,
+            "CsAt10": 14.5,
+            "CsAt15": 22.5,
+            "CsAt20": 26.5,
+            "CsAt25": 29.0,
+            "GoldAt10": 2143.0,
+            "GoldAt15": 3419.0,
+            "GoldAt20": 4612.0,
+            "GoldAt25": 6279.5
+          },
+          "PerMin": {
+            "Cs": 1.08,
+            "Gold": 274.88,
+            "DmgDealt": 156.5,
+            "DmgTaken": 558.48,
+            "DmgMitigated": 424.72,
+            "DmgObjectives": 44.12,
+            "VisionScore": 2.81,
+            "CcScore": 0.59
+          },
+          "Vision": {
+            "AvgVisionScore": 93.5,
+            "AvgWardsPlaced": 46.0,
+            "AvgWardsKilled": 9.5,
+            "AvgControlWardsBought": 6.5
+          },
+          "Champions": [
+            {
+              "Champion": "Milio",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Thresh",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5345785769",
+              "GameDate": "2025-08-13",
+              "Patch": "15.15",
+              "GameDuration": 2239,
+              "TeamId": 200,
+              "Champion": "Milio",
+              "Win": true,
+              "Kills": 0,
+              "Deaths": 4,
+              "Assists": 27,
+              "Kda": 6.75,
+              "Cs": 35,
+              "Csm": 0.94,
+              "Gold": 9947,
+              "Goldm": 266.56,
+              "DmgDealt": 6249,
+              "DmgTaken": 18221,
+              "DmgMitigated": 5779,
+              "DmgObjectives": 2052,
+              "VisionScore": 126,
+              "WardsPlaced": 58,
+              "WardsKilled": 15,
+              "ControlWards": 9,
+              "CcScore": 18.0,
+              "KillParticipation": 79.4,
+              "Timeline": {
+                "CsAt10": 12,
+                "CsAt15": 20,
+                "CsAt20": 23,
+                "CsAt25": 27,
+                "GoldAt10": 2220,
+                "GoldAt15": 3593,
+                "GoldAt20": 4777,
+                "GoldAt25": 6350
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5345837500",
+              "GameDate": "2025-08-13",
+              "Patch": "15.15",
+              "GameDuration": 1628,
+              "TeamId": 100,
+              "Champion": "Thresh",
+              "Win": true,
+              "Kills": 1,
+              "Deaths": 2,
+              "Assists": 15,
+              "Kda": 8.0,
+              "Cs": 33,
+              "Csm": 1.22,
+              "Gold": 7684,
+              "Goldm": 283.19,
+              "DmgDealt": 3949,
+              "DmgTaken": 17058,
+              "DmgMitigated": 18846,
+              "DmgObjectives": 902,
+              "VisionScore": 61,
+              "WardsPlaced": 34,
+              "WardsKilled": 4,
+              "ControlWards": 4,
+              "CcScore": 19.0,
+              "KillParticipation": 72.7,
+              "Timeline": {
+                "CsAt10": 17,
+                "CsAt15": 25,
+                "CsAt20": 30,
+                "CsAt25": 31,
+                "GoldAt10": 2066,
+                "GoldAt15": 3245,
+                "GoldAt20": 4447,
+                "GoldAt25": 6209
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5345785769",
+              "Opponent": "アグネスタキヨン#uma2",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5345837500",
+              "Opponent": "アグネスタキヨン#uma2",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

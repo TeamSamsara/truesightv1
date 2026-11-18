@@ -1,0 +1,122 @@
+{
+  "RiotId": "HEAL IT UP#0428",
+  "GameName": "HEAL IT UP",
+  "Tag": "0428",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_SUMMER_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Summer",
+          "Label": "ACL Summer 2025",
+          "TeamName": "Gravity",
+          "Role": "MIDDLE",
+          "Games": 1,
+          "Wins": 1,
+          "Losses": 0,
+          "WinRate": 100.0,
+          "PerGame": {
+            "Kills": 5.0,
+            "Deaths": 3.0,
+            "Assists": 13.0,
+            "Kda": 6.0,
+            "Cs": 186.0,
+            "Gold": 10493.0,
+            "KillParticipation": 72.0,
+            "VisionScore": 14.0,
+            "CcScore": 19.0,
+            "DmgDealt": 17201.0,
+            "DmgTaken": 15201.0,
+            "DmgMitigated": 11918.0,
+            "DmgObjectives": 1936.0,
+            "CsAt10": 92.0,
+            "CsAt15": 134.0,
+            "CsAt20": 165.0,
+            "CsAt25": 186.0,
+            "GoldAt10": 3404.0,
+            "GoldAt15": 5541.0,
+            "GoldAt20": 8197.0,
+            "GoldAt25": 10493.0
+          },
+          "PerMin": {
+            "Cs": 7.74,
+            "Gold": 436.9,
+            "DmgDealt": 716.21,
+            "DmgTaken": 632.94,
+            "DmgMitigated": 496.24,
+            "DmgObjectives": 80.61,
+            "VisionScore": 0.58,
+            "CcScore": 0.79
+          },
+          "Vision": {
+            "AvgVisionScore": 14.0,
+            "AvgWardsPlaced": 6.0,
+            "AvgWardsKilled": 5.0,
+            "AvgControlWardsBought": 1.0
+          },
+          "Champions": [
+            {
+              "Champion": "Orianna",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5334195435",
+              "GameDate": "2025-07-29",
+              "Patch": "15.14",
+              "GameDuration": 1441,
+              "TeamId": 100,
+              "Champion": "Orianna",
+              "Win": true,
+              "Kills": 5,
+              "Deaths": 3,
+              "Assists": 13,
+              "Kda": 6.0,
+              "Cs": 186,
+              "Csm": 7.74,
+              "Gold": 10493,
+              "Goldm": 436.9,
+              "DmgDealt": 17201,
+              "DmgTaken": 15201,
+              "DmgMitigated": 11918,
+              "DmgObjectives": 1936,
+              "VisionScore": 14,
+              "WardsPlaced": 6,
+              "WardsKilled": 5,
+              "ControlWards": 1,
+              "CcScore": 19.0,
+              "KillParticipation": 72.0,
+              "Timeline": {
+                "CsAt10": 92,
+                "CsAt15": 134,
+                "CsAt20": 165,
+                "CsAt25": 186,
+                "GoldAt10": 3404,
+                "GoldAt15": 5541,
+                "GoldAt20": 8197,
+                "GoldAt25": 10493
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5334195435",
+              "Opponent": "Magmor#Blade",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

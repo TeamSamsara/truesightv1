@@ -1,0 +1,182 @@
+**TEAM SAMSARA**
+
+**TrueSight Platform**
+
+Product Architecture Reference
+
+*v1.0  ·  March 2026  ·  Internal — Coaching Staff **&** Leadership*
+
+**Purpose of this document**
+
+This document captures all high-level product architecture decisions made during the planning and early build phases of TrueSight. It is the reference point for how the platform is structured, how it thinks about workflows versus tools, and what is being built in what order. It is not a technical document — it is a product document.
+
+# **1  The Core Product Philosophy**
+
+TrueSight is not a collection of tools. It is an operational infrastructure for running an esports organization. Every screen, every workflow, and every feature is designed to support a specific process — not to expose a feature for its own sake.
+
+|  | **Process-driven, not tool-driven** The user never thinks "which tool do I open." They think "where am I in this workflow and what is the next step." The platform surfaces the current state of the work. The tools are the mechanisms that move it forward. |
+| --- | --- |
+
+This distinction has direct implications for how the platform is navigated, how the dashboard is structured, and how features are grouped. Features are not listed in the nav. Workflows are.
+
+|  | **Operational systems vs. conceptual frameworks** TrueSight contains both operational tools (things people actively use to do their job) and a conceptual framework (the shared language and evaluation model the org uses to make decisions). These two things must never be conflated. The development stage model, for example, is a classification layer used in staff discussions and player evaluation meetings — it is not a UI feature and does not have a workflow attached to it. |
+| --- | --- |
+
+# **2  The Four Domains**
+
+TrueSight is organized into four operational domains. Each domain represents a distinct area of the organization with its own workflows, its own primary users, and its own objectives. The global navigation reflects these four domains — not individual tools.
+
+| **S** | **SCOUTING** |
+| --- | --- |
+
+Everything scouts touch to find, track, evaluate, and present talent. This is the end-to-end recruitment pipeline from initial discovery through final decision.
+
+**Primary users: Scouts, Head Coach (review capacity)**
+
+- League tracker — browse all league players, TrueSight scores, flag prospects
+
+- Prospect database — profiles, pipeline status, full history
+
+- Combines — lobby management, stat extraction, TrueSight scoring
+
+- Interviews — scheduling, availability, notes
+
+- Evaluations — eval forms, compilation, final decision
+
+|  | **These are not separate tools** Combines, Interviews, and Evaluations are stages within the Scouting pipeline — not independent tools. A prospect enters the pipeline at discovery and moves through it to a final decision. The nav entry point is Scouting. What the user sees inside Scouting reflects where they are in the workflow. |
+| --- | --- |
+
+***Note: ****The public-facing EliteProspects-style layer is a future phase. It will be a read-only view of the Scouting domain — player profiles, TrueSight scores, league data. Same underlying data, different access layer. It does not affect the current internal architecture.*
+
+| **A** | **ANALYSIS** |
+| --- | --- |
+
+Data tools for competitive intelligence. Tracking our own roster's performance and monitoring league opponents and scrim partners.
+
+**Primary users: Coaches, Head Coach, Scouts (reference capacity)**
+
+- Official match performance tracking — our roster
+
+- League opponent tracking — upcoming and historical opponents
+
+- Scrim data — internal practice match records
+
+- Meta and patch analysis
+
+***Note: ****Analysis is not yet built. It is documented here to establish its place in the architecture before it is implemented.*
+
+| **O** | **OPERATIONS** |
+| --- | --- |
+
+Management and ownership tools for running the organization on a day-to-day, split-to-split, and season-to-season basis. Think of this as a CRM built specifically for esports logistics.
+
+**Primary users: Management, Ownership**
+
+- Contract database — player and staff agreements
+
+- Roster management — across all teams in the org
+
+- Scheduling — split calendars, match schedules, internal deadlines
+
+- Org-level CMS — day-to-day operational records
+
+***Note: ****Operations is not yet built. It is documented here to establish its place in the architecture before it is implemented.*
+
+| **C** | **COACHING** |
+| --- | --- |
+
+Day-to-day coaching execution tools. Everything a coach actively uses to plan, run, and track the development of their roster.
+
+**Primary users: Coaches, Head Coach**
+
+- Session planning — structured practice session design and logging
+
+- IDP tracking — Individual Development Plans per player
+
+- TDP tracking — Team Development Plans per roster
+
+- Weekly and split-level coaching workflows
+
+***Note: ****Coaching is not yet built. It is documented here to establish its place in the architecture before it is implemented.*
+
+# **3  The Development Stages Framework**
+
+The Samsara development stages model (Stage 1 through Stage 5) is a conceptual framework — not an operational tool. It is the shared language the organization uses to classify player development and guide decisions about progression, roster placement, and coaching focus.
+
+| **What it is** | **What it is not** |
+| --- | --- |
+| **A classification layer** | A UI feature or workflow |
+| **Internal evaluation language** | Something coaches use in daily sessions |
+| **Referenced in staff discussions** | A screen or tool in TrueSight |
+| **Used in player evaluation meetings** | A progress bar or status field |
+| **Referenced during long-term progression conversations** | Something displayed to players |
+
+Coaches do not "use" development stages during sessions. Stages are referenced when staff are discussing a player's trajectory, making roster decisions, or evaluating readiness for the next level. The framework lives in the Samsara Player & Staff Development Framework document — not in TrueSight's UI.
+
+# **4  Navigation ****&**** Information Architecture**
+
+## **4.1  Global Navigation**
+
+The global nav reflects the four domains only. It does not list individual tools or features. Domain switching is the only thing the top-level nav does.
+
+| **Nav item** | **What it represents** |
+| --- | --- |
+| **Scouting** | Full recruitment pipeline — tracker through final decision |
+| **Analysis** | Competitive intelligence — own roster and opponents |
+| **Operations** | Org management — contracts, rosters, scheduling |
+| **Coaching** | Daily coaching execution — sessions, IDPs, TDPs |
+| **Admin** | Platform meta-layer — staff accounts, approvals, system |
+
+Admin is a role-gated meta-layer. It is not one of the four operational domains. It appears in the nav only for admin-role users.
+
+All four domains are visible to all staff roles. Role does not restrict access — it shapes the default experience (dashboard widgets, workflow emphasis) but does not gate features.
+
+## **4.2  Role-Aware Experience**
+
+Every staff member has access to everything. Role determines what is emphasized in their experience — primarily what appears on their dashboard — not what they can access.
+
+| **Role** | **Primary domain emphasis** |
+| --- | --- |
+| **Scout** | Scouting — pipeline is their entire workspace |
+| **Coach** | Coaching (daily) + Analysis (match prep) + Scouting (prospect awareness) |
+| **Head Coach** | All four domains — oversight across the full operation |
+| **Management / Admin** | Operations + Scouting (pipeline visibility for decisions) |
+
+## **4.3  Dashboard Philosophy**
+
+The dashboard is the control center, not a summary page. It surfaces the current state of the work across the domains most relevant to a staff member's role. It replaces the need for navigating through tools to figure out where things stand.
+
+|  | **Scout dashboard — what it needs to answer** Where am I in the process with each prospect I am actively tracking? Did anything change since I last logged in (new split data, score shifts)? What needs my attention today? |
+| --- | --- |
+
+The dashboard is built in two phases:
+
+- Phase 1 (now): Role-aware hardcoded layout. Sensible defaults per role. Pipeline pulse + alert surface for scouts. Equivalent defaults for other roles as those domains are built.
+
+- Phase 6+ (future): Modular configurable dashboard. Staff can customize their layout, pin workflow sections as widgets, and design their command center to match their personal workflow. This requires real usage data before it can be designed well.
+
+# **5  Build Order**
+
+The build order follows the platform design document with one important addition: the Scouting domain (Phase 2 and Phase 3) must be designed as a single continuous workflow before any Phase 2 code is written. The Tracker and the Prospect Database are not two separate things — the Tracker is the top of the funnel and the Database is where prospects land.
+
+| **Phase** | **Status ****&**** scope** |
+| --- | --- |
+| **Phase 1 — Foundation** | COMPLETE — Auth, Firestore schema, app shell, dev mode, admin feature, shared modal |
+| **Phase 2 — Tracker** | NEXT — Firebase Storage datasets, TrueSight pipeline, tracker view |
+| **Phase 3 — Database Core** | QUEUED — Prospect profiles, alias system, status flow, pipeline |
+| **Phase 4 — Pipeline Tools** | QUEUED — Interviews, Combines, external Riot API integration |
+| **Phase 5 — Evaluation Layer** | QUEUED — Eval forms, compilation view, final decision flow |
+| **Phase 6 — Global Nav ****&**** Shell** | QUEUED — Four-domain nav, dashboard v1, role-aware layouts |
+| **Phase 7 — Analysis Domain** | FUTURE — Match tracking, opponent analysis, scrim data |
+| **Phase 8 — Operations Domain** | FUTURE — Contracts, roster management, scheduling |
+| **Phase 9 — Coaching Domain** | FUTURE — Session planning, IDP/TDP tools, coaching workflows |
+| **Phase 10 — Modular Dashboard** | FUTURE — Configurable widgets, personal layouts, role customization |
+| **Phase 11 — Public Layer** | FUTURE — EliteProspects-style read-only Scouting view |
+
+# **6  What This Document Is Not**
+
+This document does not replace the Platform Design Document or the Technical Architecture document. Those documents contain all the detailed decisions about data models, Firestore schema, scoring logic, permission model, and code architecture.
+
+This document answers one question: how does TrueSight think about itself as a product? Everything else flows from that.
+
+Team Samsara  ·  TrueSight Product Architecture Reference v1.0  ·  Internal Use Only

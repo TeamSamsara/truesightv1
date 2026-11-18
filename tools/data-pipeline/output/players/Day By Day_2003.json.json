@@ -1,0 +1,226 @@
+{
+  "RiotId": "Day By Day#2003",
+  "GameName": "Day By Day",
+  "Tag": "2003",
+  "Seasons": {
+    "AVL_2025": {
+      "League": "AVL",
+      "Season": "2025",
+      "Splits": {
+        "AVL_FALL_2025": {
+          "League": "AVL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AVL Fall 2025",
+          "TeamName": "San Diego Tritons",
+          "Role": "TOP",
+          "Games": 3,
+          "Wins": 2,
+          "Losses": 1,
+          "WinRate": 66.7,
+          "PerGame": {
+            "Kills": 3.33,
+            "Deaths": 4.33,
+            "Assists": 4.33,
+            "Kda": 1.77,
+            "Cs": 220.33,
+            "Gold": 10724.33,
+            "KillParticipation": 47.23,
+            "VisionScore": 14.33,
+            "CcScore": 27.33,
+            "DmgDealt": 19435.67,
+            "DmgTaken": 36290.0,
+            "DmgMitigated": 27528.33,
+            "DmgObjectives": 7085.33,
+            "CsAt10": 86.33,
+            "CsAt15": 130.33,
+            "CsAt20": 171.67,
+            "CsAt25": 208.67,
+            "GoldAt10": 3365.33,
+            "GoldAt15": 5229.33,
+            "GoldAt20": 7683.67,
+            "GoldAt25": 9432.33
+          },
+          "PerMin": {
+            "Cs": 7.78,
+            "Gold": 377.66,
+            "DmgDealt": 682.05,
+            "DmgTaken": 1274.88,
+            "DmgMitigated": 968.72,
+            "DmgObjectives": 250.77,
+            "VisionScore": 0.51,
+            "CcScore": 0.97
+          },
+          "Vision": {
+            "AvgVisionScore": 14.33,
+            "AvgWardsPlaced": 9.0,
+            "AvgWardsKilled": 1.33,
+            "AvgControlWardsBought": 0.0
+          },
+          "Champions": [
+            {
+              "Champion": "Mordekaiser",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Chogath",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Aatrox",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5410821188",
+              "GameDate": "2025-11-11",
+              "Patch": "15.22",
+              "GameDuration": 1686,
+              "TeamId": 200,
+              "Champion": "Mordekaiser",
+              "Win": true,
+              "Kills": 8,
+              "Deaths": 4,
+              "Assists": 6,
+              "Kda": 3.5,
+              "Cs": 193,
+              "Csm": 6.87,
+              "Gold": 11385,
+              "Goldm": 405.16,
+              "DmgDealt": 19731,
+              "DmgTaken": 29070,
+              "DmgMitigated": 30867,
+              "DmgObjectives": 8122,
+              "VisionScore": 13,
+              "WardsPlaced": 9,
+              "WardsKilled": 1,
+              "ControlWards": 0,
+              "CcScore": 14.0,
+              "KillParticipation": 50.0,
+              "Timeline": {
+                "CsAt10": 90,
+                "CsAt15": 136,
+                "CsAt20": 154,
+                "CsAt25": 189,
+                "GoldAt10": 3678,
+                "GoldAt15": 5627,
+                "GoldAt20": 8071,
+                "GoldAt25": 10300
+              }
+            },
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5410865375",
+              "GameDate": "2025-11-11",
+              "Patch": "15.22",
+              "GameDuration": 1606,
+              "TeamId": 200,
+              "Champion": "Chogath",
+              "Win": false,
+              "Kills": 0,
+              "Deaths": 5,
+              "Assists": 2,
+              "Kda": 0.4,
+              "Cs": 225,
+              "Csm": 8.41,
+              "Gold": 9197,
+              "Goldm": 343.6,
+              "DmgDealt": 15487,
+              "DmgTaken": 34391,
+              "DmgMitigated": 22154,
+              "DmgObjectives": 6627,
+              "VisionScore": 16,
+              "WardsPlaced": 8,
+              "WardsKilled": 2,
+              "ControlWards": 0,
+              "CcScore": 37.0,
+              "KillParticipation": 66.7,
+              "Timeline": {
+                "CsAt10": 78,
+                "CsAt15": 128,
+                "CsAt20": 188,
+                "CsAt25": 212,
+                "GoldAt10": 3082,
+                "GoldAt15": 4757,
+                "GoldAt20": 6992,
+                "GoldAt25": 8212
+              }
+            },
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5410917746",
+              "GameDate": "2025-11-11",
+              "Patch": "15.22",
+              "GameDuration": 1810,
+              "TeamId": 200,
+              "Champion": "Aatrox",
+              "Win": true,
+              "Kills": 2,
+              "Deaths": 4,
+              "Assists": 5,
+              "Kda": 1.75,
+              "Cs": 243,
+              "Csm": 8.06,
+              "Gold": 11591,
+              "Goldm": 384.23,
+              "DmgDealt": 23089,
+              "DmgTaken": 45409,
+              "DmgMitigated": 29564,
+              "DmgObjectives": 6507,
+              "VisionScore": 14,
+              "WardsPlaced": 10,
+              "WardsKilled": 1,
+              "ControlWards": 0,
+              "CcScore": 31.0,
+              "KillParticipation": 25.0,
+              "Timeline": {
+                "CsAt10": 91,
+                "CsAt15": 127,
+                "CsAt20": 173,
+                "CsAt25": 225,
+                "GoldAt10": 3336,
+                "GoldAt15": 5304,
+                "GoldAt20": 7988,
+                "GoldAt25": 9785
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5410821188",
+              "Opponent": "Panzora#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5410865375",
+              "Opponent": "Panzora#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5410917746",
+              "Opponent": "Panzora#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

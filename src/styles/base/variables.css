@@ -1,0 +1,111 @@
+/* ││ variables.css
+@version 1.0.1
+Source for all reusable brand tokens
+*/
+
+:root {
+
+  /* ││ Backgrounds */
+  --bg:             #111820;
+  --bg-surface:     #161f28;
+  --bg-raised:      #1c2832;
+  --bg-inset:       #22303d;
+  --bg-deep:        #0d1419;
+
+  /* ││ Borders */
+  --border:         rgba(255, 255, 255, 0.07);
+  --border-subtle:  rgba(255, 255, 255, 0.04);
+
+  /* ││ Brand */
+  --accent:         #95EC5D;
+  --accent-dim:     rgba(149, 236, 93, 0.12);
+  --accent-mid:     rgba(149, 236, 93, 0.35);
+  --gold:           #f5c842;
+  --gold-dim:       rgba(245, 200, 66, 0.10);
+  --gold-border:    rgba(245, 200, 66, 0.22);
+
+  /* ││ Status */
+  --status-pass:    #4ade80;
+  --status-flag:    #f5c842;
+  --status-no:      #f25c5c;
+  --status-info:    #5b9cf6;
+  --status-purple:  #a78bfa;
+
+  /* ││ Role Colors */
+  --role-top:       #f59c42;
+  --role-jg:        #4ade80;
+  --role-mid:       #a78bfa;
+  --role-adc:       #f472b6;
+  --role-sup:       #5b9cf6;
+
+  /* ││ Role Tints — background fills for role pills */
+  --role-top-bg:    rgba(245, 156, 66,  0.08);
+  --role-jg-bg:     rgba(74,  222, 128, 0.08);
+  --role-mid-bg:    rgba(167, 139, 250, 0.08);
+  --role-adc-bg:    rgba(244, 114, 182, 0.08);
+  --role-sup-bg:    rgba(91,  156, 246, 0.08);
+
+  /* ││ Role Borders */
+  --role-top-border: rgba(245, 156, 66,  0.25);
+  --role-jg-border:  rgba(74,  222, 128, 0.25);
+  --role-mid-border: rgba(167, 139, 250, 0.25);
+  --role-adc-border: rgba(244, 114, 182, 0.25);
+  --role-sup-border: rgba(91,  156, 246, 0.25);
+
+  /* ││ League Tints */
+  --league-avl:        #95EC5D;
+  --league-avl-bg:     rgba(149, 236, 93, 0.08);
+  --league-avl-border: rgba(149, 236, 93, 0.18);
+  --league-aml:        #5b9cf6;
+  --league-aml-bg:     rgba(91,  156, 246, 0.08);
+  --league-aml-border: rgba(91,  156, 246, 0.18);
+  --league-acl:        #f5c842;
+  --league-acl-bg:     rgba(245, 200, 66,  0.08);
+  --league-acl-border: rgba(245, 200, 66,  0.18);
+
+  /* ││ Pillar Colors — TrueSight score bars */
+  --pillar-1:       #f5c842;
+  --pillar-2:       #95EC5D;
+  --pillar-3:       #a78bfa;
+
+  /* ││ Text */
+  --text-primary:   #eef2f5;
+  --text-secondary: #8fa3b1;
+  --text-muted:     #4d6475;
+
+  /* ││ Typography */
+  --font-display:   'Anton', sans-serif;
+  --font-body:      'Agdasima', sans-serif;
+  --font-mono:      'Share Tech Mono', monospace;
+
+  /* ││ Spacing — full scale, no gaps */
+  --space-1:        4px;
+  --space-2:        8px;
+  --space-3:        12px;
+  --space-4:        16px;
+  --space-5:        20px;
+  --space-6:        24px;
+  --space-8:        32px;
+  --space-10:       40px;
+  --space-12:       48px;
+
+  /* ││ Radius */
+  --radius-sm:      4px;
+  --radius-md:      8px;
+  --radius-lg:      12px;
+
+  /* ││ Layout */
+  --page-max-width: 1560px;
+  --page-padding:   28px;
+
+  /* ││ CTA Clip Path — signature corner cut on primary buttons */
+  --clip-cta:       polygon(7px 0, 100% 0, 100% 100%, 0 100%, 0 7px);
+
+  /* ││ Breakpoints */
+  --bp-sm:   480px;
+  --bp-md:   768px;
+  --bp-lg:   1024px;
+  --bp-xl:   1280px;
+  --bp-2xl:  1536px;
+  --bp-3xl:  1920px;
+}

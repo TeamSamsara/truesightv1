@@ -1,0 +1,133 @@
+/* ││ dashboard.css
+   @version 1.0.0
+
+   Shared dashboard component.
+   Owns the grid layout and slot chrome only.
+   Widget content styles live in their own widget CSS files.
+
+   Target path: src/shared/components/dashboard/dashboard.css
+*/
+
+
+/* ││ Dashboard Shell */
+
+.c-dashboard {
+  width:   100%;
+  padding: var(--space-6) var(--space-6) var(--space-8);
+}
+
+
+/* ││ Grid */
+
+.c-dashboard__grid {
+  display:               grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap:                   var(--space-4);
+  align-items:           start;
+}
+
+
+/* ││ Slot — Size Variants
+   Grid column spans mapped to WIDGET_SIZE constants.
+   SM   = 3  cols (quarter)
+   MD   = 6  cols (half)
+   LG   = 9  cols (three-quarters)
+   FULL = 12 cols (full width)
+*/
+
+.c-dashboard__slot {
+  min-width: 0;
+}
+
+.c-dashboard__slot--sm   { grid-column: span 3; }
+.c-dashboard__slot--md   { grid-column: span 6; }
+.c-dashboard__slot--lg   { grid-column: span 9; }
+.c-dashboard__slot--full { grid-column: span 12; }
+
+
+/* ││ Slot — Inner */
+
+.c-dashboard__slot-inner {
+  position: relative;
+  height:   100%;
+}
+
+
+/* ││ Slot — States */
+
+.c-dashboard__slot.is-loading .c-dashboard__slot-inner {
+  pointer-events: none;
+  opacity:        0.5;
+}
+
+.c-dashboard__slot-error {
+  font-size:  12px;
+  color:      var(--status-no);
+  padding:    var(--space-3);
+  font-family: var(--font-body);
+}
+
+
+/* ││ Skeleton */
+
+.c-dashboard__slot.is-skeleton .c-dashboard__slot-inner {
+  border-radius: var(--radius-lg);
+  overflow:      hidden;
+}
+
+.c-dashboard__skeleton-block {
+  background:    var(--bg-surface);
+  border:        1px solid var(--border);
+  border-radius: var(--radius-lg);
+  /* Minimum height so skeleton slots have presence before content loads */
+  min-height:    140px;
+  position:      relative;
+  overflow:      hidden;
+}
+
+.c-dashboard__skeleton-block::after {
+  content:    '';
+  position:   absolute;
+  inset:      0;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.03) 50%,
+    transparent 100%
+  );
+  animation: dashboard-shimmer 1.6s infinite;
+}
+
+@keyframes dashboard-shimmer {
+  0%   { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+
+/* ││ Empty State */
+
+.c-dashboard__empty {
+  grid-column: span 12;
+  padding:     var(--space-8);
+  text-align:  center;
+}
+
+.c-dashboard__empty-text {
+  font-size:  13px;
+  color:      var(--text-muted);
+  font-family: var(--font-body);
+}
+
+
+/* ││ Responsive
+   Below MD breakpoint — all slots go full width.
+   Avoids cramped half-width slots on smaller screens.
+*/
+
+@media (max-width: 768px) {
+  .c-dashboard__slot--sm,
+  .c-dashboard__slot--md,
+  .c-dashboard__slot--lg {
+    grid-column: span 12;
+  }
+}

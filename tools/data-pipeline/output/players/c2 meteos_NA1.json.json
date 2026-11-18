@@ -1,0 +1,278 @@
+{
+  "RiotId": "c2 meteos#NA1",
+  "GameName": "c2 meteos",
+  "Tag": "NA1",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_FALL_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "ACL Fall 2025",
+          "TeamName": "Conviction",
+          "Role": "JUNGLE",
+          "Games": 4,
+          "Wins": 1,
+          "Losses": 3,
+          "WinRate": 25.0,
+          "PerGame": {
+            "Kills": 3.0,
+            "Deaths": 5.0,
+            "Assists": 8.25,
+            "Kda": 2.25,
+            "Cs": 238.0,
+            "Gold": 12579.75,
+            "KillParticipation": 63.02,
+            "VisionScore": 44.5,
+            "CcScore": 23.0,
+            "DmgDealt": 15212.5,
+            "DmgTaken": 39564.0,
+            "DmgMitigated": 32782.0,
+            "DmgObjectives": 27029.25,
+            "CsAt10": 73.25,
+            "CsAt15": 113.5,
+            "CsAt20": 150.75,
+            "CsAt25": 187.25,
+            "GoldAt10": 3339.25,
+            "GoldAt15": 5163.0,
+            "GoldAt20": 7553.75,
+            "GoldAt25": 9431.25
+          },
+          "PerMin": {
+            "Cs": 7.64,
+            "Gold": 404.77,
+            "DmgDealt": 488.93,
+            "DmgTaken": 1276.97,
+            "DmgMitigated": 1050.28,
+            "DmgObjectives": 876.21,
+            "VisionScore": 1.43,
+            "CcScore": 0.74
+          },
+          "Vision": {
+            "AvgVisionScore": 44.5,
+            "AvgWardsPlaced": 8.75,
+            "AvgWardsKilled": 9.75,
+            "AvgControlWardsBought": 5.0
+          },
+          "Champions": [
+            {
+              "Champion": "Aatrox",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Qiyana",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Vi",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "JarvanIV",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5442075815",
+              "GameDate": "2025-12-20",
+              "Patch": "15.24",
+              "GameDuration": 1746,
+              "TeamId": 200,
+              "Champion": "Aatrox",
+              "Win": true,
+              "Kills": 2,
+              "Deaths": 2,
+              "Assists": 7,
+              "Kda": 4.5,
+              "Cs": 245,
+              "Csm": 8.42,
+              "Gold": 11779,
+              "Goldm": 404.78,
+              "DmgDealt": 11118,
+              "DmgTaken": 41054,
+              "DmgMitigated": 27192,
+              "DmgObjectives": 33197,
+              "VisionScore": 53,
+              "WardsPlaced": 9,
+              "WardsKilled": 12,
+              "ControlWards": 5,
+              "CcScore": 17.0,
+              "KillParticipation": 69.2,
+              "Timeline": {
+                "CsAt10": 84,
+                "CsAt15": 131,
+                "CsAt20": 153,
+                "CsAt25": 209,
+                "GoldAt10": 3438,
+                "GoldAt15": 5273,
+                "GoldAt20": 6790,
+                "GoldAt25": 8816
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5442113157",
+              "GameDate": "2025-12-20",
+              "Patch": "15.24",
+              "GameDuration": 1941,
+              "TeamId": 100,
+              "Champion": "Qiyana",
+              "Win": false,
+              "Kills": 2,
+              "Deaths": 6,
+              "Assists": 8,
+              "Kda": 1.67,
+              "Cs": 262,
+              "Csm": 8.1,
+              "Gold": 13692,
+              "Goldm": 423.25,
+              "DmgDealt": 19905,
+              "DmgTaken": 36443,
+              "DmgMitigated": 21846,
+              "DmgObjectives": 31509,
+              "VisionScore": 39,
+              "WardsPlaced": 8,
+              "WardsKilled": 7,
+              "ControlWards": 5,
+              "CcScore": 22.0,
+              "KillParticipation": 50.0,
+              "Timeline": {
+                "CsAt10": 72,
+                "CsAt15": 113,
+                "CsAt20": 158,
+                "CsAt25": 188,
+                "GoldAt10": 3319,
+                "GoldAt15": 5429,
+                "GoldAt20": 7789,
+                "GoldAt25": 9338
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5442156898",
+              "GameDate": "2025-12-20",
+              "Patch": "15.24",
+              "GameDuration": 2034,
+              "TeamId": 200,
+              "Champion": "Vi",
+              "Win": false,
+              "Kills": 3,
+              "Deaths": 5,
+              "Assists": 8,
+              "Kda": 2.2,
+              "Cs": 252,
+              "Csm": 7.43,
+              "Gold": 12514,
+              "Goldm": 369.14,
+              "DmgDealt": 13152,
+              "DmgTaken": 40770,
+              "DmgMitigated": 46020,
+              "DmgObjectives": 20158,
+              "VisionScore": 52,
+              "WardsPlaced": 9,
+              "WardsKilled": 13,
+              "ControlWards": 3,
+              "CcScore": 24.0,
+              "KillParticipation": 57.9,
+              "Timeline": {
+                "CsAt10": 74,
+                "CsAt15": 114,
+                "CsAt20": 162,
+                "CsAt25": 186,
+                "GoldAt10": 3222,
+                "GoldAt15": 4767,
+                "GoldAt20": 7362,
+                "GoldAt25": 9066
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5442204530",
+              "GameDate": "2025-12-20",
+              "Patch": "15.24",
+              "GameDuration": 1754,
+              "TeamId": 100,
+              "Champion": "JarvanIV",
+              "Win": false,
+              "Kills": 5,
+              "Deaths": 7,
+              "Assists": 10,
+              "Kda": 2.14,
+              "Cs": 193,
+              "Csm": 6.6,
+              "Gold": 12334,
+              "Goldm": 421.92,
+              "DmgDealt": 16675,
+              "DmgTaken": 39989,
+              "DmgMitigated": 36070,
+              "DmgObjectives": 23253,
+              "VisionScore": 34,
+              "WardsPlaced": 9,
+              "WardsKilled": 7,
+              "ControlWards": 7,
+              "CcScore": 29.0,
+              "KillParticipation": 75.0,
+              "Timeline": {
+                "CsAt10": 63,
+                "CsAt15": 96,
+                "CsAt20": 130,
+                "CsAt25": 166,
+                "GoldAt10": 3378,
+                "GoldAt15": 5183,
+                "GoldAt20": 8274,
+                "GoldAt25": 10505
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5442075815",
+              "Opponent": "kisno#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5442113157",
+              "Opponent": "kisno#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5442156898",
+              "Opponent": "kisno#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5442204530",
+              "Opponent": "kisno#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

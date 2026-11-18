@@ -1,0 +1,226 @@
+{
+  "RiotId": "tree frog#hello",
+  "GameName": "tree frog",
+  "Tag": "hello",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_FALL_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "ACL Fall 2025",
+          "TeamName": "Kiwi Gang",
+          "Role": "MIDDLE",
+          "Games": 3,
+          "Wins": 2,
+          "Losses": 1,
+          "WinRate": 66.7,
+          "PerGame": {
+            "Kills": 5.33,
+            "Deaths": 3.33,
+            "Assists": 7.0,
+            "Kda": 3.7,
+            "Cs": 239.0,
+            "Gold": 14014.67,
+            "KillParticipation": 57.57,
+            "VisionScore": 20.33,
+            "CcScore": 28.67,
+            "DmgDealt": 17051.67,
+            "DmgTaken": 17550.67,
+            "DmgMitigated": 13922.67,
+            "DmgObjectives": 14182.0,
+            "CsAt10": 75.33,
+            "CsAt15": 124.67,
+            "CsAt20": 185.67,
+            "CsAt25": 145.0,
+            "GoldAt10": 4042.33,
+            "GoldAt15": 6156.33,
+            "GoldAt20": 9062.0,
+            "GoldAt25": 7920.0
+          },
+          "PerMin": {
+            "Cs": 8.44,
+            "Gold": 479.16,
+            "DmgDealt": 565.43,
+            "DmgTaken": 608.79,
+            "DmgMitigated": 434.08,
+            "DmgObjectives": 449.96,
+            "VisionScore": 0.68,
+            "CcScore": 1.03
+          },
+          "Vision": {
+            "AvgVisionScore": 20.33,
+            "AvgWardsPlaced": 11.33,
+            "AvgWardsKilled": 3.0,
+            "AvgControlWardsBought": 1.33
+          },
+          "Champions": [
+            {
+              "Champion": "Orianna",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Ryze",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Syndra",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5429113662",
+              "GameDate": "2025-12-05",
+              "Patch": "15.24",
+              "GameDuration": 2288,
+              "TeamId": 100,
+              "Champion": "Orianna",
+              "Win": true,
+              "Kills": 6,
+              "Deaths": 5,
+              "Assists": 13,
+              "Kda": 3.8,
+              "Cs": 306,
+              "Csm": 8.02,
+              "Gold": 19477,
+              "Goldm": 510.76,
+              "DmgDealt": 25985,
+              "DmgTaken": 26327,
+              "DmgMitigated": 29771,
+              "DmgObjectives": 23986,
+              "VisionScore": 33,
+              "WardsPlaced": 16,
+              "WardsKilled": 7,
+              "ControlWards": 1,
+              "CcScore": 26.0,
+              "KillParticipation": 76.0,
+              "Timeline": {
+                "CsAt10": 74,
+                "CsAt15": 123,
+                "CsAt20": 192,
+                "CsAt25": 229,
+                "GoldAt10": 3481,
+                "GoldAt15": 5943,
+                "GoldAt20": 9264,
+                "GoldAt25": 10833
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5429165010",
+              "GameDate": "2025-12-05",
+              "Patch": "15.24",
+              "GameDuration": 1252,
+              "TeamId": 100,
+              "Champion": "Ryze",
+              "Win": false,
+              "Kills": 1,
+              "Deaths": 4,
+              "Assists": 3,
+              "Kda": 1.0,
+              "Cs": 190,
+              "Csm": 9.11,
+              "Gold": 8261,
+              "Goldm": 395.89,
+              "DmgDealt": 7481,
+              "DmgTaken": 14714,
+              "DmgMitigated": 7061,
+              "DmgObjectives": 2976,
+              "VisionScore": 12,
+              "WardsPlaced": 7,
+              "WardsKilled": 0,
+              "ControlWards": 1,
+              "CcScore": 18.0,
+              "KillParticipation": 50.0,
+              "Timeline": {
+                "CsAt10": 77,
+                "CsAt15": 120,
+                "CsAt20": 190,
+                "CsAt25": 0,
+                "GoldAt10": 3223,
+                "GoldAt15": 5096,
+                "GoldAt20": 8154,
+                "GoldAt25": 0
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5429197820",
+              "GameDate": "2025-12-05",
+              "Patch": "15.24",
+              "GameDuration": 1617,
+              "TeamId": 200,
+              "Champion": "Syndra",
+              "Win": true,
+              "Kills": 9,
+              "Deaths": 1,
+              "Assists": 5,
+              "Kda": 14.0,
+              "Cs": 221,
+              "Csm": 8.2,
+              "Gold": 14306,
+              "Goldm": 530.83,
+              "DmgDealt": 17689,
+              "DmgTaken": 11611,
+              "DmgMitigated": 4936,
+              "DmgObjectives": 15584,
+              "VisionScore": 16,
+              "WardsPlaced": 11,
+              "WardsKilled": 2,
+              "ControlWards": 2,
+              "CcScore": 42.0,
+              "KillParticipation": 46.7,
+              "Timeline": {
+                "CsAt10": 75,
+                "CsAt15": 131,
+                "CsAt20": 175,
+                "CsAt25": 206,
+                "GoldAt10": 5423,
+                "GoldAt15": 7430,
+                "GoldAt20": 9768,
+                "GoldAt25": 12927
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5429113662",
+              "Opponent": "Skyy#NA11",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5429165010",
+              "Opponent": "Skyy#NA11",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5429197820",
+              "Opponent": "Skyy#NA11",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "RiotId": "Kid Ink#NA2",
+  "GameName": "Kid Ink",
+  "Tag": "NA2",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_FALL_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "ACL Fall 2025",
+          "TeamName": "Conviction",
+          "Role": "TOP",
+          "Games": 2,
+          "Wins": 1,
+          "Losses": 1,
+          "WinRate": 50.0,
+          "PerGame": {
+            "Kills": 6.0,
+            "Deaths": 5.0,
+            "Assists": 3.5,
+            "Kda": 1.9,
+            "Cs": 248.0,
+            "Gold": 14423.0,
+            "KillParticipation": 58.25,
+            "VisionScore": 23.5,
+            "CcScore": 38.0,
+            "DmgDealt": 27967.5,
+            "DmgTaken": 33301.5,
+            "DmgMitigated": 34536.5,
+            "DmgObjectives": 6506.5,
+            "CsAt10": 81.0,
+            "CsAt15": 128.5,
+            "CsAt20": 179.0,
+            "CsAt25": 217.0,
+            "GoldAt10": 3555.0,
+            "GoldAt15": 5293.5,
+            "GoldAt20": 7902.5,
+            "GoldAt25": 10071.5
+          },
+          "PerMin": {
+            "Cs": 8.09,
+            "Gold": 470.35,
+            "DmgDealt": 897.92,
+            "DmgTaken": 1065.97,
+            "DmgMitigated": 1105.38,
+            "DmgObjectives": 220.87,
+            "VisionScore": 0.76,
+            "CcScore": 1.25
+          },
+          "Vision": {
+            "AvgVisionScore": 23.5,
+            "AvgWardsPlaced": 10.0,
+            "AvgWardsKilled": 2.5,
+            "AvgControlWardsBought": 3.5
+          },
+          "Champions": [
+            {
+              "Champion": "Riven",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Renekton",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5442075815",
+              "GameDate": "2025-12-20",
+              "Patch": "15.24",
+              "GameDuration": 1746,
+              "TeamId": 200,
+              "Champion": "Riven",
+              "Win": true,
+              "Kills": 5,
+              "Deaths": 3,
+              "Assists": 3,
+              "Kda": 2.67,
+              "Cs": 245,
+              "Csm": 8.42,
+              "Gold": 14195,
+              "Goldm": 487.8,
+              "DmgDealt": 19345,
+              "DmgTaken": 21177,
+              "DmgMitigated": 21891,
+              "DmgObjectives": 11435,
+              "VisionScore": 22,
+              "WardsPlaced": 11,
+              "WardsKilled": 1,
+              "ControlWards": 4,
+              "CcScore": 41.0,
+              "KillParticipation": 61.5,
+              "Timeline": {
+                "CsAt10": 73,
+                "CsAt15": 126,
+                "CsAt20": 180,
+                "CsAt25": 217,
+                "GoldAt10": 3070,
+                "GoldAt15": 5013,
+                "GoldAt20": 7921,
+                "GoldAt25": 9527
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5442113157",
+              "GameDate": "2025-12-20",
+              "Patch": "15.24",
+              "GameDuration": 1941,
+              "TeamId": 100,
+              "Champion": "Renekton",
+              "Win": false,
+              "Kills": 7,
+              "Deaths": 7,
+              "Assists": 4,
+              "Kda": 1.57,
+              "Cs": 251,
+              "Csm": 7.76,
+              "Gold": 14651,
+              "Goldm": 452.89,
+              "DmgDealt": 36590,
+              "DmgTaken": 45426,
+              "DmgMitigated": 47182,
+              "DmgObjectives": 1578,
+              "VisionScore": 25,
+              "WardsPlaced": 9,
+              "WardsKilled": 4,
+              "ControlWards": 3,
+              "CcScore": 35.0,
+              "KillParticipation": 55.0,
+              "Timeline": {
+                "CsAt10": 89,
+                "CsAt15": 131,
+                "CsAt20": 178,
+                "CsAt25": 217,
+                "GoldAt10": 4040,
+                "GoldAt15": 5574,
+                "GoldAt20": 7884,
+                "GoldAt25": 10616
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5442075815",
+              "Opponent": "Horder#Chris",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5442113157",
+              "Opponent": "Horder#Chris",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

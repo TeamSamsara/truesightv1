@@ -1,0 +1,51 @@
+/* ││ admin-dashboard.css
+   @version 1.0.0
+
+   Admin dashboard page — page header styles.
+   Widget grid and chrome live in the shared component layer.
+
+   Target path: src/styles/features/admin/admin-dashboard.css
+*/
+
+
+/* ││ Page Shell */
+
+.f-dashboard {
+  position:   relative;
+  min-height: calc(100vh - clamp(54px, 5vw, 68px));
+  overflow:   hidden;
+}
+
+
+/* ││ Page Header */
+
+.f-dashboard__page-header {
+  padding:       var(--space-6) var(--space-6) 0;
+  margin-bottom: var(--space-4);
+}
+
+.f-dashboard__page-eyebrow {
+  font-size:      9px;
+  font-weight:    700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color:          var(--text-muted);
+  font-family:    var(--font-body);
+  margin-bottom:  var(--space-2);
+}
+
+.f-dashboard__page-title {
+  font-family:    var(--font-display);
+  font-size:      clamp(22px, 3vw, 32px);
+  letter-spacing: 2px;
+  color:          var(--text-primary);
+  line-height:    1;
+  margin-bottom:  var(--space-2);
+}
+
+.f-dashboard__page-sub {
+  font-family: var(--font-body);
+  font-size:   13px;
+  color:       var(--text-muted);
+  line-height: 1.4;
+}

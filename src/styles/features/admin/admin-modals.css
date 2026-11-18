@@ -1,0 +1,89 @@
+/* ││ admin-modals.css
+   @version 1.0.0
+
+   Admin modal content styles — delivery options,
+   action log, and staff tab flow.
+   The shared modal shell lives in components/modal.css.
+   This file owns only admin-specific content rendered inside it.
+*/
+
+
+/* ││ Delivery Options */
+
+.f-admin__delivery-options {
+  display:        flex;
+  flex-direction: column;
+  gap:            var(--space-2);
+  margin-top:     var(--space-2);
+}
+
+.f-admin__delivery-option {
+  display:       flex;
+  align-items:   center;
+  gap:           var(--space-4);
+  padding:       var(--space-4);
+  border:        1px solid var(--border);
+  border-radius: var(--radius-md);
+  cursor:        pointer;
+  transition:    all .13s;
+  background:    transparent;
+  text-align:    left;
+  width:         100%;
+}
+
+.f-admin__delivery-option:hover       { border-color: var(--gold-border); background: var(--gold-dim); }
+.f-admin__delivery-option.is-selected { border-color: rgba(245,200,66,.4); background: var(--gold-dim); }
+
+.f-admin__delivery-option-icon { font-size: 20px; flex-shrink: 0; }
+
+.f-admin__delivery-option-content {
+  display:        flex;
+  flex-direction: column;
+  gap:            var(--space-1);
+}
+
+.f-admin__delivery-option-title {
+  font-size:   13px;
+  font-weight: 700;
+  color:       var(--text-primary);
+}
+
+.f-admin__delivery-option-sub {
+  font-size:   11px;
+  color:       var(--text-muted);
+  line-height: 1.4;
+}
+
+
+/* ││ Action Log */
+
+.f-admin__action-log {
+  display:        flex;
+  flex-direction: column;
+  max-height:     360px;
+  overflow-y:     auto;
+}
+
+.f-admin__action-log-item {
+  display:         flex;
+  align-items:     center;
+  justify-content: space-between;
+  padding:         var(--space-3) var(--space-1);
+  border-bottom:   1px solid var(--border-subtle);
+  gap:             var(--space-4);
+}
+
+.f-admin__action-log-item:last-child { border-bottom: none; }
+
+.f-admin__action-log-action {
+  font-size: 13px;
+  color:     var(--text-secondary);
+  flex:      1;
+}
+
+.f-admin__action-log-meta {
+  font-family: var(--font-mono);
+  font-size:   11px;
+  color:       var(--text-muted);
+  flex-shrink: 0;
+}

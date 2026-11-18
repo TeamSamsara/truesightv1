@@ -1,0 +1,168 @@
+{
+  "RiotId": "KennyCao#雨翔666",
+  "GameName": "KennyCao",
+  "Tag": "雨翔666",
+  "Seasons": {
+    "AVL_2025": {
+      "League": "AVL",
+      "Season": "2025",
+      "Splits": {
+        "AVL_FALL_2025": {
+          "League": "AVL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AVL Fall 2025",
+          "TeamName": "San Diego Tritons",
+          "Role": "TOP",
+          "Games": 2,
+          "Wins": 0,
+          "Losses": 2,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 3.5,
+            "Deaths": 5.0,
+            "Assists": 3.0,
+            "Kda": 1.3,
+            "Cs": 203.5,
+            "Gold": 11000.5,
+            "KillParticipation": 31.0,
+            "VisionScore": 35.0,
+            "CcScore": 26.0,
+            "DmgDealt": 21194.5,
+            "DmgTaken": 50390.5,
+            "DmgMitigated": 35533.5,
+            "DmgObjectives": 5073.0,
+            "CsAt10": 72.0,
+            "CsAt15": 115.0,
+            "CsAt20": 156.5,
+            "CsAt25": 175.5,
+            "GoldAt10": 3355.5,
+            "GoldAt15": 5377.5,
+            "GoldAt20": 7323.0,
+            "GoldAt25": 9026.0
+          },
+          "PerMin": {
+            "Cs": 6.29,
+            "Gold": 339.5,
+            "DmgDealt": 654.17,
+            "DmgTaken": 1554.28,
+            "DmgMitigated": 1095.26,
+            "DmgObjectives": 155.78,
+            "VisionScore": 1.08,
+            "CcScore": 0.8
+          },
+          "Vision": {
+            "AvgVisionScore": 35.0,
+            "AvgWardsPlaced": 13.5,
+            "AvgWardsKilled": 4.0,
+            "AvgControlWardsBought": 9.5
+          },
+          "Champions": [
+            {
+              "Champion": "Aatrox",
+              "Games": 2,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5415814359",
+              "GameDate": "2025-11-18",
+              "Patch": "15.22",
+              "GameDuration": 1889,
+              "TeamId": 200,
+              "Champion": "Aatrox",
+              "Win": false,
+              "Kills": 2,
+              "Deaths": 5,
+              "Assists": 3,
+              "Kda": 1.0,
+              "Cs": 199,
+              "Csm": 6.32,
+              "Gold": 10150,
+              "Goldm": 322.39,
+              "DmgDealt": 19640,
+              "DmgTaken": 45460,
+              "DmgMitigated": 31143,
+              "DmgObjectives": 3748,
+              "VisionScore": 38,
+              "WardsPlaced": 14,
+              "WardsKilled": 5,
+              "ControlWards": 10,
+              "CcScore": 25.0,
+              "KillParticipation": 31.2,
+              "Timeline": {
+                "CsAt10": 74,
+                "CsAt15": 108,
+                "CsAt20": 145,
+                "CsAt25": 173,
+                "GoldAt10": 3517,
+                "GoldAt15": 5137,
+                "GoldAt20": 6755,
+                "GoldAt25": 8535
+              }
+            },
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5432429745",
+              "GameDate": "2025-12-09",
+              "Patch": "15.24",
+              "GameDuration": 1994,
+              "TeamId": 200,
+              "Champion": "Aatrox",
+              "Win": false,
+              "Kills": 5,
+              "Deaths": 5,
+              "Assists": 3,
+              "Kda": 1.6,
+              "Cs": 208,
+              "Csm": 6.26,
+              "Gold": 11851,
+              "Goldm": 356.6,
+              "DmgDealt": 22749,
+              "DmgTaken": 55321,
+              "DmgMitigated": 39924,
+              "DmgObjectives": 6398,
+              "VisionScore": 32,
+              "WardsPlaced": 13,
+              "WardsKilled": 3,
+              "ControlWards": 9,
+              "CcScore": 27.0,
+              "KillParticipation": 30.8,
+              "Timeline": {
+                "CsAt10": 70,
+                "CsAt15": 122,
+                "CsAt20": 168,
+                "CsAt25": 178,
+                "GoldAt10": 3194,
+                "GoldAt15": 5618,
+                "GoldAt20": 7891,
+                "GoldAt25": 9517
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5415814359",
+              "Opponent": "juicebox#AYAYA",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5432429745",
+              "Opponent": "Dino#ooniD",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

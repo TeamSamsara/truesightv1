@@ -1,0 +1,174 @@
+{
+  "RiotId": "Hollow Knight#LAL",
+  "GameName": "Hollow Knight",
+  "Tag": "LAL",
+  "Seasons": {
+    "AML_2025": {
+      "League": "AML",
+      "Season": "2025",
+      "Splits": {
+        "AML_FALL_2025": {
+          "League": "AML",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AML Fall 2025",
+          "TeamName": "Master Mallows",
+          "Role": "MIDDLE",
+          "Games": 2,
+          "Wins": 0,
+          "Losses": 2,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 2.5,
+            "Deaths": 3.0,
+            "Assists": 3.0,
+            "Kda": 1.83,
+            "Cs": 210.5,
+            "Gold": 9519.5,
+            "KillParticipation": 57.55,
+            "VisionScore": 11.5,
+            "CcScore": 21.5,
+            "DmgDealt": 16868.0,
+            "DmgTaken": 16888.0,
+            "DmgMitigated": 10410.0,
+            "DmgObjectives": 1934.5,
+            "CsAt10": 80.5,
+            "CsAt15": 131.0,
+            "CsAt20": 177.5,
+            "CsAt25": 199.5,
+            "GoldAt10": 3328.5,
+            "GoldAt15": 5135.0,
+            "GoldAt20": 7108.5,
+            "GoldAt25": 8661.5
+          },
+          "PerMin": {
+            "Cs": 7.51,
+            "Gold": 340.51,
+            "DmgDealt": 599.99,
+            "DmgTaken": 603.25,
+            "DmgMitigated": 375.08,
+            "DmgObjectives": 68.81,
+            "VisionScore": 0.41,
+            "CcScore": 0.77
+          },
+          "Vision": {
+            "AvgVisionScore": 11.5,
+            "AvgWardsPlaced": 7.0,
+            "AvgWardsKilled": 1.0,
+            "AvgControlWardsBought": 0.0
+          },
+          "Champions": [
+            {
+              "Champion": "Orianna",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Ahri",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5402427275",
+              "GameDate": "2025-10-29",
+              "Patch": "15.21",
+              "GameDuration": 1629,
+              "TeamId": 200,
+              "Champion": "Orianna",
+              "Win": false,
+              "Kills": 4,
+              "Deaths": 5,
+              "Assists": 5,
+              "Kda": 1.8,
+              "Cs": 202,
+              "Csm": 7.44,
+              "Gold": 9969,
+              "Goldm": 367.18,
+              "DmgDealt": 14641,
+              "DmgTaken": 16940,
+              "DmgMitigated": 13338,
+              "DmgObjectives": 1675,
+              "VisionScore": 8,
+              "WardsPlaced": 7,
+              "WardsKilled": 0,
+              "ControlWards": 0,
+              "CcScore": 23.0,
+              "KillParticipation": 81.8,
+              "Timeline": {
+                "CsAt10": 80,
+                "CsAt15": 131,
+                "CsAt20": 189,
+                "CsAt25": 202,
+                "GoldAt10": 3536,
+                "GoldAt15": 5586,
+                "GoldAt20": 8047,
+                "GoldAt25": 9661
+              }
+            },
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5402470645",
+              "GameDate": "2025-10-29",
+              "Patch": "15.21",
+              "GameDuration": 1734,
+              "TeamId": 100,
+              "Champion": "Ahri",
+              "Win": false,
+              "Kills": 1,
+              "Deaths": 1,
+              "Assists": 1,
+              "Kda": 2.0,
+              "Cs": 219,
+              "Csm": 7.58,
+              "Gold": 9070,
+              "Goldm": 313.84,
+              "DmgDealt": 19095,
+              "DmgTaken": 16836,
+              "DmgMitigated": 7482,
+              "DmgObjectives": 2194,
+              "VisionScore": 15,
+              "WardsPlaced": 7,
+              "WardsKilled": 2,
+              "ControlWards": 0,
+              "CcScore": 20.0,
+              "KillParticipation": 33.3,
+              "Timeline": {
+                "CsAt10": 81,
+                "CsAt15": 131,
+                "CsAt20": 166,
+                "CsAt25": 197,
+                "GoldAt10": 3121,
+                "GoldAt15": 4684,
+                "GoldAt20": 6170,
+                "GoldAt25": 7662
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5402427275",
+              "Opponent": "ZeroDomain#Kass",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5402470645",
+              "Opponent": "ZeroDomain#Kass",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

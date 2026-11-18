@@ -1,0 +1,226 @@
+{
+  "RiotId": "Leemo#LoL",
+  "GameName": "Leemo",
+  "Tag": "LoL",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_SUMMER_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Summer",
+          "Label": "ACL Summer 2025",
+          "TeamName": "SYN Eternal Season",
+          "Role": "JUNGLE",
+          "Games": 3,
+          "Wins": 1,
+          "Losses": 2,
+          "WinRate": 33.3,
+          "PerGame": {
+            "Kills": 6.33,
+            "Deaths": 4.0,
+            "Assists": 10.33,
+            "Kda": 4.16,
+            "Cs": 208.0,
+            "Gold": 13027.33,
+            "KillParticipation": 67.0,
+            "VisionScore": 41.33,
+            "CcScore": 18.33,
+            "DmgDealt": 17151.67,
+            "DmgTaken": 33718.0,
+            "DmgMitigated": 38350.33,
+            "DmgObjectives": 36273.67,
+            "CsAt10": 65.33,
+            "CsAt15": 101.0,
+            "CsAt20": 129.0,
+            "CsAt25": 165.33,
+            "GoldAt10": 3417.33,
+            "GoldAt15": 5388.33,
+            "GoldAt20": 7767.0,
+            "GoldAt25": 9261.33
+          },
+          "PerMin": {
+            "Cs": 6.39,
+            "Gold": 399.77,
+            "DmgDealt": 528.11,
+            "DmgTaken": 1038.91,
+            "DmgMitigated": 1169.81,
+            "DmgObjectives": 1105.12,
+            "VisionScore": 1.27,
+            "CcScore": 0.56
+          },
+          "Vision": {
+            "AvgVisionScore": 41.33,
+            "AvgWardsPlaced": 9.0,
+            "AvgWardsKilled": 7.33,
+            "AvgControlWardsBought": 8.33
+          },
+          "Champions": [
+            {
+              "Champion": "Pantheon",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Vi",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Zed",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5350125679",
+              "GameDate": "2025-08-19",
+              "Patch": "15.16",
+              "GameDuration": 1913,
+              "TeamId": 100,
+              "Champion": "Pantheon",
+              "Win": false,
+              "Kills": 3,
+              "Deaths": 6,
+              "Assists": 3,
+              "Kda": 1.0,
+              "Cs": 182,
+              "Csm": 5.71,
+              "Gold": 11176,
+              "Goldm": 350.53,
+              "DmgDealt": 13050,
+              "DmgTaken": 38419,
+              "DmgMitigated": 35990,
+              "DmgObjectives": 18180,
+              "VisionScore": 32,
+              "WardsPlaced": 7,
+              "WardsKilled": 6,
+              "ControlWards": 9,
+              "CcScore": 16.0,
+              "KillParticipation": 54.5,
+              "Timeline": {
+                "CsAt10": 58,
+                "CsAt15": 91,
+                "CsAt20": 106,
+                "CsAt25": 144,
+                "GoldAt10": 3234,
+                "GoldAt15": 4688,
+                "GoldAt20": 5922,
+                "GoldAt25": 7372
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5350169015",
+              "GameDate": "2025-08-19",
+              "Patch": "15.16",
+              "GameDuration": 2018,
+              "TeamId": 200,
+              "Champion": "Vi",
+              "Win": true,
+              "Kills": 7,
+              "Deaths": 2,
+              "Assists": 16,
+              "Kda": 11.5,
+              "Cs": 214,
+              "Csm": 6.36,
+              "Gold": 14171,
+              "Goldm": 421.34,
+              "DmgDealt": 14528,
+              "DmgTaken": 29254,
+              "DmgMitigated": 57488,
+              "DmgObjectives": 54481,
+              "VisionScore": 41,
+              "WardsPlaced": 12,
+              "WardsKilled": 7,
+              "ControlWards": 10,
+              "CcScore": 29.0,
+              "KillParticipation": 65.7,
+              "Timeline": {
+                "CsAt10": 63,
+                "CsAt15": 99,
+                "CsAt20": 136,
+                "CsAt25": 167,
+                "GoldAt10": 3329,
+                "GoldAt15": 5040,
+                "GoldAt20": 8116,
+                "GoldAt25": 9599
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5350216098",
+              "GameDate": "2025-08-19",
+              "Patch": "15.16",
+              "GameDuration": 1928,
+              "TeamId": 100,
+              "Champion": "Zed",
+              "Win": false,
+              "Kills": 9,
+              "Deaths": 4,
+              "Assists": 12,
+              "Kda": 5.25,
+              "Cs": 228,
+              "Csm": 7.1,
+              "Gold": 13735,
+              "Goldm": 427.44,
+              "DmgDealt": 23877,
+              "DmgTaken": 33481,
+              "DmgMitigated": 21573,
+              "DmgObjectives": 36160,
+              "VisionScore": 51,
+              "WardsPlaced": 8,
+              "WardsKilled": 9,
+              "ControlWards": 6,
+              "CcScore": 10.0,
+              "KillParticipation": 80.8,
+              "Timeline": {
+                "CsAt10": 75,
+                "CsAt15": 113,
+                "CsAt20": 145,
+                "CsAt25": 185,
+                "GoldAt10": 3689,
+                "GoldAt15": 6437,
+                "GoldAt20": 9263,
+                "GoldAt25": 10813
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5350125679",
+              "Opponent": "Bibiswag#toz",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5350169015",
+              "Opponent": "Bibiswag#toz",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5350216098",
+              "Opponent": "Bibiswag#toz",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

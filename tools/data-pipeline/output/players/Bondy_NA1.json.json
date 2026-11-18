@@ -1,0 +1,226 @@
+{
+  "RiotId": "Bondy#NA1",
+  "GameName": "Bondy",
+  "Tag": "NA1",
+  "Seasons": {
+    "AML_2025": {
+      "League": "AML",
+      "Season": "2025",
+      "Splits": {
+        "AML_FALL_2025": {
+          "League": "AML",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AML Fall 2025",
+          "TeamName": "WiWiWi Cat",
+          "Role": "MIDDLE",
+          "Games": 3,
+          "Wins": 2,
+          "Losses": 1,
+          "WinRate": 66.7,
+          "PerGame": {
+            "Kills": 6.33,
+            "Deaths": 2.67,
+            "Assists": 6.67,
+            "Kda": 4.87,
+            "Cs": 254.0,
+            "Gold": 13936.33,
+            "KillParticipation": 54.93,
+            "VisionScore": 28.0,
+            "CcScore": 18.67,
+            "DmgDealt": 29025.0,
+            "DmgTaken": 20765.0,
+            "DmgMitigated": 11748.0,
+            "DmgObjectives": 12970.33,
+            "CsAt10": 88.0,
+            "CsAt15": 138.33,
+            "CsAt20": 181.67,
+            "CsAt25": 216.67,
+            "GoldAt10": 3515.33,
+            "GoldAt15": 5732.67,
+            "GoldAt20": 7799.33,
+            "GoldAt25": 10472.0
+          },
+          "PerMin": {
+            "Cs": 8.11,
+            "Gold": 443.91,
+            "DmgDealt": 921.14,
+            "DmgTaken": 657.64,
+            "DmgMitigated": 372.52,
+            "DmgObjectives": 406.65,
+            "VisionScore": 0.9,
+            "CcScore": 0.61
+          },
+          "Vision": {
+            "AvgVisionScore": 28.0,
+            "AvgWardsPlaced": 10.0,
+            "AvgWardsKilled": 6.67,
+            "AvgControlWardsBought": 2.33
+          },
+          "Champions": [
+            {
+              "Champion": "Corki",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Smolder",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Syndra",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5406760726",
+              "GameDate": "2025-11-05",
+              "Patch": "15.21",
+              "GameDuration": 1910,
+              "TeamId": 100,
+              "Champion": "Corki",
+              "Win": false,
+              "Kills": 8,
+              "Deaths": 4,
+              "Assists": 2,
+              "Kda": 2.5,
+              "Cs": 281,
+              "Csm": 8.83,
+              "Gold": 14790,
+              "Goldm": 464.61,
+              "DmgDealt": 25051,
+              "DmgTaken": 26247,
+              "DmgMitigated": 14638,
+              "DmgObjectives": 7016,
+              "VisionScore": 28,
+              "WardsPlaced": 10,
+              "WardsKilled": 6,
+              "ControlWards": 0,
+              "CcScore": 3.0,
+              "KillParticipation": 66.7,
+              "Timeline": {
+                "CsAt10": 100,
+                "CsAt15": 151,
+                "CsAt20": 206,
+                "CsAt25": 246,
+                "GoldAt10": 3674,
+                "GoldAt15": 6007,
+                "GoldAt20": 8296,
+                "GoldAt25": 10981
+              }
+            },
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5406807919",
+              "GameDate": "2025-11-05",
+              "Patch": "15.21",
+              "GameDuration": 1931,
+              "TeamId": 200,
+              "Champion": "Smolder",
+              "Win": true,
+              "Kills": 9,
+              "Deaths": 2,
+              "Assists": 7,
+              "Kda": 8.0,
+              "Cs": 248,
+              "Csm": 7.71,
+              "Gold": 15741,
+              "Goldm": 489.1,
+              "DmgDealt": 41897,
+              "DmgTaken": 24478,
+              "DmgMitigated": 13467,
+              "DmgObjectives": 28416,
+              "VisionScore": 23,
+              "WardsPlaced": 8,
+              "WardsKilled": 6,
+              "ControlWards": 3,
+              "CcScore": 17.0,
+              "KillParticipation": 53.3,
+              "Timeline": {
+                "CsAt10": 78,
+                "CsAt15": 121,
+                "CsAt20": 162,
+                "CsAt25": 197,
+                "GoldAt10": 3605,
+                "GoldAt15": 5988,
+                "GoldAt20": 8372,
+                "GoldAt25": 11739
+              }
+            },
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5406851266",
+              "GameDate": "2025-11-05",
+              "Patch": "15.21",
+              "GameDuration": 1790,
+              "TeamId": 100,
+              "Champion": "Syndra",
+              "Win": true,
+              "Kills": 2,
+              "Deaths": 2,
+              "Assists": 11,
+              "Kda": 6.5,
+              "Cs": 233,
+              "Csm": 7.81,
+              "Gold": 11278,
+              "Goldm": 378.03,
+              "DmgDealt": 20127,
+              "DmgTaken": 11570,
+              "DmgMitigated": 7139,
+              "DmgObjectives": 3479,
+              "VisionScore": 33,
+              "WardsPlaced": 12,
+              "WardsKilled": 8,
+              "ControlWards": 4,
+              "CcScore": 36.0,
+              "KillParticipation": 44.8,
+              "Timeline": {
+                "CsAt10": 86,
+                "CsAt15": 143,
+                "CsAt20": 177,
+                "CsAt25": 207,
+                "GoldAt10": 3267,
+                "GoldAt15": 5203,
+                "GoldAt20": 6730,
+                "GoldAt25": 8696
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5406760726",
+              "Opponent": "sºuth#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5406807919",
+              "Opponent": "sºuth#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5406851266",
+              "Opponent": "sºuth#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

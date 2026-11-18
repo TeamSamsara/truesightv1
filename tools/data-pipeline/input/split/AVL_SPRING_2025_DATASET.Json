@@ -1,0 +1,1569 @@
+{
+  "league": "AVL",
+  "season": "2025",
+  "split": "Spring",
+  "generated": "2026-03-21",
+  "player_count": 60,
+  "players": [
+    {
+      "rank": 1,
+      "player": "doobie donut#001",
+      "team": "Gnome Children",
+      "role": "Middle",
+      "rating": 52.36,
+      "record": { "wins": 2, "losses": 1 },
+      "games": 3,
+      "win_rate": 0.667,
+      "record_str": "2-1",
+      "avg_per_game": {
+        "kills": 14.0, "deaths": 4.3, "assists": 9.3, "kda": 5.38,
+        "cs": 215, "cs_at_10": 84, "cs_at_15": 124, "cs_at_20": 157, "cs_at_25": 189,
+        "gold": 14829, "gold_at_10": 3773, "gold_at_15": 6335, "gold_at_20": 9189, "gold_at_25": 12273,
+        "kill_participation": 1, "vision_score": 26, "cc_score": 21,
+        "dmg_dealt": 32653, "dmg_taken": 32673, "dmg_mitigated": 22253, "dmg_objectives": 7277
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 7, "vision_score": 1, "cc_score": 1,
+        "gold": 488, "dmg_dealt": 1074, "dmg_taken": 1075, "dmg_mitigated": 732, "dmg_objectives": 239
+      },
+      "delta_vs_opponent": {
+        "cs": -2, "cs_per_min": 0, "cs_at_10": 2, "cs_at_15": 11, "cs_at_20": 10, "cs_at_25": 8,
+        "gold": 2583, "gold_at_10": 484, "gold_at_15": 1687, "gold_at_20": 1782, "gold_at_25": 3013
+      }
+    },
+    {
+      "rank": 2,
+      "player": "Failz#Failz",
+      "team": "Chaotic Indigo",
+      "role": "Support",
+      "rating": 52.20,
+      "record": { "wins": 2, "losses": 1 },
+      "games": 3,
+      "win_rate": 0.667,
+      "record_str": "2-1",
+      "avg_per_game": {
+        "kills": 1.7, "deaths": 2.3, "assists": 15.3, "kda": 7.29,
+        "cs": 31, "cs_at_10": 12, "cs_at_15": 17, "cs_at_20": 19, "cs_at_25": 23,
+        "gold": 9318, "gold_at_10": 2635, "gold_at_15": 4071, "gold_at_20": 5605, "gold_at_25": 6854,
+        "kill_participation": 1, "vision_score": 110, "cc_score": 41,
+        "dmg_dealt": 10506, "dmg_taken": 21990, "dmg_mitigated": 29637, "dmg_objectives": 3134
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 1, "vision_score": 3, "cc_score": 1,
+        "gold": 274, "dmg_dealt": 309, "dmg_taken": 648, "dmg_mitigated": 873, "dmg_objectives": 92
+      },
+      "delta_vs_opponent": {
+        "cs": -11, "cs_per_min": 0, "cs_at_10": -4, "cs_at_15": -10, "cs_at_20": -12, "cs_at_25": -13,
+        "gold": 248, "gold_at_10": 246, "gold_at_15": 237, "gold_at_20": 244, "gold_at_25": 151
+      }
+    },
+    {
+      "rank": 3,
+      "player": "Lilpistol#thicc",
+      "team": "Chaotic Indigo",
+      "role": "Jungle",
+      "rating": 49.36,
+      "record": { "wins": 8, "losses": 5 },
+      "games": 13,
+      "win_rate": 0.615,
+      "record_str": "8-5",
+      "avg_per_game": {
+        "kills": 5.7, "deaths": 3.1, "assists": 12.2, "kda": 5.83,
+        "cs": 204, "cs_at_10": 70, "cs_at_15": 108, "cs_at_20": 144, "cs_at_25": 174,
+        "gold": 13032, "gold_at_10": 3613, "gold_at_15": 5713, "gold_at_20": 8001, "gold_at_25": 9941,
+        "kill_participation": 1, "vision_score": 26, "cc_score": 36,
+        "dmg_dealt": 20717, "dmg_taken": 34908, "dmg_mitigated": 40529, "dmg_objectives": 39514
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 6, "vision_score": 1, "cc_score": 1,
+        "gold": 405, "dmg_dealt": 644, "dmg_taken": 1085, "dmg_mitigated": 1260, "dmg_objectives": 1228
+      },
+      "delta_vs_opponent": {
+        "cs": -5, "cs_per_min": 0, "cs_at_10": 6, "cs_at_15": 8, "cs_at_20": 11, "cs_at_25": 9,
+        "gold": 1112, "gold_at_10": 278, "gold_at_15": 418, "gold_at_20": 932, "gold_at_25": 876
+      }
+    },
+    {
+      "rank": 4,
+      "player": "emeraldao#T3G",
+      "team": "Gnome Children",
+      "role": "Support",
+      "rating": 48.75,
+      "record": { "wins": 4, "losses": 1 },
+      "games": 5,
+      "win_rate": 0.8,
+      "record_str": "4-1",
+      "avg_per_game": {
+        "kills": 3.4, "deaths": 5.4, "assists": 20.0, "kda": 4.33,
+        "cs": 41, "cs_at_10": 14, "cs_at_15": 23, "cs_at_20": 27, "cs_at_25": 31,
+        "gold": 9444, "gold_at_10": 2635, "gold_at_15": 4599, "gold_at_20": 6530, "gold_at_25": 6471,
+        "kill_participation": 1, "vision_score": 74, "cc_score": 58,
+        "dmg_dealt": 14463, "dmg_taken": 21177, "dmg_mitigated": 25149, "dmg_objectives": 3913
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 1, "cs": 1, "vision_score": 3, "cc_score": 2,
+        "gold": 325, "dmg_dealt": 498, "dmg_taken": 730, "dmg_mitigated": 867, "dmg_objectives": 135
+      },
+      "delta_vs_opponent": {
+        "cs": -2, "cs_per_min": 0, "cs_at_10": -2, "cs_at_15": -2, "cs_at_20": -4, "cs_at_25": 1,
+        "gold": 1715, "gold_at_10": 177, "gold_at_15": 791, "gold_at_20": 1351, "gold_at_25": 1072
+      }
+    },
+    {
+      "rank": 5,
+      "player": "KUBLAI KHAN TX#001",
+      "team": "Gnome Children",
+      "role": "Middle",
+      "rating": 47.89,
+      "record": { "wins": 2, "losses": 0 },
+      "games": 2,
+      "win_rate": 1.0,
+      "record_str": "2-0",
+      "avg_per_game": {
+        "kills": 7.0, "deaths": 3.0, "assists": 15.0, "kda": 7.33,
+        "cs": 163, "cs_at_10": 63, "cs_at_15": 100, "cs_at_20": 128, "cs_at_25": 74,
+        "gold": 11372, "gold_at_10": 3710, "gold_at_15": 5689, "gold_at_20": 7906, "gold_at_25": 4292,
+        "kill_participation": 1, "vision_score": 13, "cc_score": 16,
+        "dmg_dealt": 24508, "dmg_taken": 15580, "dmg_mitigated": 9645, "dmg_objectives": 7733
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 1, "cs": 6, "vision_score": 0, "cc_score": 1,
+        "gold": 422, "dmg_dealt": 910, "dmg_taken": 578, "dmg_mitigated": 358, "dmg_objectives": 287
+      },
+      "delta_vs_opponent": {
+        "cs": -15, "cs_per_min": 0, "cs_at_10": -6, "cs_at_15": -8, "cs_at_20": -12, "cs_at_25": 4,
+        "gold": 1949, "gold_at_10": 318, "gold_at_15": 11, "gold_at_20": 903, "gold_at_25": 3
+      }
+    },
+    {
+      "rank": 6,
+      "player": "WhyDoPeopleFeed#NA1",
+      "team": "Chaotic Indigo",
+      "role": "Support",
+      "rating": 46.71,
+      "record": { "wins": 4, "losses": 3 },
+      "games": 7,
+      "win_rate": 0.571,
+      "record_str": "4-3",
+      "avg_per_game": {
+        "kills": 1.6, "deaths": 3.6, "assists": 17.9, "kda": 5.44,
+        "cs": 23, "cs_at_10": 9, "cs_at_15": 14, "cs_at_20": 16, "cs_at_25": 19,
+        "gold": 9211, "gold_at_10": 2439, "gold_at_15": 3845, "gold_at_20": 5002, "gold_at_25": 6492,
+        "kill_participation": 1, "vision_score": 92, "cc_score": 45,
+        "dmg_dealt": 8978, "dmg_taken": 21283, "dmg_mitigated": 24659, "dmg_objectives": 2069
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 1, "cs": 1, "vision_score": 3, "cc_score": 1,
+        "gold": 284, "dmg_dealt": 277, "dmg_taken": 656, "dmg_mitigated": 760, "dmg_objectives": 64
+      },
+      "delta_vs_opponent": {
+        "cs": -8, "cs_per_min": 0, "cs_at_10": -5, "cs_at_15": -7, "cs_at_20": -9, "cs_at_25": -9,
+        "gold": 1107, "gold_at_10": 21, "gold_at_15": 211, "gold_at_20": 69, "gold_at_25": 427
+      }
+    },
+    {
+      "rank": 7,
+      "player": "Season of Leaves#Fall",
+      "team": "SpellBinders eSports",
+      "role": "Middle",
+      "rating": 45.86,
+      "record": { "wins": 15, "losses": 3 },
+      "games": 18,
+      "win_rate": 0.833,
+      "record_str": "15-3",
+      "avg_per_game": {
+        "kills": 6.4, "deaths": 3.0, "assists": 7.9, "kda": 4.80,
+        "cs": 232, "cs_at_10": 92, "cs_at_15": 143, "cs_at_20": 181, "cs_at_25": 188,
+        "gold": 13114, "gold_at_10": 3702, "gold_at_15": 5981, "gold_at_20": 8559, "gold_at_25": 9553,
+        "kill_participation": 1, "vision_score": 18, "cc_score": 41,
+        "dmg_dealt": 28513, "dmg_taken": 14991, "dmg_mitigated": 10549, "dmg_objectives": 9903
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 8, "vision_score": 1, "cc_score": 1,
+        "gold": 448, "dmg_dealt": 973, "dmg_taken": 512, "dmg_mitigated": 360, "dmg_objectives": 338
+      },
+      "delta_vs_opponent": {
+        "cs": 19, "cs_per_min": 0, "cs_at_10": 16, "cs_at_15": 25, "cs_at_20": 26, "cs_at_25": 18,
+        "gold": 2234, "gold_at_10": 415, "gold_at_15": 779, "gold_at_20": 1206, "gold_at_25": 1416
+      }
+    },
+    {
+      "rank": 8,
+      "player": "AJOSU#NA1",
+      "team": "SpellBinders eSports",
+      "role": "ADC",
+      "rating": 43.97,
+      "record": { "wins": 17, "losses": 4 },
+      "games": 21,
+      "win_rate": 0.81,
+      "record_str": "17-4",
+      "avg_per_game": {
+        "kills": 6.3, "deaths": 2.2, "assists": 7.0, "kda": 5.96,
+        "cs": 283, "cs_at_10": 88, "cs_at_15": 139, "cs_at_20": 192, "cs_at_25": 217,
+        "gold": 14228, "gold_at_10": 3579, "gold_at_15": 5873, "gold_at_20": 8500, "gold_at_25": 10099,
+        "kill_participation": 1, "vision_score": 14, "cc_score": 16,
+        "dmg_dealt": 24997, "dmg_taken": 13265, "dmg_mitigated": 10510, "dmg_objectives": 21936
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 10, "vision_score": 0, "cc_score": 1,
+        "gold": 484, "dmg_dealt": 850, "dmg_taken": 451, "dmg_mitigated": 357, "dmg_objectives": 746
+      },
+      "delta_vs_opponent": {
+        "cs": 31, "cs_per_min": 0, "cs_at_10": 8, "cs_at_15": 18, "cs_at_20": 28, "cs_at_25": 28,
+        "gold": 2328, "gold_at_10": 252, "gold_at_15": 744, "gold_at_20": 1153, "gold_at_25": 1403
+      }
+    },
+    {
+      "rank": 9,
+      "player": "Ambitious#00001",
+      "team": "Chaotic Indigo",
+      "role": "ADC",
+      "rating": 43.35,
+      "record": { "wins": 8, "losses": 5 },
+      "games": 13,
+      "win_rate": 0.615,
+      "record_str": "8-5",
+      "avg_per_game": {
+        "kills": 9.0, "deaths": 3.6, "assists": 7.9, "kda": 4.68,
+        "cs": 249, "cs_at_10": 76, "cs_at_15": 124, "cs_at_20": 165, "cs_at_25": 199,
+        "gold": 14992, "gold_at_10": 3488, "gold_at_15": 5909, "gold_at_20": 8513, "gold_at_25": 10856,
+        "kill_participation": 1, "vision_score": 15, "cc_score": 20,
+        "dmg_dealt": 25614, "dmg_taken": 16106, "dmg_mitigated": 10875, "dmg_objectives": 27388
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 8, "vision_score": 0, "cc_score": 1,
+        "gold": 466, "dmg_dealt": 796, "dmg_taken": 501, "dmg_mitigated": 338, "dmg_objectives": 851
+      },
+      "delta_vs_opponent": {
+        "cs": -3, "cs_per_min": 0, "cs_at_10": 3, "cs_at_15": 9, "cs_at_20": 8, "cs_at_25": 1,
+        "gold": 1608, "gold_at_10": 117, "gold_at_15": 739, "gold_at_20": 1278, "gold_at_25": 1213
+      }
+    },
+    {
+      "rank": 10,
+      "player": "Emilia In Paris#oui",
+      "team": "Gnome Children",
+      "role": "Support",
+      "rating": 42.79,
+      "record": { "wins": 6, "losses": 6 },
+      "games": 12,
+      "win_rate": 0.5,
+      "record_str": "6-6",
+      "avg_per_game": {
+        "kills": 1.3, "deaths": 3.4, "assists": 14.8, "kda": 4.68,
+        "cs": 27, "cs_at_10": 10, "cs_at_15": 17, "cs_at_20": 21, "cs_at_25": 22,
+        "gold": 8640, "gold_at_10": 2461, "gold_at_15": 3940, "gold_at_20": 5323, "gold_at_25": 5995,
+        "kill_participation": 1, "vision_score": 86, "cc_score": 34,
+        "dmg_dealt": 8336, "dmg_taken": 15625, "dmg_mitigated": 8325, "dmg_objectives": 3692
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 1, "vision_score": 3, "cc_score": 1,
+        "gold": 270, "dmg_dealt": 260, "dmg_taken": 487, "dmg_mitigated": 260, "dmg_objectives": 115
+      },
+      "delta_vs_opponent": {
+        "cs": -4, "cs_per_min": 0, "cs_at_10": -4, "cs_at_15": -2, "cs_at_20": -1, "cs_at_25": -2,
+        "gold": 169, "gold_at_10": 37, "gold_at_15": 172, "gold_at_20": 292, "gold_at_25": 216
+      }
+    },
+    {
+      "rank": 11,
+      "player": "xiaohuangren#CN1",
+      "team": "The Blacklist",
+      "role": "Jungle",
+      "rating": 42.62,
+      "record": { "wins": 3, "losses": 2 },
+      "games": 5,
+      "win_rate": 0.6,
+      "record_str": "3-2",
+      "avg_per_game": {
+        "kills": 4.4, "deaths": 2.6, "assists": 7.8, "kda": 4.69,
+        "cs": 225, "cs_at_10": 77, "cs_at_15": 122, "cs_at_20": 168, "cs_at_25": 169,
+        "gold": 11955, "gold_at_10": 3675, "gold_at_15": 5893, "gold_at_20": 8087, "gold_at_25": 8449,
+        "kill_participation": 1, "vision_score": 23, "cc_score": 18,
+        "dmg_dealt": 14507, "dmg_taken": 32482, "dmg_mitigated": 24374, "dmg_objectives": 32466
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 8, "vision_score": 1, "cc_score": 1,
+        "gold": 428, "dmg_dealt": 520, "dmg_taken": 1163, "dmg_mitigated": 873, "dmg_objectives": 1163
+      },
+      "delta_vs_opponent": {
+        "cs": -11, "cs_per_min": 0, "cs_at_10": 8, "cs_at_15": 22, "cs_at_20": 26, "cs_at_25": 28,
+        "gold": 1285, "gold_at_10": 376, "gold_at_15": 918, "gold_at_20": 1122, "gold_at_25": 1264
+      }
+    },
+    {
+      "rank": 12,
+      "player": "Prao#CN2",
+      "team": "The Blacklist",
+      "role": "Jungle",
+      "rating": 41.59,
+      "record": { "wins": 4, "losses": 5 },
+      "games": 9,
+      "win_rate": 0.444,
+      "record_str": "4-5",
+      "avg_per_game": {
+        "kills": 6.4, "deaths": 3.2, "assists": 7.0, "kda": 4.17,
+        "cs": 203, "cs_at_10": 63, "cs_at_15": 100, "cs_at_20": 133, "cs_at_25": 151,
+        "gold": 12349, "gold_at_10": 3753, "gold_at_15": 5704, "gold_at_20": 7868, "gold_at_25": 8594,
+        "kill_participation": 1, "vision_score": 30, "cc_score": 18,
+        "dmg_dealt": 15755, "dmg_taken": 38576, "dmg_mitigated": 29407, "dmg_objectives": 28292
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 7, "vision_score": 1, "cc_score": 1,
+        "gold": 411, "dmg_dealt": 524, "dmg_taken": 1284, "dmg_mitigated": 979, "dmg_objectives": 942
+      },
+      "delta_vs_opponent": {
+        "cs": 6, "cs_per_min": 0, "cs_at_10": -1, "cs_at_15": 1, "cs_at_20": -3, "cs_at_25": -5,
+        "gold": 330, "gold_at_10": 394, "gold_at_15": 244, "gold_at_20": 402, "gold_at_25": -14
+      }
+    },
+    {
+      "rank": 13,
+      "player": "Maxander#NA1",
+      "team": "Travelers",
+      "role": "Jungle",
+      "rating": 40.89,
+      "record": { "wins": 10, "losses": 6 },
+      "games": 16,
+      "win_rate": 0.625,
+      "record_str": "10-6",
+      "avg_per_game": {
+        "kills": 5.4, "deaths": 2.9, "assists": 7.9, "kda": 4.63,
+        "cs": 192, "cs_at_10": 70, "cs_at_15": 108, "cs_at_20": 133, "cs_at_25": 148,
+        "gold": 11593, "gold_at_10": 3541, "gold_at_15": 5823, "gold_at_20": 7175, "gold_at_25": 8254,
+        "kill_participation": 1, "vision_score": 29, "cc_score": 18,
+        "dmg_dealt": 13843, "dmg_taken": 31369, "dmg_mitigated": 32149, "dmg_objectives": 28855
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 7, "vision_score": 1, "cc_score": 1,
+        "gold": 401, "dmg_dealt": 479, "dmg_taken": 1085, "dmg_mitigated": 1112, "dmg_objectives": 998
+      },
+      "delta_vs_opponent": {
+        "cs": -4, "cs_per_min": 0, "cs_at_10": 4, "cs_at_15": 11, "cs_at_20": 9, "cs_at_25": 8,
+        "gold": 317, "gold_at_10": 90, "gold_at_15": 454, "gold_at_20": 165, "gold_at_25": -287
+      }
+    },
+    {
+      "rank": 14,
+      "player": "Violet#Cyann",
+      "team": "SpellBinders eSports",
+      "role": "Jungle",
+      "rating": 40.76,
+      "record": { "wins": 17, "losses": 4 },
+      "games": 21,
+      "win_rate": 0.81,
+      "record_str": "17-4",
+      "avg_per_game": {
+        "kills": 5.2, "deaths": 3.9, "assists": 8.8, "kda": 3.60,
+        "cs": 190, "cs_at_10": 64, "cs_at_15": 99, "cs_at_20": 133, "cs_at_25": 153,
+        "gold": 12184, "gold_at_10": 3447, "gold_at_15": 5452, "gold_at_20": 7730, "gold_at_25": 8921,
+        "kill_participation": 1, "vision_score": 28, "cc_score": 26,
+        "dmg_dealt": 17298, "dmg_taken": 34755, "dmg_mitigated": 36403, "dmg_objectives": 37718
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 6, "vision_score": 1, "cc_score": 1,
+        "gold": 414, "dmg_dealt": 588, "dmg_taken": 1182, "dmg_mitigated": 1238, "dmg_objectives": 1283
+      },
+      "delta_vs_opponent": {
+        "cs": -5, "cs_per_min": 0, "cs_at_10": 0, "cs_at_15": 0, "cs_at_20": 3, "cs_at_25": 6,
+        "gold": 1009, "gold_at_10": -28, "gold_at_15": -119, "gold_at_20": 185, "gold_at_25": 441
+      }
+    },
+    {
+      "rank": 15,
+      "player": "John#JVL",
+      "team": "Chaotic Indigo",
+      "role": "Middle",
+      "rating": 40.44,
+      "record": { "wins": 8, "losses": 5 },
+      "games": 13,
+      "win_rate": 0.615,
+      "record_str": "8-5",
+      "avg_per_game": {
+        "kills": 5.5, "deaths": 2.5, "assists": 10.0, "kda": 6.28,
+        "cs": 253, "cs_at_10": 82, "cs_at_15": 129, "cs_at_20": 169, "cs_at_25": 206,
+        "gold": 13444, "gold_at_10": 3416, "gold_at_15": 5314, "gold_at_20": 7360, "gold_at_25": 9633,
+        "kill_participation": 1, "vision_score": 18, "cc_score": 17,
+        "dmg_dealt": 23652, "dmg_taken": 19225, "dmg_mitigated": 13415, "dmg_objectives": 9594
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 8, "vision_score": 1, "cc_score": 1,
+        "gold": 418, "dmg_dealt": 735, "dmg_taken": 598, "dmg_mitigated": 417, "dmg_objectives": 298
+      },
+      "delta_vs_opponent": {
+        "cs": -2, "cs_per_min": 0, "cs_at_10": 1, "cs_at_15": 1, "cs_at_20": 0, "cs_at_25": 4,
+        "gold": 641, "gold_at_10": -4, "gold_at_15": -162, "gold_at_20": -164, "gold_at_25": 180
+      }
+    },
+    {
+      "rank": 16,
+      "player": "Beep#Heart",
+      "team": "SpellBinders eSports",
+      "role": "Support",
+      "rating": 39.71,
+      "record": { "wins": 17, "losses": 4 },
+      "games": 21,
+      "win_rate": 0.81,
+      "record_str": "17-4",
+      "avg_per_game": {
+        "kills": 1.1, "deaths": 3.7, "assists": 13.3, "kda": 3.95,
+        "cs": 22, "cs_at_10": 11, "cs_at_15": 15, "cs_at_20": 18, "cs_at_25": 19,
+        "gold": 7883, "gold_at_10": 2398, "gold_at_15": 3743, "gold_at_20": 5106, "gold_at_25": 5720,
+        "kill_participation": 1, "vision_score": 83, "cc_score": 35,
+        "dmg_dealt": 7219, "dmg_taken": 15840, "dmg_mitigated": 17132, "dmg_objectives": 2479
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 1, "vision_score": 3, "cc_score": 1,
+        "gold": 268, "dmg_dealt": 245, "dmg_taken": 539, "dmg_mitigated": 583, "dmg_objectives": 84
+      },
+      "delta_vs_opponent": {
+        "cs": -10, "cs_per_min": 0, "cs_at_10": -4, "cs_at_15": -7, "cs_at_20": -7, "cs_at_25": -7,
+        "gold": 544, "gold_at_10": 8, "gold_at_15": 87, "gold_at_20": 195, "gold_at_25": 278
+      }
+    },
+    {
+      "rank": 17,
+      "player": "alvinchangrocks#NA1",
+      "team": "University of California San Diego",
+      "role": "Support",
+      "rating": 38.83,
+      "record": { "wins": 6, "losses": 8 },
+      "games": 14,
+      "win_rate": 0.429,
+      "record_str": "6-8",
+      "avg_per_game": {
+        "kills": 1.6, "deaths": 3.6, "assists": 10.4, "kda": 3.38,
+        "cs": 30, "cs_at_10": 11, "cs_at_15": 18, "cs_at_20": 23, "cs_at_25": 22,
+        "gold": 7538, "gold_at_10": 2472, "gold_at_15": 3793, "gold_at_20": 5033, "gold_at_25": 5023,
+        "kill_participation": 1, "vision_score": 73, "cc_score": 31,
+        "dmg_dealt": 9140, "dmg_taken": 16956, "dmg_mitigated": 13217, "dmg_objectives": 1523
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 1, "vision_score": 3, "cc_score": 1,
+        "gold": 263, "dmg_dealt": 319, "dmg_taken": 592, "dmg_mitigated": 461, "dmg_objectives": 53
+      },
+      "delta_vs_opponent": {
+        "cs": 2, "cs_per_min": 0, "cs_at_10": -3, "cs_at_15": -2, "cs_at_20": 0, "cs_at_25": 1,
+        "gold": -7, "gold_at_10": 95, "gold_at_15": 81, "gold_at_20": 55, "gold_at_25": 152
+      }
+    },
+    {
+      "rank": 18,
+      "player": "Greco OP#AGOP",
+      "team": "Gnome Children",
+      "role": "ADC",
+      "rating": 38.14,
+      "record": { "wins": 9, "losses": 7 },
+      "games": 16,
+      "win_rate": 0.5625,
+      "record_str": "9-7",
+      "avg_per_game": {
+        "kills": 7.4, "deaths": 4.7, "assists": 8.8, "kda": 3.45,
+        "cs": 246, "cs_at_10": 79, "cs_at_15": 122, "cs_at_20": 167, "cs_at_25": 176,
+        "gold": 14012, "gold_at_10": 3549, "gold_at_15": 5722, "gold_at_20": 8041, "gold_at_25": 9086,
+        "kill_participation": 1, "vision_score": 22, "cc_score": 18,
+        "dmg_dealt": 27517, "dmg_taken": 20275, "dmg_mitigated": 12054, "dmg_objectives": 16821
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 8, "vision_score": 1, "cc_score": 1,
+        "gold": 454, "dmg_dealt": 892, "dmg_taken": 658, "dmg_mitigated": 391, "dmg_objectives": 545
+      },
+      "delta_vs_opponent": {
+        "cs": -7, "cs_per_min": 0, "cs_at_10": 1, "cs_at_15": -2, "cs_at_20": -2, "cs_at_25": -7,
+        "gold": -13, "gold_at_10": 40, "gold_at_15": 250, "gold_at_20": 321, "gold_at_25": 210
+      }
+    },
+    {
+      "rank": 19,
+      "player": "TTV BroKenSSB#TTV",
+      "team": "The Agency",
+      "role": "Jungle",
+      "rating": 37.53,
+      "record": { "wins": 11, "losses": 12 },
+      "games": 23,
+      "win_rate": 0.478,
+      "record_str": "11-12",
+      "avg_per_game": {
+        "kills": 6.2, "deaths": 4.5, "assists": 8.3, "kda": 3.20,
+        "cs": 192, "cs_at_10": 64, "cs_at_15": 99, "cs_at_20": 133, "cs_at_25": 151,
+        "gold": 12389, "gold_at_10": 3526, "gold_at_15": 5694, "gold_at_20": 7807, "gold_at_25": 9060,
+        "kill_participation": 1, "vision_score": 14, "cc_score": 53,
+        "dmg_dealt": 18011, "dmg_taken": 39683, "dmg_mitigated": 36825, "dmg_objectives": 27412
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 6, "vision_score": 0, "cc_score": 2,
+        "gold": 405, "dmg_dealt": 588, "dmg_taken": 1297, "dmg_mitigated": 1203, "dmg_objectives": 896
+      },
+      "delta_vs_opponent": {
+        "cs": -3, "cs_per_min": 0, "cs_at_10": -1, "cs_at_15": -1, "cs_at_20": -1, "cs_at_25": 2,
+        "gold": 73, "gold_at_10": 16, "gold_at_15": 184, "gold_at_20": 85, "gold_at_25": -9
+      }
+    },
+    {
+      "rank": 20,
+      "player": "Leave#NIP",
+      "team": "The Blacklist",
+      "role": "ADC",
+      "rating": 37.40,
+      "record": { "wins": 7, "losses": 7 },
+      "games": 14,
+      "win_rate": 0.5,
+      "record_str": "7-7",
+      "avg_per_game": {
+        "kills": 3.7, "deaths": 2.5, "assists": 7.4, "kda": 4.46,
+        "cs": 258, "cs_at_10": 79, "cs_at_15": 127, "cs_at_20": 179, "cs_at_25": 191,
+        "gold": 12834, "gold_at_10": 3400, "gold_at_15": 5415, "gold_at_20": 7597, "gold_at_25": 8667,
+        "kill_participation": 1, "vision_score": 16, "cc_score": 17,
+        "dmg_dealt": 22077, "dmg_taken": 15039, "dmg_mitigated": 8724, "dmg_objectives": 16787
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 9, "vision_score": 1, "cc_score": 1,
+        "gold": 438, "dmg_dealt": 754, "dmg_taken": 514, "dmg_mitigated": 298, "dmg_objectives": 573
+      },
+      "delta_vs_opponent": {
+        "cs": 1, "cs_per_min": 0, "cs_at_10": -3, "cs_at_15": 0, "cs_at_20": 4, "cs_at_25": 7,
+        "gold": 299, "gold_at_10": -89, "gold_at_15": -50, "gold_at_20": -117, "gold_at_25": 369
+      }
+    },
+    {
+      "rank": 21,
+      "player": "ItzYoru#help",
+      "team": "Travelers",
+      "role": "Support",
+      "rating": 37.25,
+      "record": { "wins": 10, "losses": 6 },
+      "games": 16,
+      "win_rate": 0.625,
+      "record_str": "10-6",
+      "avg_per_game": {
+        "kills": 1.4, "deaths": 4.8, "assists": 12.8, "kda": 2.95,
+        "cs": 29, "cs_at_10": 12, "cs_at_15": 19, "cs_at_20": 21, "cs_at_25": 24,
+        "gold": 7859, "gold_at_10": 2492, "gold_at_15": 3874, "gold_at_20": 4808, "gold_at_25": 5578,
+        "kill_participation": 1, "vision_score": 77, "cc_score": 48,
+        "dmg_dealt": 9494, "dmg_taken": 21231, "dmg_mitigated": 24625, "dmg_objectives": 1354
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 1, "vision_score": 3, "cc_score": 2,
+        "gold": 272, "dmg_dealt": 328, "dmg_taken": 734, "dmg_mitigated": 852, "dmg_objectives": 47
+      },
+      "delta_vs_opponent": {
+        "cs": -1, "cs_per_min": 0, "cs_at_10": 0, "cs_at_15": 1, "cs_at_20": 1, "cs_at_25": 0,
+        "gold": 341, "gold_at_10": 68, "gold_at_15": 128, "gold_at_20": 128, "gold_at_25": -16
+      }
+    },
+    {
+      "rank": 22,
+      "player": "MrKiwiism#222",
+      "team": "Chaotic Indigo",
+      "role": "Support",
+      "rating": 37.05,
+      "record": { "wins": 2, "losses": 1 },
+      "games": 3,
+      "win_rate": 0.667,
+      "record_str": "2-1",
+      "avg_per_game": {
+        "kills": 2.3, "deaths": 4.0, "assists": 11.7, "kda": 3.50,
+        "cs": 27, "cs_at_10": 13, "cs_at_15": 19, "cs_at_20": 22, "cs_at_25": 24,
+        "gold": 8269, "gold_at_10": 2373, "gold_at_15": 3794, "gold_at_20": 5130, "gold_at_25": 6353,
+        "kill_participation": 1, "vision_score": 72, "cc_score": 42,
+        "dmg_dealt": 7469, "dmg_taken": 18517, "dmg_mitigated": 20646, "dmg_objectives": 2377
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 1, "vision_score": 2, "cc_score": 1,
+        "gold": 277, "dmg_dealt": 251, "dmg_taken": 621, "dmg_mitigated": 693, "dmg_objectives": 80
+      },
+      "delta_vs_opponent": {
+        "cs": -9, "cs_per_min": 0, "cs_at_10": -2, "cs_at_15": -4, "cs_at_20": -4, "cs_at_25": -10,
+        "gold": 678, "gold_at_10": 92, "gold_at_15": 17, "gold_at_20": 101, "gold_at_25": 279
+      }
+    },
+    {
+      "rank": 23,
+      "player": "iybc9o2q#iybc9",
+      "team": "SpellBinders eSports",
+      "role": "Middle",
+      "rating": 36.91,
+      "record": { "wins": 2, "losses": 1 },
+      "games": 3,
+      "win_rate": 0.667,
+      "record_str": "2-1",
+      "avg_per_game": {
+        "kills": 3.7, "deaths": 1.0, "assists": 6.3, "kda": 10.00,
+        "cs": 223, "cs_at_10": 87, "cs_at_15": 137, "cs_at_20": 174, "cs_at_25": 206,
+        "gold": 11698, "gold_at_10": 3501, "gold_at_15": 5468, "gold_at_20": 7528, "gold_at_25": 9394,
+        "kill_participation": 1, "vision_score": 21, "cc_score": 12,
+        "dmg_dealt": 14697, "dmg_taken": 16152, "dmg_mitigated": 10354, "dmg_objectives": 7215
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 7, "vision_score": 1, "cc_score": 0,
+        "gold": 389, "dmg_dealt": 489, "dmg_taken": 538, "dmg_mitigated": 345, "dmg_objectives": 240
+      },
+      "delta_vs_opponent": {
+        "cs": 14, "cs_per_min": 0, "cs_at_10": 16, "cs_at_15": 16, "cs_at_20": 17, "cs_at_25": 22,
+        "gold": 87, "gold_at_10": 198, "gold_at_15": -247, "gold_at_20": -216, "gold_at_25": -100
+      }
+    },
+    {
+      "rank": 24,
+      "player": "TH3#NA1",
+      "team": "Gnome Children",
+      "role": "Jungle",
+      "rating": 36.82,
+      "record": { "wins": 5, "losses": 4 },
+      "games": 9,
+      "win_rate": 0.556,
+      "record_str": "5-4",
+      "avg_per_game": {
+        "kills": 6.3, "deaths": 5.7, "assists": 10.1, "kda": 2.90,
+        "cs": 186, "cs_at_10": 57, "cs_at_15": 89, "cs_at_20": 122, "cs_at_25": 135,
+        "gold": 12425, "gold_at_10": 3548, "gold_at_15": 5596, "gold_at_20": 7614, "gold_at_25": 8840,
+        "kill_participation": 1, "vision_score": 32, "cc_score": 26,
+        "dmg_dealt": 18114, "dmg_taken": 39469, "dmg_mitigated": 41930, "dmg_objectives": 34627
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 6, "vision_score": 1, "cc_score": 1,
+        "gold": 395, "dmg_dealt": 576, "dmg_taken": 1256, "dmg_mitigated": 1334, "dmg_objectives": 1102
+      },
+      "delta_vs_opponent": {
+        "cs": -2, "cs_per_min": 0, "cs_at_10": -4, "cs_at_15": -7, "cs_at_20": -10, "cs_at_25": -13,
+        "gold": -1415, "gold_at_10": -323, "gold_at_15": -190, "gold_at_20": -609, "gold_at_25": -219
+      }
+    },
+    {
+      "rank": 25,
+      "player": "Emilia#lulu",
+      "team": "Gnome Children",
+      "role": "Support",
+      "rating": 36.61,
+      "record": { "wins": 0, "losses": 2 },
+      "games": 2,
+      "win_rate": 0.0,
+      "record_str": "0-2",
+      "avg_per_game": {
+        "kills": 1.5, "deaths": 5.0, "assists": 16.0, "kda": 3.50,
+        "cs": 37, "cs_at_10": 13, "cs_at_15": 22, "cs_at_20": 24, "cs_at_25": 31,
+        "gold": 8323, "gold_at_10": 2249, "gold_at_15": 3424, "gold_at_20": 4720, "gold_at_25": 6545,
+        "kill_participation": 1, "vision_score": 71, "cc_score": 37,
+        "dmg_dealt": 10733, "dmg_taken": 21855, "dmg_mitigated": 11622, "dmg_objectives": 4706
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 1, "vision_score": 2, "cc_score": 1,
+        "gold": 254, "dmg_dealt": 328, "dmg_taken": 668, "dmg_mitigated": 355, "dmg_objectives": 144
+      },
+      "delta_vs_opponent": {
+        "cs": -4, "cs_per_min": 0, "cs_at_10": -1, "cs_at_15": 1, "cs_at_20": -3, "cs_at_25": 1,
+        "gold": -437, "gold_at_10": -42, "gold_at_15": -19, "gold_at_20": -164, "gold_at_25": 587
+      }
+    },
+    {
+      "rank": 26,
+      "player": "JbearLOL#HELP",
+      "team": "Travelers",
+      "role": "Top",
+      "rating": 36.20,
+      "record": { "wins": 10, "losses": 6 },
+      "games": 16,
+      "win_rate": 0.625,
+      "record_str": "10-6",
+      "avg_per_game": {
+        "kills": 6.2, "deaths": 4.0, "assists": 6.3, "kda": 3.13,
+        "cs": 230, "cs_at_10": 72, "cs_at_15": 118, "cs_at_20": 151, "cs_at_25": 175,
+        "gold": 13931, "gold_at_10": 3642, "gold_at_15": 6108, "gold_at_20": 8147, "gold_at_25": 9648,
+        "kill_participation": 1, "vision_score": 18, "cc_score": 22,
+        "dmg_dealt": 27922, "dmg_taken": 32777, "dmg_mitigated": 31336, "dmg_objectives": 13878
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 8, "vision_score": 1, "cc_score": 1,
+        "gold": 482, "dmg_dealt": 966, "dmg_taken": 1134, "dmg_mitigated": 1084, "dmg_objectives": 480
+      },
+      "delta_vs_opponent": {
+        "cs": 12, "cs_per_min": 0, "cs_at_10": 0, "cs_at_15": 4, "cs_at_20": 5, "cs_at_25": 10,
+        "gold": 2956, "gold_at_10": 251, "gold_at_15": 887, "gold_at_20": 1382, "gold_at_25": 1457
+      }
+    },
+    {
+      "rank": 27,
+      "player": "TVgeneralzilyana#NA1",
+      "team": "Gnome Children",
+      "role": "Middle",
+      "rating": 36.01,
+      "record": { "wins": 6, "losses": 5 },
+      "games": 11,
+      "win_rate": 0.545,
+      "record_str": "6-5",
+      "avg_per_game": {
+        "kills": 6.1, "deaths": 4.3, "assists": 7.4, "kda": 3.15,
+        "cs": 225, "cs_at_10": 78, "cs_at_15": 123, "cs_at_20": 160, "cs_at_25": 174,
+        "gold": 12906, "gold_at_10": 3697, "gold_at_15": 5825, "gold_at_20": 7858, "gold_at_25": 9057,
+        "kill_participation": 1, "vision_score": 18, "cc_score": 26,
+        "dmg_dealt": 27293, "dmg_taken": 19497, "dmg_mitigated": 12785, "dmg_objectives": 8949
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 7, "vision_score": 1, "cc_score": 1,
+        "gold": 409, "dmg_dealt": 864, "dmg_taken": 617, "dmg_mitigated": 405, "dmg_objectives": 283
+      },
+      "delta_vs_opponent": {
+        "cs": 0, "cs_per_min": 0, "cs_at_10": 5, "cs_at_15": 8, "cs_at_20": 9, "cs_at_25": 4,
+        "gold": -20, "gold_at_10": 270, "gold_at_15": 538, "gold_at_20": 493, "gold_at_25": 426
+      }
+    },
+    {
+      "rank": 28,
+      "player": "Permanent pain#kev",
+      "team": "University of California San Diego",
+      "role": "Jungle",
+      "rating": 35.88,
+      "record": { "wins": 6, "losses": 9 },
+      "games": 15,
+      "win_rate": 0.4,
+      "record_str": "6-9",
+      "avg_per_game": {
+        "kills": 4.7, "deaths": 3.7, "assists": 7.5, "kda": 3.29,
+        "cs": 196, "cs_at_10": 72, "cs_at_15": 105, "cs_at_20": 142, "cs_at_25": 142,
+        "gold": 11626, "gold_at_10": 3434, "gold_at_15": 5296, "gold_at_20": 7438, "gold_at_25": 7887,
+        "kill_participation": 1, "vision_score": 20, "cc_score": 22,
+        "dmg_dealt": 14821, "dmg_taken": 37818, "dmg_mitigated": 38933, "dmg_objectives": 30280
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 7, "vision_score": 1, "cc_score": 1,
+        "gold": 401, "dmg_dealt": 511, "dmg_taken": 1305, "dmg_mitigated": 1343, "dmg_objectives": 1045
+      },
+      "delta_vs_opponent": {
+        "cs": 5, "cs_per_min": 0, "cs_at_10": 2, "cs_at_15": -6, "cs_at_20": -3, "cs_at_25": -4,
+        "gold": -589, "gold_at_10": -78, "gold_at_15": -585, "gold_at_20": -606, "gold_at_25": -113
+      }
+    },
+    {
+      "rank": 29,
+      "player": "Kerrigann#nyc",
+      "team": "The Blacklist",
+      "role": "Middle",
+      "rating": 35.69,
+      "record": { "wins": 7, "losses": 7 },
+      "games": 14,
+      "win_rate": 0.5,
+      "record_str": "7-7",
+      "avg_per_game": {
+        "kills": 4.6, "deaths": 2.7, "assists": 6.4, "kda": 4.05,
+        "cs": 210, "cs_at_10": 75, "cs_at_15": 119, "cs_at_20": 156, "cs_at_25": 163,
+        "gold": 11414, "gold_at_10": 3339, "gold_at_15": 5257, "gold_at_20": 7231, "gold_at_25": 7926,
+        "kill_participation": 1, "vision_score": 20, "cc_score": 25,
+        "dmg_dealt": 18381, "dmg_taken": 16510, "dmg_mitigated": 10844, "dmg_objectives": 8820
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 7, "vision_score": 1, "cc_score": 1,
+        "gold": 390, "dmg_dealt": 628, "dmg_taken": 564, "dmg_mitigated": 370, "dmg_objectives": 301
+      },
+      "delta_vs_opponent": {
+        "cs": -12, "cs_per_min": 0, "cs_at_10": -6, "cs_at_15": -9, "cs_at_20": -11, "cs_at_25": -10,
+        "gold": -20, "gold_at_10": -115, "gold_at_15": -231, "gold_at_20": -286, "gold_at_25": -13
+      }
+    },
+    {
+      "rank": 30,
+      "player": "Zutter#NA1",
+      "team": "RUSH",
+      "role": "Jungle",
+      "rating": 35.15,
+      "record": { "wins": 3, "losses": 7 },
+      "games": 10,
+      "win_rate": 0.3,
+      "record_str": "3-7",
+      "avg_per_game": {
+        "kills": 3.8, "deaths": 3.7, "assists": 6.1, "kda": 2.68,
+        "cs": 197, "cs_at_10": 69, "cs_at_15": 104, "cs_at_20": 142, "cs_at_25": 160,
+        "gold": 11072, "gold_at_10": 3465, "gold_at_15": 5363, "gold_at_20": 7448, "gold_at_25": 8511,
+        "kill_participation": 1, "vision_score": 23, "cc_score": 19,
+        "dmg_dealt": 17624, "dmg_taken": 33757, "dmg_mitigated": 26986, "dmg_objectives": 20507
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 7, "vision_score": 1, "cc_score": 1,
+        "gold": 400, "dmg_dealt": 637, "dmg_taken": 1219, "dmg_mitigated": 975, "dmg_objectives": 741
+      },
+      "delta_vs_opponent": {
+        "cs": 16, "cs_per_min": 0, "cs_at_10": 0, "cs_at_15": -3, "cs_at_20": -5, "cs_at_25": -7,
+        "gold": -126, "gold_at_10": 74, "gold_at_15": 180, "gold_at_20": 21, "gold_at_25": -459
+      }
+    },
+    {
+      "rank": 31,
+      "player": "花花公子#him",
+      "team": "University of California San Diego",
+      "role": "ADC",
+      "rating": 34.80,
+      "record": { "wins": 0, "losses": 1 },
+      "games": 1,
+      "win_rate": 0.0,
+      "record_str": "0-1",
+      "avg_per_game": {
+        "kills": 8.0, "deaths": 5.0, "assists": 6.0, "kda": 2.80,
+        "cs": 284, "cs_at_10": 87, "cs_at_15": 131, "cs_at_20": 170, "cs_at_25": 213,
+        "gold": 15453, "gold_at_10": 3322, "gold_at_15": 5025, "gold_at_20": 8356, "gold_at_25": 10589,
+        "kill_participation": 1, "vision_score": 22, "cc_score": 29,
+        "dmg_dealt": 33204, "dmg_taken": 24078, "dmg_mitigated": 15546, "dmg_objectives": 659
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 8, "vision_score": 1, "cc_score": 1,
+        "gold": 460, "dmg_dealt": 988, "dmg_taken": 717, "dmg_mitigated": 463, "dmg_objectives": 20
+      },
+      "delta_vs_opponent": {
+        "cs": -9, "cs_per_min": 0, "cs_at_10": -3, "cs_at_15": -12, "cs_at_20": -31, "cs_at_25": -37,
+        "gold": 152, "gold_at_10": 31, "gold_at_15": -536, "gold_at_20": 158, "gold_at_25": -372
+      }
+    },
+    {
+      "rank": 32,
+      "player": "Samanosuke#NA1",
+      "team": "Chaotic Indigo",
+      "role": "Top",
+      "rating": 34.77,
+      "record": { "wins": 8, "losses": 5 },
+      "games": 13,
+      "win_rate": 0.615,
+      "record_str": "8-5",
+      "avg_per_game": {
+        "kills": 3.7, "deaths": 3.0, "assists": 8.3, "kda": 4.00,
+        "cs": 232, "cs_at_10": 73, "cs_at_15": 114, "cs_at_20": 155, "cs_at_25": 188,
+        "gold": 12451, "gold_at_10": 3346, "gold_at_15": 5002, "gold_at_20": 7107, "gold_at_25": 9136,
+        "kill_participation": 0, "vision_score": 29, "cc_score": 26,
+        "dmg_dealt": 20185, "dmg_taken": 33062, "dmg_mitigated": 40212, "dmg_objectives": 8679
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 7, "vision_score": 1, "cc_score": 1,
+        "gold": 387, "dmg_dealt": 627, "dmg_taken": 1028, "dmg_mitigated": 1250, "dmg_objectives": 270
+      },
+      "delta_vs_opponent": {
+        "cs": -8, "cs_per_min": 0, "cs_at_10": -2, "cs_at_15": -12, "cs_at_20": -12, "cs_at_25": -12,
+        "gold": -177, "gold_at_10": -24, "gold_at_15": -316, "gold_at_20": -352, "gold_at_25": -396
+      }
+    },
+    {
+      "rank": 33,
+      "player": "Humphreys#NA1",
+      "team": "Travelers",
+      "role": "ADC",
+      "rating": 34.51,
+      "record": { "wins": 10, "losses": 6 },
+      "games": 16,
+      "win_rate": 0.625,
+      "record_str": "10-6",
+      "avg_per_game": {
+        "kills": 5.3, "deaths": 2.6, "assists": 6.1, "kda": 4.44,
+        "cs": 246, "cs_at_10": 82, "cs_at_15": 130, "cs_at_20": 167, "cs_at_25": 189,
+        "gold": 12794, "gold_at_10": 3685, "gold_at_15": 5745, "gold_at_20": 7494, "gold_at_25": 9080,
+        "kill_participation": 0, "vision_score": 13, "cc_score": 14,
+        "dmg_dealt": 20798, "dmg_taken": 13064, "dmg_mitigated": 8120, "dmg_objectives": 10552
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 9, "vision_score": 0, "cc_score": 0,
+        "gold": 443, "dmg_dealt": 719, "dmg_taken": 452, "dmg_mitigated": 281, "dmg_objectives": 365
+      },
+      "delta_vs_opponent": {
+        "cs": 2, "cs_per_min": 0, "cs_at_10": 2, "cs_at_15": 1, "cs_at_20": 1, "cs_at_25": -1,
+        "gold": 72, "gold_at_10": 259, "gold_at_15": 183, "gold_at_20": -31, "gold_at_25": -207
+      }
+    },
+    {
+      "rank": 34,
+      "player": "Praise The Stun#NA2",
+      "team": "Bonobo Bombers",
+      "role": "Support",
+      "rating": 34.05,
+      "record": { "wins": 4, "losses": 8 },
+      "games": 12,
+      "win_rate": 0.333,
+      "record_str": "4-8",
+      "avg_per_game": {
+        "kills": 1.2, "deaths": 4.8, "assists": 10.3, "kda": 2.42,
+        "cs": 40, "cs_at_10": 17, "cs_at_15": 25, "cs_at_20": 30, "cs_at_25": 31,
+        "gold": 7762, "gold_at_10": 2461, "gold_at_15": 3938, "gold_at_20": 5355, "gold_at_25": 5447,
+        "kill_participation": 1, "vision_score": 79, "cc_score": 37,
+        "dmg_dealt": 8294, "dmg_taken": 19250, "dmg_mitigated": 25882, "dmg_objectives": 2875
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 1, "vision_score": 3, "cc_score": 1,
+        "gold": 274, "dmg_dealt": 292, "dmg_taken": 679, "dmg_mitigated": 912, "dmg_objectives": 101
+      },
+      "delta_vs_opponent": {
+        "cs": 8, "cs_per_min": 0, "cs_at_10": 3, "cs_at_15": 4, "cs_at_20": 5, "cs_at_25": 5,
+        "gold": -1108, "gold_at_10": -182, "gold_at_15": -506, "gold_at_20": -661, "gold_at_25": -803
+      }
+    },
+    {
+      "rank": 35,
+      "player": "Hey Im Scooter#NA1",
+      "team": "The Blacklist",
+      "role": "Support",
+      "rating": 33.92,
+      "record": { "wins": 7, "losses": 7 },
+      "games": 14,
+      "win_rate": 0.5,
+      "record_str": "7-7",
+      "avg_per_game": {
+        "kills": 0.8, "deaths": 3.9, "assists": 11.0, "kda": 3.00,
+        "cs": 30, "cs_at_10": 16, "cs_at_15": 23, "cs_at_20": 26, "cs_at_25": 25,
+        "gold": 7423, "gold_at_10": 2411, "gold_at_15": 3627, "gold_at_20": 4739, "gold_at_25": 5117,
+        "kill_participation": 1, "vision_score": 80, "cc_score": 32,
+        "dmg_dealt": 5672, "dmg_taken": 17647, "dmg_mitigated": 19950, "dmg_objectives": 3041
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 1, "vision_score": 3, "cc_score": 1,
+        "gold": 253, "dmg_dealt": 194, "dmg_taken": 603, "dmg_mitigated": 681, "dmg_objectives": 104
+      },
+      "delta_vs_opponent": {
+        "cs": 4, "cs_per_min": 0, "cs_at_10": 4, "cs_at_15": 6, "cs_at_20": 5, "cs_at_25": 4,
+        "gold": 196, "gold_at_10": -44, "gold_at_15": -43, "gold_at_20": -121, "gold_at_25": 124
+      }
+    },
+    {
+      "rank": 36,
+      "player": "Wander#1v9",
+      "team": "The Agency",
+      "role": "ADC",
+      "rating": 33.56,
+      "record": { "wins": 11, "losses": 14 },
+      "games": 25,
+      "win_rate": 0.44,
+      "record_str": "11-14",
+      "avg_per_game": {
+        "kills": 5.3, "deaths": 3.9, "assists": 6.3, "kda": 2.95,
+        "cs": 254, "cs_at_10": 80, "cs_at_15": 124, "cs_at_20": 169, "cs_at_25": 193,
+        "gold": 13057, "gold_at_10": 3330, "gold_at_15": 5280, "gold_at_20": 7532, "gold_at_25": 9165,
+        "kill_participation": 1, "vision_score": 21, "cc_score": 13,
+        "dmg_dealt": 23825, "dmg_taken": 17652, "dmg_mitigated": 11261, "dmg_objectives": 15417
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 8, "vision_score": 1, "cc_score": 0,
+        "gold": 427, "dmg_dealt": 778, "dmg_taken": 577, "dmg_mitigated": 368, "dmg_objectives": 504
+      },
+      "delta_vs_opponent": {
+        "cs": -7, "cs_per_min": 0, "cs_at_10": -3, "cs_at_15": -6, "cs_at_20": -5, "cs_at_25": -3,
+        "gold": -1368, "gold_at_10": -160, "gold_at_15": -502, "gold_at_20": -634, "gold_at_25": -797
+      }
+    },
+    {
+      "rank": 37,
+      "player": "SlappyJoe#chiar",
+      "team": "SpellBinders eSports",
+      "role": "Top",
+      "rating": 32.94,
+      "record": { "wins": 10, "losses": 2 },
+      "games": 12,
+      "win_rate": 0.833,
+      "record_str": "10-2",
+      "avg_per_game": {
+        "kills": 6.3, "deaths": 4.3, "assists": 6.3, "kda": 2.88,
+        "cs": 239, "cs_at_10": 78, "cs_at_15": 123, "cs_at_20": 166, "cs_at_25": 174,
+        "gold": 13666, "gold_at_10": 3716, "gold_at_15": 6044, "gold_at_20": 8668, "gold_at_25": 9181,
+        "kill_participation": 0, "vision_score": 16, "cc_score": 28,
+        "dmg_dealt": 25360, "dmg_taken": 39975, "dmg_mitigated": 40338, "dmg_objectives": 11494
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 8, "vision_score": 1, "cc_score": 1,
+        "gold": 467, "dmg_dealt": 866, "dmg_taken": 1365, "dmg_mitigated": 1377, "dmg_objectives": 392
+      },
+      "delta_vs_opponent": {
+        "cs": 36, "cs_per_min": 0, "cs_at_10": 13, "cs_at_15": 20, "cs_at_20": 29, "cs_at_25": 33,
+        "gold": 3200, "gold_at_10": 578, "gold_at_15": 1013, "gold_at_20": 1559, "gold_at_25": 1708
+      }
+    },
+    {
+      "rank": 38,
+      "player": "Jay#Grace",
+      "team": "Gnome Children",
+      "role": "Jungle",
+      "rating": 32.91,
+      "record": { "wins": 5, "losses": 5 },
+      "games": 10,
+      "win_rate": 0.5,
+      "record_str": "5-5",
+      "avg_per_game": {
+        "kills": 5.7, "deaths": 5.5, "assists": 10.1, "kda": 2.87,
+        "cs": 192, "cs_at_10": 63, "cs_at_15": 98, "cs_at_20": 129, "cs_at_25": 141,
+        "gold": 12405, "gold_at_10": 3702, "gold_at_15": 5594, "gold_at_20": 7863, "gold_at_25": 8658,
+        "kill_participation": 1, "vision_score": 32, "cc_score": 22,
+        "dmg_dealt": 16272, "dmg_taken": 38650, "dmg_mitigated": 35489, "dmg_objectives": 27883
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 6, "vision_score": 1, "cc_score": 1,
+        "gold": 397, "dmg_dealt": 521, "dmg_taken": 1237, "dmg_mitigated": 1136, "dmg_objectives": 892
+      },
+      "delta_vs_opponent": {
+        "cs": 16, "cs_per_min": 0, "cs_at_10": -2, "cs_at_15": -2, "cs_at_20": -1, "cs_at_25": -5,
+        "gold": 211, "gold_at_10": 68, "gold_at_15": 92, "gold_at_20": 268, "gold_at_25": -198
+      }
+    },
+    {
+      "rank": 39,
+      "player": "killjoy267#NA1",
+      "team": "Bonobo Bombers",
+      "role": "ADC",
+      "rating": 31.64,
+      "record": { "wins": 3, "losses": 4 },
+      "games": 7,
+      "win_rate": 0.429,
+      "record_str": "3-4",
+      "avg_per_game": {
+        "kills": 6.9, "deaths": 5.7, "assists": 8.1, "kda": 2.63,
+        "cs": 190, "cs_at_10": 73, "cs_at_15": 107, "cs_at_20": 136, "cs_at_25": 168,
+        "gold": 12562, "gold_at_10": 3286, "gold_at_15": 5181, "gold_at_20": 7664, "gold_at_25": 9936,
+        "kill_participation": 1, "vision_score": 25, "cc_score": 25,
+        "dmg_dealt": 24166, "dmg_taken": 20402, "dmg_mitigated": 13975, "dmg_objectives": 9655
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 6, "vision_score": 1, "cc_score": 1,
+        "gold": 423, "dmg_dealt": 814, "dmg_taken": 687, "dmg_mitigated": 471, "dmg_objectives": 325
+      },
+      "delta_vs_opponent": {
+        "cs": -9, "cs_per_min": 0, "cs_at_10": -2, "cs_at_15": -6, "cs_at_20": -9, "cs_at_25": -6,
+        "gold": 712, "gold_at_10": -108, "gold_at_15": -277, "gold_at_20": -66, "gold_at_25": 113
+      }
+    },
+    {
+      "rank": 40,
+      "player": "Sir Maoam#정글 차이",
+      "team": "Columbia Ricecrackers",
+      "role": "ADC",
+      "rating": 30.37,
+      "record": { "wins": 0, "losses": 4 },
+      "games": 4,
+      "win_rate": 0.0,
+      "record_str": "0-4",
+      "avg_per_game": {
+        "kills": 4.3, "deaths": 3.8, "assists": 6.5, "kda": 2.87,
+        "cs": 255, "cs_at_10": 79, "cs_at_15": 131, "cs_at_20": 182, "cs_at_25": 171,
+        "gold": 12672, "gold_at_10": 3511, "gold_at_15": 5280, "gold_at_20": 7937, "gold_at_25": 7909,
+        "kill_participation": 0, "vision_score": 22, "cc_score": 13,
+        "dmg_dealt": 21434, "dmg_taken": 21290, "dmg_mitigated": 11593, "dmg_objectives": 9465
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 9, "vision_score": 1, "cc_score": 0,
+        "gold": 429, "dmg_dealt": 726, "dmg_taken": 721, "dmg_mitigated": 393, "dmg_objectives": 321
+      },
+      "delta_vs_opponent": {
+        "cs": 14, "cs_per_min": 0, "cs_at_10": 8, "cs_at_15": 7, "cs_at_20": 23, "cs_at_25": 22,
+        "gold": -2150, "gold_at_10": -78, "gold_at_15": -727, "gold_at_20": -354, "gold_at_25": -262
+      }
+    },
+    {
+      "rank": 41,
+      "player": "Magmor#Blade",
+      "team": "Gnome Children",
+      "role": "Middle",
+      "rating": 29.82,
+      "record": { "wins": 0, "losses": 2 },
+      "games": 2,
+      "win_rate": 0.0,
+      "record_str": "0-2",
+      "avg_per_game": {
+        "kills": 2.5, "deaths": 5.0, "assists": 10.0, "kda": 2.50,
+        "cs": 245, "cs_at_10": 78, "cs_at_15": 134, "cs_at_20": 170, "cs_at_25": 213,
+        "gold": 11767, "gold_at_10": 3113, "gold_at_15": 5373, "gold_at_20": 7189, "gold_at_25": 9762,
+        "kill_participation": 1, "vision_score": 19, "cc_score": 40,
+        "dmg_dealt": 24978, "dmg_taken": 29931, "dmg_mitigated": 19334, "dmg_objectives": 7490
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 7, "vision_score": 1, "cc_score": 1,
+        "gold": 359, "dmg_dealt": 763, "dmg_taken": 914, "dmg_mitigated": 591, "dmg_objectives": 229
+      },
+      "delta_vs_opponent": {
+        "cs": -4, "cs_per_min": 0, "cs_at_10": -3, "cs_at_15": 2, "cs_at_20": 13, "cs_at_25": 17,
+        "gold": -1991, "gold_at_10": -202, "gold_at_15": 282, "gold_at_20": -55, "gold_at_25": 712
+      }
+    },
+    {
+      "rank": 42,
+      "player": "Dunzy#Bird",
+      "team": "The Agency",
+      "role": "Support",
+      "rating": 29.69,
+      "record": { "wins": 11, "losses": 14 },
+      "games": 25,
+      "win_rate": 0.44,
+      "record_str": "11-14",
+      "avg_per_game": {
+        "kills": 0.7, "deaths": 5.1, "assists": 11.8, "kda": 2.47,
+        "cs": 31, "cs_at_10": 15, "cs_at_15": 22, "cs_at_20": 25, "cs_at_25": 26,
+        "gold": 7735, "gold_at_10": 2307, "gold_at_15": 3606, "gold_at_20": 4852, "gold_at_25": 5578,
+        "kill_participation": 1, "vision_score": 80, "cc_score": 32,
+        "dmg_dealt": 6935, "dmg_taken": 20036, "dmg_mitigated": 21366, "dmg_objectives": 2048
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 1, "vision_score": 3, "cc_score": 1,
+        "gold": 253, "dmg_dealt": 227, "dmg_taken": 655, "dmg_mitigated": 698, "dmg_objectives": 67
+      },
+      "delta_vs_opponent": {
+        "cs": 6, "cs_per_min": 0, "cs_at_10": 5, "cs_at_15": 6, "cs_at_20": 5, "cs_at_25": 5,
+        "gold": -511, "gold_at_10": -57, "gold_at_15": -129, "gold_at_20": -150, "gold_at_25": -366
+      }
+    },
+    {
+      "rank": 43,
+      "player": "TSM BurgerKing#NA1",
+      "team": "Travelers",
+      "role": "Middle",
+      "rating": 29.12,
+      "record": { "wins": 10, "losses": 6 },
+      "games": 16,
+      "win_rate": 0.625,
+      "record_str": "10-6",
+      "avg_per_game": {
+        "kills": 5.1, "deaths": 4.5, "assists": 6.3, "kda": 2.51,
+        "cs": 228, "cs_at_10": 79, "cs_at_15": 125, "cs_at_20": 155, "cs_at_25": 174,
+        "gold": 12162, "gold_at_10": 3425, "gold_at_15": 5458, "gold_at_20": 7221, "gold_at_25": 8547,
+        "kill_participation": 0, "vision_score": 17, "cc_score": 23,
+        "dmg_dealt": 22996, "dmg_taken": 25026, "dmg_mitigated": 19687, "dmg_objectives": 7277
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 8, "vision_score": 1, "cc_score": 1,
+        "gold": 421, "dmg_dealt": 795, "dmg_taken": 866, "dmg_mitigated": 681, "dmg_objectives": 252
+      },
+      "delta_vs_opponent": {
+        "cs": 0, "cs_per_min": 0, "cs_at_10": -1, "cs_at_15": -4, "cs_at_20": -5, "cs_at_25": -7,
+        "gold": 363, "gold_at_10": 74, "gold_at_15": -94, "gold_at_20": 202, "gold_at_25": -200
+      }
+    },
+    {
+      "rank": 44,
+      "player": "Halls 1#NA2",
+      "team": "The Blacklist",
+      "role": "Top",
+      "rating": 28.65,
+      "record": { "wins": 1, "losses": 3 },
+      "games": 4,
+      "win_rate": 0.25,
+      "record_str": "1-3",
+      "avg_per_game": {
+        "kills": 3.8, "deaths": 4.8, "assists": 4.8, "kda": 1.79,
+        "cs": 198, "cs_at_10": 70, "cs_at_15": 110, "cs_at_20": 146, "cs_at_25": 126,
+        "gold": 11348, "gold_at_10": 3389, "gold_at_15": 5303, "gold_at_20": 6992, "gold_at_25": 6082,
+        "kill_participation": 1, "vision_score": 16, "cc_score": 23,
+        "dmg_dealt": 26239, "dmg_taken": 45096, "dmg_mitigated": 29167, "dmg_objectives": 12942
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 7, "vision_score": 1, "cc_score": 1,
+        "gold": 382, "dmg_dealt": 882, "dmg_taken": 1517, "dmg_mitigated": 981, "dmg_objectives": 435
+      },
+      "delta_vs_opponent": {
+        "cs": -16, "cs_per_min": 0, "cs_at_10": -2, "cs_at_15": -9, "cs_at_20": -22, "cs_at_25": -19,
+        "gold": 74, "gold_at_10": 87, "gold_at_15": 6, "gold_at_20": -410, "gold_at_25": -768
+      }
+    },
+    {
+      "rank": 45,
+      "player": "125 Shadow#6t7",
+      "team": "Gnome Children",
+      "role": "Top",
+      "rating": 28.44,
+      "record": { "wins": 8, "losses": 6 },
+      "games": 14,
+      "win_rate": 0.571,
+      "record_str": "8-6",
+      "avg_per_game": {
+        "kills": 3.4, "deaths": 5.1, "assists": 7.1, "kda": 2.06,
+        "cs": 225, "cs_at_10": 73, "cs_at_15": 118, "cs_at_20": 161, "cs_at_25": 167,
+        "gold": 12406, "gold_at_10": 3315, "gold_at_15": 5410, "gold_at_20": 7827, "gold_at_25": 8339,
+        "kill_participation": 0, "vision_score": 17, "cc_score": 35,
+        "dmg_dealt": 25827, "dmg_taken": 39106, "dmg_mitigated": 41290, "dmg_objectives": 16542
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 7, "vision_score": 1, "cc_score": 1,
+        "gold": 403, "dmg_dealt": 838, "dmg_taken": 1269, "dmg_mitigated": 1340, "dmg_objectives": 537
+      },
+      "delta_vs_opponent": {
+        "cs": 17, "cs_per_min": 0, "cs_at_10": 1, "cs_at_15": 5, "cs_at_20": 14, "cs_at_25": 10,
+        "gold": -445, "gold_at_10": -131, "gold_at_15": -132, "gold_at_20": 143, "gold_at_25": -93
+      }
+    },
+    {
+      "rank": 46,
+      "player": "peanut#nutta",
+      "team": "RUSH",
+      "role": "Support",
+      "rating": 28.02,
+      "record": { "wins": 3, "losses": 7 },
+      "games": 10,
+      "win_rate": 0.3,
+      "record_str": "3-7",
+      "avg_per_game": {
+        "kills": 0.7, "deaths": 4.0, "assists": 8.1, "kda": 2.20,
+        "cs": 48, "cs_at_10": 20, "cs_at_15": 31, "cs_at_20": 38, "cs_at_25": 42,
+        "gold": 7084, "gold_at_10": 2474, "gold_at_15": 3734, "gold_at_20": 4938, "gold_at_25": 5583,
+        "kill_participation": 1, "vision_score": 58, "cc_score": 31,
+        "dmg_dealt": 6507, "dmg_taken": 17887, "dmg_mitigated": 19147, "dmg_objectives": 1855
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 2, "vision_score": 2, "cc_score": 1,
+        "gold": 256, "dmg_dealt": 235, "dmg_taken": 646, "dmg_mitigated": 692, "dmg_objectives": 67
+      },
+      "delta_vs_opponent": {
+        "cs": -9, "cs_per_min": 0, "cs_at_10": -2, "cs_at_15": -4, "cs_at_20": -8, "cs_at_25": -7,
+        "gold": -1197, "gold_at_10": -224, "gold_at_15": -416, "gold_at_20": -553, "gold_at_25": -792
+      }
+    },
+    {
+      "rank": 47,
+      "player": "Djinn#NA2",
+      "team": "Gnome Children",
+      "role": "Top",
+      "rating": 27.32,
+      "record": { "wins": 2, "losses": 3 },
+      "games": 5,
+      "win_rate": 0.4,
+      "record_str": "2-3",
+      "avg_per_game": {
+        "kills": 3.4, "deaths": 4.6, "assists": 7.2, "kda": 2.30,
+        "cs": 243, "cs_at_10": 65, "cs_at_15": 119, "cs_at_20": 158, "cs_at_25": 189,
+        "gold": 13098, "gold_at_10": 3169, "gold_at_15": 5158, "gold_at_20": 7301, "gold_at_25": 9136,
+        "kill_participation": 0, "vision_score": 21, "cc_score": 32,
+        "dmg_dealt": 23792, "dmg_taken": 37726, "dmg_mitigated": 40967, "dmg_objectives": 11383
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 7, "vision_score": 1, "cc_score": 1,
+        "gold": 400, "dmg_dealt": 726, "dmg_taken": 1151, "dmg_mitigated": 1250, "dmg_objectives": 347
+      },
+      "delta_vs_opponent": {
+        "cs": 20, "cs_per_min": 0, "cs_at_10": -5, "cs_at_15": 0, "cs_at_20": -3, "cs_at_25": 5,
+        "gold": 771, "gold_at_10": -209, "gold_at_15": -258, "gold_at_20": -169, "gold_at_25": -28
+      }
+    },
+    {
+      "rank": 48,
+      "player": "microwave matt#hrmm",
+      "team": "University of California San Diego",
+      "role": "ADC",
+      "rating": 26.82,
+      "record": { "wins": 6, "losses": 9 },
+      "games": 15,
+      "win_rate": 0.4,
+      "record_str": "6-9",
+      "avg_per_game": {
+        "kills": 3.7, "deaths": 4.5, "assists": 7.1, "kda": 2.40,
+        "cs": 228, "cs_at_10": 76, "cs_at_15": 121, "cs_at_20": 161, "cs_at_25": 159,
+        "gold": 11956, "gold_at_10": 3362, "gold_at_15": 5324, "gold_at_20": 7357, "gold_at_25": 7620,
+        "kill_participation": 1, "vision_score": 19, "cc_score": 16,
+        "dmg_dealt": 18429, "dmg_taken": 17398, "dmg_mitigated": 10180, "dmg_objectives": 10562
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 8, "vision_score": 1, "cc_score": 1,
+        "gold": 412, "dmg_dealt": 636, "dmg_taken": 600, "dmg_mitigated": 351, "dmg_objectives": 364
+      },
+      "delta_vs_opponent": {
+        "cs": 4, "cs_per_min": 0, "cs_at_10": 3, "cs_at_15": 3, "cs_at_20": -1, "cs_at_25": -1,
+        "gold": -161, "gold_at_10": 46, "gold_at_15": 69, "gold_at_20": -137, "gold_at_25": -98
+      }
+    },
+    {
+      "rank": 49,
+      "player": "Dopa#Prad",
+      "team": "The Agency",
+      "role": "Middle",
+      "rating": 25.53,
+      "record": { "wins": 11, "losses": 14 },
+      "games": 25,
+      "win_rate": 0.44,
+      "record_str": "11-14",
+      "avg_per_game": {
+        "kills": 4.9, "deaths": 4.1, "assists": 8.2, "kda": 3.18,
+        "cs": 238, "cs_at_10": 80, "cs_at_15": 127, "cs_at_20": 34, "cs_at_25": 185,
+        "gold": 12846, "gold_at_10": 3508, "gold_at_15": 1048, "gold_at_20": 1521, "gold_at_25": 9185,
+        "kill_participation": 0, "vision_score": 19, "cc_score": 4,
+        "dmg_dealt": 25564, "dmg_taken": 20947, "dmg_mitigated": 12921, "dmg_objectives": 8112
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 8, "vision_score": 1, "cc_score": 0,
+        "gold": 420, "dmg_dealt": 835, "dmg_taken": 684, "dmg_mitigated": 422, "dmg_objectives": 265
+      },
+      "delta_vs_opponent": {
+        "cs": 3, "cs_per_min": 0, "cs_at_10": 2, "cs_at_15": 2, "cs_at_20": 3, "cs_at_25": 2,
+        "gold": 198, "gold_at_10": 18, "gold_at_15": -5, "gold_at_20": 149, "gold_at_25": 232
+      }
+    },
+    {
+      "rank": 50,
+      "player": "Lear#umich",
+      "team": "The Blacklist",
+      "role": "Top",
+      "rating": 25.45,
+      "record": { "wins": 6, "losses": 4 },
+      "games": 10,
+      "win_rate": 0.6,
+      "record_str": "6-4",
+      "avg_per_game": {
+        "kills": 4.3, "deaths": 4.2, "assists": 6.7, "kda": 2.62,
+        "cs": 228, "cs_at_10": 76, "cs_at_15": 124, "cs_at_20": 78, "cs_at_25": 184,
+        "gold": 12129, "gold_at_10": 3762, "gold_at_15": 2854, "gold_at_20": 3851, "gold_at_25": 9077,
+        "kill_participation": 0, "vision_score": 20, "cc_score": 11,
+        "dmg_dealt": 22431, "dmg_taken": 28931, "dmg_mitigated": 34633, "dmg_objectives": 7744
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 8, "vision_score": 1, "cc_score": 0,
+        "gold": 417, "dmg_dealt": 771, "dmg_taken": 994, "dmg_mitigated": 1190, "dmg_objectives": 266
+      },
+      "delta_vs_opponent": {
+        "cs": -7, "cs_per_min": 0, "cs_at_10": 1, "cs_at_15": 1, "cs_at_20": 0, "cs_at_25": -4,
+        "gold": -129, "gold_at_10": 357, "gold_at_15": 81, "gold_at_20": 23, "gold_at_25": -214
+      }
+    },
+    {
+      "rank": 51,
+      "player": "Normal777#化身腻鬼",
+      "team": "University of California San Diego",
+      "role": "Top",
+      "rating": 24.72,
+      "record": { "wins": 6, "losses": 9 },
+      "games": 15,
+      "win_rate": 0.4,
+      "record_str": "6-9",
+      "avg_per_game": {
+        "kills": 3.3, "deaths": 4.7, "assists": 6.3, "kda": 2.06,
+        "cs": 205, "cs_at_10": 71, "cs_at_15": 109, "cs_at_20": 150, "cs_at_25": 150,
+        "gold": 10949, "gold_at_10": 3368, "gold_at_15": 5088, "gold_at_20": 6984, "gold_at_25": 7563,
+        "kill_participation": 1, "vision_score": 16, "cc_score": 21,
+        "dmg_dealt": 20307, "dmg_taken": 27826, "dmg_mitigated": 28947, "dmg_objectives": 9394
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 7, "vision_score": 1, "cc_score": 1,
+        "gold": 378, "dmg_dealt": 701, "dmg_taken": 960, "dmg_mitigated": 999, "dmg_objectives": 324
+      },
+      "delta_vs_opponent": {
+        "cs": -26, "cs_per_min": 0, "cs_at_10": -7, "cs_at_15": -14, "cs_at_20": -20, "cs_at_25": -21,
+        "gold": -1922, "gold_at_10": -162, "gold_at_15": -533, "gold_at_20": -1189, "gold_at_25": -796
+      }
+    },
+    {
+      "rank": 52,
+      "player": "Lost2Shopkeeper#NA1",
+      "team": "RUSH",
+      "role": "Middle",
+      "rating": 24.40,
+      "record": { "wins": 3, "losses": 7 },
+      "games": 10,
+      "win_rate": 0.3,
+      "record_str": "3-7",
+      "avg_per_game": {
+        "kills": 2.7, "deaths": 2.6, "assists": 4.8, "kda": 2.88,
+        "cs": 186, "cs_at_10": 74, "cs_at_15": 117, "cs_at_20": 152, "cs_at_25": 160,
+        "gold": 9536, "gold_at_10": 3208, "gold_at_15": 5133, "gold_at_20": 6731, "gold_at_25": 7536,
+        "kill_participation": 1, "vision_score": 10, "cc_score": 21,
+        "dmg_dealt": 11041, "dmg_taken": 17882, "dmg_mitigated": 14088, "dmg_objectives": 4587
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 7, "vision_score": 0, "cc_score": 1,
+        "gold": 344, "dmg_dealt": 399, "dmg_taken": 646, "dmg_mitigated": 509, "dmg_objectives": 166
+      },
+      "delta_vs_opponent": {
+        "cs": -33, "cs_per_min": 0, "cs_at_10": -13, "cs_at_15": -19, "cs_at_20": -24, "cs_at_25": -27,
+        "gold": -2016, "gold_at_10": -277, "gold_at_15": -410, "gold_at_20": -1121, "gold_at_25": -1394
+      }
+    },
+    {
+      "rank": 53,
+      "player": "er ber ter#NA1",
+      "team": "RUSH",
+      "role": "ADC",
+      "rating": 24.38,
+      "record": { "wins": 3, "losses": 3 },
+      "games": 6,
+      "win_rate": 0.5,
+      "record_str": "3-3",
+      "avg_per_game": {
+        "kills": 4.7, "deaths": 3.8, "assists": 3.8, "kda": 2.22,
+        "cs": 231, "cs_at_10": 80, "cs_at_15": 123, "cs_at_20": 168, "cs_at_25": 176,
+        "gold": 11654, "gold_at_10": 3697, "gold_at_15": 5903, "gold_at_20": 8110, "gold_at_25": 8199,
+        "kill_participation": 1, "vision_score": 13, "cc_score": 8,
+        "dmg_dealt": 14710, "dmg_taken": 14031, "dmg_mitigated": 10202, "dmg_objectives": 14296
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 9, "vision_score": 0, "cc_score": 0,
+        "gold": 430, "dmg_dealt": 543, "dmg_taken": 517, "dmg_mitigated": 376, "dmg_objectives": 527
+      },
+      "delta_vs_opponent": {
+        "cs": 1, "cs_per_min": 0, "cs_at_10": 3, "cs_at_15": 1, "cs_at_20": -1, "cs_at_25": -2,
+        "gold": 569, "gold_at_10": 483, "gold_at_15": 427, "gold_at_20": 589, "gold_at_25": -81
+      }
+    },
+    {
+      "rank": 54,
+      "player": "Fry#ari",
+      "team": "Bonobo Bombers",
+      "role": "Middle",
+      "rating": 24.23,
+      "record": { "wins": 3, "losses": 8 },
+      "games": 11,
+      "win_rate": 0.273,
+      "record_str": "3-8",
+      "avg_per_game": {
+        "kills": 3.0, "deaths": 4.5, "assists": 4.6, "kda": 1.71,
+        "cs": 220, "cs_at_10": 76, "cs_at_15": 117, "cs_at_20": 156, "cs_at_25": 164,
+        "gold": 11280, "gold_at_10": 3256, "gold_at_15": 5302, "gold_at_20": 7282, "gold_at_25": 7872,
+        "kill_participation": 0, "vision_score": 20, "cc_score": 22,
+        "dmg_dealt": 20978, "dmg_taken": 19598, "dmg_mitigated": 11527, "dmg_objectives": 8569
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 8, "vision_score": 1, "cc_score": 1,
+        "gold": 399, "dmg_dealt": 741, "dmg_taken": 692, "dmg_mitigated": 407, "dmg_objectives": 303
+      },
+      "delta_vs_opponent": {
+        "cs": -19, "cs_per_min": 0, "cs_at_10": -12, "cs_at_15": -17, "cs_at_20": -23, "cs_at_25": -13,
+        "gold": -2299, "gold_at_10": -395, "gold_at_15": -638, "gold_at_20": -1511, "gold_at_25": -1300
+      }
+    },
+    {
+      "rank": 55,
+      "player": "kino#HUGE",
+      "team": "RUSH",
+      "role": "Top",
+      "rating": 24.13,
+      "record": { "wins": 3, "losses": 7 },
+      "games": 10,
+      "win_rate": 0.3,
+      "record_str": "3-7",
+      "avg_per_game": {
+        "kills": 3.1, "deaths": 3.4, "assists": 2.7, "kda": 1.71,
+        "cs": 212, "cs_at_10": 73, "cs_at_15": 119, "cs_at_20": 157, "cs_at_25": 177,
+        "gold": 10741, "gold_at_10": 3220, "gold_at_15": 5101, "gold_at_20": 7215, "gold_at_25": 8331,
+        "kill_participation": 0, "vision_score": 14, "cc_score": 19,
+        "dmg_dealt": 19917, "dmg_taken": 28176, "dmg_mitigated": 29310, "dmg_objectives": 7684
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 8, "vision_score": 0, "cc_score": 1,
+        "gold": 388, "dmg_dealt": 719, "dmg_taken": 1018, "dmg_mitigated": 1059, "dmg_objectives": 278
+      },
+      "delta_vs_opponent": {
+        "cs": 3, "cs_per_min": 0, "cs_at_10": 1, "cs_at_15": 4, "cs_at_20": 1, "cs_at_25": 2,
+        "gold": -568, "gold_at_10": -105, "gold_at_15": -49, "gold_at_20": -173, "gold_at_25": -465
+      }
+    },
+    {
+      "rank": 56,
+      "player": "terry tinkle#NA1",
+      "team": "The Agency",
+      "role": "Top",
+      "rating": 23.79,
+      "record": { "wins": 11, "losses": 14 },
+      "games": 25,
+      "win_rate": 0.44,
+      "record_str": "11-14",
+      "avg_per_game": {
+        "kills": 3.4, "deaths": 5.1, "assists": 5.7, "kda": 1.80,
+        "cs": 220, "cs_at_10": 71, "cs_at_15": 118, "cs_at_20": 158, "cs_at_25": 173,
+        "gold": 11883, "gold_at_10": 3310, "gold_at_15": 5401, "gold_at_20": 7590, "gold_at_25": 8696,
+        "kill_participation": 0, "vision_score": 18, "cc_score": 32,
+        "dmg_dealt": 22125, "dmg_taken": 33254, "dmg_mitigated": 34796, "dmg_objectives": 8467
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 7, "vision_score": 1, "cc_score": 1,
+        "gold": 388, "dmg_dealt": 723, "dmg_taken": 1086, "dmg_mitigated": 1137, "dmg_objectives": 277
+      },
+      "delta_vs_opponent": {
+        "cs": -4, "cs_per_min": 0, "cs_at_10": 1, "cs_at_15": 3, "cs_at_20": 2, "cs_at_25": -1,
+        "gold": -329, "gold_at_10": -3, "gold_at_15": 239, "gold_at_20": 282, "gold_at_25": -22
+      }
+    },
+    {
+      "rank": 57,
+      "player": "Monspeet#eBoy",
+      "team": "Bonobo Bombers",
+      "role": "Jungle",
+      "rating": 23.50,
+      "record": { "wins": 4, "losses": 9 },
+      "games": 13,
+      "win_rate": 0.308,
+      "record_str": "4-9",
+      "avg_per_game": {
+        "kills": 4.1, "deaths": 6.6, "assists": 8.8, "kda": 1.95,
+        "cs": 166, "cs_at_10": 61, "cs_at_15": 90, "cs_at_20": 121, "cs_at_25": 126,
+        "gold": 10568, "gold_at_10": 3345, "gold_at_15": 5124, "gold_at_20": 6988, "gold_at_25": 7616,
+        "kill_participation": 1, "vision_score": 20, "cc_score": 30,
+        "dmg_dealt": 16331, "dmg_taken": 39038, "dmg_mitigated": 40960, "dmg_objectives": 22650
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 6, "vision_score": 1, "cc_score": 1,
+        "gold": 370, "dmg_dealt": 571, "dmg_taken": 1366, "dmg_mitigated": 1433, "dmg_objectives": 793
+      },
+      "delta_vs_opponent": {
+        "cs": -4, "cs_per_min": 0, "cs_at_10": -6, "cs_at_15": -9, "cs_at_20": -12, "cs_at_25": -16,
+        "gold": -1142, "gold_at_10": -318, "gold_at_15": -580, "gold_at_20": -976, "gold_at_25": -769
+      }
+    },
+    {
+      "rank": 58,
+      "player": "Oak#4site",
+      "team": "Gnome Children",
+      "role": "ADC",
+      "rating": 22.26,
+      "record": { "wins": 1, "losses": 2 },
+      "games": 3,
+      "win_rate": 0.333,
+      "record_str": "1-2",
+      "avg_per_game": {
+        "kills": 2.0, "deaths": 5.7, "assists": 5.3, "kda": 1.29,
+        "cs": 237, "cs_at_10": 67, "cs_at_15": 104, "cs_at_20": 136, "cs_at_25": 173,
+        "gold": 12789, "gold_at_10": 3174, "gold_at_15": 4763, "gold_at_20": 6609, "gold_at_25": 8673,
+        "kill_participation": 1, "vision_score": 28, "cc_score": 29,
+        "dmg_dealt": 23839, "dmg_taken": 17617, "dmg_mitigated": 10554, "dmg_objectives": 10594
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 7, "vision_score": 1, "cc_score": 1,
+        "gold": 377, "dmg_dealt": 702, "dmg_taken": 519, "dmg_mitigated": 311, "dmg_objectives": 312
+      },
+      "delta_vs_opponent": {
+        "cs": -16, "cs_per_min": 0, "cs_at_10": -9, "cs_at_15": -19, "cs_at_20": -34, "cs_at_25": -24,
+        "gold": -3337, "gold_at_10": -609, "gold_at_15": -1450, "gold_at_20": -2398, "gold_at_25": -3001
+      }
+    },
+    {
+      "rank": 59,
+      "player": "BroKenSSB#NA1",
+      "team": "The Agency",
+      "role": "Jungle",
+      "rating": 21.64,
+      "record": { "wins": 0, "losses": 2 },
+      "games": 2,
+      "win_rate": 0.0,
+      "record_str": "0-2",
+      "avg_per_game": {
+        "kills": 5.0, "deaths": 6.5, "assists": 4.0, "kda": 1.38,
+        "cs": 188, "cs_at_10": 68, "cs_at_15": 99, "cs_at_20": 134, "cs_at_25": 161,
+        "gold": 11420, "gold_at_10": 3279, "gold_at_15": 5495, "gold_at_20": 7433, "gold_at_25": 9403,
+        "kill_participation": 1, "vision_score": 20, "cc_score": 34,
+        "dmg_dealt": 18557, "dmg_taken": 45869, "dmg_mitigated": 59977, "dmg_objectives": 16512
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 6, "vision_score": 1, "cc_score": 1,
+        "gold": 372, "dmg_dealt": 605, "dmg_taken": 1496, "dmg_mitigated": 1956, "dmg_objectives": 539
+      },
+      "delta_vs_opponent": {
+        "cs": -10, "cs_per_min": 0, "cs_at_10": -5, "cs_at_15": -8, "cs_at_20": 1, "cs_at_25": -4,
+        "gold": -2581, "gold_at_10": -875, "gold_at_15": -732, "gold_at_20": -648, "gold_at_25": -1140
+      }
+    },
+    {
+      "rank": 60,
+      "player": "Command Attack#NA1",
+      "team": "Gnome Children",
+      "role": "Middle",
+      "rating": 20.94,
+      "record": { "wins": 0, "losses": 1 },
+      "games": 1,
+      "win_rate": 0.0,
+      "record_str": "0-1",
+      "avg_per_game": {
+        "kills": 5.0, "deaths": 9.0, "assists": 9.0, "kda": 1.56,
+        "cs": 320, "cs_at_10": 66, "cs_at_15": 111, "cs_at_20": 162, "cs_at_25": 209,
+        "gold": 15240, "gold_at_10": 3835, "gold_at_15": 5757, "gold_at_20": 8043, "gold_at_25": 9985,
+        "kill_participation": 1, "vision_score": 33, "cc_score": 55,
+        "dmg_dealt": 23512, "dmg_taken": 24728, "dmg_mitigated": 21884, "dmg_objectives": 4356
+      },
+      "avg_per_minute": {
+        "kills": 0, "deaths": 0, "assists": 0, "cs": 9, "vision_score": 1, "cc_score": 1,
+        "gold": 408, "dmg_dealt": 629, "dmg_taken": 661, "dmg_mitigated": 585, "dmg_objectives": 117
+      },
+      "delta_vs_opponent": {
+        "cs": 54, "cs_per_min": 0, "cs_at_10": -1, "cs_at_15": -8, "cs_at_20": -12, "cs_at_25": -4,
+        "gold": -4065, "gold_at_10": 683, "gold_at_15": -119, "gold_at_20": -1050, "gold_at_25": -1924
+      }
+    }
+  ]
+}

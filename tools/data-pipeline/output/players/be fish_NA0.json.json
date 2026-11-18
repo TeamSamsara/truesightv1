@@ -1,0 +1,226 @@
+{
+  "RiotId": "be fish#NA0",
+  "GameName": "be fish",
+  "Tag": "NA0",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_FALL_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "ACL Fall 2025",
+          "TeamName": "DeathMark Esport",
+          "Role": "BOTTOM",
+          "Games": 3,
+          "Wins": 1,
+          "Losses": 2,
+          "WinRate": 33.3,
+          "PerGame": {
+            "Kills": 4.33,
+            "Deaths": 3.33,
+            "Assists": 6.0,
+            "Kda": 3.1,
+            "Cs": 229.67,
+            "Gold": 11884.67,
+            "KillParticipation": 57.3,
+            "VisionScore": 36.0,
+            "CcScore": 9.67,
+            "DmgDealt": 17117.67,
+            "DmgTaken": 17464.0,
+            "DmgMitigated": 9893.33,
+            "DmgObjectives": 22621.33,
+            "CsAt10": 74.67,
+            "CsAt15": 116.33,
+            "CsAt20": 154.33,
+            "CsAt25": 126.0,
+            "GoldAt10": 3119.33,
+            "GoldAt15": 4790.0,
+            "GoldAt20": 6921.0,
+            "GoldAt25": 6709.67
+          },
+          "PerMin": {
+            "Cs": 7.64,
+            "Gold": 389.1,
+            "DmgDealt": 548.16,
+            "DmgTaken": 587.58,
+            "DmgMitigated": 330.64,
+            "DmgObjectives": 681.16,
+            "VisionScore": 1.21,
+            "CcScore": 0.34
+          },
+          "Vision": {
+            "AvgVisionScore": 36.0,
+            "AvgWardsPlaced": 13.33,
+            "AvgWardsKilled": 9.67,
+            "AvgControlWardsBought": 2.67
+          },
+          "Champions": [
+            {
+              "Champion": "Xayah",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Varus",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Kaisa",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5418562518",
+              "GameDate": "2025-11-22",
+              "Patch": "15.23",
+              "GameDuration": 2035,
+              "TeamId": 100,
+              "Champion": "Xayah",
+              "Win": true,
+              "Kills": 9,
+              "Deaths": 2,
+              "Assists": 7,
+              "Kda": 8.0,
+              "Cs": 255,
+              "Csm": 7.52,
+              "Gold": 14985,
+              "Goldm": 441.82,
+              "DmgDealt": 22945,
+              "DmgTaken": 20064,
+              "DmgMitigated": 9574,
+              "DmgObjectives": 46547,
+              "VisionScore": 38,
+              "WardsPlaced": 15,
+              "WardsKilled": 8,
+              "ControlWards": 3,
+              "CcScore": 17.0,
+              "KillParticipation": 55.2,
+              "Timeline": {
+                "CsAt10": 74,
+                "CsAt15": 118,
+                "CsAt20": 155,
+                "CsAt25": 184,
+                "GoldAt10": 3008,
+                "GoldAt15": 4576,
+                "GoldAt20": 7365,
+                "GoldAt25": 10345
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5418608077",
+              "GameDate": "2025-11-22",
+              "Patch": "15.23",
+              "GameDuration": 1348,
+              "TeamId": 100,
+              "Champion": "Varus",
+              "Win": false,
+              "Kills": 1,
+              "Deaths": 5,
+              "Assists": 4,
+              "Kda": 1.0,
+              "Cs": 170,
+              "Csm": 7.57,
+              "Gold": 7559,
+              "Goldm": 336.45,
+              "DmgDealt": 8425,
+              "DmgTaken": 14282,
+              "DmgMitigated": 7618,
+              "DmgObjectives": 2598,
+              "VisionScore": 30,
+              "WardsPlaced": 9,
+              "WardsKilled": 9,
+              "ControlWards": 2,
+              "CcScore": 11.0,
+              "KillParticipation": 50.0,
+              "Timeline": {
+                "CsAt10": 77,
+                "CsAt15": 114,
+                "CsAt20": 157,
+                "CsAt25": 0,
+                "GoldAt10": 3334,
+                "GoldAt15": 5067,
+                "GoldAt20": 6830,
+                "GoldAt25": 0
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5418645037",
+              "GameDate": "2025-11-22",
+              "Patch": "15.23",
+              "GameDuration": 2022,
+              "TeamId": 200,
+              "Champion": "Kaisa",
+              "Win": false,
+              "Kills": 3,
+              "Deaths": 3,
+              "Assists": 7,
+              "Kda": 3.33,
+              "Cs": 264,
+              "Csm": 7.83,
+              "Gold": 13110,
+              "Goldm": 389.02,
+              "DmgDealt": 19983,
+              "DmgTaken": 18046,
+              "DmgMitigated": 12488,
+              "DmgObjectives": 18719,
+              "VisionScore": 40,
+              "WardsPlaced": 16,
+              "WardsKilled": 12,
+              "ControlWards": 3,
+              "CcScore": 1.0,
+              "KillParticipation": 66.7,
+              "Timeline": {
+                "CsAt10": 73,
+                "CsAt15": 117,
+                "CsAt20": 151,
+                "CsAt25": 194,
+                "GoldAt10": 3016,
+                "GoldAt15": 4727,
+                "GoldAt20": 6568,
+                "GoldAt25": 9784
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5418562518",
+              "Opponent": "array#1128",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5418608077",
+              "Opponent": "array#1128",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5418645037",
+              "Opponent": "array#1128",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

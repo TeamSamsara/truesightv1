@@ -1,0 +1,278 @@
+{
+  "RiotId": "Dunzy#Bird",
+  "GameName": "Dunzy",
+  "Tag": "Bird",
+  "Seasons": {
+    "AVL_2025": {
+      "League": "AVL",
+      "Season": "2025",
+      "Splits": {
+        "AVL_FALL_2025": {
+          "League": "AVL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AVL Fall 2025",
+          "TeamName": "Chuds",
+          "Role": "UTILITY",
+          "Games": 4,
+          "Wins": 2,
+          "Losses": 2,
+          "WinRate": 50.0,
+          "PerGame": {
+            "Kills": 1.25,
+            "Deaths": 6.0,
+            "Assists": 17.0,
+            "Kda": 3.04,
+            "Cs": 27.25,
+            "Gold": 8902.0,
+            "KillParticipation": 65.68,
+            "VisionScore": 104.75,
+            "CcScore": 42.0,
+            "DmgDealt": 8591.5,
+            "DmgTaken": 24781.5,
+            "DmgMitigated": 22621.75,
+            "DmgObjectives": 3411.75,
+            "CsAt10": 11.75,
+            "CsAt15": 15.75,
+            "CsAt20": 17.5,
+            "CsAt25": 21.75,
+            "GoldAt10": 2321.0,
+            "GoldAt15": 3799.5,
+            "GoldAt20": 5108.0,
+            "GoldAt25": 6650.0
+          },
+          "PerMin": {
+            "Cs": 0.86,
+            "Gold": 283.88,
+            "DmgDealt": 270.74,
+            "DmgTaken": 788.77,
+            "DmgMitigated": 696.94,
+            "DmgObjectives": 110.85,
+            "VisionScore": 3.27,
+            "CcScore": 1.31
+          },
+          "Vision": {
+            "AvgVisionScore": 104.75,
+            "AvgWardsPlaced": 46.0,
+            "AvgWardsKilled": 12.75,
+            "AvgControlWardsBought": 12.5
+          },
+          "Champions": [
+            {
+              "Champion": "Karma",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Alistar",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Lulu",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Bard",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5416391997",
+              "GameDate": "2025-11-19",
+              "Patch": "15.22",
+              "GameDuration": 1510,
+              "TeamId": 100,
+              "Champion": "Karma",
+              "Win": false,
+              "Kills": 1,
+              "Deaths": 7,
+              "Assists": 12,
+              "Kda": 1.86,
+              "Cs": 15,
+              "Csm": 0.6,
+              "Gold": 7119,
+              "Goldm": 282.87,
+              "DmgDealt": 7077,
+              "DmgTaken": 23302,
+              "DmgMitigated": 14696,
+              "DmgObjectives": 1350,
+              "VisionScore": 60,
+              "WardsPlaced": 33,
+              "WardsKilled": 2,
+              "ControlWards": 8,
+              "CcScore": 27.0,
+              "KillParticipation": 59.1,
+              "Timeline": {
+                "CsAt10": 9,
+                "CsAt15": 9,
+                "CsAt20": 10,
+                "CsAt25": 15,
+                "GoldAt10": 2463,
+                "GoldAt15": 4706,
+                "GoldAt20": 5647,
+                "GoldAt25": 7095
+              }
+            },
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5416426542",
+              "GameDate": "2025-11-19",
+              "Patch": "15.22",
+              "GameDuration": 2091,
+              "TeamId": 200,
+              "Champion": "Alistar",
+              "Win": false,
+              "Kills": 2,
+              "Deaths": 8,
+              "Assists": 16,
+              "Kda": 2.25,
+              "Cs": 21,
+              "Csm": 0.6,
+              "Gold": 9486,
+              "Goldm": 272.2,
+              "DmgDealt": 8921,
+              "DmgTaken": 38695,
+              "DmgMitigated": 52420,
+              "DmgObjectives": 1720,
+              "VisionScore": 121,
+              "WardsPlaced": 52,
+              "WardsKilled": 12,
+              "ControlWards": 10,
+              "CcScore": 65.0,
+              "KillParticipation": 69.2,
+              "Timeline": {
+                "CsAt10": 11,
+                "CsAt15": 14,
+                "CsAt20": 14,
+                "CsAt25": 15,
+                "GoldAt10": 2226,
+                "GoldAt15": 3397,
+                "GoldAt20": 4467,
+                "GoldAt25": 6136
+              }
+            },
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5420961656",
+              "GameDate": "2025-11-25",
+              "Patch": "15.23",
+              "GameDuration": 1791,
+              "TeamId": 200,
+              "Champion": "Lulu",
+              "Win": true,
+              "Kills": 0,
+              "Deaths": 3,
+              "Assists": 17,
+              "Kda": 5.67,
+              "Cs": 32,
+              "Csm": 1.07,
+              "Gold": 8171,
+              "Goldm": 273.74,
+              "DmgDealt": 4953,
+              "DmgTaken": 13019,
+              "DmgMitigated": 7310,
+              "DmgObjectives": 7890,
+              "VisionScore": 94,
+              "WardsPlaced": 43,
+              "WardsKilled": 11,
+              "ControlWards": 15,
+              "CcScore": 32.0,
+              "KillParticipation": 58.6,
+              "Timeline": {
+                "CsAt10": 17,
+                "CsAt15": 24,
+                "CsAt20": 27,
+                "CsAt25": 31,
+                "GoldAt10": 2396,
+                "GoldAt15": 3573,
+                "GoldAt20": 5064,
+                "GoldAt25": 6320
+              }
+            },
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5421013207",
+              "GameDate": "2025-11-25",
+              "Patch": "15.23",
+              "GameDuration": 2119,
+              "TeamId": 200,
+              "Champion": "Bard",
+              "Win": true,
+              "Kills": 2,
+              "Deaths": 6,
+              "Assists": 23,
+              "Kda": 4.17,
+              "Cs": 41,
+              "Csm": 1.16,
+              "Gold": 10832,
+              "Goldm": 306.71,
+              "DmgDealt": 13415,
+              "DmgTaken": 24110,
+              "DmgMitigated": 16061,
+              "DmgObjectives": 2687,
+              "VisionScore": 144,
+              "WardsPlaced": 56,
+              "WardsKilled": 26,
+              "ControlWards": 17,
+              "CcScore": 44.0,
+              "KillParticipation": 75.8,
+              "Timeline": {
+                "CsAt10": 10,
+                "CsAt15": 16,
+                "CsAt20": 19,
+                "CsAt25": 26,
+                "GoldAt10": 2199,
+                "GoldAt15": 3522,
+                "GoldAt20": 5254,
+                "GoldAt25": 7049
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5416391997",
+              "Opponent": "Valdanio#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5416426542",
+              "Opponent": "Valdanio#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5420961656",
+              "Opponent": "Beep#Heart",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5421013207",
+              "Opponent": "Beep#Heart",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

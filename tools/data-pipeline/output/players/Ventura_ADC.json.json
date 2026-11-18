@@ -1,0 +1,174 @@
+{
+  "RiotId": "Ventura#ADC",
+  "GameName": "Ventura",
+  "Tag": "ADC",
+  "Seasons": {
+    "AVL_2025": {
+      "League": "AVL",
+      "Season": "2025",
+      "Splits": {
+        "AVL_FALL_2025": {
+          "League": "AVL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AVL Fall 2025",
+          "TeamName": "NLE Kittens",
+          "Role": "BOTTOM",
+          "Games": 2,
+          "Wins": 0,
+          "Losses": 2,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 5.0,
+            "Deaths": 5.0,
+            "Assists": 3.0,
+            "Kda": 1.6,
+            "Cs": 229.5,
+            "Gold": 11324.5,
+            "KillParticipation": 80.8,
+            "VisionScore": 18.0,
+            "CcScore": 4.0,
+            "DmgDealt": 15189.0,
+            "DmgTaken": 19064.0,
+            "DmgMitigated": 10050.0,
+            "DmgObjectives": 7767.5,
+            "CsAt10": 63.5,
+            "CsAt15": 120.0,
+            "CsAt20": 170.5,
+            "CsAt25": 213.0,
+            "GoldAt10": 3438.5,
+            "GoldAt15": 5709.0,
+            "GoldAt20": 7683.0,
+            "GoldAt25": 9914.5
+          },
+          "PerMin": {
+            "Cs": 8.05,
+            "Gold": 397.86,
+            "DmgDealt": 538.07,
+            "DmgTaken": 673.5,
+            "DmgMitigated": 353.77,
+            "DmgObjectives": 263.56,
+            "VisionScore": 0.63,
+            "CcScore": 0.15
+          },
+          "Vision": {
+            "AvgVisionScore": 18.0,
+            "AvgWardsPlaced": 8.0,
+            "AvgWardsKilled": 5.0,
+            "AvgControlWardsBought": 0.5
+          },
+          "Champions": [
+            {
+              "Champion": "Lucian",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "MissFortune",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5410814012",
+              "GameDate": "2025-11-11",
+              "Patch": "15.22",
+              "GameDuration": 1776,
+              "TeamId": 100,
+              "Champion": "Lucian",
+              "Win": false,
+              "Kills": 4,
+              "Deaths": 5,
+              "Assists": 4,
+              "Kda": 1.6,
+              "Cs": 246,
+              "Csm": 8.31,
+              "Gold": 11566,
+              "Goldm": 390.74,
+              "DmgDealt": 12292,
+              "DmgTaken": 16764,
+              "DmgMitigated": 9766,
+              "DmgObjectives": 14707,
+              "VisionScore": 21,
+              "WardsPlaced": 8,
+              "WardsKilled": 7,
+              "ControlWards": 0,
+              "CcScore": 0.0,
+              "KillParticipation": 88.9,
+              "Timeline": {
+                "CsAt10": 67,
+                "CsAt15": 122,
+                "CsAt20": 164,
+                "CsAt25": 215,
+                "GoldAt10": 3557,
+                "GoldAt15": 5460,
+                "GoldAt20": 7378,
+                "GoldAt25": 9669
+              }
+            },
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5410860120",
+              "GameDate": "2025-11-11",
+              "Patch": "15.22",
+              "GameDuration": 1642,
+              "TeamId": 100,
+              "Champion": "MissFortune",
+              "Win": false,
+              "Kills": 6,
+              "Deaths": 5,
+              "Assists": 2,
+              "Kda": 1.6,
+              "Cs": 213,
+              "Csm": 7.78,
+              "Gold": 11083,
+              "Goldm": 404.98,
+              "DmgDealt": 18086,
+              "DmgTaken": 21364,
+              "DmgMitigated": 10334,
+              "DmgObjectives": 828,
+              "VisionScore": 15,
+              "WardsPlaced": 8,
+              "WardsKilled": 3,
+              "ControlWards": 1,
+              "CcScore": 8.0,
+              "KillParticipation": 72.7,
+              "Timeline": {
+                "CsAt10": 60,
+                "CsAt15": 118,
+                "CsAt20": 177,
+                "CsAt25": 211,
+                "GoldAt10": 3320,
+                "GoldAt15": 5958,
+                "GoldAt20": 7988,
+                "GoldAt25": 10160
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5410814012",
+              "Opponent": "Bolt#ADC",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5410860120",
+              "Opponent": "Bolt#ADC",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

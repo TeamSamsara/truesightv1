@@ -1,0 +1,122 @@
+{
+  "RiotId": "oog#boog",
+  "GameName": "oog",
+  "Tag": "boog",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_FALL_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "ACL Fall 2025",
+          "TeamName": "Milk Esports",
+          "Role": "MIDDLE",
+          "Games": 1,
+          "Wins": 1,
+          "Losses": 0,
+          "WinRate": 100.0,
+          "PerGame": {
+            "Kills": 3.0,
+            "Deaths": 4.0,
+            "Assists": 3.0,
+            "Kda": 1.5,
+            "Cs": 230.0,
+            "Gold": 13011.0,
+            "KillParticipation": 37.5,
+            "VisionScore": 19.0,
+            "CcScore": 13.0,
+            "DmgDealt": 12936.0,
+            "DmgTaken": 23482.0,
+            "DmgMitigated": 19724.0,
+            "DmgObjectives": 23335.0,
+            "CsAt10": 61.0,
+            "CsAt15": 94.0,
+            "CsAt20": 131.0,
+            "CsAt25": 190.0,
+            "GoldAt10": 3270.0,
+            "GoldAt15": 4944.0,
+            "GoldAt20": 7048.0,
+            "GoldAt25": 9014.0
+          },
+          "PerMin": {
+            "Cs": 7.77,
+            "Gold": 439.31,
+            "DmgDealt": 436.78,
+            "DmgTaken": 792.86,
+            "DmgMitigated": 665.98,
+            "DmgObjectives": 787.9,
+            "VisionScore": 0.64,
+            "CcScore": 0.44
+          },
+          "Vision": {
+            "AvgVisionScore": 19.0,
+            "AvgWardsPlaced": 9.0,
+            "AvgWardsKilled": 4.0,
+            "AvgControlWardsBought": 1.0
+          },
+          "Champions": [
+            {
+              "Champion": "Belveth",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5413568238",
+              "GameDate": "2025-11-15",
+              "Patch": "15.22",
+              "GameDuration": 1777,
+              "TeamId": 100,
+              "Champion": "Belveth",
+              "Win": true,
+              "Kills": 3,
+              "Deaths": 4,
+              "Assists": 3,
+              "Kda": 1.5,
+              "Cs": 230,
+              "Csm": 7.77,
+              "Gold": 13011,
+              "Goldm": 439.31,
+              "DmgDealt": 12936,
+              "DmgTaken": 23482,
+              "DmgMitigated": 19724,
+              "DmgObjectives": 23335,
+              "VisionScore": 19,
+              "WardsPlaced": 9,
+              "WardsKilled": 4,
+              "ControlWards": 1,
+              "CcScore": 13.0,
+              "KillParticipation": 37.5,
+              "Timeline": {
+                "CsAt10": 61,
+                "CsAt15": 94,
+                "CsAt20": 131,
+                "CsAt25": 190,
+                "GoldAt10": 3270,
+                "GoldAt15": 4944,
+                "GoldAt20": 7048,
+                "GoldAt25": 9014
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5413568238",
+              "Opponent": "  A Frozen Titan#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+/* ││ main.css
+   @version 1.1.0
+
+   Imports all stylesheets in the correct order.
+   No rules or selectors defined here.
+   Order matters — tokens first, reset second,
+   then base, layout, components, utilities, features last.
+*/
+
+
+/* ││ Base — tokens and normalization */
+
+@import './base/variables.css';
+@import './base/reset.css';
+@import './base/typography.css';
+
+
+/* ││ Layout — structural containers */
+
+@import './layout/shell.css';
+
+
+/* ││ Components — reusable UI patterns */
+
+@import './components/button.css';
+@import './components/form.css';
+@import './components/badge.css';
+@import './components/modal.css';
+@import './components/nav.css';
+@import './components/session.css';
+
+/* Shared component systems — each owns its own @import chain */
+@import './components/widget/widget.css';
+@import './components/dashboard.css';
+
+
+/* ││ Utilities — single-purpose helpers */
+
+@import './utilities/helpers.css';
+
+
+/* ││ Features — added here as phases are built
+   Each feature domain is imported via its main file.
+   Never import a feature file before its feature exists. */
+
+@import './features/auth/auth.css';
+@import './features/dev/dev.css';
+@import './features/admin/admin.css';
+@import './features/scouting/scouting.css';
+/* @import './features/operations/operations.css'; */
+/* @import './features/tracker/tracker.css'; */
+/* @import './features/prospects/prospects.css'; */
+/* @import './features/combines/combines.css'; */
+/* @import './features/evaluation/evaluation.css'; */
+/* @import './features/interviews/interviews.css'; */
+/* @import './features/player/player.css'; */

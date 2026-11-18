@@ -1,0 +1,174 @@
+{
+  "RiotId": "Buff Talon#OTP",
+  "GameName": "Buff Talon",
+  "Tag": "OTP",
+  "Seasons": {
+    "AVL_2025": {
+      "League": "AVL",
+      "Season": "2025",
+      "Splits": {
+        "AVL_FALL_2025": {
+          "League": "AVL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AVL Fall 2025",
+          "TeamName": "",
+          "Role": "JUNGLE",
+          "Games": 2,
+          "Wins": 2,
+          "Losses": 0,
+          "WinRate": 100.0,
+          "PerGame": {
+            "Kills": 2.0,
+            "Deaths": 3.0,
+            "Assists": 12.5,
+            "Kda": 4.83,
+            "Cs": 141.0,
+            "Gold": 10100.5,
+            "KillParticipation": 55.85,
+            "VisionScore": 33.0,
+            "CcScore": 16.5,
+            "DmgDealt": 8771.5,
+            "DmgTaken": 30694.5,
+            "DmgMitigated": 26890.5,
+            "DmgObjectives": 37971.5,
+            "CsAt10": 57.0,
+            "CsAt15": 85.0,
+            "CsAt20": 109.5,
+            "CsAt25": 129.0,
+            "GoldAt10": 3242.5,
+            "GoldAt15": 4546.0,
+            "GoldAt20": 6534.5,
+            "GoldAt25": 8205.5
+          },
+          "PerMin": {
+            "Cs": 4.97,
+            "Gold": 355.59,
+            "DmgDealt": 308.24,
+            "DmgTaken": 1085.93,
+            "DmgMitigated": 946.68,
+            "DmgObjectives": 1355.9,
+            "VisionScore": 1.17,
+            "CcScore": 0.59
+          },
+          "Vision": {
+            "AvgVisionScore": 33.0,
+            "AvgWardsPlaced": 5.5,
+            "AvgWardsKilled": 7.5,
+            "AvgControlWardsBought": 7.0
+          },
+          "Champions": [
+            {
+              "Champion": "Volibear",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Trundle",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5410814012",
+              "GameDate": "2025-11-11",
+              "Patch": "15.22",
+              "GameDuration": 1776,
+              "TeamId": 200,
+              "Champion": "Volibear",
+              "Win": true,
+              "Kills": 1,
+              "Deaths": 3,
+              "Assists": 12,
+              "Kda": 4.33,
+              "Cs": 134,
+              "Csm": 4.53,
+              "Gold": 9789,
+              "Goldm": 330.71,
+              "DmgDealt": 8903,
+              "DmgTaken": 25879,
+              "DmgMitigated": 26057,
+              "DmgObjectives": 22927,
+              "VisionScore": 28,
+              "WardsPlaced": 5,
+              "WardsKilled": 7,
+              "ControlWards": 7,
+              "CcScore": 13.0,
+              "KillParticipation": 56.5,
+              "Timeline": {
+                "CsAt10": 55,
+                "CsAt15": 83,
+                "CsAt20": 101,
+                "CsAt25": 118,
+                "GoldAt10": 3115,
+                "GoldAt15": 4490,
+                "GoldAt20": 6350,
+                "GoldAt25": 7796
+              }
+            },
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5410860120",
+              "GameDate": "2025-11-11",
+              "Patch": "15.22",
+              "GameDuration": 1642,
+              "TeamId": 200,
+              "Champion": "Trundle",
+              "Win": true,
+              "Kills": 3,
+              "Deaths": 3,
+              "Assists": 13,
+              "Kda": 5.33,
+              "Cs": 148,
+              "Csm": 5.41,
+              "Gold": 10412,
+              "Goldm": 380.46,
+              "DmgDealt": 8640,
+              "DmgTaken": 35510,
+              "DmgMitigated": 27724,
+              "DmgObjectives": 53016,
+              "VisionScore": 38,
+              "WardsPlaced": 6,
+              "WardsKilled": 8,
+              "ControlWards": 7,
+              "CcScore": 20.0,
+              "KillParticipation": 55.2,
+              "Timeline": {
+                "CsAt10": 59,
+                "CsAt15": 87,
+                "CsAt20": 118,
+                "CsAt25": 140,
+                "GoldAt10": 3370,
+                "GoldAt15": 4602,
+                "GoldAt20": 6719,
+                "GoldAt25": 8615
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5410814012",
+              "Opponent": "FUG Creamcheese#Pog",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5410860120",
+              "Opponent": "FUG Creamcheese#Pog",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

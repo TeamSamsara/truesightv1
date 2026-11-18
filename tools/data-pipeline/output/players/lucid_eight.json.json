@@ -1,0 +1,174 @@
+{
+  "RiotId": "lucid#eight",
+  "GameName": "lucid",
+  "Tag": "eight",
+  "Seasons": {
+    "AML_2025": {
+      "League": "AML",
+      "Season": "2025",
+      "Splits": {
+        "AML_FALL_2025": {
+          "League": "AML",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AML Fall 2025",
+          "TeamName": "A Forgotten Kingdom",
+          "Role": "MIDDLE",
+          "Games": 2,
+          "Wins": 0,
+          "Losses": 2,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 2.5,
+            "Deaths": 4.0,
+            "Assists": 6.0,
+            "Kda": 2.12,
+            "Cs": 222.0,
+            "Gold": 12180.0,
+            "KillParticipation": 65.5,
+            "VisionScore": 29.0,
+            "CcScore": 35.0,
+            "DmgDealt": 19419.0,
+            "DmgTaken": 16533.5,
+            "DmgMitigated": 9313.5,
+            "DmgObjectives": 6424.5,
+            "CsAt10": 77.5,
+            "CsAt15": 113.5,
+            "CsAt20": 150.0,
+            "CsAt25": 177.0,
+            "GoldAt10": 3074.5,
+            "GoldAt15": 4523.0,
+            "GoldAt20": 6593.5,
+            "GoldAt25": 8856.5
+          },
+          "PerMin": {
+            "Cs": 6.69,
+            "Gold": 367.89,
+            "DmgDealt": 586.36,
+            "DmgTaken": 495.27,
+            "DmgMitigated": 276.8,
+            "DmgObjectives": 188.7,
+            "VisionScore": 0.88,
+            "CcScore": 1.07
+          },
+          "Vision": {
+            "AvgVisionScore": 29.0,
+            "AvgWardsPlaced": 10.0,
+            "AvgWardsKilled": 6.0,
+            "AvgControlWardsBought": 1.0
+          },
+          "Champions": [
+            {
+              "Champion": "Seraphine",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Syndra",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5388175574",
+              "GameDate": "2025-10-08",
+              "Patch": "15.19",
+              "GameDuration": 2099,
+              "TeamId": 100,
+              "Champion": "Seraphine",
+              "Win": false,
+              "Kills": 2,
+              "Deaths": 5,
+              "Assists": 6,
+              "Kda": 1.6,
+              "Cs": 236,
+              "Csm": 6.75,
+              "Gold": 12264,
+              "Goldm": 350.57,
+              "DmgDealt": 19670,
+              "DmgTaken": 19173,
+              "DmgMitigated": 12143,
+              "DmgObjectives": 9750,
+              "VisionScore": 28,
+              "WardsPlaced": 12,
+              "WardsKilled": 4,
+              "ControlWards": 2,
+              "CcScore": 28.0,
+              "KillParticipation": 66.7,
+              "Timeline": {
+                "CsAt10": 73,
+                "CsAt15": 105,
+                "CsAt20": 146,
+                "CsAt25": 181,
+                "GoldAt10": 2892,
+                "GoldAt15": 4234,
+                "GoldAt20": 6146,
+                "GoldAt25": 8146
+              }
+            },
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5388224619",
+              "GameDate": "2025-10-08",
+              "Patch": "15.19",
+              "GameDuration": 1884,
+              "TeamId": 100,
+              "Champion": "Syndra",
+              "Win": false,
+              "Kills": 3,
+              "Deaths": 3,
+              "Assists": 6,
+              "Kda": 3.0,
+              "Cs": 208,
+              "Csm": 6.62,
+              "Gold": 12096,
+              "Goldm": 385.22,
+              "DmgDealt": 19168,
+              "DmgTaken": 13894,
+              "DmgMitigated": 6484,
+              "DmgObjectives": 3099,
+              "VisionScore": 30,
+              "WardsPlaced": 8,
+              "WardsKilled": 8,
+              "ControlWards": 0,
+              "CcScore": 42.0,
+              "KillParticipation": 64.3,
+              "Timeline": {
+                "CsAt10": 82,
+                "CsAt15": 122,
+                "CsAt20": 154,
+                "CsAt25": 173,
+                "GoldAt10": 3257,
+                "GoldAt15": 4812,
+                "GoldAt20": 7041,
+                "GoldAt25": 9567
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5388175574",
+              "Opponent": "Exodia#1364",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5388224619",
+              "Opponent": "Exodia#1364",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

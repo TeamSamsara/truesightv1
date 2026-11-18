@@ -1,0 +1,122 @@
+{
+  "RiotId": "worker co ops#mybad",
+  "GameName": "worker co ops",
+  "Tag": "mybad",
+  "Seasons": {
+    "AML_2025": {
+      "League": "AML",
+      "Season": "2025",
+      "Splits": {
+        "AML_FALL_2025": {
+          "League": "AML",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AML Fall 2025",
+          "TeamName": "Dorado Gaming Alpha",
+          "Role": "TOP",
+          "Games": 1,
+          "Wins": 0,
+          "Losses": 1,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 3.0,
+            "Deaths": 5.0,
+            "Assists": 4.0,
+            "Kda": 1.4,
+            "Cs": 300.0,
+            "Gold": 14696.0,
+            "KillParticipation": 43.8,
+            "VisionScore": 34.0,
+            "CcScore": 33.0,
+            "DmgDealt": 22884.0,
+            "DmgTaken": 48174.0,
+            "DmgMitigated": 49426.0,
+            "DmgObjectives": 6464.0,
+            "CsAt10": 82.0,
+            "CsAt15": 139.0,
+            "CsAt20": 191.0,
+            "CsAt25": 229.0,
+            "GoldAt10": 3237.0,
+            "GoldAt15": 5502.0,
+            "GoldAt20": 7693.0,
+            "GoldAt25": 10836.0
+          },
+          "PerMin": {
+            "Cs": 8.71,
+            "Gold": 426.8,
+            "DmgDealt": 664.59,
+            "DmgTaken": 1399.05,
+            "DmgMitigated": 1435.41,
+            "DmgObjectives": 187.73,
+            "VisionScore": 0.99,
+            "CcScore": 0.96
+          },
+          "Vision": {
+            "AvgVisionScore": 34.0,
+            "AvgWardsPlaced": 8.0,
+            "AvgWardsKilled": 8.0,
+            "AvgControlWardsBought": 3.0
+          },
+          "Champions": [
+            {
+              "Champion": "Renekton",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5433428893",
+              "GameDate": "2025-12-10",
+              "Patch": "15.24",
+              "GameDuration": 2066,
+              "TeamId": 200,
+              "Champion": "Renekton",
+              "Win": false,
+              "Kills": 3,
+              "Deaths": 5,
+              "Assists": 4,
+              "Kda": 1.4,
+              "Cs": 300,
+              "Csm": 8.71,
+              "Gold": 14696,
+              "Goldm": 426.8,
+              "DmgDealt": 22884,
+              "DmgTaken": 48174,
+              "DmgMitigated": 49426,
+              "DmgObjectives": 6464,
+              "VisionScore": 34,
+              "WardsPlaced": 8,
+              "WardsKilled": 8,
+              "ControlWards": 3,
+              "CcScore": 33.0,
+              "KillParticipation": 43.8,
+              "Timeline": {
+                "CsAt10": 82,
+                "CsAt15": 139,
+                "CsAt20": 191,
+                "CsAt25": 229,
+                "GoldAt10": 3237,
+                "GoldAt15": 5502,
+                "GoldAt20": 7693,
+                "GoldAt25": 10836
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5433428893",
+              "Opponent": "Nuteh#bébé",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

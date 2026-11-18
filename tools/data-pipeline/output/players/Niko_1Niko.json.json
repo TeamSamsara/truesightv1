@@ -1,0 +1,174 @@
+{
+  "RiotId": "Niko#1Niko",
+  "GameName": "Niko",
+  "Tag": "1Niko",
+  "Seasons": {
+    "AML_2025": {
+      "League": "AML",
+      "Season": "2025",
+      "Splits": {
+        "AML_FALL_2025": {
+          "League": "AML",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AML Fall 2025",
+          "TeamName": "US Army Esports Gold",
+          "Role": "TOP",
+          "Games": 2,
+          "Wins": 0,
+          "Losses": 2,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 4.5,
+            "Deaths": 7.0,
+            "Assists": 0.5,
+            "Kda": 0.71,
+            "Cs": 192.0,
+            "Gold": 10913.5,
+            "KillParticipation": 31.75,
+            "VisionScore": 12.0,
+            "CcScore": 30.0,
+            "DmgDealt": 22589.5,
+            "DmgTaken": 36096.0,
+            "DmgMitigated": 31661.5,
+            "DmgObjectives": 11027.0,
+            "CsAt10": 72.0,
+            "CsAt15": 113.0,
+            "CsAt20": 158.5,
+            "CsAt25": 186.0,
+            "GoldAt10": 3520.0,
+            "GoldAt15": 5192.5,
+            "GoldAt20": 7475.0,
+            "GoldAt25": 10253.5
+          },
+          "PerMin": {
+            "Cs": 6.58,
+            "Gold": 373.55,
+            "DmgDealt": 772.11,
+            "DmgTaken": 1237.29,
+            "DmgMitigated": 1079.79,
+            "DmgObjectives": 370.89,
+            "VisionScore": 0.41,
+            "CcScore": 1.03
+          },
+          "Vision": {
+            "AvgVisionScore": 12.0,
+            "AvgWardsPlaced": 7.0,
+            "AvgWardsKilled": 1.5,
+            "AvgControlWardsBought": 0.0
+          },
+          "Champions": [
+            {
+              "Champion": "Darius",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Sett",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5402411368",
+              "GameDate": "2025-10-29",
+              "Patch": "15.21",
+              "GameDuration": 1710,
+              "TeamId": 200,
+              "Champion": "Darius",
+              "Win": false,
+              "Kills": 5,
+              "Deaths": 8,
+              "Assists": 0,
+              "Kda": 0.62,
+              "Cs": 198,
+              "Csm": 6.95,
+              "Gold": 10784,
+              "Goldm": 378.39,
+              "DmgDealt": 21033,
+              "DmgTaken": 37768,
+              "DmgMitigated": 26666,
+              "DmgObjectives": 3193,
+              "VisionScore": 13,
+              "WardsPlaced": 8,
+              "WardsKilled": 1,
+              "ControlWards": 0,
+              "CcScore": 31.0,
+              "KillParticipation": 25.0,
+              "Timeline": {
+                "CsAt10": 69,
+                "CsAt15": 115,
+                "CsAt20": 161,
+                "CsAt25": 190,
+                "GoldAt10": 3144,
+                "GoldAt15": 4727,
+                "GoldAt20": 7313,
+                "GoldAt25": 10146
+              }
+            },
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5402454823",
+              "GameDate": "2025-10-29",
+              "Patch": "15.21",
+              "GameDuration": 1797,
+              "TeamId": 100,
+              "Champion": "Sett",
+              "Win": false,
+              "Kills": 4,
+              "Deaths": 6,
+              "Assists": 1,
+              "Kda": 0.83,
+              "Cs": 186,
+              "Csm": 6.21,
+              "Gold": 11043,
+              "Goldm": 368.71,
+              "DmgDealt": 24146,
+              "DmgTaken": 34424,
+              "DmgMitigated": 36657,
+              "DmgObjectives": 18861,
+              "VisionScore": 11,
+              "WardsPlaced": 6,
+              "WardsKilled": 2,
+              "ControlWards": 0,
+              "CcScore": 29.0,
+              "KillParticipation": 38.5,
+              "Timeline": {
+                "CsAt10": 75,
+                "CsAt15": 111,
+                "CsAt20": 156,
+                "CsAt25": 182,
+                "GoldAt10": 3896,
+                "GoldAt15": 5658,
+                "GoldAt20": 7637,
+                "GoldAt25": 10361
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5402411368",
+              "Opponent": "Setter#009",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5402454823",
+              "Opponent": "Alaskan Kodiak#Noego",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,111 @@
+/* ││ admin-system.css
+   @version 1.0.0
+
+   System page — cleanup controls, stat cards,
+   result banner, and responsive rules.
+*/
+
+
+/* ││ System Page */
+
+.f-admin__system-body {
+  padding:        var(--space-6) var(--space-6) var(--space-8);
+  display:        flex;
+  flex-direction: column;
+  gap:            var(--space-6);
+}
+
+.f-admin__system-grid {
+  display:               grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:                   var(--space-4);
+}
+
+.f-admin__system-card {
+  background:    var(--bg-raised);
+  border:        1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding:       var(--space-5) var(--space-6);
+}
+
+.f-admin__system-card-eyebrow {
+  font-size:      9px;
+  font-weight:    700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color:          var(--text-muted);
+  margin-bottom:  var(--space-3);
+}
+
+.f-admin__system-card-value {
+  font-family:   var(--font-display);
+  font-size:     clamp(28px, 3vw, 40px);
+  line-height:   1;
+  color:         var(--text-primary);
+  margin-bottom: var(--space-1);
+}
+
+.f-admin__system-card-value--sm {
+  font-size: clamp(16px, 1.8vw, 22px);
+}
+
+.f-admin__system-card-sub {
+  font-size:   12px;
+  color:       var(--text-muted);
+  line-height: 1.4;
+}
+
+.f-admin__system-actions {
+  display:     flex;
+  align-items: center;
+  gap:         var(--space-4);
+}
+
+.f-admin__system-actions-hint {
+  font-size:  13px;
+  color:      var(--text-muted);
+  font-style: italic;
+}
+
+.f-admin__system-result {
+  display:       flex;
+  align-items:   center;
+  gap:           var(--space-3);
+  background:    rgba(74, 222, 128, 0.06);
+  border:        1px solid rgba(74, 222, 128, 0.2);
+  border-radius: var(--radius-md);
+  padding:       var(--space-4) var(--space-5);
+  font-size:     14px;
+  color:         var(--text-secondary);
+  line-height:   1.5;
+}
+
+.f-admin__system-result strong {
+  color: var(--text-primary);
+}
+
+.f-admin__system-result-icon {
+  color:       var(--status-pass);
+  font-size:   16px;
+  flex-shrink: 0;
+}
+
+
+/* ││ Responsive */
+
+@media (max-width: 1024px) {
+  .f-admin__system-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .f-admin__system-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .f-admin__system-actions {
+    flex-direction: column;
+    align-items:    flex-start;
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "RiotId": "BortSnort#NA1",
+  "GameName": "BortSnort",
+  "Tag": "NA1",
+  "Seasons": {
+    "AVL_2025": {
+      "League": "AVL",
+      "Season": "2025",
+      "Splits": {
+        "AVL_FALL_2025": {
+          "League": "AVL",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AVL Fall 2025",
+          "TeamName": "Alter Ghost",
+          "Role": "JUNGLE",
+          "Games": 2,
+          "Wins": 0,
+          "Losses": 2,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 1.0,
+            "Deaths": 6.5,
+            "Assists": 5.0,
+            "Kda": 0.92,
+            "Cs": 147.5,
+            "Gold": 9024.5,
+            "KillParticipation": 43.1,
+            "VisionScore": 24.0,
+            "CcScore": 28.5,
+            "DmgDealt": 7111.0,
+            "DmgTaken": 29013.0,
+            "DmgMitigated": 23582.0,
+            "DmgObjectives": 14649.0,
+            "CsAt10": 56.0,
+            "CsAt15": 80.5,
+            "CsAt20": 110.5,
+            "CsAt25": 135.0,
+            "GoldAt10": 2872.5,
+            "GoldAt15": 4248.0,
+            "GoldAt20": 5940.5,
+            "GoldAt25": 7319.5
+          },
+          "PerMin": {
+            "Cs": 4.68,
+            "Gold": 287.0,
+            "DmgDealt": 229.22,
+            "DmgTaken": 920.25,
+            "DmgMitigated": 747.85,
+            "DmgObjectives": 474.52,
+            "VisionScore": 0.77,
+            "CcScore": 0.93
+          },
+          "Vision": {
+            "AvgVisionScore": 24.0,
+            "AvgWardsPlaced": 2.5,
+            "AvgWardsKilled": 7.5,
+            "AvgControlWardsBought": 2.0
+          },
+          "Champions": [
+            {
+              "Champion": "MonkeyKing",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Maokai",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5420955260",
+              "GameDate": "2025-11-25",
+              "Patch": "15.23",
+              "GameDuration": 1953,
+              "TeamId": 100,
+              "Champion": "MonkeyKing",
+              "Win": false,
+              "Kills": 0,
+              "Deaths": 8,
+              "Assists": 3,
+              "Kda": 0.38,
+              "Cs": 157,
+              "Csm": 4.82,
+              "Gold": 8920,
+              "Goldm": 274.04,
+              "DmgDealt": 4153,
+              "DmgTaken": 30959,
+              "DmgMitigated": 25298,
+              "DmgObjectives": 6390,
+              "VisionScore": 21,
+              "WardsPlaced": 2,
+              "WardsKilled": 7,
+              "ControlWards": 1,
+              "CcScore": 8.0,
+              "KillParticipation": 30.0,
+              "Timeline": {
+                "CsAt10": 60,
+                "CsAt15": 88,
+                "CsAt20": 115,
+                "CsAt25": 140,
+                "GoldAt10": 2860,
+                "GoldAt15": 4310,
+                "GoldAt20": 5691,
+                "GoldAt25": 7190
+              }
+            },
+            {
+              "League": "AVL",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5421001185",
+              "GameDate": "2025-11-25",
+              "Patch": "15.23",
+              "GameDuration": 1826,
+              "TeamId": 100,
+              "Champion": "Maokai",
+              "Win": false,
+              "Kills": 2,
+              "Deaths": 5,
+              "Assists": 7,
+              "Kda": 1.8,
+              "Cs": 138,
+              "Csm": 4.53,
+              "Gold": 9129,
+              "Goldm": 299.97,
+              "DmgDealt": 10069,
+              "DmgTaken": 27067,
+              "DmgMitigated": 21866,
+              "DmgObjectives": 22908,
+              "VisionScore": 27,
+              "WardsPlaced": 3,
+              "WardsKilled": 8,
+              "ControlWards": 3,
+              "CcScore": 49.0,
+              "KillParticipation": 56.2,
+              "Timeline": {
+                "CsAt10": 52,
+                "CsAt15": 73,
+                "CsAt20": 106,
+                "CsAt25": 130,
+                "GoldAt10": 2885,
+                "GoldAt15": 4186,
+                "GoldAt20": 6190,
+                "GoldAt25": 7449
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5420955260",
+              "Opponent": "USAjj2#USAjj",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5421001185",
+              "Opponent": "USAjj2#USAjj",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

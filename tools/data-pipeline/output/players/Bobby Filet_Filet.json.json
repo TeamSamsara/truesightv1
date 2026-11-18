@@ -1,0 +1,278 @@
+{
+  "RiotId": "Bobby Filet#Filet",
+  "GameName": "Bobby Filet",
+  "Tag": "Filet",
+  "Seasons": {
+    "AML_2025": {
+      "League": "AML",
+      "Season": "2025",
+      "Splits": {
+        "AML_FALL_2025": {
+          "League": "AML",
+          "Season": "2025",
+          "Split": "Fall",
+          "Label": "AML Fall 2025",
+          "TeamName": "5 Migos",
+          "Role": "BOTTOM",
+          "Games": 4,
+          "Wins": 0,
+          "Losses": 4,
+          "WinRate": 0.0,
+          "PerGame": {
+            "Kills": 2.75,
+            "Deaths": 5.0,
+            "Assists": 4.75,
+            "Kda": 1.5,
+            "Cs": 281.25,
+            "Gold": 12991.75,
+            "KillParticipation": 60.0,
+            "VisionScore": 34.25,
+            "CcScore": 8.25,
+            "DmgDealt": 25666.75,
+            "DmgTaken": 25620.5,
+            "DmgMitigated": 16549.25,
+            "DmgObjectives": 11617.75,
+            "CsAt10": 77.75,
+            "CsAt15": 119.75,
+            "CsAt20": 157.25,
+            "CsAt25": 198.0,
+            "GoldAt10": 3499.5,
+            "GoldAt15": 5316.5,
+            "GoldAt20": 7233.75,
+            "GoldAt25": 8953.5
+          },
+          "PerMin": {
+            "Cs": 7.96,
+            "Gold": 367.15,
+            "DmgDealt": 704.43,
+            "DmgTaken": 739.43,
+            "DmgMitigated": 455.9,
+            "DmgObjectives": 274.84,
+            "VisionScore": 0.89,
+            "CcScore": 0.26
+          },
+          "Vision": {
+            "AvgVisionScore": 34.25,
+            "AvgWardsPlaced": 10.75,
+            "AvgWardsKilled": 8.75,
+            "AvgControlWardsBought": 0.25
+          },
+          "Champions": [
+            {
+              "Champion": "Lucian",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Sivir",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Smolder",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Aphelios",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5388226571",
+              "GameDate": "2025-10-08",
+              "Patch": "15.19",
+              "GameDuration": 2436,
+              "TeamId": 200,
+              "Champion": "Lucian",
+              "Win": false,
+              "Kills": 3,
+              "Deaths": 3,
+              "Assists": 5,
+              "Kda": 2.67,
+              "Cs": 309,
+              "Csm": 7.61,
+              "Gold": 15404,
+              "Goldm": 379.41,
+              "DmgDealt": 36651,
+              "DmgTaken": 27009,
+              "DmgMitigated": 21424,
+              "DmgObjectives": 24076,
+              "VisionScore": 49,
+              "WardsPlaced": 15,
+              "WardsKilled": 11,
+              "ControlWards": 1,
+              "CcScore": 6.0,
+              "KillParticipation": 66.7,
+              "Timeline": {
+                "CsAt10": 84,
+                "CsAt15": 136,
+                "CsAt20": 168,
+                "CsAt25": 196,
+                "GoldAt10": 3493,
+                "GoldAt15": 5582,
+                "GoldAt20": 8009,
+                "GoldAt25": 9358
+              }
+            },
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5388287720",
+              "GameDate": "2025-10-08",
+              "Patch": "15.19",
+              "GameDuration": 2699,
+              "TeamId": 100,
+              "Champion": "Sivir",
+              "Win": false,
+              "Kills": 3,
+              "Deaths": 5,
+              "Assists": 8,
+              "Kda": 2.2,
+              "Cs": 392,
+              "Csm": 8.71,
+              "Gold": 17356,
+              "Goldm": 385.83,
+              "DmgDealt": 34777,
+              "DmgTaken": 32177,
+              "DmgMitigated": 23694,
+              "DmgObjectives": 21823,
+              "VisionScore": 61,
+              "WardsPlaced": 13,
+              "WardsKilled": 18,
+              "ControlWards": 0,
+              "CcScore": 6.0,
+              "KillParticipation": 68.8,
+              "Timeline": {
+                "CsAt10": 88,
+                "CsAt15": 137,
+                "CsAt20": 184,
+                "CsAt25": 216,
+                "GoldAt10": 3770,
+                "GoldAt15": 6018,
+                "GoldAt20": 7826,
+                "GoldAt25": 9372
+              }
+            },
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5393339280",
+              "GameDate": "2025-10-15",
+              "Patch": "15.20",
+              "GameDuration": 1616,
+              "TeamId": 100,
+              "Champion": "Smolder",
+              "Win": false,
+              "Kills": 4,
+              "Deaths": 5,
+              "Assists": 2,
+              "Kda": 1.2,
+              "Cs": 227,
+              "Csm": 8.43,
+              "Gold": 10755,
+              "Goldm": 399.32,
+              "DmgDealt": 15688,
+              "DmgTaken": 17058,
+              "DmgMitigated": 9475,
+              "DmgObjectives": 572,
+              "VisionScore": 16,
+              "WardsPlaced": 8,
+              "WardsKilled": 5,
+              "ControlWards": 0,
+              "CcScore": 8.0,
+              "KillParticipation": 54.5,
+              "Timeline": {
+                "CsAt10": 73,
+                "CsAt15": 106,
+                "CsAt20": 146,
+                "CsAt25": 211,
+                "GoldAt10": 3522,
+                "GoldAt15": 5267,
+                "GoldAt20": 7253,
+                "GoldAt25": 9672
+              }
+            },
+            {
+              "League": "AML",
+              "Season": "2025",
+              "Split": "Fall",
+              "MatchId": "NA1_5393378056",
+              "GameDate": "2025-10-15",
+              "Patch": "15.20",
+              "GameDuration": 1668,
+              "TeamId": 200,
+              "Champion": "Aphelios",
+              "Win": false,
+              "Kills": 1,
+              "Deaths": 7,
+              "Assists": 4,
+              "Kda": 0.71,
+              "Cs": 197,
+              "Csm": 7.09,
+              "Gold": 8452,
+              "Goldm": 304.03,
+              "DmgDealt": 15551,
+              "DmgTaken": 26238,
+              "DmgMitigated": 11604,
+              "DmgObjectives": 0,
+              "VisionScore": 11,
+              "WardsPlaced": 7,
+              "WardsKilled": 1,
+              "ControlWards": 0,
+              "CcScore": 13.0,
+              "KillParticipation": 50.0,
+              "Timeline": {
+                "CsAt10": 66,
+                "CsAt15": 100,
+                "CsAt20": 131,
+                "CsAt25": 169,
+                "GoldAt10": 3213,
+                "GoldAt15": 4399,
+                "GoldAt20": 5847,
+                "GoldAt25": 7412
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5388226571",
+              "Opponent": "Lost2Shopkeeper#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5388287720",
+              "Opponent": "Lost2Shopkeeper#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5393339280",
+              "Opponent": "kites#balls",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5393378056",
+              "Opponent": "kites#balls",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

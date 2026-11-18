@@ -1,0 +1,226 @@
+{
+  "RiotId": "ben1#NA1",
+  "GameName": "ben1",
+  "Tag": "NA1",
+  "Seasons": {
+    "ACL_2025": {
+      "League": "ACL",
+      "Season": "2025",
+      "Splits": {
+        "ACL_SUMMER_2025": {
+          "League": "ACL",
+          "Season": "2025",
+          "Split": "Summer",
+          "Label": "ACL Summer 2025",
+          "TeamName": "Milk Esports",
+          "Role": "MIDDLE",
+          "Games": 3,
+          "Wins": 1,
+          "Losses": 2,
+          "WinRate": 33.3,
+          "PerGame": {
+            "Kills": 1.33,
+            "Deaths": 5.33,
+            "Assists": 5.33,
+            "Kda": 1.25,
+            "Cs": 207.33,
+            "Gold": 9878.33,
+            "KillParticipation": 74.43,
+            "VisionScore": 15.33,
+            "CcScore": 21.0,
+            "DmgDealt": 17473.33,
+            "DmgTaken": 27935.33,
+            "DmgMitigated": 21897.33,
+            "DmgObjectives": 3844.67,
+            "CsAt10": 67.33,
+            "CsAt15": 111.0,
+            "CsAt20": 151.0,
+            "CsAt25": 125.67,
+            "GoldAt10": 3084.33,
+            "GoldAt15": 4803.33,
+            "GoldAt20": 6469.67,
+            "GoldAt25": 5558.33
+          },
+          "PerMin": {
+            "Cs": 7.21,
+            "Gold": 338.33,
+            "DmgDealt": 609.19,
+            "DmgTaken": 970.08,
+            "DmgMitigated": 759.14,
+            "DmgObjectives": 112.93,
+            "VisionScore": 0.53,
+            "CcScore": 0.71
+          },
+          "Vision": {
+            "AvgVisionScore": 15.33,
+            "AvgWardsPlaced": 7.67,
+            "AvgWardsKilled": 2.0,
+            "AvgControlWardsBought": 0.67
+          },
+          "Champions": [
+            {
+              "Champion": "Sylas",
+              "Games": 1,
+              "Wins": 1,
+              "WinRate": 100.0
+            },
+            {
+              "Champion": "Viktor",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            },
+            {
+              "Champion": "Yone",
+              "Games": 1,
+              "Wins": 0,
+              "WinRate": 0.0
+            }
+          ],
+          "GameLog": [
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5365074915",
+              "GameDate": "2025-09-09",
+              "Patch": "15.17",
+              "GameDuration": 2154,
+              "TeamId": 200,
+              "Champion": "Sylas",
+              "Win": true,
+              "Kills": 1,
+              "Deaths": 5,
+              "Assists": 10,
+              "Kda": 2.2,
+              "Cs": 226,
+              "Csm": 6.3,
+              "Gold": 12033,
+              "Goldm": 335.18,
+              "DmgDealt": 15129,
+              "DmgTaken": 34198,
+              "DmgMitigated": 26469,
+              "DmgObjectives": 9932,
+              "VisionScore": 19,
+              "WardsPlaced": 5,
+              "WardsKilled": 4,
+              "ControlWards": 1,
+              "CcScore": 30.0,
+              "KillParticipation": 73.3,
+              "Timeline": {
+                "CsAt10": 66,
+                "CsAt15": 114,
+                "CsAt20": 159,
+                "CsAt25": 173,
+                "GoldAt10": 2906,
+                "GoldAt15": 4571,
+                "GoldAt20": 6534,
+                "GoldAt25": 7549
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5365121695",
+              "GameDate": "2025-09-09",
+              "Patch": "15.17",
+              "GameDuration": 1669,
+              "TeamId": 200,
+              "Champion": "Viktor",
+              "Win": false,
+              "Kills": 2,
+              "Deaths": 4,
+              "Assists": 3,
+              "Kda": 1.25,
+              "Cs": 221,
+              "Csm": 7.94,
+              "Gold": 10074,
+              "Goldm": 362.16,
+              "DmgDealt": 26793,
+              "DmgTaken": 21703,
+              "DmgMitigated": 18393,
+              "DmgObjectives": 877,
+              "VisionScore": 14,
+              "WardsPlaced": 10,
+              "WardsKilled": 1,
+              "ControlWards": 1,
+              "CcScore": 18.0,
+              "KillParticipation": 50.0,
+              "Timeline": {
+                "CsAt10": 67,
+                "CsAt15": 103,
+                "CsAt20": 152,
+                "CsAt25": 204,
+                "GoldAt10": 2971,
+                "GoldAt15": 4925,
+                "GoldAt20": 6726,
+                "GoldAt25": 9126
+              }
+            },
+            {
+              "League": "ACL",
+              "Season": "2025",
+              "Split": "Summer",
+              "MatchId": "NA1_5365165146",
+              "GameDate": "2025-09-09",
+              "Patch": "15.17",
+              "GameDuration": 1422,
+              "TeamId": 200,
+              "Champion": "Yone",
+              "Win": false,
+              "Kills": 1,
+              "Deaths": 7,
+              "Assists": 3,
+              "Kda": 0.57,
+              "Cs": 175,
+              "Csm": 7.38,
+              "Gold": 7528,
+              "Goldm": 317.64,
+              "DmgDealt": 10498,
+              "DmgTaken": 27905,
+              "DmgMitigated": 20830,
+              "DmgObjectives": 725,
+              "VisionScore": 13,
+              "WardsPlaced": 8,
+              "WardsKilled": 1,
+              "ControlWards": 0,
+              "CcScore": 15.0,
+              "KillParticipation": 100.0,
+              "Timeline": {
+                "CsAt10": 69,
+                "CsAt15": 116,
+                "CsAt20": 142,
+                "CsAt25": 0,
+                "GoldAt10": 3376,
+                "GoldAt15": 4914,
+                "GoldAt20": 6149,
+                "GoldAt25": 0
+              }
+            }
+          ],
+          "Participation": [
+            {
+              "MatchId": "NA1_5365074915",
+              "Opponent": "RobbyBob#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5365121695",
+              "Opponent": "RobbyBob#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            },
+            {
+              "MatchId": "NA1_5365165146",
+              "Opponent": "RobbyBob#NA1",
+              "IsPlayoff": false,
+              "Conference": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}
