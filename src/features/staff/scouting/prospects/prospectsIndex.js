@@ -184,7 +184,13 @@ export async function mountProspectWorkspace(container) {
       try {
         await signInToProspectData(email, password);
       } catch (error) {
-        renderSignedOut(container, error?.message || 'Authentication failed.');
+        submit.disabled = false;
+        submit.textContent = 'Connect scouting data';
+        const message = document.createElement('p');
+        message.setAttribute('role', 'alert');
+        message.textContent = error?.message || 'Authentication failed.';
+        form.querySelector('[role="alert"]')?.remove();
+        form.append(message);
       }
     });
   });
