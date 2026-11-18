@@ -1,63 +1,64 @@
-# Identity and Permission Mapping (Proposal)
+# Scouting Access Model
 
-This document compares the repository-defined roles. It is a proposal for the migration design, not an active runtime mapping. Do not use it to grant access until the platform owner approves the mapping and the deployed Firestore rules enforce it.
+## Decision
 
-## Role concepts
+Keep the Scouting platform's access model deliberately simple:
 
-ProspectSystem defines `admin`, `manager`, `coach`, `scout`, and `player`.
+1. **Owner** — TrueSight `type=admin`. Full platform and scouting administration.
+2. **Staff** — TrueSight `type=staff`. Everyone involved in management or coaching gets the same Scouting Suite access, regardless of their staff title.
+3. **No scouting access** — TrueSight `type=player`. Players do not access the internal scouting platform.
+4. **Developer** — TrueSight `type=dev` retains the existing development bypass; this is not a normal production role.
 
-TrueSight defines top-level user types `admin`, `staff`, `player`, and `dev`, with staff roles `head_coach`, `coach`, `general_manager`, `manager`, and `scout`.
+There are no separate scouting permissions for coach, scout, manager, or general manager. Those labels can continue to describe people's responsibilities elsewhere in TrueSight, but they do not change what they can do inside Scouting.
 
-## Candidate role equivalences
+## Legacy ProspectSystem mapping
 
-| ProspectSystem role | Candidate TrueSight identity | Confidence | Notes |
-|---|---|---:|---|
-| `admin` | `type=admin` | High | Both systems grant platform-wide administration. |
-| `manager` | `type=staff, role=general_manager` | Medium | Closest organizational equivalent, but permissions are not currently equivalent. |
-| `coach` | `type=staff, role=coach` | High | Both are coaching roles. |
-| `scout` | `type=staff, role=scout` | High | Direct role equivalent. |
-| `player` | `type=player` | Medium | ProspectSystem currently excludes this role from active platform access; TrueSight has a separate player portal concept. |
+| ProspectSystem role | Unified TrueSight identity | Scouting access |
+|---|---|---|
+| `admin` | `type=admin` | Owner; full access |
+| `manager` | `type=staff` | Same staff access |
+| `coach` | `type=staff` | Same staff access |
+| `scout` | `type=staff` | Same staff access |
+| `player` | `type=player` | No access |
 
-## Permission comparison
+The legacy staff roles intentionally converge on one staff access level. This is a deliberate simplification based on the expected users of the unified platform, not an attempt to reproduce every historical permission distinction.
 
-### ProspectSystem permissions
+## What staff can do
 
-- Admin: full CRUD/manage access across prospects, combines, interviews, lobbies, users and administration.
-- Manager: full CRUD/manage access across prospects, combines, interviews and lobbies; read access to users; no admin access.
-- Coach: read/write prospects, combines, interviews and lobbies.
-- Scout: read/write prospects; read-only combines, interviews and lobbies.
-- Player: no active platform permissions.
+Staff can use the operational scouting workflows without role-specific restrictions:
 
-### TrueSight permissions today
+- View, create, and update prospect profiles and scouting evaluations.
+- Review combine history and scoring.
+- Create and manage combines and their lobbies.
+- Review and manage interview availability and scheduling.
+- Use the scouting and player-finder workflows as they are integrated.
 
-TrueSight currently has route-level scouting access (`NAVIGATE_SCOUTING` / `VIEW_SCOUTING`) but its detailed prospect/combine/interview/lobby action permissions are still deferred. The current staff role capability declarations also do not grant the Scouting Suite to General Manager or Manager.
+## What remains owner-only
 
-Therefore, the role names alone are not sufficient to preserve the existing access model.
+Owner access is reserved for platform-level administration:
 
-## Required permission domains
+- Manage platform users and their access.
+- Change platform-wide configuration and integrations.
+- Manage sensitive administrative settings.
+- Perform any explicitly owner-only destructive or security-sensitive operation.
 
-The unified platform should add explicit action permissions for:
+Routine scouting work should not require owner approval. Staff should be able to do their jobs without navigating artificial role boundaries.
 
-- Prospects: view, create, edit, delete
-- Combines: view, create, edit, delete
-- Combine lobbies: view, create, edit, delete, assign players, generate lobby codes
-- Interviews: view, create/schedule, edit, delete
-- Scouting administration: manage configuration and audit history
+## Implementation in this integration
 
-Route access and business-operation authorization must remain separate. Hiding a button or blocking a route is not a substitute for Firestore/server-side authorization.
+- TrueSight's existing `admin` user type already has full permission access and is treated as the Scouting Owner.
+- Every existing TrueSight staff role now inherits `ACCESS_SCOUTING_SUITE` from `STAFF_BASE`, so manager and general-manager roles are not accidentally excluded.
+- The existing staff role labels remain intact for other TrueSight domains; this change does not collapse the whole platform's role system.
+- The ProspectSystem Firebase dataset remains the source of truth during this migration. This access mapping does not itself migrate accounts or bypass the second Firebase project's authentication/security rules.
 
-## Migration requirements
+## Account migration requirements
 
-1. Export or inspect the actual ProspectSystem user profiles and Firebase Auth users through an authorized administrative process.
-2. Build a UID/email reconciliation report; do not assume that two projects use the same UIDs.
-3. Approve the candidate role equivalences above or provide corrections.
-4. Map each legacy permission to a TrueSight action permission.
-5. Test positive and negative access cases for every role.
-6. Keep the ProspectSystem project and user records intact until cutover and rollback are approved.
+1. Reconcile ProspectSystem users to TrueSight accounts using an authorized export and verified email/UID matching. Do not assume UIDs match across Firebase projects.
+2. Map legacy `admin` users to TrueSight admins only after confirming who should hold Owner access.
+3. Map legacy `manager`, `coach`, and `scout` users to TrueSight staff accounts.
+4. Exclude legacy player accounts from the internal scouting platform.
+5. Test owner, staff, and player access cases before removing the temporary second sign-in step.
 
-## Unresolved decisions
+## Security boundary
 
-- Should ProspectSystem managers become TrueSight General Managers, or should scouting managers be a distinct staff role?
-- Should Head Coaches receive the same scouting management permissions as ProspectSystem Managers, or retain coach-level permissions?
-- Should players ever authenticate to the scouting domain, or remain outside the scouting platform?
-- Should the unified app support a temporary dual-auth transition, or should accounts be migrated to TrueSight Firebase before the scouting module is opened to users?
+This is the application's intended access model. Client-side navigation and permission checks are not a substitute for Firestore/server-side authorization. The deployed ProspectSystem and TrueSight Firestore rules must be reviewed and updated to enforce the same boundary before enabling write workflows or moving production traffic.
